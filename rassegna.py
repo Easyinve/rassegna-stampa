@@ -110,14 +110,49 @@ def contiene(testo: str, parole: list[str]) -> bool:
     return False
 
 
-def gruppi_del_tema(tema: dict, imp: dict) -> list[tuple[str, list[str]]]:
-    """I gruppi di fonti del tema, nell'ordine in cui compaiono nella pagina."""
-    gruppi = [
-        ("Giornali", imp.get("fonti_autorevoli", [])),
-        ("Giornali locali", imp.get("fonti_locali", []) + tema.get("fonti_locali", [])),
-        ("Stampa specializzata", tema.get("fonti_specialistiche", [])),
-    ]
-    return [(nome, domini) for nome, domini in gruppi if domini]
+def gruppi_del_tema(tema: dict, imp: dict) -> list[dict]:
+    """I gruppi di fonti del tema, nell'ordine in cui compaiono nella pagina.
+
+    Ogni gruppo ha due elenchi di siti:
+    - "intere": se ne prende tutto quello che hanno pubblicato nelle ultime
+      ore (siti di settore, o sezioni di un sito come theguardian.com/environment);
+    - "ricerca": se ne prendono solo gli articoli che rispondono alle ricerche
+      del tema (giornali che parlano di tutto).
+    Un tema può definire gruppi suoi con [[tema.gruppo]]; altrimenti valgono
+    i tre gruppi standard.
+    """
+    if tema.get("gruppo"):
+        gruppi = [{"nome": g["nome"], "intere": g.get("fonti", []), "ricerca": g.get("testate", []),
+                   "max": g.get("max_articoli", tema.get("max_articoli", imp["max_articoli"]))}
+                  for g in tema["gruppo"]]
+    else:
+        m = tema.get("max_articoli", imp["max_articoli"])
+        gruppi = [
+            {"nome": "Giornali", "intere": [], "ricerca": imp.get("fonti_autorevoli", []), "max": m},
+            {"nome": "Giornali locali", "intere": [],
+             "ricerca": imp.get("fonti_locali", []) + tema.get("fonti_locali", []), "max": m},
+            {"nome": "Stampa specializzata", "intere": tema.get("fonti_specialistiche", []),
+             "ricerca": [], "max": m},
+        ]
+    return [g for g in gruppi if g["intere"] or g["ricerca"]]
+
+
+def ricerche_del_tema(tema: dict, imp: dict) -> list[dict]:
+    """Le ricerche del tema, ciascuna con la sua lingua. query può essere una
+    ricerca sola o un elenco (con troppe alternative in una ricerca sola
+    Google News torna a ignorare il limite di tempo); con ricerche = [...]
+    ogni ricerca ha anche lingua e paese suoi."""
+    if "ricerche" in tema:
+        return [{"query": r["query"], "lingua": r.get("lingua", imp["lingua"]),
+                 "paese": r.get("paese", imp["paese"])} for r in tema["ricerche"]]
+    query = tema.get("query", [])
+    query = query if isinstance(query, list) else [query]
+    return [{"query": q, "lingua": imp["lingua"], "paese": imp["paese"]} for q in query]
+
+
+def solo_dominio(sito: str) -> str:
+    """"theguardian.com/environment" -> "theguardian.com"."""
+    return sito.split("/")[0]
 
 
 def cerca(tema: dict, imp: dict) -> list[dict]:
@@ -126,11 +161,11 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
     Google News ignora il limite di tempo quando una ricerca combina parole e
     un elenco di siti, e restituisce al massimo 100 risultati ordinati per
     pertinenza: così gli articoli del giorno restano fuori. Per questo:
-    - per i giornali (nazionali e locali) si usa la ricerca del tema, filtrando
-      poi per dominio, più una ricerca del tema ristretta ai siti;
-    - per la stampa specializzata si prende tutto quello che i siti hanno
-      pubblicato nelle ultime ore (pochi siti per volta) e si filtra per
-      parole nel titolo.
+    - per i giornali si usa la ricerca del tema, filtrando poi per dominio,
+      più una ricerca del tema ristretta ai siti;
+    - per i siti presi interi (stampa specializzata) si prende tutto quello
+      che hanno pubblicato nelle ultime ore (pochi siti per volta) e si filtra
+      per parole nel titolo.
     Ogni articolo va nel gruppo del dominio più specifico che lo comprende:
     torino.corriere.it, se è tra i locali, batte corriere.it tra i nazionali.
     """
@@ -140,37 +175,44 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
     parole = [p.lower() for p in tema.get("parole", [])]
     fonti_escluse = [f.lower() for f in imp.get("fonti_escluse", [])]
     gruppi = gruppi_del_tema(tema, imp)
+    ricerche = ricerche_del_tema(tema, imp)
 
-    # query può essere una ricerca sola o un elenco: con troppe alternative
-    # in una ricerca sola Google News torna a ignorare il limite di tempo
-    query = tema["query"] if isinstance(tema["query"], list) else [tema["query"]]
     candidati = []
-    for q in query:
-        candidati += leggi_feed(q, ore, imp)
+    for r in ricerche:
+        candidati += leggi_feed(r["query"], ore, r)
     if not gruppi:  # nessun elenco di fonti: si prende tutto
-        gruppi = [("", [])]
-    for nome, domini in gruppi:
-        if nome == "Stampa specializzata":
-            for i in range(0, len(domini), 5):
-                candidati += leggi_feed(" OR ".join("site:" + d for d in domini[i:i + 5]), ore, imp)
-        elif domini:
-            for q in query:
-                for i in range(0, len(domini), 15):
-                    siti = " OR ".join("site:" + d for d in domini[i:i + 15])
-                    candidati += leggi_feed(f"({q}) ({siti})", ore, imp)
+        gruppi = [{"nome": "", "intere": [], "ricerca": [], "max": imp["max_articoli"]}]
+    # i siti presi interi si cercano nell'edizione di Google News del tema
+    # (per i siti in inglese quella italiana restituisce poco o niente)
+    edizione = {"lingua": tema.get("lingua", imp["lingua"]), "paese": tema.get("paese", imp["paese"])}
+    for g in gruppi:
+        siti = g["intere"]
+        for i in range(0, len(siti), 5):
+            voci = leggi_feed(" OR ".join("site:" + d for d in siti[i:i + 5]), ore, edizione)
+            candidati += [{**v, "intera": True} for v in voci]
+        siti = g["ricerca"]
+        for r in ricerche:
+            for i in range(0, len(siti), 15):
+                elenco = " OR ".join("site:" + d for d in siti[i:i + 15])
+                candidati += leggi_feed(f"({r['query']}) ({elenco})", ore, r)
 
     def gruppo_di(host: str) -> str | None:
         migliore, lunghezza = None, -1
-        for nome, domini in gruppi:
+        for g in gruppi:
+            domini = [solo_dominio(d) for d in g["intere"] + g["ricerca"]]
             if not domini:
-                return nome
+                return g["nome"]
             for d in domini:
                 if (host == d or host.endswith("." + d)) and len(d) > lunghezza:
-                    migliore, lunghezza = nome, len(d)
+                    migliore, lunghezza = g["nome"], len(d)
         return migliore
 
+    massimo = {g["nome"]: g["max"] for g in gruppi}
+    max_per_fonte = tema.get("max_per_fonte", imp["max_per_fonte"])
+    # prima i siti presi interi, poi i giornali; a parità, i più recenti
     candidati.sort(key=lambda c: c["quando"], reverse=True)
-    scelti = {nome: [] for nome, _ in gruppi}
+    candidati.sort(key=lambda c: not c.get("intera"))
+    scelti = {g["nome"]: [] for g in gruppi}
     per_fonte: dict[tuple[str, str], int] = {}
     visti = set()
     for c in candidati:
@@ -183,13 +225,14 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
                 or contiene(t, escludi)
                 or any(f in c["fonte"].lower() or f in c["dominio"] for f in fonti_escluse)):
             continue
-        if (per_fonte.get((gruppo, c["fonte"]), 0) >= imp["max_per_fonte"]
-                or len(scelti[gruppo]) >= imp["max_articoli"]):
+        if (per_fonte.get((gruppo, c["fonte"]), 0) >= max_per_fonte
+                or len(scelti[gruppo]) >= massimo[gruppo]):
             continue
         visti.add(chiave)
         per_fonte[(gruppo, c["fonte"])] = per_fonte.get((gruppo, c["fonte"]), 0) + 1
+        c.pop("intera", None)
         scelti[gruppo].append({**c, "quando": c["quando"].astimezone(ROMA).isoformat(), "gruppo": gruppo})
-    return [a for nome, _ in gruppi for a in scelti[nome]]
+    return [a for g in gruppi for a in scelti[g["nome"]]]
 
 
 def titoli_precedenti(oggi: str, giorni: int = 7) -> set[str]:
@@ -232,6 +275,9 @@ h3 span{color:var(--tenue);font-weight:normal;margin-left:4px}
 .filtro button[aria-pressed="true"]{background:var(--accento);color:#fff}
 body[data-filtro] .gruppo{display:none}
 body[data-filtro] .gruppo h3{display:none}
+body[data-filtro] section.a-parte .gruppo{display:block}
+body[data-filtro] section.a-parte .gruppo h3{display:block}
+.desc{color:var(--tenue);font-size:.9rem;margin:0 0 4px}
 ul{list-style:none;margin:0;padding:0}
 li{padding:10px 0;border-bottom:1px solid var(--riga)}
 li a{color:var(--testo);text-decoration:none;font-weight:600}
@@ -422,8 +468,21 @@ def ancora(nome: str) -> str:
 
 def html_report(imp: dict, dati: dict, link_archivio: str, pulsante: bool = False) -> str:
     ora = datetime.fromisoformat(dati["generato"])
+    # i pulsanti del filtro valgono per i gruppi standard; le sezioni con
+    # gruppi loro ("a parte") restano sempre intere
+    tutti_gruppi = []
+    for t in dati["temi"]:
+        if t.get("a_parte"):
+            continue
+        for g in t.get("gruppi", []):
+            if g not in tutti_gruppi:
+                tutti_gruppi.append(g)
+
     def conti(t: dict) -> str:
         c = {"tutti": len(t["articoli"])}
+        if t.get("a_parte"):
+            c.update({ancora(g): len(t["articoli"]) for g in tutti_gruppi})
+            return html.escape(json.dumps(c))
         for a in t["articoli"]:
             g = ancora(a.get("gruppo", "")) or "tutti"
             if g != "tutti":
@@ -435,11 +494,6 @@ def html_report(imp: dict, dati: dict, link_archivio: str, pulsante: bool = Fals
         f'<span class="n" data-conti="{conti(t)}">{len(t["articoli"])}</span></a>'
         for t in dati["temi"]
     )
-    tutti_gruppi = []
-    for t in dati["temi"]:
-        for g in t.get("gruppi", []):
-            if g not in tutti_gruppi:
-                tutti_gruppi.append(g)
     filtro = ""
     if len(tutti_gruppi) > 1:
         bottoni = ['<button type="button" data-f="tutti" aria-pressed="true">Tutte le fonti</button>']
@@ -468,10 +522,12 @@ def html_report(imp: dict, dati: dict, link_archivio: str, pulsante: bool = Fals
                 titolo_g = f"<h3>{html.escape(g)} <span>{len(articoli)}</span></h3>" if g else ""
                 blocchi.append(f'<div class="gruppo" data-g="{ancora(g) or "tutti"}">{titolo_g}{lista}</div>')
             righe = "".join(blocchi)
+        classe = ' class="a-parte"' if t.get("a_parte") else ""
+        desc = f'<p class="desc">{html.escape(t["descrizione"])}</p>' if t.get("descrizione") else ""
         sezioni.append(
-            f'<section><h2 id="{ancora(t["nome"])}">{html.escape(t["nome"])}'
+            f'<section{classe}><h2 id="{ancora(t["nome"])}">{html.escape(t["nome"])}'
             f'<small><span class="n" data-conti="{conti(t)}">{len(t["articoli"])}</span> articoli'
-            f' · ultime {t["ore"]} ore</small></h2>{righe}</section>'
+            f' · ultime {t["ore"]} ore</small></h2>{desc}{righe}</section>'
         )
     corpo = f"""<header><h1>{html.escape(imp["titolo"])}</h1>
 <p class="data">{data_estesa(ora).capitalize()} · aggiornata alle {ora:%H:%M}</p>
@@ -516,7 +572,11 @@ def main() -> int:
     for tema in config["tema"]:
         print(f"→ {tema['nome']}")
         voce = {"nome": tema["nome"], "ore": tema.get("ore", imp["ore"]),
-                "gruppi": [g for g, _ in gruppi_del_tema(tema, imp)], "articoli": []}
+                "gruppi": [g["nome"] for g in gruppi_del_tema(tema, imp)], "articoli": []}
+        if tema.get("gruppo"):
+            voce["a_parte"] = True  # gruppi suoi: i pulsanti del filtro non la riguardano
+        if tema.get("descrizione"):
+            voce["descrizione"] = tema["descrizione"]
         try:
             articoli = cerca(tema, imp)
             voce["articoli"] = [a for a in articoli if normalizza(a["titolo"]) not in gia_usciti]

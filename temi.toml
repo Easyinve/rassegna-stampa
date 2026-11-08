@@ -170,3 +170,54 @@ fonti_specialistiche = ["agronotizie.imagelinenetwork.com", "terraevita.edagrico
   "agricolae.eu", "agricultura.it", "italiafruit.net", "myfruit.it",
   "corriereortofrutticolo.it", "alimentando.info", "efanews.eu",
   "agrifoodtoday.it", "winenews.it", "foodweb.it"]
+
+# Una sezione diversa dalle altre: non un tema di cronaca ma un genere, gli
+# approfondimenti internazionali. Ha gruppi suoi, per area del mondo, al posto
+# di Giornali / Giornali locali / Stampa specializzata (i pulsanti del filtro
+# non la riguardano). In ogni gruppo:
+#   fonti   -> siti (o sezioni di siti) presi interi: tutto quello che hanno
+#              pubblicato nelle ultime ore
+#   testate -> giornali che parlano di tutto: se ne prendono solo gli
+#              articoli che rispondono alle ricerche qui sotto
+# Le ricerche hanno ciascuna la sua lingua.
+[[tema]]
+nome = "Storie dal mondo"
+descrizione = "Reportage e approfondimenti internazionali su comunità, ambiente locale e città, con più spazio alle testate non americane."
+ore = 72
+max_articoli = 12
+max_per_fonte = 2  # tante testate diverse, nessuna che riempia il gruppo
+lingua = "en-GB"   # edizione di Google News per i siti presi interi
+paese = "GB"
+ricerche = [
+  { query = '"local community" OR villagers OR residents OR neighbourhood OR "community-led" OR rewilding', lingua = "en-GB", paese = "GB" },
+  { query = '"car-free" OR "15-minute city" OR "urban garden" OR "public space" OR "green roofs" OR "cycle lanes"', lingua = "en-GB", paese = "GB" },
+  { query = 'reportage OR village OR habitants OR quartier OR collectif', lingua = "fr", paese = "FR" },
+  { query = 'reportaje OR vecinos OR pueblo OR barrio OR "comunidad local"', lingua = "es", paese = "ES" },
+]
+# cronaca nera, guerra ed elezioni non sono il genere di questa sezione
+escludi = ["gaza", "israel*", "hamas", "hezbollah", "ukrain*", "russia*", "putin", "missil*",
+           "trump", "election*", "élection*", "elecciones", "wahl", "wahlen",
+           "murder*", "meurtre", "asesin*", "mord", "arrested", "detenido", "police", "polizei",
+           "policía", "shooting", "football", "fútbol", "fußball", "calcio",
+           "republish", "contributions from", "what went right this week", "breaking news", "quiz", "author at", "archives",
+           "cop3*", "climate talks", "climate summit"]
+
+[[tema.gruppo]]
+nome = "Europa"
+fonti = ["theguardian.com/environment", "theguardian.com/global-development",
+  "theguardian.com/news/series/the-long-read", "theguardian.com/world/series/the-upside",
+  "bbc.com/future", "positive.news", "huckmag.com", "theecologist.org", "equaltimes.org",
+  "newint.org", "citiestoday.com"]
+testate = ["theguardian.com", "courrierinternational.com", "lemonde.fr", "la-croix.com",
+  "elpais.com"]
+
+[[tema.gruppo]]
+nome = "Resto del mondo"
+fonti = ["mongabay.com", "dialogue.earth", "sixthtone.com", "restofworld.org",
+  "globalvoices.org", "africanarguments.org"]
+testate = ["scroll.in", "nippon.com", "aljazeera.com"]
+
+[[tema.gruppo]]
+nome = "Stati Uniti"
+max_articoli = 5
+fonti = ["reasonstobecheerful.world", "nextcity.org", "e360.yale.edu", "hcn.org", "grist.org"]

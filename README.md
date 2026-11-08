@@ -10,6 +10,8 @@ Non entra tutto quello che trova Google News, ma solo tre gruppi di fonti, mostr
 
 Temi attuali: Ponte sullo Stretto, grandi opere, università, sanità italiana, concessioni idroelettriche, aree interne, filiera agroalimentare.
 
+In fondo c'è una sezione diversa, **Storie dal mondo**: reportage e approfondimenti internazionali su comunità (anche piccole), questioni ambientali locali e innovazioni nelle città. Ha gruppi suoi, per area: **Europa**, **Resto del mondo** e **Stati Uniti**, quest'ultimo con meno spazio, al massimo 5 articoli. Entrano per primi i siti dedicati a questi temi, presi interi: Positive News, The Ecologist, Huck, le sezioni Environment, Global development e Long read del Guardian, BBC Future, Mongabay, Dialogue Earth, Sixth Tone, Global Voices e altri. Nei posti rimasti entrano gli articoli di alcune grandi testate (Guardian, Le Monde, La Croix, Courrier international, El País, Al Jazeera, Scroll, Nippon.com) che rispondono a ricerche in inglese, francese e spagnolo. Ogni testata ha al massimo 2 articoli per gruppo. I pulsanti del filtro non la riguardano: resta sempre visibile per intero.
+
 ## Come funziona
 
 - `rassegna.py` legge i temi, interroga il feed RSS di Google News e scrive `docs/index.html`, `docs/archivio/AAAA-MM-GG.html` e i dati grezzi in `dati/AAAA-MM-GG.json`. Usa solo la libreria standard di Python (3.11 o successivo), quindi non c'è niente da installare.
@@ -45,7 +47,15 @@ Si modifica solo `temi.toml`. Per ogni tema:
 - `escludi`: parole che fanno scartare l'articolo se compaiono nel titolo, con le stesse regole;
 - `ore`: per i temi con poche notizie al giorno, una finestra più lunga;
 - `fonti_specialistiche`: i domini dei siti di settore per quel tema (es. `"quotidianosanita.it"`);
-- `fonti_locali`: giornali locali da aggiungere, solo per quel tema, a quelli dell'elenco generale.
+- `fonti_locali`: giornali locali da aggiungere, solo per quel tema, a quelli dell'elenco generale;
+- `max_articoli`, `max_per_fonte`: limiti diversi da quelli generali, solo per quel tema.
+
+Un tema può anche avere gruppi suoi al posto dei tre standard, come «Storie dal mondo»:
+
+- ogni `[[tema.gruppo]]` ha un `nome`, le `fonti` prese intere (anche sezioni di un sito, per esempio `"theguardian.com/environment"`), le `testate` da cui si prendono solo gli articoli che rispondono alle ricerche e, se serve, un suo `max_articoli`;
+- al posto di `query` si scrive `ricerche`, un elenco in cui ogni ricerca ha la sua lingua: `{ query = '...', lingua = "fr", paese = "FR" }`;
+- `lingua` e `paese` del tema indicano l'edizione di Google News in cui cercare le fonti prese intere: per i siti in inglese serve `"en-GB"`/`"GB"`, perché l'edizione italiana non restituisce quasi niente;
+- `descrizione` è la riga che compare sotto il titolo della sezione.
 
 In `[impostazioni]`:
 
