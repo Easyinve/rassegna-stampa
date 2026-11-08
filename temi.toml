@@ -84,6 +84,10 @@ fonti_locali = [
   "unionesarda.it", "lanuovasardegna.it",
 ]
 
+# Repository GitHub ("utente/nome") per il pulsante «Aggiorna ora». Se la
+# pagina è su utente.github.io/nome lo capisce da solo e si può lasciare vuoto.
+repository = ""
+
 # Fonti da scartare sempre (basta un pezzo del nome o del dominio)
 fonti_escluse = []
 

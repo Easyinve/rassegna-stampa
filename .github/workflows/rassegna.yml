@@ -2,10 +2,13 @@ name: Rassegna stampa
 
 on:
   schedule:
-    # Ogni giorno alle 5:00 UTC (6:00 in inverno, 7:00 con l'ora legale).
+    # GitHub usa l'ora UTC e non conosce l'ora legale. Per partire sempre
+    # alle 6:30 italiane ci sono due orari, e il primo passo tiene solo quello
+    # giusto: 5:30 UTC in inverno (ora solare), 4:30 UTC d'estate (ora legale).
     # GitHub può partire con qualche minuto di ritardo.
-    - cron: "0 5 * * *"
-  workflow_dispatch:   # per lanciarla a mano dalla scheda Actions
+    - cron: "30 4 * * *"
+    - cron: "30 5 * * *"
+  workflow_dispatch:   # avvio a mano: dalla scheda Actions o dal pulsante nella pagina
 
 permissions:
   contents: write
@@ -18,16 +21,34 @@ jobs:
   rassegna:
     runs-on: ubuntu-latest
     steps:
+      - name: Controlla l'orario
+        id: orario
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Avvio a mano"; echo "parti=si" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          scarto=$(TZ=Europe/Rome date +%z)   # +0100 in inverno, +0200 d'estate
+          if { [ "$scarto" = "+0100" ] && [ "${{ github.event.schedule }}" = "30 5 * * *" ]; } ||
+             { [ "$scarto" = "+0200" ] && [ "${{ github.event.schedule }}" = "30 4 * * *" ]; }; then
+            echo "parti=si" >> "$GITHUB_OUTPUT"
+          else
+            echo "Questo è l'orario dell'altra stagione: salto"; echo "parti=no" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.orario.outputs.parti == 'si'
 
       - uses: actions/setup-python@v5
+        if: steps.orario.outputs.parti == 'si'
         with:
           python-version: "3.12"
 
       - name: Prepara il report
+        if: steps.orario.outputs.parti == 'si'
         run: python rassegna.py
 
       - name: Salva il report nel repository
+        if: steps.orario.outputs.parti == 'si'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -35,6 +56,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Niente da salvare"
           else
-            git commit -m "Rassegna del $(TZ=Europe/Rome date +%Y-%m-%d)"
+            git commit -m "Rassegna del $(TZ=Europe/Rome date '+%Y-%m-%d %H:%M')"
+            git pull --rebase --quiet
             git push
           fi

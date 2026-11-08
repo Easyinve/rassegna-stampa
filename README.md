@@ -14,15 +14,27 @@ Temi attuali: Ponte sullo Stretto, grandi opere, università, sanità italiana, 
 
 - `rassegna.py` legge i temi, interroga il feed RSS di Google News e scrive `docs/index.html`, `docs/archivio/AAAA-MM-GG.html` e i dati grezzi in `dati/AAAA-MM-GG.json`. Usa solo la libreria standard di Python (3.11 o successivo), quindi non c'è niente da installare.
 - Gli articoli già usciti nelle rassegne dei sette giorni precedenti non vengono ripetuti.
-- `.github/workflows/rassegna.yml` lo esegue ogni giorno alle 5:00 UTC (le 6 in inverno, le 7 con l'ora legale) e salva i file nel repository. GitHub Pages pubblica la cartella `docs`.
+- `.github/workflows/rassegna.yml` lo esegue ogni giorno alle 6:30 italiane e salva i file nel repository. GitHub Pages pubblica la cartella `docs`. GitHub ragiona in ora UTC e non conosce l'ora legale, quindi il workflow ha due orari (4:30 e 5:30 UTC) e tiene solo quello che corrisponde alle 6:30 in Italia; l'altro si chiude subito senza fare nulla.
 
 ## Messa online (una volta sola)
 
 1. Crea un repository su GitHub e caricaci questa cartella.
 2. Su GitHub: **Settings → Pages → Build and deployment**: Source "Deploy from a branch", branch `main`, cartella `/docs`.
-3. **Actions → Rassegna stampa → Run workflow** per lanciare la prima rassegna senza aspettare la mattina dopo.
+3. **Actions → Rassegna stampa → Run workflow** per lanciare la prima rassegna senza aspettare la mattina dopo (le volte successive basta il pulsante nella pagina).
 
 La pagina sarà su `https://<utente>.github.io/<nome-repository>/`.
+
+## Il pulsante «Aggiorna ora»
+
+In cima alla pagina c'è un pulsante che prepara subito una nuova rassegna, senza aspettare la mattina dopo. Dopo un paio di minuti la pagina si ricarica da sola con gli articoli aggiornati.
+
+Una pagina di GitHub Pages è pubblica e statica, quindi per avviare il workflow il pulsante ha bisogno di un permesso: un **token personale** di GitHub, che si inserisce una volta sola in «Impostazioni del pulsante» e resta salvato solo nel browser in cui lo inserisci (mai nella pagina né nel repository). Su un altro computer o sul telefono va inserito di nuovo.
+
+Per crearlo: [github.com/settings/personal-access-tokens/new](https://github.com/settings/personal-access-tokens/new) → *Repository access*: **Only select repositories** e scegli questo repository → *Permissions*: **Actions: Read and write**, nient'altro. Con questo token si può solo avviare e leggere le Actions di questo repository. Alla scadenza se ne crea uno nuovo.
+
+Senza token, il pulsante indica il link alla pagina del workflow su GitHub, dove lo si avvia con **Run workflow**.
+
+Se la pagina non è su `utente.github.io/nome-repository` (per esempio con un dominio personalizzato), in `temi.toml` va indicato `repository = "utente/nome-repository"`.
 
 ## Cambiare i temi
 

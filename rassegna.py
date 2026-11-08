@@ -240,48 +240,187 @@ li a:hover{color:var(--accento)}
 .vuoto{color:var(--tenue);font-style:italic}
 footer{color:var(--tenue);font-size:.85rem;border-top:1px solid var(--riga);padding-top:14px}
 footer a{color:var(--accento)}
+#aggiorna{margin-top:12px;font-size:.9rem}
+#aggiorna button{font:inherit;cursor:pointer;border-radius:6px;padding:5px 12px;border:1px solid var(--accento);background:transparent;color:var(--testo)}
+#agg-bottone{background:var(--accento)!important;color:#fff!important;font-weight:600}
+#agg-bottone:disabled{opacity:.6;cursor:wait}
+#agg-stato{color:var(--tenue);margin-left:8px}
+#agg-stato a,#aggiorna details a{color:var(--accento)}
+#aggiorna details{margin-top:8px;color:var(--tenue)}
+#aggiorna summary{cursor:pointer;width:max-content}
+.agg-riga{display:flex;gap:6px;flex-wrap:wrap}
+#agg-token{flex:1;min-width:180px;font:inherit;padding:5px 8px;border:1px solid var(--riga);border-radius:6px;background:var(--sfondo);color:var(--testo)}
 """
 
 
-def pagina(titolo: str, corpo: str, profondita: int = 0) -> str:
+JS_FILTRO = """
+(function(){
+  var bott = document.querySelectorAll('.filtro button');
+  if (!bott.length) return;
+  var stile = document.createElement('style');
+  document.head.appendChild(stile);
+  function scegli(f){
+    bott.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.f === f ? 'true' : 'false'); });
+    if (f === 'tutti') { delete document.body.dataset.filtro; stile.textContent = ''; }
+    else { document.body.dataset.filtro = f; stile.textContent = 'body[data-filtro] .gruppo[data-g="' + f + '"]{display:block}'; }
+    document.querySelectorAll('.n').forEach(function(n){
+      var c = JSON.parse(n.dataset.conti); n.textContent = c[f] || 0;
+    });
+    try { localStorage.setItem('rassegna-filtro', f); } catch (e) {}
+  }
+  bott.forEach(function(b){ b.addEventListener('click', function(){ scegli(b.dataset.f); }); });
+  var salvato = null;
+  try { salvato = localStorage.getItem('rassegna-filtro'); } catch (e) {}
+  if (salvato && document.querySelector('.filtro button[data-f="' + salvato + '"]')) scegli(salvato);
+})();
+"""
+
+# Pulsante "Aggiorna ora": avvia il workflow con l'API di GitHub usando un
+# token personale che resta solo nel browser di chi lo inserisce.
+JS_AGGIORNA = """
+(function(){
+  var box = document.getElementById('aggiorna');
+  if (!box) return;
+  var bottone = document.getElementById('agg-bottone');
+  var stato = document.getElementById('agg-stato');
+  var impost = document.getElementById('agg-impost');
+  var campo = document.getElementById('agg-token');
+  var CHIAVE = 'rassegna-token';
+  var WORKFLOW = 'rassegna.yml';
+
+  // utente/repository: dall'impostazione, altrimenti dall'indirizzo di GitHub Pages
+  var repo = box.dataset.repo;
+  if (!repo && /\\.github\\.io$/.test(location.hostname)) {
+    var utente = location.hostname.split('.')[0];
+    var primo = location.pathname.split('/')[1];
+    repo = utente + '/' + (primo || location.hostname);
+  }
+  var linkActions = repo ? 'https://github.com/' + repo + '/actions/workflows/' + WORKFLOW : null;
+  document.querySelectorAll('.agg-link-actions').forEach(function(a){
+    if (linkActions) a.href = linkActions; else a.removeAttribute('href');
+  });
+
+  function leggiToken(){ try { return localStorage.getItem(CHIAVE) || ''; } catch (e) { return ''; } }
+  function scriviToken(t){ try { t ? localStorage.setItem(CHIAVE, t) : localStorage.removeItem(CHIAVE); } catch (e) {} }
+  function mostra(testo, html){ stato[html ? 'innerHTML' : 'textContent'] = testo; }
+  function aggiornaCampo(){ campo.value = ''; campo.placeholder = leggiToken() ? 'Token salvato in questo browser' : 'github_pat_…'; }
+  aggiornaCampo();
+
+  document.getElementById('agg-salva').addEventListener('click', function(){
+    var t = campo.value.trim();
+    if (!t) return;
+    scriviToken(t); aggiornaCampo(); impost.open = false;
+    mostra('Token salvato. Ora puoi premere «Aggiorna ora».');
+  });
+  document.getElementById('agg-cancella').addEventListener('click', function(){
+    scriviToken(''); aggiornaCampo(); mostra('Token cancellato da questo browser.');
+  });
+
+  function api(percorso, opzioni){
+    opzioni = opzioni || {};
+    opzioni.headers = {
+      'Accept': 'application/vnd.github+json',
+      'Authorization': 'Bearer ' + leggiToken(),
+      'X-GitHub-Api-Version': '2022-11-28'
+    };
+    return fetch('https://api.github.com/repos/' + repo + percorso, opzioni);
+  }
+  var attendi = function(ms){ return new Promise(function(r){ setTimeout(r, ms); }); };
+
+  async function aspettaPubblicazione(){
+    var prima = document.body.dataset.generato;
+    for (var i = 0; i < 40; i++) {
+      await attendi(10000);
+      try {
+        var r = await fetch(location.pathname + '?v=' + Date.now(), { cache: 'no-store' });
+        var testo = await r.text();
+        var m = testo.match(/data-generato="([^"]+)"/);
+        if (m && m[1] !== prima) { location.reload(); return; }
+      } catch (e) {}
+    }
+    mostra('La rassegna è pronta ma la pagina non si è ancora aggiornata: ricaricala tra qualche minuto.');
+  }
+
+  async function avvia(){
+    if (!repo) { mostra('Non riesco a capire quale sia il repository: indicalo in temi.toml (impostazione «repository»).'); return; }
+    if (!leggiToken()) {
+      impost.open = true;
+      mostra('Per avviarla da qui serve un token (vedi sotto). In alternativa avviala <a href="' + linkActions + '" target="_blank" rel="noopener">da GitHub</a> con «Run workflow».', true);
+      return;
+    }
+    bottone.disabled = true;
+    var partenza = new Date(Date.now() - 5000).toISOString();
+    try {
+      var r = await api('/actions/workflows/' + WORKFLOW + '/dispatches', {
+        method: 'POST', body: JSON.stringify({ ref: box.dataset.ramo || 'main' })
+      });
+      if (r.status === 401 || r.status === 403 || r.status === 404) {
+        mostra('GitHub ha rifiutato il token: forse è scaduto o non ha il permesso «Actions: Read and write» su questo repository.');
+        bottone.disabled = false; return;
+      }
+      if (!r.ok) throw new Error('risposta ' + r.status);
+      mostra('Avviata. Preparo la rassegna, ci vogliono un paio di minuti…');
+      var run = null;
+      for (var i = 0; i < 60; i++) {
+        await attendi(8000);
+        var lista = await (await api('/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=1')).json();
+        run = lista.workflow_runs && lista.workflow_runs[0];
+        if (!run || run.created_at < partenza) continue;
+        if (run.status !== 'completed') { mostra('In corso su GitHub…'); continue; }
+        break;
+      }
+      if (!run || run.status !== 'completed') {
+        mostra('Ci sta mettendo più del solito: controlla <a href="' + linkActions + '" target="_blank" rel="noopener">su GitHub</a>.', true);
+      } else if (run.conclusion === 'success') {
+        mostra('Fatta. Aspetto che GitHub Pages pubblichi la nuova pagina (di solito meno di un minuto)…');
+        await aspettaPubblicazione();
+      } else {
+        mostra('Non è riuscita: <a href="' + run.html_url + '" target="_blank" rel="noopener">vedi il dettaglio su GitHub</a>.', true);
+      }
+    } catch (e) {
+      mostra('Errore di collegamento con GitHub (' + e.message + '). Riprova o avviala <a href="' + linkActions + '" target="_blank" rel="noopener">da GitHub</a>.', true);
+    }
+    bottone.disabled = false;
+  }
+  bottone.addEventListener('click', avvia);
+})();
+"""
+
+
+def pagina(titolo: str, corpo: str, generato: str = "") -> str:
     return f"""<!doctype html>
 <html lang="it"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(titolo)}</title>
 <style>{CSS}</style>
-</head><body><main>
+</head><body data-generato="{html.escape(generato)}"><main>
 {corpo}
 </main>
-<script>
-(function(){{
-  var bott = document.querySelectorAll('.filtro button');
-  if (!bott.length) return;
-  var stile = document.createElement('style');
-  document.head.appendChild(stile);
-  function scegli(f){{
-    bott.forEach(function(b){{ b.setAttribute('aria-pressed', b.dataset.f === f ? 'true' : 'false'); }});
-    if (f === 'tutti') {{ delete document.body.dataset.filtro; stile.textContent = ''; }}
-    else {{ document.body.dataset.filtro = f; stile.textContent = 'body[data-filtro] .gruppo[data-g="' + f + '"]{{display:block}}'; }}
-    document.querySelectorAll('.n').forEach(function(n){{
-      var c = JSON.parse(n.dataset.conti); n.textContent = c[f] || 0;
-    }});
-    try {{ localStorage.setItem('rassegna-filtro', f); }} catch (e) {{}}
-  }}
-  bott.forEach(function(b){{ b.addEventListener('click', function(){{ scegli(b.dataset.f); }}); }});
-  var salvato = null;
-  try {{ salvato = localStorage.getItem('rassegna-filtro'); }} catch (e) {{}}
-  if (salvato && document.querySelector('.filtro button[data-f="' + salvato + '"]')) scegli(salvato);
-}})();
-</script>
+<script>{JS_FILTRO}{JS_AGGIORNA}</script>
 </body></html>
 """
+
+
+def html_aggiorna(imp: dict) -> str:
+    return f"""<div id="aggiorna" data-repo="{html.escape(imp.get("repository", ""))}" data-ramo="{html.escape(imp.get("ramo", "main"))}">
+<button type="button" id="agg-bottone">Aggiorna ora</button>
+<span id="agg-stato" aria-live="polite"></span>
+<details id="agg-impost"><summary>Impostazioni del pulsante</summary>
+<p>Il pulsante avvia la rassegna su GitHub con un tuo <b>token personale</b>, che resta salvato solo in questo browser. Si crea una volta sola su
+<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens</a>:
+in «Repository access» scegli <i>Only select repositories</i> e questo repository; in «Permissions» dai <i>Actions: Read and write</i> e nient'altro.</p>
+<div class="agg-riga"><input id="agg-token" type="password" autocomplete="off" spellcheck="false" aria-label="Token di GitHub">
+<button type="button" id="agg-salva">Salva</button><button type="button" id="agg-cancella">Cancella</button></div>
+<p>Senza token puoi avviarla anche dalla <a class="agg-link-actions" target="_blank" rel="noopener">pagina del workflow su GitHub</a>, con «Run workflow».</p>
+</details>
+</div>"""
 
 
 def ancora(nome: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", normalizza(nome)).strip("-")
 
 
-def html_report(imp: dict, dati: dict, link_archivio: str) -> str:
+def html_report(imp: dict, dati: dict, link_archivio: str, pulsante: bool = False) -> str:
     ora = datetime.fromisoformat(dati["generato"])
     def conti(t: dict) -> str:
         c = {"tutti": len(t["articoli"])}
@@ -335,13 +474,14 @@ def html_report(imp: dict, dati: dict, link_archivio: str) -> str:
             f' · ultime {t["ore"]} ore</small></h2>{righe}</section>'
         )
     corpo = f"""<header><h1>{html.escape(imp["titolo"])}</h1>
-<p class="data">{data_estesa(ora).capitalize()} · aggiornata alle {ora:%H:%M}</p></header>
+<p class="data">{data_estesa(ora).capitalize()} · aggiornata alle {ora:%H:%M}</p>
+{html_aggiorna(imp) if pulsante else ""}</header>
 {filtro}
 <nav>{nav}</nav>
 {''.join(sezioni)}
 <footer>Articoli da Google News, solo dalle testate scelte in temi.toml, senza quelli già usciti nelle rassegne della settimana.
 <a href="{link_archivio}">Archivio</a></footer>"""
-    return pagina(f'{imp["titolo"]} – {data_estesa(ora)}', corpo)
+    return pagina(f'{imp["titolo"]} – {data_estesa(ora)}', corpo, dati["generato"])
 
 
 def html_archivio(imp: dict) -> str:
@@ -397,7 +537,7 @@ def main() -> int:
 
     (DOCS / "archivio").mkdir(parents=True, exist_ok=True)
     (DOCS / "archivio" / f"{oggi}.html").write_text(html_report(imp, dati, "index.html"), encoding="utf-8")
-    (DOCS / "index.html").write_text(html_report(imp, dati, "archivio/"), encoding="utf-8")
+    (DOCS / "index.html").write_text(html_report(imp, dati, "archivio/", pulsante=True), encoding="utf-8")
     (DOCS / "archivio" / "index.html").write_text(html_archivio(imp), encoding="utf-8")
     (DOCS / ".nojekyll").touch()
     print(f"Report scritto in {DOCS / 'index.html'}")
