@@ -32,8 +32,18 @@ li a:hover{color:var(--accento)}
 .vuoto{color:var(--tenue);font-style:italic}
 footer{color:var(--tenue);font-size:.85rem;border-top:1px solid var(--riga);padding-top:14px}
 footer a{color:var(--accento)}
+#aggiorna{margin-top:12px;font-size:.9rem}
+#aggiorna button{font:inherit;cursor:pointer;border-radius:6px;padding:5px 12px;border:1px solid var(--accento);background:transparent;color:var(--testo)}
+#agg-bottone{background:var(--accento)!important;color:#fff!important;font-weight:600}
+#agg-bottone:disabled{opacity:.6;cursor:wait}
+#agg-stato{color:var(--tenue);margin-left:8px}
+#agg-stato a,#aggiorna details a{color:var(--accento)}
+#aggiorna details{margin-top:8px;color:var(--tenue)}
+#aggiorna summary{cursor:pointer;width:max-content}
+.agg-riga{display:flex;gap:6px;flex-wrap:wrap}
+#agg-token{flex:1;min-width:180px;font:inherit;padding:5px 8px;border:1px solid var(--riga);border-radius:6px;background:var(--sfondo);color:var(--testo)}
 </style>
-</head><body><main>
+</head><body data-generato=""><main>
 <header><h1>Rassegna stampa: archivio</h1>
 <p class="data"><a href="../">Torna alla rassegna di oggi</a></p></header>
 <ul><li><a href="2026-11-08.html">Domenica 8 novembre 2026</a></li></ul>
@@ -57,6 +67,113 @@ footer a{color:var(--accento)}
   var salvato = null;
   try { salvato = localStorage.getItem('rassegna-filtro'); } catch (e) {}
   if (salvato && document.querySelector('.filtro button[data-f="' + salvato + '"]')) scegli(salvato);
+})();
+
+(function(){
+  var box = document.getElementById('aggiorna');
+  if (!box) return;
+  var bottone = document.getElementById('agg-bottone');
+  var stato = document.getElementById('agg-stato');
+  var impost = document.getElementById('agg-impost');
+  var campo = document.getElementById('agg-token');
+  var CHIAVE = 'rassegna-token';
+  var WORKFLOW = 'rassegna.yml';
+
+  // utente/repository: dall'impostazione, altrimenti dall'indirizzo di GitHub Pages
+  var repo = box.dataset.repo;
+  if (!repo && /\.github\.io$/.test(location.hostname)) {
+    var utente = location.hostname.split('.')[0];
+    var primo = location.pathname.split('/')[1];
+    repo = utente + '/' + (primo || location.hostname);
+  }
+  var linkActions = repo ? 'https://github.com/' + repo + '/actions/workflows/' + WORKFLOW : null;
+  document.querySelectorAll('.agg-link-actions').forEach(function(a){
+    if (linkActions) a.href = linkActions; else a.removeAttribute('href');
+  });
+
+  function leggiToken(){ try { return localStorage.getItem(CHIAVE) || ''; } catch (e) { return ''; } }
+  function scriviToken(t){ try { t ? localStorage.setItem(CHIAVE, t) : localStorage.removeItem(CHIAVE); } catch (e) {} }
+  function mostra(testo, html){ stato[html ? 'innerHTML' : 'textContent'] = testo; }
+  function aggiornaCampo(){ campo.value = ''; campo.placeholder = leggiToken() ? 'Token salvato in questo browser' : 'github_pat_…'; }
+  aggiornaCampo();
+
+  document.getElementById('agg-salva').addEventListener('click', function(){
+    var t = campo.value.trim();
+    if (!t) return;
+    scriviToken(t); aggiornaCampo(); impost.open = false;
+    mostra('Token salvato. Ora puoi premere «Aggiorna ora».');
+  });
+  document.getElementById('agg-cancella').addEventListener('click', function(){
+    scriviToken(''); aggiornaCampo(); mostra('Token cancellato da questo browser.');
+  });
+
+  function api(percorso, opzioni){
+    opzioni = opzioni || {};
+    opzioni.headers = {
+      'Accept': 'application/vnd.github+json',
+      'Authorization': 'Bearer ' + leggiToken(),
+      'X-GitHub-Api-Version': '2022-11-28'
+    };
+    return fetch('https://api.github.com/repos/' + repo + percorso, opzioni);
+  }
+  var attendi = function(ms){ return new Promise(function(r){ setTimeout(r, ms); }); };
+
+  async function aspettaPubblicazione(){
+    var prima = document.body.dataset.generato;
+    for (var i = 0; i < 40; i++) {
+      await attendi(10000);
+      try {
+        var r = await fetch(location.pathname + '?v=' + Date.now(), { cache: 'no-store' });
+        var testo = await r.text();
+        var m = testo.match(/data-generato="([^"]+)"/);
+        if (m && m[1] !== prima) { location.reload(); return; }
+      } catch (e) {}
+    }
+    mostra('La rassegna è pronta ma la pagina non si è ancora aggiornata: ricaricala tra qualche minuto.');
+  }
+
+  async function avvia(){
+    if (!repo) { mostra('Non riesco a capire quale sia il repository: indicalo in temi.toml (impostazione «repository»).'); return; }
+    if (!leggiToken()) {
+      impost.open = true;
+      mostra('Per avviarla da qui serve un token (vedi sotto). In alternativa avviala <a href="' + linkActions + '" target="_blank" rel="noopener">da GitHub</a> con «Run workflow».', true);
+      return;
+    }
+    bottone.disabled = true;
+    var partenza = new Date(Date.now() - 5000).toISOString();
+    try {
+      var r = await api('/actions/workflows/' + WORKFLOW + '/dispatches', {
+        method: 'POST', body: JSON.stringify({ ref: box.dataset.ramo || 'main' })
+      });
+      if (r.status === 401 || r.status === 403 || r.status === 404) {
+        mostra('GitHub ha rifiutato il token: forse è scaduto o non ha il permesso «Actions: Read and write» su questo repository.');
+        bottone.disabled = false; return;
+      }
+      if (!r.ok) throw new Error('risposta ' + r.status);
+      mostra('Avviata. Preparo la rassegna, ci vogliono un paio di minuti…');
+      var run = null;
+      for (var i = 0; i < 60; i++) {
+        await attendi(8000);
+        var lista = await (await api('/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=1')).json();
+        run = lista.workflow_runs && lista.workflow_runs[0];
+        if (!run || run.created_at < partenza) continue;
+        if (run.status !== 'completed') { mostra('In corso su GitHub…'); continue; }
+        break;
+      }
+      if (!run || run.status !== 'completed') {
+        mostra('Ci sta mettendo più del solito: controlla <a href="' + linkActions + '" target="_blank" rel="noopener">su GitHub</a>.', true);
+      } else if (run.conclusion === 'success') {
+        mostra('Fatta. Aspetto che GitHub Pages pubblichi la nuova pagina (di solito meno di un minuto)…');
+        await aspettaPubblicazione();
+      } else {
+        mostra('Non è riuscita: <a href="' + run.html_url + '" target="_blank" rel="noopener">vedi il dettaglio su GitHub</a>.', true);
+      }
+    } catch (e) {
+      mostra('Errore di collegamento con GitHub (' + e.message + '). Riprova o avviala <a href="' + linkActions + '" target="_blank" rel="noopener">da GitHub</a>.', true);
+    }
+    bottone.disabled = false;
+  }
+  bottone.addEventListener('click', avvia);
 })();
 </script>
 </body></html>
