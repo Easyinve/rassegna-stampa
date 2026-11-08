@@ -18,6 +18,12 @@ section{margin-bottom:36px}
 h2{font-family:Georgia,"Times New Roman",serif;font-size:1.45rem;margin:0 0 6px;scroll-margin-top:12px}
 h2 small{font-family:inherit;font-size:.85rem;color:var(--tenue);font-weight:normal;margin-left:6px}
 h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accento);margin:18px 0 0}
+h3 span{color:var(--tenue);font-weight:normal;margin-left:4px}
+.filtro{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.filtro button{font:inherit;font-size:.9rem;cursor:pointer;border:1px solid var(--accento);background:transparent;color:var(--testo);border-radius:6px;padding:5px 12px}
+.filtro button[aria-pressed="true"]{background:var(--accento);color:#fff}
+body[data-filtro] .gruppo{display:none}
+body[data-filtro] .gruppo h3{display:none}
 ul{list-style:none;margin:0;padding:0}
 li{padding:10px 0;border-bottom:1px solid var(--riga)}
 li a{color:var(--testo);text-decoration:none;font-weight:600}
@@ -31,4 +37,26 @@ footer a{color:var(--accento)}
 <header><h1>Rassegna stampa: archivio</h1>
 <p class="data"><a href="../">Torna alla rassegna di oggi</a></p></header>
 <ul><li><a href="2026-11-08.html">Domenica 8 novembre 2026</a></li></ul>
-</main></body></html>
+</main>
+<script>
+(function(){
+  var bott = document.querySelectorAll('.filtro button');
+  if (!bott.length) return;
+  var stile = document.createElement('style');
+  document.head.appendChild(stile);
+  function scegli(f){
+    bott.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.f === f ? 'true' : 'false'); });
+    if (f === 'tutti') { delete document.body.dataset.filtro; stile.textContent = ''; }
+    else { document.body.dataset.filtro = f; stile.textContent = 'body[data-filtro] .gruppo[data-g="' + f + '"]{display:block}'; }
+    document.querySelectorAll('.n').forEach(function(n){
+      var c = JSON.parse(n.dataset.conti); n.textContent = c[f] || 0;
+    });
+    try { localStorage.setItem('rassegna-filtro', f); } catch (e) {}
+  }
+  bott.forEach(function(b){ b.addEventListener('click', function(){ scegli(b.dataset.f); }); });
+  var salvato = null;
+  try { salvato = localStorage.getItem('rassegna-filtro'); } catch (e) {}
+  if (salvato && document.querySelector('.filtro button[data-f="' + salvato + '"]')) scegli(salvato);
+})();
+</script>
+</body></html>

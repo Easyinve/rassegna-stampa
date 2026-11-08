@@ -2,9 +2,10 @@
 
 Ogni mattina GitHub Actions cerca su Google News gli articoli delle ultime ore sui temi in [`temi.toml`](temi.toml) e pubblica una pagina con titoli, testate e link, raggruppati per tema. Le rassegne dei giorni precedenti restano nell'archivio.
 
-Non entra tutto quello che trova Google News, ma solo due gruppi di fonti, mostrati separati sotto ogni tema:
+Non entra tutto quello che trova Google News, ma solo tre gruppi di fonti, mostrati separati sotto ogni tema. I pulsanti in cima alla pagina permettono di vederne uno solo alla volta, e la pagina ricorda la scelta:
 
-- **Giornali**: un elenco unico di testate generaliste autorevoli (agenzie, quotidiani nazionali, tv, grandi quotidiani locali);
+- **Giornali**: un elenco unico di testate nazionali autorevoli (agenzie, quotidiani, tv);
+- **Giornali locali**: un elenco unico dei principali quotidiani locali, comprese le edizioni locali di Corriere e Repubblica, più quelli che ogni tema aggiunge per conto suo (per esempio StrettoWeb e Tempostretto per il Ponte, Salto.bz e La Provincia di Sondrio per l'idroelettrico);
 - **Stampa specializzata**: un elenco diverso per ogni tema (per esempio Quotidiano Sanità e Nurse24 per la sanità, Staffetta Quotidiana e QualEnergia per l'idroelettrico, Roars e Orizzonte Scuola per l'università).
 
 Temi attuali: Ponte sullo Stretto, università, sanità italiana, concessioni idroelettriche, aree interne, filiera agroalimentare.
@@ -31,15 +32,16 @@ Si modifica solo `temi.toml`. Per ogni tema:
 - `parole`: almeno una deve comparire nel titolo, altrimenti l'articolo viene scartato. È il filtro più importante: senza, Google News restituisce anche pagine che citano il tema solo nella barra laterale;
 - `escludi`: parole che fanno scartare l'articolo se compaiono nel titolo;
 - `ore`: per i temi con poche notizie al giorno, una finestra più lunga;
-- `fonti_specialistiche`: i domini dei siti di settore per quel tema (es. `"quotidianosanita.it"`).
+- `fonti_specialistiche`: i domini dei siti di settore per quel tema (es. `"quotidianosanita.it"`);
+- `fonti_locali`: giornali locali da aggiungere, solo per quel tema, a quelli dell'elenco generale.
 
 In `[impostazioni]`:
 
-- `fonti_autorevoli` sono i domini dei giornali generalisti, validi per tutti i temi; i sottodomini sono compresi (`corriere.it` include `corrieredelmezzogiorno.corriere.it`);
+- `fonti_autorevoli` sono i domini dei giornali nazionali, `fonti_locali` quelli dei giornali locali, validi per tutti i temi. I sottodomini sono compresi, e quando un sito sta in due elenchi vince il dominio più specifico: `torino.corriere.it` è tra i locali, quindi Corriere Torino finisce lì e non tra i nazionali con `corriere.it`;
 - `max_articoli` e `max_per_fonte` limitano quanti articoli entrano per gruppo e per testata, così una fonte molto prolifica non riempie la sezione da sola;
 - `fonti_escluse` elenca le testate da scartare sempre.
 
-Se si svuotano sia `fonti_autorevoli` sia le `fonti_specialistiche`, la rassegna torna a prendere articoli da tutte le fonti.
+Se si svuotano tutti gli elenchi di fonti, la rassegna torna a prendere articoli da tutte le fonti.
 
 Per capire se un sito è indicizzato da Google News basta cercare `site:dominio.it` su [news.google.com](https://news.google.com).
 

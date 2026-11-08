@@ -102,66 +102,80 @@ def contiene(testo: str, parole: list[str]) -> bool:
     return any(re.search(r"(?<!\w)" + re.escape(p), testo) for p in parole)
 
 
+def gruppi_del_tema(tema: dict, imp: dict) -> list[tuple[str, list[str]]]:
+    """I gruppi di fonti del tema, nell'ordine in cui compaiono nella pagina."""
+    gruppi = [
+        ("Giornali", imp.get("fonti_autorevoli", [])),
+        ("Giornali locali", imp.get("fonti_locali", []) + tema.get("fonti_locali", [])),
+        ("Stampa specializzata", tema.get("fonti_specialistiche", [])),
+    ]
+    return [(nome, domini) for nome, domini in gruppi if domini]
+
+
 def cerca(tema: dict, imp: dict) -> list[dict]:
-    """Articoli del tema, divisi in gruppi di fonti (giornali, stampa specializzata).
+    """Articoli del tema, divisi in gruppi di fonti.
 
     Google News ignora il limite di tempo quando una ricerca combina parole e
     un elenco di siti, e restituisce al massimo 100 risultati ordinati per
     pertinenza: così gli articoli del giorno restano fuori. Per questo:
-    - per i giornali si usa la ricerca del tema, filtrando poi per dominio,
-      più una ricerca del tema ristretta ai siti, per non perdere nulla;
+    - per i giornali (nazionali e locali) si usa la ricerca del tema, filtrando
+      poi per dominio, più una ricerca del tema ristretta ai siti;
     - per la stampa specializzata si prende tutto quello che i siti hanno
       pubblicato nelle ultime ore (pochi siti per volta) e si filtra per
       parole nel titolo.
+    Ogni articolo va nel gruppo del dominio più specifico che lo comprende:
+    torino.corriere.it, se è tra i locali, batte corriere.it tra i nazionali.
     """
     ore = tema.get("ore", imp["ore"])
     da = datetime.now(timezone.utc) - timedelta(hours=ore)
     escludi = [p.lower() for p in tema.get("escludi", [])]
     parole = [p.lower() for p in tema.get("parole", [])]
     fonti_escluse = [f.lower() for f in imp.get("fonti_escluse", [])]
-    autorevoli = imp.get("fonti_autorevoli", [])
-    specialistiche = tema.get("fonti_specialistiche", [])
+    gruppi = gruppi_del_tema(tema, imp)
 
-    generale = leggi_feed(tema["query"], ore, imp)
-    gruppi: list[tuple[str, list[dict]]] = []
-    if autorevoli:
-        cand = list(generale)
-        for i in range(0, len(autorevoli), 15):
-            siti = " OR ".join("site:" + d for d in autorevoli[i:i + 15])
-            cand += leggi_feed(f"({tema['query']}) ({siti})", ore, imp)
-        gruppi.append(("Giornali", [c for c in cand if appartiene(c["dominio"], autorevoli)]))
-    if specialistiche:
-        cand = list(generale)
-        for i in range(0, len(specialistiche), 5):
-            cand += leggi_feed(" OR ".join("site:" + d for d in specialistiche[i:i + 5]), ore, imp)
-        gruppi.append(("Stampa specializzata",
-                       [c for c in cand if appartiene(c["dominio"], specialistiche)]))
+    candidati = leggi_feed(tema["query"], ore, imp)
     if not gruppi:  # nessun elenco di fonti: si prende tutto
-        gruppi = [("", generale)]
+        gruppi = [("", [])]
+    for nome, domini in gruppi:
+        if nome == "Stampa specializzata":
+            for i in range(0, len(domini), 5):
+                candidati += leggi_feed(" OR ".join("site:" + d for d in domini[i:i + 5]), ore, imp)
+        elif domini:
+            for i in range(0, len(domini), 15):
+                siti = " OR ".join("site:" + d for d in domini[i:i + 15])
+                candidati += leggi_feed(f"({tema['query']}) ({siti})", ore, imp)
 
-    risultato, visti = [], set()
-    for gruppo, candidati in gruppi:
-        candidati.sort(key=lambda c: c["quando"], reverse=True)
-        per_fonte: dict[str, int] = {}
-        scelti = []
-        for c in candidati:
-            t = c["titolo"].lower()
-            chiave = normalizza(c["titolo"])
-            if (c["quando"] < da or len(chiave) < 20 or chiave in visti
-                    or chiave == normalizza(c["fonte"])
-                    or (parole and not contiene(t, parole))
-                    or contiene(t, escludi)
-                    or any(f in c["fonte"].lower() or f in c["dominio"] for f in fonti_escluse)):
-                continue
-            if per_fonte.get(c["fonte"], 0) >= imp["max_per_fonte"]:
-                continue
-            visti.add(chiave)
-            per_fonte[c["fonte"]] = per_fonte.get(c["fonte"], 0) + 1
-            scelti.append({**c, "quando": c["quando"].astimezone(ROMA).isoformat(), "gruppo": gruppo})
-            if len(scelti) >= imp["max_articoli"]:
-                break
-        risultato += scelti
-    return risultato
+    def gruppo_di(host: str) -> str | None:
+        migliore, lunghezza = None, -1
+        for nome, domini in gruppi:
+            if not domini:
+                return nome
+            for d in domini:
+                if (host == d or host.endswith("." + d)) and len(d) > lunghezza:
+                    migliore, lunghezza = nome, len(d)
+        return migliore
+
+    candidati.sort(key=lambda c: c["quando"], reverse=True)
+    scelti = {nome: [] for nome, _ in gruppi}
+    per_fonte: dict[tuple[str, str], int] = {}
+    visti = set()
+    for c in candidati:
+        gruppo = gruppo_di(c["dominio"])
+        t = c["titolo"].lower()
+        chiave = normalizza(c["titolo"])
+        if (gruppo is None or c["quando"] < da or len(chiave) < 20 or chiave in visti
+                or chiave == normalizza(c["fonte"])
+                or (parole and not contiene(t, parole))
+                or contiene(t, escludi)
+                or any(f in c["fonte"].lower() or f in c["dominio"] for f in fonti_escluse)):
+            continue
+        if (per_fonte.get((gruppo, c["fonte"]), 0) >= imp["max_per_fonte"]
+                or len(scelti[gruppo]) >= imp["max_articoli"]):
+            continue
+        visti.add(chiave)
+        per_fonte[(gruppo, c["fonte"])] = per_fonte.get((gruppo, c["fonte"]), 0) + 1
+        scelti[gruppo].append({**c, "quando": c["quando"].astimezone(ROMA).isoformat(), "gruppo": gruppo})
+    return [a for nome, _ in gruppi for a in scelti[nome]]
 
 
 def titoli_precedenti(oggi: str, giorni: int = 7) -> set[str]:
@@ -198,6 +212,12 @@ section{margin-bottom:36px}
 h2{font-family:Georgia,"Times New Roman",serif;font-size:1.45rem;margin:0 0 6px;scroll-margin-top:12px}
 h2 small{font-family:inherit;font-size:.85rem;color:var(--tenue);font-weight:normal;margin-left:6px}
 h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accento);margin:18px 0 0}
+h3 span{color:var(--tenue);font-weight:normal;margin-left:4px}
+.filtro{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.filtro button{font:inherit;font-size:.9rem;cursor:pointer;border:1px solid var(--accento);background:transparent;color:var(--testo);border-radius:6px;padding:5px 12px}
+.filtro button[aria-pressed="true"]{background:var(--accento);color:#fff}
+body[data-filtro] .gruppo{display:none}
+body[data-filtro] .gruppo h3{display:none}
 ul{list-style:none;margin:0;padding:0}
 li{padding:10px 0;border-bottom:1px solid var(--riga)}
 li a{color:var(--testo);text-decoration:none;font-weight:600}
@@ -217,7 +237,29 @@ def pagina(titolo: str, corpo: str, profondita: int = 0) -> str:
 <style>{CSS}</style>
 </head><body><main>
 {corpo}
-</main></body></html>
+</main>
+<script>
+(function(){{
+  var bott = document.querySelectorAll('.filtro button');
+  if (!bott.length) return;
+  var stile = document.createElement('style');
+  document.head.appendChild(stile);
+  function scegli(f){{
+    bott.forEach(function(b){{ b.setAttribute('aria-pressed', b.dataset.f === f ? 'true' : 'false'); }});
+    if (f === 'tutti') {{ delete document.body.dataset.filtro; stile.textContent = ''; }}
+    else {{ document.body.dataset.filtro = f; stile.textContent = 'body[data-filtro] .gruppo[data-g="' + f + '"]{{display:block}}'; }}
+    document.querySelectorAll('.n').forEach(function(n){{
+      var c = JSON.parse(n.dataset.conti); n.textContent = c[f] || 0;
+    }});
+    try {{ localStorage.setItem('rassegna-filtro', f); }} catch (e) {{}}
+  }}
+  bott.forEach(function(b){{ b.addEventListener('click', function(){{ scegli(b.dataset.f); }}); }});
+  var salvato = null;
+  try {{ salvato = localStorage.getItem('rassegna-filtro'); }} catch (e) {{}}
+  if (salvato && document.querySelector('.filtro button[data-f="' + salvato + '"]')) scegli(salvato);
+}})();
+</script>
+</body></html>
 """
 
 
@@ -227,10 +269,30 @@ def ancora(nome: str) -> str:
 
 def html_report(imp: dict, dati: dict, link_archivio: str) -> str:
     ora = datetime.fromisoformat(dati["generato"])
+    def conti(t: dict) -> str:
+        c = {"tutti": len(t["articoli"])}
+        for a in t["articoli"]:
+            g = ancora(a.get("gruppo", "")) or "tutti"
+            if g != "tutti":
+                c[g] = c.get(g, 0) + 1
+        return html.escape(json.dumps(c))
+
     nav = "".join(
-        f'<a href="#{ancora(t["nome"])}">{html.escape(t["nome"])}<span>{len(t["articoli"])}</span></a>'
+        f'<a href="#{ancora(t["nome"])}">{html.escape(t["nome"])}'
+        f'<span class="n" data-conti="{conti(t)}">{len(t["articoli"])}</span></a>'
         for t in dati["temi"]
     )
+    tutti_gruppi = []
+    for t in dati["temi"]:
+        for g in t.get("gruppi", []):
+            if g not in tutti_gruppi:
+                tutti_gruppi.append(g)
+    filtro = ""
+    if len(tutti_gruppi) > 1:
+        bottoni = ['<button type="button" data-f="tutti" aria-pressed="true">Tutte le fonti</button>']
+        bottoni += [f'<button type="button" data-f="{ancora(g)}" aria-pressed="false">{html.escape(g)}</button>'
+                    for g in tutti_gruppi]
+        filtro = f'<div class="filtro" role="group" aria-label="Filtra per tipo di fonte">{"".join(bottoni)}</div>'
     sezioni = []
     for t in dati["temi"]:
         if t.get("errore"):
@@ -238,25 +300,29 @@ def html_report(imp: dict, dati: dict, link_archivio: str) -> str:
         elif not t["articoli"]:
             righe = '<p class="vuoto">Nessun articolo nuovo.</p>'
         else:
-            voci, gruppo = [], None
-            for a in t["articoli"]:
-                if a.get("gruppo") and a["gruppo"] != gruppo:
-                    gruppo = a["gruppo"]
-                    voci.append(f'</ul><h3>{html.escape(gruppo)}</h3><ul>')
+            def voce(a: dict) -> str:
                 q = datetime.fromisoformat(a["quando"])
                 quando = f"{q.day} {MESI[q.month - 1][:3]}, {q:%H:%M}"
-                voci.append(
-                    f'<li><a href="{html.escape(a["link"])}" target="_blank" rel="noopener">'
-                    f'{html.escape(a["titolo"])}</a>'
-                    f'<span class="meta">{html.escape(a["fonte"])} · {quando}</span></li>'
-                )
-            righe = ("<ul>" + "".join(voci) + "</ul>").replace("<ul></ul>", "")
+                return (f'<li><a href="{html.escape(a["link"])}" target="_blank" rel="noopener">'
+                        f'{html.escape(a["titolo"])}</a>'
+                        f'<span class="meta">{html.escape(a["fonte"])} · {quando}</span></li>')
+            nomi = t.get("gruppi") or [""]
+            blocchi = []
+            for g in nomi:
+                articoli = [a for a in t["articoli"] if a.get("gruppo", "") == g]
+                lista = ("<ul>" + "".join(voce(a) for a in articoli) + "</ul>") if articoli \
+                    else '<p class="vuoto">Nessun articolo.</p>'
+                titolo_g = f"<h3>{html.escape(g)} <span>{len(articoli)}</span></h3>" if g else ""
+                blocchi.append(f'<div class="gruppo" data-g="{ancora(g) or "tutti"}">{titolo_g}{lista}</div>')
+            righe = "".join(blocchi)
         sezioni.append(
             f'<section><h2 id="{ancora(t["nome"])}">{html.escape(t["nome"])}'
-            f'<small>{len(t["articoli"])} articoli · ultime {t["ore"]} ore</small></h2>{righe}</section>'
+            f'<small><span class="n" data-conti="{conti(t)}">{len(t["articoli"])}</span> articoli'
+            f' · ultime {t["ore"]} ore</small></h2>{righe}</section>'
         )
     corpo = f"""<header><h1>{html.escape(imp["titolo"])}</h1>
 <p class="data">{data_estesa(ora).capitalize()} · aggiornata alle {ora:%H:%M}</p></header>
+{filtro}
 <nav>{nav}</nav>
 {''.join(sezioni)}
 <footer>Articoli da Google News, solo dalle testate scelte in temi.toml, senza quelli già usciti nelle rassegne della settimana.
@@ -295,7 +361,8 @@ def main() -> int:
     temi, errori = [], 0
     for tema in config["tema"]:
         print(f"→ {tema['nome']}")
-        voce = {"nome": tema["nome"], "ore": tema.get("ore", imp["ore"]), "articoli": []}
+        voce = {"nome": tema["nome"], "ore": tema.get("ore", imp["ore"]),
+                "gruppi": [g for g, _ in gruppi_del_tema(tema, imp)], "articoli": []}
         try:
             articoli = cerca(tema, imp)
             voce["articoli"] = [a for a in articoli if normalizza(a["titolo"]) not in gia_usciti]
