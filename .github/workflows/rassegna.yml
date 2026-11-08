@@ -35,10 +35,10 @@ jobs:
             echo "Questo è l'orario dell'altra stagione: salto"; echo "parti=no" >> "$GITHUB_OUTPUT"
           fi
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         if: steps.orario.outputs.parti == 'si'
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         if: steps.orario.outputs.parti == 'si'
         with:
           python-version: "3.12"
