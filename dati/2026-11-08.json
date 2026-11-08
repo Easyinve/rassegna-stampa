@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-08T11:14+01:00",
+ "generato": "2026-11-08T11:24+01:00",
  "temi": [
   {
    "nome": "Ponte sullo Stretto",
@@ -564,6 +564,14 @@
      "gruppo": "Giornali locali"
     },
     {
+     "titolo": "Rocca: “Una sanità più efficiente valorizzando i farmacisti ospedalieri” VIDEO",
+     "fonte": "Quotidiano Sanità",
+     "dominio": "quotidianosanita.it",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbVZlUVlaMTRocUZMUjJPQmZQX0xzM2xNRVJ0VTRPZF8xUmlXeERDMXNiUnpqSnZjUmVlMU8tZXRqX0RGa3NldjZMYTdJemFwYWRPNDhjLU10VjdnMVdwQTlyaG92Ri11SW5jaWVZM0x4X2xMc3dLdndvb3JETkhMVU9oXzRtYk9aSThvek81SV8yWElDRGswMVBQU2lyRF9ESWZHTVJtX0hCaThJdkZYTTFEaG16QQ?oc=5",
+     "quando": "2026-11-08T07:59:58+01:00",
+     "gruppo": "Stampa specializzata"
+    },
+    {
      "titolo": "Mecozzi (Sifo): “Il farmacista clinico sarà protagonista della sanità del futuro” VIDEO",
      "fonte": "Quotidiano Sanità",
      "dominio": "quotidianosanita.it",
@@ -585,14 +593,6 @@
      "dominio": "quotidianosanita.it",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSVQ5UjVHMUNkM2s2OE56NEx2RkZVZ1ZTOGdLZlhOLXJ2NUt2Ql9LQU5WNVhZMUlLbkhYSjBEMGV6TWxDc3hCNEhqaGl3T1FPUVFVQnpXblBHM1VVTW5rdm0wQU9fOE1ILVgxT1I0VkVsRUtDUWFqTzg2azVtZl9pM29aalBxUWxRdkw1NUNZNC1mNlY4a0ctM0tlVmxQcEdSSlZJb1lYWkcyNmNNTzFGbGlOSUZjaXI0ZVZOdTl3SXhMZ1VwMHc?oc=5",
      "quando": "2026-11-08T03:09:51+01:00",
-     "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Manovra. Salta lo “scontrino sanitario”: la Camera stralcia la norma che prevedeva di comunicare ai cittadini il costo delle prestazioni del Ssn",
-     "fonte": "Quotidiano Sanità",
-     "dominio": "quotidianosanita.it",
-     "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOcFRCMjIzS2ZMYVl2aWhtSFhTWjZNMkFXY1gzZlU0bXR1MkpaSlFIRXFsTGdaeWljSXl5aWJoaUpVWWJfZkI3dHlBR242dUVuT3hBVzQwV0c2MG16UlUxUk10RzNaeFI0UHVxb19CRDRXbDJGbHQ5U3NLWWlFeFN0bDRPUVZWbUlkOTFfQl9ZTFB3N0hKUXJNaXE1RTUzaXJoRW5qZHZqU3RCc1BVTWFVT2dVbGtHRFVzalJkNlFxUGZRNTR2djlMVXBRUUJmcUdxNXRMcEVkOUp1SEhJSlBqZHVVM2J6aGYyaFNQRGZDRFB4Y1BNWV9ycW1OT1E5ZHM2YS1XeEZuOTdxYlAyRWpXMGlmZHNGUQ?oc=5",
-     "quando": "2026-11-07T23:32:10+01:00",
      "gruppo": "Stampa specializzata"
     },
     {
@@ -732,6 +732,14 @@
     "Stampa specializzata"
    ],
    "articoli": [
+    {
+     "titolo": "Dalla crisi dell'olio ai furti nelle campagne, l'allarme degli agricoltori in Puglia: «Rubate olive e piante resistenti alla Xylella»",
+     "fonte": "Corriere Lecce",
+     "dominio": "lecce.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOSHdkc3RwMXd0RU5PVjBlbXBjSXlxbDJzMkl4SjdKWXM4ajBLZjNLRS1VdW84djBING53QnBMbklWTHlJZGpIeE83RzVpWFJnNXdaQTRzaFBCNHA5VHpHLUZGR2xOZ3hmbk1LdXFlb3YyQWZnVFozNEdoVlcxa2lkWkhkeFJJTGdvci1RckRiYUo0SkZDVWpSd3lxQzB4djRjU3lFTG9CX2Z6VlFvOS0yZkdmTVpia2YwM2hpUGlOaWhIaHM0dXRqeDlfelJ6Mm5OVGw0NS1Wcnp3U2pLYzVOTXQ3QlZYZ1diTGtsa0trWWRKSUZLY3lJRWthc0dTYzZaV2ZKZ1BUZnFZOHpVQTVqOWV0UWw0am1iWDVvdFhoQ2padUhEYjVxeVdIVXB6SC1LWkRuUkw1QVR5S1ZlMDdXV29saV9XZWpyQUItRzR30gHTAkFVX3lxTE9oWUY4UWFsa3hWcFZsZDU1NHExMHR4cTZvNWdySHRwN3UyblpnVFRGSzZQX2xSaUxmZ1ZHeVNjZ3VQM3JsWnhucTlNZFlKZ3EtSDB2cUpCME5LSHdrYWhzb1BiczFVaHU0Y1NNRmtJcVFRUUE1bTZzY2dvX3RKZjh0dTlYdzdzb1NtVU9GNlRadkpXaHp0dDFlS1NQSnhLczBpNG1MeWx2U2xBUDdrWEZucGFub0pIczRyLWs5VWE2QnZvbWlHT05ucjVIQmRYTWFNRHhWdTVNakZ3RmRJQVg0dmhRWXhUWWU3d2ZUd29vRnF6Qm1CcnY0cjlZWmw2N2VDdnQ2YUxHS255RWJJbkFXVFNWNEpfN2VRUERONUUtMnFZeWt3czZsRVJMbVZfXzJrdWxrVTgwS0I4WkFwLUp2eXhMUks2WlVWRGU1RnMwMk0zTQ?oc=5",
+     "quando": "2026-11-08T11:10:54+01:00",
+     "gruppo": "Giornali"
+    },
     {
      "titolo": "Studenti e agricoltori in piazza contro carovita e riarmo: “Basta soldi per le guerre\"",
      "fonte": "Il Fatto Quotidiano",
