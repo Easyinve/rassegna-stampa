@@ -4,12 +4,15 @@
 #   nome    -> il titolo della sezione nel report
 #   query   -> la ricerca su Google News (stessa sintassi del sito:
 #              virgolette per le frasi esatte, OR per le alternative,
-#              -parola per escludere)
+#              -parola per escludere). Meglio non superare 6-7 alternative
+#              per ricerca: oltre, Google News ignora il limite di tempo e
+#              restituisce articoli vecchi. Se servono più alternative si
+#              scrive un elenco di ricerche: query = ['...', '...']
 #   parole  -> (facoltativo ma consigliato) almeno una di queste deve
 #              comparire nel TITOLO, altrimenti l'articolo viene scartato.
 #              Serve perché Google News trova anche pagine che citano il
 #              tema solo nella barra laterale. Basta un pezzo di parola:
-#              "aten" trova sia "ateneo" sia "atenei".
+#              "aten*" trova sia "ateneo" sia "atenei".
 #   escludi -> (facoltativo) parole che, se compaiono nel titolo,
 #              fanno scartare l'articolo
 #   ore     -> (facoltativo) quanto indietro cercare per questo tema;
@@ -88,17 +91,35 @@ fonti_escluse = []
 [[tema]]
 nome = "Ponte sullo Stretto"
 query = '"ponte sullo Stretto" OR "ponte di Messina" OR "Stretto di Messina"'
-parole = ["ponte sullo stretto", "ponte di messina", "stretto di messina", "ponte sul", "ciucci", "webuild"]
+parole = ["ponte sullo stretto", "ponte di messina", "stretto di messina", "ponte sul*", "ciucci", "webuild"]
 ore = 48
 fonti_locali = ["strettoweb.com", "messinatoday.it", "reggiotoday.it", "tempostretto.it"]
 fonti_specialistiche = ["ingenio-web.it", "edilportale.com", "infobuildenergia.it",
   "webuildvalue.com"]
 
 [[tema]]
+nome = "Grandi opere"
+query = [
+  '"grandi opere" OR "Torino-Lione" OR Tav OR "terzo valico" OR Pedemontana OR Gronda',
+  '"diga foranea" OR "tunnel del Brennero" OR "galleria di base" OR "alta velocità" OR "Salerno-Reggio" OR Webuild',
+  '"codice degli appalti" OR "opere pubbliche" OR "infrastrutture strategiche" OR "commissario straordinario"',
+]
+parole = ["grandi opere", "torino-lione", "tav", "no tav", "terzo valico", "brennero", "pedemontana",
+          "gronda", "diga foranea", "alta velocità", "salerno-reggio", "webuild",
+          "codice degli appalti", "appalt*", "opere pubbliche", "opera pubblica",
+          "infrastruttur*", "anas", "rfi", "commissario straordinario", "galleria di base"]
+# il Ponte ha già la sua sezione
+escludi = ["ponte sullo stretto", "stretto di messina"]
+fonti_specialistiche = ["edilportale.com", "ingenio-web.it", "infobuildenergia.it",
+  "webuildvalue.com", "lavoripubblici.it", "ediliziaeterritorio.ilsole24ore.com",
+  "ferrovie.info", "ferrovie.it", "trasporti-italia.com", "teknoring.com",
+  "ilgiornaledellarchitettura.com"]
+
+[[tema]]
 nome = "Università"
 query = 'università OR atenei OR ateneo OR rettori OR "ministra Bernini" OR "semestre filtro" OR "diritto allo studio"'
-parole = ["universit", "aten", "rettor", "bernini", "semestre filtro", "diritto allo studio",
-          "ricercator", "anvur", "crui", "test di medicina", "medicina", "borse di studio"]
+parole = ["universit*", "aten*", "rettor*", "bernini", "semestre filtro", "diritto allo studio",
+          "ricercator*", "anvur", "crui", "test di medicina", "medicina", "borse di studio"]
 escludi = ["calcio", "basket", "volley", "nuoto", "università popolare", "università della terza età"]
 fonti_specialistiche = ["roars.it", "corriereuniv.it", "orizzontescuola.it",
   "tecnicadellascuola.it", "ilbolive.unipd.it", "flcgil.it", "scienzainrete.it",
@@ -107,9 +128,9 @@ fonti_specialistiche = ["roars.it", "corriereuniv.it", "orizzontescuola.it",
 [[tema]]
 nome = "Sanità italiana"
 query = '"Servizio sanitario nazionale" OR sanità OR "Fondo sanitario" OR "liste d’attesa" OR "liste di attesa" OR Schillaci OR "medici di famiglia" OR "carenza di medici"'
-parole = ["sanit", "ssn", "liste d", "schillaci", "medici", "infermier", "ospedal",
+parole = ["sanit*", "ssn", "liste d", "schillaci", "medici", "infermier*", "ospedal*",
           "pronto soccorso", "asl", "fondo sanitario", "case di comunità"]
-escludi = ["aggredit", "aggredisce", "travolt", "accoltellat", "schiaffo", "incidente",
+escludi = ["aggredit*", "aggredisce", "travolt*", "accoltellat*", "schiaffo", "incidente",
            "rione sanità", "vicoli della sanità"]
 fonti_specialistiche = ["quotidianosanita.it", "panoramasanita.it", "gimbe.org",
   "nurse24.it", "doctor33.it", "healthdesk.it", "aboutpharma.com",
@@ -118,7 +139,7 @@ fonti_specialistiche = ["quotidianosanita.it", "panoramasanita.it", "gimbe.org",
 [[tema]]
 nome = "Concessioni idroelettriche"
 query = 'idroelettrico OR idroelettriche OR idroelettriche concessioni OR "grandi derivazioni"'
-parole = ["idroelettric", "grandi derivazioni", "dighe", "diga"]
+parole = ["idroelettric*", "grandi derivazioni", "dighe", "diga"]
 ore = 72
 fonti_specialistiche = ["qualenergia.it", "staffettaonline.com", "quotidianoenergia.it",
   "rinnovabili.it", "energiaoltre.it", "canaleenergia.com", "greenreport.it",
@@ -129,7 +150,7 @@ fonti_locali = ["salto.bz", "laprovinciadisondrio.it", "valtellinanews.it",
 [[tema]]
 nome = "Aree interne"
 query = '"aree interne" OR spopolamento OR "piccoli comuni" OR borghi spopolamento OR "Strategia nazionale aree interne"'
-parole = ["aree interne", "spopolament", "piccoli comuni", "borgh", "snai", "restanza", "comuni montani", "uncem"]
+parole = ["aree interne", "spopolament*", "piccoli comuni", "borgh*", "snai", "restanza", "comuni montani", "uncem"]
 ore = 48
 fonti_specialistiche = ["vita.it", "uncem.it", "openpolis.it", "rivistailmulino.it",
   "redattoresociale.it", "dislivelli.eu", "forumdisuguaglianze.org",
@@ -138,8 +159,8 @@ fonti_specialistiche = ["vita.it", "uncem.it", "openpolis.it", "rivistailmulino.
 [[tema]]
 nome = "Filiera agroalimentare"
 query = 'agroalimentare OR "filiera agroalimentare" OR agricoltori OR Coldiretti OR Lollobrigida OR "prezzi agricoli" OR agroindustria'
-parole = ["agroaliment", "filiera", "agricolt", "agricol", "coldiretti", "confagricoltura",
-          "cia", "lollobrigida", "agroindustr", "trattori", "allevator", "grano", "latte", "olio", "vino"]
+parole = ["agroaliment*", "filiera", "agricolt*", "agricol*", "coldiretti", "confagricoltura",
+          "cia", "lollobrigida", "agroindustr*", "trattori", "allevator*", "grano", "latte", "olio", "vino"]
 fonti_specialistiche = ["agronotizie.imagelinenetwork.com", "terraevita.edagricole.it",
   "informatoreagrario.it", "ilfattoalimentare.it", "teatronaturale.it",
   "agricolae.eu", "agricultura.it", "italiafruit.net", "myfruit.it",

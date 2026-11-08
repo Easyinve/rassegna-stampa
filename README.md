@@ -8,7 +8,7 @@ Non entra tutto quello che trova Google News, ma solo tre gruppi di fonti, mostr
 - **Giornali locali**: un elenco unico dei principali quotidiani locali, comprese le edizioni locali di Corriere e Repubblica, più quelli che ogni tema aggiunge per conto suo (per esempio StrettoWeb e Tempostretto per il Ponte, Salto.bz e La Provincia di Sondrio per l'idroelettrico);
 - **Stampa specializzata**: un elenco diverso per ogni tema (per esempio Quotidiano Sanità e Nurse24 per la sanità, Staffetta Quotidiana e QualEnergia per l'idroelettrico, Roars e Orizzonte Scuola per l'università).
 
-Temi attuali: Ponte sullo Stretto, università, sanità italiana, concessioni idroelettriche, aree interne, filiera agroalimentare.
+Temi attuali: Ponte sullo Stretto, grandi opere, università, sanità italiana, concessioni idroelettriche, aree interne, filiera agroalimentare.
 
 ## Come funziona
 
@@ -28,9 +28,9 @@ La pagina sarà su `https://<utente>.github.io/<nome-repository>/`.
 
 Si modifica solo `temi.toml`. Per ogni tema:
 
-- `query`: la ricerca su Google News, con la sintassi del sito (virgolette, `OR`, `-parola`);
-- `parole`: almeno una deve comparire nel titolo, altrimenti l'articolo viene scartato. È il filtro più importante: senza, Google News restituisce anche pagine che citano il tema solo nella barra laterale;
-- `escludi`: parole che fanno scartare l'articolo se compaiono nel titolo;
+- `query`: la ricerca su Google News, con la sintassi del sito (virgolette, `OR`, `-parola`). Conviene non superare 6-7 alternative per ricerca: oltre, Google News ignora il limite di tempo e restituisce articoli vecchi. Se servono più alternative si scrive un elenco di ricerche brevi, `query = ['...', '...']`, come nel tema delle grandi opere;
+- `parole`: almeno una deve comparire nel titolo, altrimenti l'articolo viene scartato. È il filtro più importante: senza, Google News restituisce anche pagine che citano il tema solo nella barra laterale. Le parole valgono intere (`"tav"` non trova "tavolo"); con l'asterisco finale basta l'inizio della parola (`"aten*"` trova "ateneo" e "atenei"). Maiuscole e minuscole non contano;
+- `escludi`: parole che fanno scartare l'articolo se compaiono nel titolo, con le stesse regole;
 - `ore`: per i temi con poche notizie al giorno, una finestra più lunga;
 - `fonti_specialistiche`: i domini dei siti di settore per quel tema (es. `"quotidianosanita.it"`);
 - `fonti_locali`: giornali locali da aggiungere, solo per quel tema, a quelli dell'elenco generale.

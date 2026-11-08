@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-08T10:55+01:00",
+ "generato": "2026-11-08T11:01+01:00",
  "temi": [
   {
    "nome": "Ponte sullo Stretto",
@@ -49,6 +49,209 @@
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQN1JtbTdQYWRJTnJ1Ty1zd0p4cm5pbTdnTE5nZFYyc2IzcFkwOER0UGVTOHgzemVnVDFNa2pUUWdyMVBTU1JyR0hrMjdNWXBkeW9wVEVkZ3VoSW9kdjFtaV8wWnBGdm54SUVEb3FsYVlKLXlpRUI5cll6U2lfOEVpLW1tcHlESjFQUjRCdk1sSHJ2THNaUVZWQW53b3E4cFN4LTFZcE84YVFEX3lkSWhYdk13dEFERHpZY08zaXYyZ0JYYk44c0RBdHVIcVA3S3RfelZ6dEVaN1JtRElwaDdxbzNnNzNOc1BtWndN0gHwAUFVX3lxTFBlSHA2dWFBMERLYXJzMlFJdk5fampVclFvM3Y1WktJNTVtdlI3S1ROQXBDSmZEallHcTlTMkduRmpIM2QxakRDd2dmSjVQekJFOVA3cnd0OHE5ZU5zLUptdS1PS1JJaUtiS21JZ2FiSXZvSzBxc3F0LVVDRE5YUkN5enhHRkNtZjJFWGtxNG1PSEYtNTBVT080S2h2S0RqX1VhQkJpdDRIc1BIWVpDZm9GaGllazZpX2Y2QTE1MGlZbEFYT3FlcTlaWFFDalZ6VUFOOWF6UUMzT3d2b2RVb3g4c1ZZbjhuLWtidEktbGZBNQ?oc=5",
      "quando": "2026-11-06T11:10:00+01:00",
      "gruppo": "Giornali locali"
+    }
+   ]
+  },
+  {
+   "nome": "Grandi opere",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Guerra ibrida, cyberattacco al tunnel del Brennero, colpita società che gestisce il progetto: accesso ai dati, indagini in corso",
+     "fonte": "Il Messaggero",
+     "dominio": "ilmessaggero.it",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOVh3YXU0aXJIZHJoUDNjeHpQdTZyTXl6Zm4wZFN6bkdHWmZVaUhDSUswbVJvbWI4U0ZmV212aW5oOEtEM04zTXRmZWdQRnFtQlJiYmRDcjgteUU5dVdjTW9PREl1ZmM2WndpYXJiV0p1WVM2YVdoalRPUy1XQjJrUUp2OTQzV196TnFtY1VveXlPdGc4SE44RUlFbm5sRlhYM2pnemY1OV9ETkFoMmVFY18xWGNHSzjSAbwBQVVfeXFMT0lxeWpHRUZBMGZHZWVWSTJVTEtERDZuZlZlQlNnMzhyN0F5WldRcW9nQ2JVdGtxU0RXeUlDeDZsZTNmRURHQVFBLXNYN3ZUMVFpZEQtcENNVU1Ec1dYYjNrQWt3WEVtZVp5bHFudE56NV9sd2ZaVngtTkltbXk0UU9oWDZOVnN4VXVTYlJvVzZPZ1VBdXRBSTdUVVVLNUpfWno0eUNMMVZqQ0steXFfbzNOMUR1czhfQWd0cU0?oc=5",
+     "quando": "2026-11-08T00:19:57+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Tav, altro rinvio: “È colpa degli scontri”. Ma è falso",
+     "fonte": "Il Fatto Quotidiano",
+     "dominio": "ilfattoquotidiano.it",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcUVhY0RVeG9GMjZNOGFfV0xwWGxYNHB6eTNiTTdSRFVfb0g3UERGeHV3NUp0U3g0OXdfT2htZHhGR2JhQkNrSDhlZl9idHQ1TFdJUGQ1Z0VlUWlfcDcySHJzcUE2VnBUaFVLR0FmU1Z2T3k2NzRmOER4VjAzeEp3WFJQb1VGX1ZSNUxWa2lNQmdUSXlxOHBuZU5ZSW14X29BclpnX1hFRWFBM1pXbENHYkJvTHJ5NXJZcG5SUEJuQQ?oc=5",
+     "quando": "2026-11-08T00:01:00+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Cantieri fermi e stop ai fondi, il Terzo Valico al rallentatore: “E qui non c’è più lavoro”",
+     "fonte": "La Stampa",
+     "dominio": "lastampa.it",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOejlNaC1FbDJiZzhNQVV5b0RWSGl3T29JUy1MQnFOVlZzVHJwd0V6eVItbE9ZWUZSOVhkREx3Y0hXNHRnV1c4bmxPb2hVanBkSDJxOUdPcmREY1EyazhfUXo1NG05RXo3NjEwLXgzTmJwWm1GMnpaSTRLTlhiTnVWaTFsQTlLckJ0MEg4X3Fvbjl1bTBfb0V1RFBZT010ekNDTHJzSW130gGmAUFVX3lxTE56OU1oLUVsMmJnOE1BVXlvRFZIaXdPb0lTLUxCcU5WVnNUcnB3RXp5Ui1sT1lZRlI5WGRETHdjSFc0dGdXVzhubE9vaFVqcGRIMnE5R09yZERjUTJrOF9RejU0bTlFejc2MTAteDNOYnBabUYyelpJNEtOWGJOdVZpMWxBOUtyQnQwSDhfcW9uOXVtMF9vRXVEUFlPTXR6Q0NMcnNJbXc?oc=5",
+     "quando": "2026-11-07T22:43:00+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Cyberattacco alla società della Galleria del Brennero",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeUZ4aVBGaV93TFZYWXhjV2d0ZEs1LWM0WnB1S0JzMDdlRW0tVHVtOW9JcEM3YVgwVVA1VUJQN25oZEZNOU4zdllVQVo0VzhCQmQzV3FuSThSb1I3TG1Bc3NGamhpRzkwU0dfeXlzTkVXcV9mZkhnSUhtVDFXVmhsYkRRVDkzVXBySTg5cDhKVC12SjRrX0hyWlFUeVlMNDNIMkgwelV4WXVOdkZ6N01Zak50b09lNE50M0hfY3dUMWIySGl6V3hRa2pIZnh4RWV0eklaTHVOTUNwTF9GVGlDYUE2UWxUcUwxaVNfdHMtSkN2dFMw0gH0AUFVX3lxTE95RnhpUEZpX3dMVlhZeGNXZ3RkSzUtYzRacHVLQnMwN2VFbS1UdW05b0lwQzdhWDBVUDVVQlA3bmhkRk05TjN2WVVBWjRXOEJCZDNXcW5JOFJvUjdMbUFzc0ZqaGlHOTBTR195eXNORVdxX2ZmSGdJSG1UMVdWaGxiRFFUOTNVcHJJODlwOEpULXZKNGtfSHJaUVR5WUw0M0gySDB6VXhZdU52Rno3TVlqTnRvT2U0TnQzSF9jd1QxYjJIaXpXeFFrakhmeHhFZXR6SVpMdU5NQ3BMX0ZUaUNhQTZRbFRxTDFpU190cy1KQ3Z0UzA?oc=5",
+     "quando": "2026-11-07T16:23:37+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Attacco hacker al Brennero. Tajani: diffusi miei dati su dark web",
+     "fonte": "AGI",
+     "dominio": "agi.it",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSURqSDZLb2hvY2tjSi1MYVM0Ums1NUo5Vl9CM09raGxRcmJNcC1rRE8xME1nNmpodjg2RWRkd2lFREJlQkNlOVpIdHRvVnA3S0I4cUszZXFRX3J0WmxQbzFMcHBwcl9oWkJDM0RmSDFWOWdrWERkN0NJTHpHcVZLZ3JyZ3IwTWg3c1JueUlR0gGTAUFVX3lxTFBxSXV6TFk5NDVIN3hEcWpFQ2JkQTh4UndNdVhOcTk3NWV2Nm80akFKM2xNOGlXOHk3X1dJczlKbERvbFdmSkM2eXV0am1BeGtwN1dlVW9DNkhJYWxzTDgtcmF3VzVGQUFTN0JrMGxBMWxJSi1tblhzZlpKa0pyd29EYXZzVm44SUliWTZGS19rS19wRQ?oc=5",
+     "quando": "2026-11-07T14:51:48+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Tunnel del Brennero, attacco hacker alla società di gestione Bbt Se",
+     "fonte": "Il Sole 24 ORE",
+     "dominio": "ilsole24ore.com",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbzlEMmVJdTlodlVnX1BFSWh0ckw3UWZrTGJMblFLWkFxcmpMMFVvejgzY1BlRjhWRGVMVWpuVHE2aVhadmhzU3BmZHZLVUIzQTdCUGluM012aFh6TFRoTXJqTWFEQzFDZHhFSHFLN21xNTM4M2IxTEREemp5a3hxYzA1aGxlMUdYc2s4R1dZcFRCRFlpVl9CVldQNA?oc=5",
+     "quando": "2026-11-07T12:50:36+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Attacco hacker al tunnel del Brennero, sospetti sul gruppo russofono Everest",
+     "fonte": "HuffPost Italia",
+     "dominio": "huffingtonpost.it",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUmNxeHlxd3Y5aGJGSEYxMFlGVEhpUHpTVmcyUmlWVEVpOWJHRW5ld2ZjSUg2UnpTNmQzeTJoY18zNjgxeDZiTTY0ZVpEQ00wOVROd0VPWExWQ1U0V0JkcTJTOVZjeXBZM3Q4Z0VhVnQ1ZGxadUZFaDdsbnZLM1hGYllfeHZHYWw2Q2xQLUFydTdpZXd3V04tTjFoRWgxUEstSjBEcWt3WVVKY3NzdXdsVWxwTQ?oc=5",
+     "quando": "2026-11-07T12:29:00+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Attacco ai server del tunnel del Brennero. BBT SE: \"Nessun impatto sui lavori\"",
+     "fonte": "RaiNews",
+     "dominio": "rainews.it",
+     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQY0cwNTkwWUtDVllEWGlPMjlUcUhCaVVCdWJuVm1xV3NMX2cxY2Z4WldrckQ2T1ZqV2hodVlkbEJrX2xNcnZxNVFLYlRGQ3pYZVBUdEdoV2JFcTJlcUZtVUlPZGNFVEJibm5yY3ZNNmZIYjBuc1lHVGJYSU9fSU83c29sLW1jWFEzRFEzVUJlOE5SS0JwZ0thbWJFbHR3T1lVR0lPdG9HWS1nbzRWNmFkY3M4Y254UXkyWWxvN2RtNGhGSkZ5SUlLdUFXdi1ENWtKeVZQT2wtTGFpWkhiN0pnaUdqQ0JwR1FBc3k3SFFoMDlwMG9CclVOcFFPQTFOaU5Fcl9ycmR5ejdxU0JqTFZNdm5nOHfSAZQCQVVfeXFMUGNHMDU5MFlLQ1ZZRFhpTzI5VHFIQmlVQnViblZtcVdzTF9nMWNmeFpXa3JENk9WaldoaHVZZGxCa19sTXJ2cTVRS2JURkN6WGVQVHRHaFdiRXEyZXFGbVVJT2RjRVRCYm5ucmN2TTZmSGIwbnNZR1RiWElPX0lPN3NvbC1tY1hRM0RRM1VCZThOUktCcGdLYW1iRWx0d09ZVUdJT3RvR1ktZ280VjZhZGNzOGNueFF5MllsbzdkbTRoRkpGeUlJS3VBV3YtRDVrSnlWUE9sLUxhaVpIYjdKZ2lHakNCcEdRQXN5N0hRaDA5cDBvQnJVTnBRT0ExTmlORXJfcnJkeXo3cVNCakxWTXZuZzh3?oc=5",
+     "quando": "2026-11-07T12:10:00+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Cybersicurezza: attacco alla societa' del tunnel del Brennero, in corso indagini",
+     "fonte": "Il Sole 24 ORE",
+     "dominio": "en.ilsole24ore.com",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16RVBobTl6SjJ5VWo4RHRtS3dFVEI1eEFPX2lYdUVCQVlDaTZ6TEp4VHJJRFFaeEJRaHlGXzZaYkRrcTJPY1ZkU2hNQ3p0c3Z5Sl83UHM4WHIxY1B0X0x4NmNhZTJCUk9vRW14WTFHTWt6UEk?oc=5",
+     "quando": "2026-11-07T12:07:33+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Attacco hacker al tunnel del Brennero, violati i sistemi informatici. Sospetti sul gruppo Everest",
+     "fonte": "Domani",
+     "dominio": "editorialedomani.it",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQTMwUkE4UC1hSzQ3eFkyRWRPQ19UYU9NUElPeVNkaDdIc3VaZkxuZHpHbXJpRjJySU5YdjVOczlFdkJVTkFoMDYza0d6NFlrQzJUNmkyZXpJdVd6NmlNRzBwbnp4V2pmU1E3RWg3eUVkZmFFc2dDajduQ2dWYWJaZm5sS3Vzc0Ztd1dFWmw3QlJHMkZXVk5SWGtxajZQZVdTZ0VBdWxoQ2ZRWGFsUFZ3NVlUUmE?oc=5",
+     "quando": "2026-11-07T11:35:00+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Messaggio di Pedemontana: «Non hai pagato il pedaggio»",
+     "fonte": "La Provincia di Como",
+     "dominio": "laprovinciadicomo.it",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEs3TDlUcjJYMjdVVlBaNVlXNjJWWEtTbEVLZ05ZUnFNQUsxLUk0a3gyNmFadHYteVRBd3doQVZnVkRqZUJwRWQtY3JfNUx0aXYtT3JudmV6S1pkc0ZvclFXeWd3WkpUOEEya0JxVXhMaHlyVVFIRi1DSGFXbTVmYWMxdGRVUE14US1LMjRQTGwyaU9rY3NMaWFibnJkRDMxbVBjNE5YdEVoWEhTZ3ZLeVREcEJpUThJdUR2c29NQjJYUkE?oc=5",
+     "quando": "2026-11-08T10:24:04+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "“In montagna è arrivata una spolverata di neve, ma così non si risolve la grave carenza idrica che ormai persiste da mesi: su Pedemontana e Prealpi peggio che nel 2022”",
+     "fonte": "il Dolomiti",
+     "dominio": "ildolomiti.it",
+     "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNM2tKQU1jd3IxS09YMzc3TE5KbVJrLXpMb3REOXVvb1c5MDRYRWtNeEFFMThsRElPeGlGdjZhWWUwUFdKZGdOdUFyYUVyNUxrdWpfUzRrR1drZXJNbGVzZURjbFNIeHBXQUJaQlhvR1FoX3NueFlvRU9uNTR0dHFBeWFPMXVNWXRsYzNqQ1dPSll1MWJmd1RydXFLMnhJRVBwczAtLUo0Z1NBMm9rZ0cza2hxVEp2RmNOM21iSDNJd2xxdWdKME43M0JmN3RnWl9tRXpkNUFWR0MtTW9TR2tkVVVnVVVEWjN1NmVHNHdfLXI4OHFiSEhGWjlfY3BOcTBTU1pFdFFhN0VxS3ZUTGMxTVcyRlVKbGtNYllFQUh1N2dESHBfa3BpZkJIdV8?oc=5",
+     "quando": "2026-11-08T09:59:10+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Hacker, dal tunnel del Brennero alle nostre case: «Siamo vulnerabili, cambiare password non basta. Io ad esempio non ho mai collegato le telecamere di casa a internet»",
+     "fonte": "Corriere Alto Adige",
+     "dominio": "corrieredellaltoadige.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNbTEwQ184enRITHNteTVlSzg5WERJamFkTmFIdkMtanlCNkE4SkRGMERhZUFmTHk1bVRTMldqYmRzZkFJWTl1WmEtcTRjeTJUVFBrTXN6OVh6UWF5VXJRSFR1NmFqUTVTRlZpSzUwcXdmUTR3ZW1aRzU5VmluaENXSGdVc3NtM0JGNGRleng1TUowZHpuY2NyM2laMzBzYTdnZV9EMEFONHRSeE1YVm1WcWpSTHVqZGg5Z3RDbFdYTDFRODN2S0o0aW9LS2w2ZzVTVmhfa29tVVBheGRJRUdtT2d6R0NRcjNZRUJJNTZVS2pTMXlKcFlmUlJ2T25rOUVIbmxDLVJxbzZfanVPS1g5d3I4M1lSNmJHZHYxdlVDUjhLSlczWEJndlUxUzB4eldSQnVZUEdEOU1WRmQ1OTN0Z29HZDdYTDVvYjVmLS1aQS1sREhwNENlZHYxSG1LZ2tKVUHSAecCQVVfeXFMUG9pb3RWMlMzTlp5TXVkaDZpYWVoajlyV1k0SjEwVTRjQ3ExeWNsdzcyV1FERHhyeGdvZGNfeUpVcldhV25tbUFzeFRHWmk1ZXJJRXhXd25qaWZGLXF0RmNwZUFxQWt4UWdPWVF0RmVUdU1DaHFCekFvVVVTSjFJM29QOTFIUUprOXBkX2hvQmZjRjlSaXdrR05sUkZLNUthaG5FZEpzU1ZGN0lfQ3YwdmM5UE1LcGZmSUVieTI4bU9hMTdqakQwcS1hdlNvc0ZnZmtnS1RLVkZ3cm9qUl8wSHUwT0l6Y3NjaThhejZtYlBpNHN3ZlhaT1RwSEwzVjdPNXM4a1l6OVFXUEpWbnZ6REY2VjVRVVk5RTlXaDZCOUxfa3R6ZnBoWnNXVHVCZzVyWlB2UlBacUJSRW9abFVvWXdDN2ZSWjhNbW45ZndRZUNYNTNhdEhYUHA2aXV2dU8wT3NESnA5YUk?oc=5",
+     "quando": "2026-11-08T09:21:09+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "«Scandalo Alta velocità, persi pure 1,8 miliardi». «Sono accuse ridicole» Ricci-Serfilippi al vetriolo",
+     "fonte": "Corriere Adriatico",
+     "dominio": "corriereadriatico.it",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQekt4NVMtVUZWaTJpRk15bTczUTJzRW1YeWRjamxSc200cDd5d1hxUWQ2bXpoemZOM3Z2SHR4WmdxZF9DeVZ0UTItREdIaEJzejNBOEJXN2JwUUpLdnpONG5IN0gzdjBONUpxcjdxaE5CZ2Z1NjlCU1RRNHdNd00xYXFXdWx6N2VwdTNmUHlLRmtiRjFvZTVEMkJFSDFDT2c0a0ZwZ01ZeVRWcWZHVGRjb0dpSS16MGRiUm5VYldWLWlta2JpckJKQdIBzgFBVV95cUxORnJSa2xoSTVwY3J5SmtDbEgtZzNPVXpNbVJMci1EMXFFQU9XbndYcExwM0Y3cXpkTnAwNlAtNUl1MHNRbVAtNmZISndnLU85U01xWGJrdTVsN1pNOFRNczR4dVZkYjRMZ29NdmVSZUt4UDJ3VVZLRXpUdHNmSEN5em5uM2o5X3pYSGIzLTliRDI5SmlEZENxN202YmlzUWFGN2FmSDJBWVBiTjgwTU1oZ0xkUUVTWW44OXFucnBsX0R0SkpfLVBwV0dqeDVXZw?oc=5",
+     "quando": "2026-11-08T02:55:03+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Tunnel del Brennero sotto attacco hacker: cosa è successo, chi c'è dietro e quali sono i rischi VIDEO",
+     "fonte": "Il Gazzettino",
+     "dominio": "ilgazzettino.it",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDdaWE1WVzJHUmRxVGltamVtVkNBTWgwMVBuMVVrYzUxSk4tdDhuLTNrSndVS0tBX2lLNTRReUliMDZHb2REeFZOb3ptSENfU1RsUGwwWjh6UzhlRHVIMUt6QUx4dVJlR2tUSFFrODh1RFByTmtneWVINUYwbE1DaEo2ZF8xWG1rQlloY3VtNVF1QUhlS0w1U0ticXR0eUVaM3F4ZU1LMlh2R2lp0gGnAUFVX3lxTE1UZVVPNWxRcnRyeTRZSEtRT2ViVUdFRkwxaHpVUVExMkNRVzI2Y09zSS05ZWZsSHhZREcwRENKQmhnY2FXc0dkWUVNMnZTV2F2SGZlMGNNSzkxUGFiLV9kWE9SYzdQVjZtNHRNUTlyN1Utd3hpNHhkNkItVzZBTlFYYW5HMzlHN0lkaS1TOHNkYVhicE5CVjhCWlFEZmNLS2xjX29NZ1Nv?oc=5",
+     "quando": "2026-11-07T16:28:04+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Attacco hacker al tunnel del Brennero, la pista del gruppo cybercriminale russofono. Urzì: “Occidente sotto attacco, chiaro il profilo: manca solo la firma”",
+     "fonte": "il Dolomiti",
+     "dominio": "ildolomiti.it",
+     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQTlZ4VkZseVQwY216R2p2X1NVMk0tVzVBNE9UUmQ4UEtKTXZWZTF4Rmgtd2FVRW54WmFST0QwVlMwLUVTSTBpZW5RNTI0ZTNmRHYwaHVVcTdTMnRqb2lyUGMzdTFSTGRRRGZEdE9jVjVKYWVfRHVoOUs3TkZUZkY5cHdDN0JRbVhncUVPQVJ2QmdVXzdvUWNRVUx3dU14QTZjQkJjOVdEMkNkNFlmSGJQejltV3pOWmV1dG9JeGpMZFFaNkRNeVpkM2pseDctMWR6SzdLU0pLQWRDUTliYzlId0s4OXZJSzBWRjhuSVhmbmFfdFNHWWVOVjNyOXlJYmRBTXB5OXd4YWktbF9LSTQyQV9zYTBoWWM?oc=5",
+     "quando": "2026-11-07T16:18:57+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Attacco hacker al Tunnel del Brennero, violati i sistemi informatici. La società: «Indagini in corso ma non ci sono ripercussioni sulle attività operative»",
+     "fonte": "Corriere Alto Adige",
+     "dominio": "corrieredellaltoadige.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQSWhSYWdPbjdUOHlGem5OZUx0N3JYVkdaNHhKVmU0NUtYY2V4M0ljajdXNnY1OUJZQ2dnX0djbndMdFpPWV9XT3l1SWVPZ2Z5NjhxaXRoX2I3ODNQbWpXVFJkSGljdWxmRU8xR0NiVFFDN1BzQXJVSWxzOF9ONldEQ2lEaHRBN2F4akRaVkc2MGNvYUdhcVYxNHcxZjA4bUVGSndNcGlGNEFHRmp3WGxGM0pQRm9maUpMUTFTczB4N1QxOVgyVjhIVHpCay1FZUVtRVhrT0cyWExfeERqZG94WEdFRUFRUC11ZVAyMXFuT0RGUDRfRE83ZkUxa3dtSnFaTllDSkVSUk9JTDRidzhlWU1rRXFEcUFyVTdsdjZKb3JTMGItUWcxX25tRGFBbHczNkwxdV9qc0N5aTUzc0pNeG1YbU92aGJ2a0FjZVNEamp5OERxWFkyaG5BS25CQdIB4wJBVV95cUxOWThkeURkOEZ0RW5sMkMwVFZxTEhZd1J0OUxDRmdhalhmcG5jaGZjZXh5bWtlM3lTZkRGN1AwQkwteXMzQ1FuaURZY1VieGgzSlktRXFrYkp0SmdtX1VxVEk3NHRJVkgxa0RQTVZYVjVreThMdzZMZ19hVDU3My1jNXlIb2xXMElWY3llcmRvMEVPYUJzMVZBVFFHR0d6Z29uWk82U3o5UmpHdU9PUG01OUpzY1EtTklQLXo0WHpRNk5hWDhCUTRTRWtYRU9vS08xV0owU3ljWHJSeF9KNDZrLWRubm15ZW5YUk1YN0xDTS04cnVvMVlaN3luSGM5YjlLSmxLb05zX2VEbnJxaUxBV21qcnI5NDRwUm1CRVREZVpTVi1QSEk2dU1qSElJcFVBbDZ2N0pwTFdSd0lCM0dSRHdzSlBRcEFZdlFtWXJ0TVVDTzM2X2EwS3ZZYnBTZ3BkNmJB?oc=5",
+     "quando": "2026-11-07T15:56:42+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Cyberattacco al tunnel del Brennero, Urzì: «Servono più investimenti nella sicurezza»",
+     "fonte": "Alto Adige",
+     "dominio": "altoadige.it",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUHBKNVBqVXdjRmdqeGREZmwzSUdOR1l1TVg5eUgzWWU2THkxUEtWTGV5MWNwVVlNV2lmOE5IbFpodTJQZ2NaZEs2MUxWVFhlTm9VeldSenhXanR2dlJaR1dzSlVnelBZYUYwcWI5Sy1uMkg3MV9lZGJCdlBMT3hpa3RuQy1WbGNEb2hXX0NGMUE3RS1fU0NYTEpnOWFhY0Jydmk0dDU5aE9DbVdfQkZqZGM1bUQwRHlaYXNIa0xhLUg?oc=5",
+     "quando": "2026-11-07T15:33:38+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Attacco hacker al Tunnel del Brennero: i sospetti sul gruppo filorusso “Everest”",
+     "fonte": "L'Unione Sarda.it",
+     "dominio": "unionesarda.it",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTXJuQWFyMGN4R3k5NFM4a1AydWdGLVBiZndFbVptYkt0UHMtMmR5QUF5c1FGSDNKVEFWbjVjLWFRZmVSSHh2eDRGMUJ0TDZJX2l0bk9GMVlQMEh2d1VsR1FiQlFWUFhONUFqalk5QXc4UmhnakRaUVF3anJpLUQ4b1NVVzFBeVZNbTdyTHJKWFhYZG1Ya3V1dXFoWDVvZGF3RnE3cFBUQnhBTmlFOVh3SXBVeFE3WTdpeHJkelNGaTM4ZnfSAcsBQVVfeXFMT2pIZmJzRmw4X292TDg0VXlubWFlaE1ockFjTEFXWF9kWGJWbXROWXk1VnJocFFYdzFfYnVVYXhhRDg2VE9pLVhxdF92dmRfb3NKM01JUURWemNkQ0Zfblk2REhYZTVTN0hQNGV1Ylg4UFg0b3FkUnFSZXUyYjlyYVNoMHJZT0hfaUpIaHA4d2hfSVU4alAwWWp3b0NrOFM2M1NJWVdpSERvWjJyakd1VjFSSDM1NEotRlpIMnlqcEJRZVExbzAtTWlsT1E?oc=5",
+     "quando": "2026-11-07T15:11:00+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Hacker contro il Tunnel del Brennero, indagini sul gruppo filorusso Everest",
+     "fonte": "L'Adige",
+     "dominio": "ladige.it",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZmg5WnlCZEVoSFgtRmNGbGFVT3JkU0lLaUJTeTVoQUgzYUVTOW93eG9EUFljYy1GNzN5V1NDelJvM2JoZkVZNHdObzdvUk4tenJETEdqb0pVNmRmZkgzUFVoR1htYi00RnVNU3d2dVZWOEVmV3pCNy16YlJIeVJrdklvdld1bDFvdllWYWsteFhrc0VOR3lMc3VhS0YwVWVXbU9jVC1aMUJsbjBfdkhhYWVmS1NXdnhvV1JrVnBIYS02X25CYldnRHRYNFBrS3lV?oc=5",
+     "quando": "2026-11-07T13:14:11+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Tunnel del Brennero nel mirino degli hacker russofoni di Everest",
+     "fonte": "Gazzetta del Sud",
+     "dominio": "gazzettadelsud.it",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdnVXa216T0hjN2xmYkRROWl5aDVSSG5ENE1ObThWcmgxYkUwTWpqMlNPSGZ2cEoxXzJEMjZOeU1DQXJWY2RmMXVxS2o4Q05FeXoxOGhYVURIQThEQm1VT1RQTjFuS2dhdUpxVEVrdW43S0U0RGptanZFQ0VPSHRFSDRDSEQ3b0lhMlg4ZDJ2VTQwYUNFR3JydWU2emZPV1l0ZWN3YVQya0hfbTdsZlBkT1pGUDRiOGVnSmo3WEJMb3dMTzlOY051RmZDVldJR3NFdFJNcGlpc3B1S1hVYnZxVTF3V2J3aU43NkEyMA?oc=5",
+     "quando": "2026-11-07T12:18:53+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Smart Road Anas: confronto con il Giappone su digitalizzazione, monitoraggio e mobilità connessa",
+     "fonte": "Ingenio",
+     "dominio": "ingenio-web.it",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU3hob2J5R3pScHhhdWxGcjVTNGk1dGlBa0tQY0ZFeUZ2ZXVBVUtOSVNmZHhvZ1JFaktoemo4d1BtbW9DMk5Rd2JCamtkTFdORGtIWlhfaE9QakhKVE4xSDdVeFZlN0RZd3gzUW5HYzZxQUN1T3J6STVWMW1DQnN2MEZBaDY5TGQtWC11TEtrYkdxREREODBRZUJfcWtZYWNEZ1NyN0duczV0YmFOaVdlQXNWYWN1MERKU1BtRTVUZVJWcWdKY2lwZVpzWEl0M25pQnpxZ0g3SWw5UQ?oc=5",
+     "quando": "2026-11-08T01:53:53+01:00",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Spagna: cala la fiducia nell'alta velocità dopo gli incidenti ferroviari",
+     "fonte": "Ferrovie.it",
+     "dominio": "ferrovie.it",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnYkthTnNRWG1UdmVsbXloMVJFZ3lSaDBXNUtEVkY5bGlhVUNQSTFwRzJtZTlMMFloc0kwallPMmROTnM1NWRuVGhKX2pCX1pPQkY2T3EzZGY5UQ?oc=5",
+     "quando": "2026-11-07T21:34:04+01:00",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "FAST-CONFSAL: Roma San Lorenzo perde la manutenzione Alta Velocità",
+     "fonte": "Ferrovie.it",
+     "dominio": "ferrovie.it",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CR1hTYmM2SWdfTEUtQUdPZmZUQVVuV2hIdGFfUG94ZUZFeUJ3NjlUWFpKQTZCTDZmTHZyc0FXcTFhZTQzTjNzRVEwWkhtempReWZBQThMY050UQ?oc=5",
+     "quando": "2026-11-07T11:36:50+01:00",
+     "gruppo": "Stampa specializzata"
     }
    ]
   },
@@ -115,14 +318,6 @@
      "dominio": "lagazzettadelmezzogiorno.it",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzF3X1RxazViek5vZTNZc1E0cEVWSVJlME5ES21wMWdKQVIwdG9weVhESFdnRDlYS2RSVmlJVWY0TWJsUXY3Ukd5NEpDQkFyWE5lNVF4OTNSVzR6amZyek90RGpiaFV1SmRDa2RhQVhqa21ETC14R0hUWmVrMDY0a0xpNHo5Qk1oS2RaVFlfV2E4WV9xMmpv?oc=5",
      "quando": "2026-11-08T06:15:16+01:00",
-     "gruppo": "Giornali locali"
-    },
-    {
-     "titolo": "Sicurezza a Rende e all'Unical, azione congiunta tra Municipio e ateneo",
-     "fonte": "Gazzetta del Sud",
-     "dominio": "cosenza.gazzettadelsud.it",
-     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMHZ1LWpONTl1V1d0NDQ5VUY3YlBYSGxYdFNtUnVYLWpScENYaUd4T0VITWYtR1YyeWFiNjltT2hibE9oNmxQVGs1ZkZxYmtUbk43TEZ5WDRVOWdNNGtqVkVrZkV6S3FPNHpZWGtxMjdBSi13SHlYdVNIR3NsU0tNNmtWWHpLMU1yOE9ISnpPSjZwRnZqenBoMHpGcE4yWTlpQ05NUk9BX01EVWRyUE5GNUNLZU1tQ05XVllBV3Z5V3VRT21JcnFfSUdxN2t2OV9rdzNQemQ0cERqZXZmNklxdE1YZXY4eUlDQU9EUnlueUJRMlRnbTdBZ00zeWRJdw?oc=5",
-     "quando": "2026-11-08T03:31:09+01:00",
      "gruppo": "Giornali locali"
     },
     {
@@ -577,6 +772,14 @@
     "Stampa specializzata"
    ],
    "articoli": [
+    {
+     "titolo": "Studenti e agricoltori in piazza contro carovita e riarmo: “Basta soldi per le guerre\"",
+     "fonte": "Il Fatto Quotidiano",
+     "dominio": "ilfattoquotidiano.it",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOEczdjJoeDdZUkNjRm5MOW9MR1VCOE9lZjhwQ01od05fMFlDbi1reGZnQXQwZHNtUG5rOVZlM2NXaWdwV0VXWTNkY3hmXzJJU2IzWEJsUVR1YnpXY2MwNURCUl91WldOMzVYeFVWejZCbkZTbFN3X2JXQmhwQzQ5Z1Y1T0FQYmRtYmpUX2UzSXdTRENXOUtxNUhEMTRGd19uUklfaUhmbmJWcF8tcDc1dGxpWjg1QkZvZHc?oc=5",
+     "quando": "2026-11-08T10:55:58+01:00",
+     "gruppo": "Giornali"
+    },
     {
      "titolo": "Il Ponente agroalimentare ha vinto: “La filiera del gusto risorsa per tutti”",
      "fonte": "La Stampa",

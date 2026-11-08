@@ -97,9 +97,17 @@ def leggi_feed(query: str, ore: int, imp: dict) -> list[dict]:
 
 
 def contiene(testo: str, parole: list[str]) -> bool:
-    """Vero se una delle parole compare nel testo come inizio di parola
-    ("aten" trova "atenei", ma "cia" non trova "denuncia")."""
-    return any(re.search(r"(?<!\w)" + re.escape(p), testo) for p in parole)
+    """Vero se una delle parole compare nel testo come parola intera
+    ("tav" non trova "tavolo"); con l'asterisco finale basta l'inizio
+    della parola ("aten*" trova "ateneo" e "atenei")."""
+    for p in parole:
+        if p.endswith("*"):
+            schema = r"(?<!\w)" + re.escape(p[:-1])
+        else:
+            schema = r"(?<!\w)" + re.escape(p) + r"(?!\w)"
+        if re.search(schema, testo):
+            return True
+    return False
 
 
 def gruppi_del_tema(tema: dict, imp: dict) -> list[tuple[str, list[str]]]:
@@ -133,7 +141,12 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
     fonti_escluse = [f.lower() for f in imp.get("fonti_escluse", [])]
     gruppi = gruppi_del_tema(tema, imp)
 
-    candidati = leggi_feed(tema["query"], ore, imp)
+    # query può essere una ricerca sola o un elenco: con troppe alternative
+    # in una ricerca sola Google News torna a ignorare il limite di tempo
+    query = tema["query"] if isinstance(tema["query"], list) else [tema["query"]]
+    candidati = []
+    for q in query:
+        candidati += leggi_feed(q, ore, imp)
     if not gruppi:  # nessun elenco di fonti: si prende tutto
         gruppi = [("", [])]
     for nome, domini in gruppi:
@@ -141,9 +154,10 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
             for i in range(0, len(domini), 5):
                 candidati += leggi_feed(" OR ".join("site:" + d for d in domini[i:i + 5]), ore, imp)
         elif domini:
-            for i in range(0, len(domini), 15):
-                siti = " OR ".join("site:" + d for d in domini[i:i + 15])
-                candidati += leggi_feed(f"({tema['query']}) ({siti})", ore, imp)
+            for q in query:
+                for i in range(0, len(domini), 15):
+                    siti = " OR ".join("site:" + d for d in domini[i:i + 15])
+                    candidati += leggi_feed(f"({q}) ({siti})", ore, imp)
 
     def gruppo_di(host: str) -> str | None:
         migliore, lunghezza = None, -1
