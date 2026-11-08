@@ -12,6 +12,8 @@ Temi attuali: Ponte sullo Stretto, grandi opere, università, sanità italiana, 
 
 In fondo c'è una sezione diversa, **Storie dal mondo**: reportage e approfondimenti internazionali su comunità (anche piccole), questioni ambientali locali e innovazioni nelle città. Ha gruppi suoi, per area: **Europa**, **Resto del mondo** e **Stati Uniti**, quest'ultimo con meno spazio, al massimo 5 articoli. Entrano per primi i siti dedicati a questi temi, presi interi: Positive News, The Ecologist, Huck, le sezioni Environment, Global development e Long read del Guardian, BBC Future, Mongabay, Dialogue Earth, Sixth Tone, Global Voices e altri. Nei posti rimasti entrano gli articoli di alcune grandi testate (Guardian, Le Monde, La Croix, Courrier international, El País, Al Jazeera, Scroll, Nippon.com) che rispondono a ricerche in inglese, francese e spagnolo. Ogni testata ha al massimo 2 articoli per gruppo. I pulsanti del filtro non la riguardano: resta sempre visibile per intero.
 
+In questa sezione titoli e sommari sono **tradotti in italiano**, con il titolo originale in corsivo sotto. Per la traduzione si usa il servizio gratuito di Google Translate, lo stesso del sito: non serve una chiave e non si consumano token di Claude. Se un giorno il servizio non risponde, gli articoli restano in lingua originale. Il sommario c'è solo per i siti letti dal loro feed RSS. Google News dà solo il titolo, quindi gli articoli delle grandi testate e dei siti senza feed leggibile (Cities Today, Next City, New Internationalist, Rest of World) non hanno sommario.
+
 ## Come funziona
 
 - `rassegna.py` legge i temi, interroga il feed RSS di Google News e scrive `docs/index.html`, `docs/archivio/AAAA-MM-GG.html` e i dati grezzi in `dati/AAAA-MM-GG.json`. Usa solo la libreria standard di Python (3.11 o successivo), quindi non c'è niente da installare.
@@ -52,10 +54,11 @@ Si modifica solo `temi.toml`. Per ogni tema:
 
 Un tema può anche avere gruppi suoi al posto dei tre standard, come «Storie dal mondo»:
 
-- ogni `[[tema.gruppo]]` ha un `nome`, le `fonti` prese intere (anche sezioni di un sito, per esempio `"theguardian.com/environment"`), le `testate` da cui si prendono solo gli articoli che rispondono alle ricerche e, se serve, un suo `max_articoli`;
+- ogni `[[tema.gruppo]]` ha un `nome`, le `fonti` prese intere (anche sezioni di un sito, per esempio `"theguardian.com/environment"`, oppure l'indirizzo del feed RSS del sito, `"https://grist.org/feed/"`, che dà anche il sommario e il link diretto; se il feed ha un nome strano si scrive `{ feed = "https://…", nome = "Huck" }`), le `testate` da cui si prendono solo gli articoli che rispondono alle ricerche e, se serve, un suo `max_articoli`;
 - al posto di `query` si scrive `ricerche`, un elenco in cui ogni ricerca ha la sua lingua: `{ query = '...', lingua = "fr", paese = "FR" }`;
 - `lingua` e `paese` del tema indicano l'edizione di Google News in cui cercare le fonti prese intere: per i siti in inglese serve `"en-GB"`/`"GB"`, perché l'edizione italiana non restituisce quasi niente;
-- `descrizione` è la riga che compare sotto il titolo della sezione.
+- `descrizione` è la riga che compare sotto il titolo della sezione;
+- `traduci = true` traduce in italiano titoli e sommari in altre lingue.
 
 In `[impostazioni]`:
 
@@ -82,7 +85,8 @@ SSL_CERT_FILE=/etc/ssl/cert.pem python3 rassegna.py
 
 ## Limiti
 
-- I link passano da Google News, che reindirizza all'articolo originale.
+- I link passano da Google News, che reindirizza all'articolo originale, tranne quelli dei siti letti dal loro feed.
+- Le traduzioni sono automatiche: in genere comprensibili, a volte goffe (per esempio i nomi propri o i giochi di parole nei titoli).
 - Google News ignora il limite di tempo quando una ricerca combina parole e un elenco di siti, e restituisce al massimo 100 risultati per ricerca. Lo script per questo fa più ricerche per tema (circa 40 in tutto, un minuto di esecuzione) e filtra date e titoli per conto suo.
 - I siti che Google News non indicizza non compaiono, anche se sono nell'elenco.
 - Le Actions programmate possono partire con qualche minuto di ritardo e GitHub le sospende se il repository resta senza attività per 60 giorni (i commit quotidiani della rassegna dovrebbero bastare a tenerlo attivo).

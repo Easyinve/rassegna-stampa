@@ -176,14 +176,20 @@ fonti_specialistiche = ["agronotizie.imagelinenetwork.com", "terraevita.edagrico
 # di Giornali / Giornali locali / Stampa specializzata (i pulsanti del filtro
 # non la riguardano). In ogni gruppo:
 #   fonti   -> siti (o sezioni di siti) presi interi: tutto quello che hanno
-#              pubblicato nelle ultime ore
+#              pubblicato nelle ultime ore. Se si indica l'indirizzo del feed
+#              RSS del sito ("https://…/feed/") lo si legge direttamente, con
+#              sommario e link diretto; altrimenti si passa da Google News.
+#              Se il nome del feed è strano: { feed = "https://…", nome = "Huck" }
 #   testate -> giornali che parlano di tutto: se ne prendono solo gli
 #              articoli che rispondono alle ricerche qui sotto
-# Le ricerche hanno ciascuna la sua lingua.
+# Le ricerche hanno ciascuna la sua lingua. Con traduci = true titoli e
+# sommari in altre lingue vengono tradotti in italiano (Google Translate,
+# gratuito, senza chiave); il titolo originale resta sotto.
 [[tema]]
 nome = "Storie dal mondo"
 descrizione = "Reportage e approfondimenti internazionali su comunità, ambiente locale e città, con più spazio alle testate non americane."
 ore = 72
+traduci = true
 max_articoli = 12
 max_per_fonte = 2  # tante testate diverse, nessuna che riempia il gruppo
 lingua = "en-GB"   # edizione di Google News per i siti presi interi
@@ -199,25 +205,31 @@ escludi = ["gaza", "israel*", "hamas", "hezbollah", "ukrain*", "russia*", "putin
            "trump", "election*", "élection*", "elecciones", "wahl", "wahlen",
            "murder*", "meurtre", "asesin*", "mord", "arrested", "detenido", "police", "polizei",
            "policía", "shooting", "football", "fútbol", "fußball", "calcio",
-           "republish", "contributions from", "what went right this week", "breaking news", "quiz", "author at", "archives",
+           "republish", "contributions from", "what went right this week", "breaking news", "quiz", "author at", "archives", "stories by",
            "cop3*", "climate talks", "climate summit"]
 
 [[tema.gruppo]]
 nome = "Europa"
-fonti = ["theguardian.com/environment", "theguardian.com/global-development",
-  "theguardian.com/news/series/the-long-read", "theguardian.com/world/series/the-upside",
-  "bbc.com/future", "positive.news", "huckmag.com", "theecologist.org", "equaltimes.org",
+fonti = ["https://www.theguardian.com/environment/rss",
+  "https://www.theguardian.com/global-development/rss",
+  "https://www.theguardian.com/news/series/the-long-read/rss",
+  "https://www.theguardian.com/world/series/the-upside/rss",
+  "https://www.bbc.com/future/feed.rss", "https://www.positive.news/feed/",
+  { feed = "https://www.huckmag.com/feed/", nome = "Huck" },
+  { feed = "https://theecologist.org/whats_new/feed", nome = "The Ecologist" },
   "newint.org", "citiestoday.com"]
 testate = ["theguardian.com", "courrierinternational.com", "lemonde.fr", "la-croix.com",
   "elpais.com"]
 
 [[tema.gruppo]]
 nome = "Resto del mondo"
-fonti = ["mongabay.com", "dialogue.earth", "sixthtone.com", "restofworld.org",
-  "globalvoices.org", "africanarguments.org"]
+fonti = [{ feed = "https://news.mongabay.com/feed/", nome = "Mongabay" }, "https://dialogue.earth/en/feed/",
+  "https://www.sixthtone.com/rss", "https://globalvoices.org/feed/",
+  "https://africanarguments.org/feed/", "restofworld.org"]
 testate = ["scroll.in", "nippon.com", "aljazeera.com"]
 
 [[tema.gruppo]]
 nome = "Stati Uniti"
 max_articoli = 5
-fonti = ["reasonstobecheerful.world", "nextcity.org", "e360.yale.edu", "hcn.org", "grist.org"]
+fonti = ["https://reasonstobecheerful.world/feed/", "https://e360.yale.edu/feed.xml",
+  { feed = "https://www.hcn.org/feed/", nome = "High Country News" }, "https://grist.org/feed/", "nextcity.org"]

@@ -96,6 +96,97 @@ def leggi_feed(query: str, ore: int, imp: dict) -> list[dict]:
     return voci
 
 
+ATOM = "{http://www.w3.org/2005/Atom}"
+
+
+def testo_pulito(t: str, lunghezza: int = 0) -> str:
+    """Toglie l'HTML e gli spazi in più; se serve accorcia a fine parola."""
+    t = html.unescape(re.sub(r"<[^>]+>", " ", t or ""))
+    t = re.sub(r"\s+", " ", t).strip()
+    t = re.split(r"\s*(?:The post .{0,200} appeared first on|Continue reading\.\.\.|\[…\]|\[\.\.\.\])", t)[0].strip()
+    if lunghezza and len(t) > lunghezza:
+        t = t[:lunghezza].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+    return t
+
+
+def leggi_rss(url: str, nome: str = "") -> list[dict]:
+    """Legge direttamente il feed RSS o Atom di un sito: a differenza di
+    Google News dà anche il sommario e il link diretto all'articolo."""
+    testo = scarica(url).decode("utf-8", "replace").strip()
+    # alcuni feed usano entità HTML (&nbsp;, &rsquo;…) che l'XML non conosce
+    def entita(m: re.Match) -> str:
+        if m.group(1) in ("amp", "lt", "gt", "quot", "apos"):
+            return m.group(0)
+        c = html.unescape(m.group(0))
+        return c if c != m.group(0) else "&amp;" + m.group(1) + ";"
+    radice = ET.fromstring(re.sub(r"&(\w+);", entita, testo))
+    canale = testo_pulito(radice.findtext("channel/title") or radice.findtext(ATOM + "title") or "")
+    fonte = nome or canale.split(" | ")[-1].split(" - ")[-1].strip() or dominio(url)
+    voci = []
+    for item in list(radice.iter("item")) or list(radice.iter(ATOM + "entry")):
+        titolo = testo_pulito(item.findtext("title") or item.findtext(ATOM + "title") or "")
+        link = (item.findtext("link") or "").strip()
+        if not link:
+            el = item.find(ATOM + "link")
+            link = el.get("href", "") if el is not None else ""
+        data = (item.findtext("pubDate") or item.findtext("{http://purl.org/dc/elements/1.1/}date")
+                or item.findtext(ATOM + "published") or item.findtext(ATOM + "updated") or "")
+        try:
+            quando = parsedate_to_datetime(data)
+        except (TypeError, ValueError):
+            try:
+                quando = datetime.fromisoformat(data.replace("Z", "+00:00"))
+            except ValueError:
+                continue
+        if quando.tzinfo is None:
+            quando = quando.replace(tzinfo=timezone.utc)
+        sommario = testo_pulito(item.findtext("description") or item.findtext(ATOM + "summary") or "", 320)
+        if normalizza(sommario).startswith(normalizza(titolo)):  # sommario che ripete il titolo: inutile
+            sommario = ""
+        voci.append({"titolo": titolo, "fonte": fonte, "dominio": dominio(link), "link": link,
+                     "quando": quando, "sommario": sommario})
+    time.sleep(1)
+    return voci
+
+
+LINGUE = {"en": "dall’inglese", "fr": "dal francese", "es": "dallo spagnolo", "de": "dal tedesco",
+          "pt": "dal portoghese", "nl": "dall’olandese", "ca": "dal catalano", "zh-CN": "dal cinese",
+          "zh": "dal cinese", "ja": "dal giapponese", "ru": "dal russo", "ar": "dall’arabo",
+          "pl": "dal polacco", "sv": "dallo svedese", "da": "dal danese"}
+
+
+def traduci(testo: str) -> tuple[str, str]:
+    """Traduce in italiano con il servizio gratuito di Google Translate (lo
+    stesso del sito, senza chiave). Restituisce (traduzione, lingua d'origine)."""
+    url = ("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=it&dt=t&q="
+           + urllib.parse.quote(testo))
+    dati = json.loads(scarica(url))
+    time.sleep(0.3)
+    return "".join(pezzo[0] for pezzo in dati[0] if pezzo[0]).strip(), dati[2] or ""
+
+
+def traduci_articoli(articoli: list[dict], lingue_attese: set[str]) -> None:
+    """Mette titolo e sommario in italiano, tenendo il titolo originale.
+    Se il servizio non risponde, l'articolo resta in lingua originale.
+    Su un titolo breve il riconoscimento della lingua può sbagliare (un nome
+    giapponese in un titolo inglese): se la lingua riconosciuta non è tra
+    quelle delle fonti del tema, non la si indica."""
+    for a in articoli:
+        try:
+            testo = a["titolo"] + ("\n" + a["sommario"] if a.get("sommario") else "")
+            tradotto, lingua = traduci(testo)
+            if lingua == "it" or not tradotto:
+                continue
+            titolo, _, sommario = tradotto.partition("\n")
+            if lingua.split("-")[0] not in lingue_attese:
+                lingua = ""
+            a["titolo_originale"], a["lingua"], a["titolo"] = a["titolo"], lingua, titolo.strip()
+            if a.get("sommario"):
+                a["sommario"] = sommario.strip() or a["sommario"]
+        except Exception as e:
+            print(f"  traduzione non riuscita ({e})", file=sys.stderr)
+
+
 def contiene(testo: str, parole: list[str]) -> bool:
     """Vero se una delle parole compare nel testo come parola intera
     ("tav" non trova "tavolo"); con l'asterisco finale basta l'inizio
@@ -150,9 +241,16 @@ def ricerche_del_tema(tema: dict, imp: dict) -> list[dict]:
     return [{"query": q, "lingua": imp["lingua"], "paese": imp["paese"]} for q in query]
 
 
-def solo_dominio(sito: str) -> str:
+def e_feed(sito) -> bool:
+    """Un feed si indica con il suo indirizzo, o con { feed = "...", nome = "..." }."""
+    return isinstance(sito, dict) or sito.startswith(("http://", "https://"))
+
+
+def solo_dominio(sito) -> str:
     """"theguardian.com/environment" -> "theguardian.com"."""
-    return sito.split("/")[0]
+    if isinstance(sito, dict):
+        return dominio(sito["feed"])
+    return dominio(sito) if e_feed(sito) else sito.split("/")[0]
 
 
 def cerca(tema: dict, imp: dict) -> list[dict]:
@@ -186,7 +284,14 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
     # (per i siti in inglese quella italiana restituisce poco o niente)
     edizione = {"lingua": tema.get("lingua", imp["lingua"]), "paese": tema.get("paese", imp["paese"])}
     for g in gruppi:
-        siti = g["intere"]
+        # i siti indicati con l'indirizzo del loro feed si leggono direttamente
+        for f in [d for d in g["intere"] if e_feed(d)]:
+            url, nome = (f["feed"], f.get("nome", "")) if isinstance(f, dict) else (f, "")
+            try:
+                candidati += [{**v, "intera": True, "gruppo_fisso": g["nome"]} for v in leggi_rss(url, nome)]
+            except Exception as e:
+                print(f"  feed non letto: {url} ({e})", file=sys.stderr)
+        siti = [d for d in g["intere"] if not e_feed(d)]
         for i in range(0, len(siti), 5):
             voci = leggi_feed(" OR ".join("site:" + d for d in siti[i:i + 5]), ore, edizione)
             candidati += [{**v, "intera": True} for v in voci]
@@ -216,7 +321,7 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
     per_fonte: dict[tuple[str, str], int] = {}
     visti = set()
     for c in candidati:
-        gruppo = gruppo_di(c["dominio"])
+        gruppo = c.get("gruppo_fisso") or gruppo_di(c["dominio"])
         t = c["titolo"].lower()
         chiave = normalizza(c["titolo"])
         if (gruppo is None or c["quando"] < da or len(chiave) < 20 or chiave in visti
@@ -231,6 +336,7 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
         visti.add(chiave)
         per_fonte[(gruppo, c["fonte"])] = per_fonte.get((gruppo, c["fonte"]), 0) + 1
         c.pop("intera", None)
+        c.pop("gruppo_fisso", None)
         scelti[gruppo].append({**c, "quando": c["quando"].astimezone(ROMA).isoformat(), "gruppo": gruppo})
     return [a for g in gruppi for a in scelti[g["nome"]]]
 
@@ -243,7 +349,7 @@ def titoli_precedenti(oggi: str, giorni: int = 7) -> set[str]:
     visti = set()
     for f in file:
         dati = json.loads(f.read_text(encoding="utf-8"))
-        visti |= {normalizza(a["titolo"]) for t in dati["temi"] for a in t["articoli"]}
+        visti |= {normalizza(a.get("titolo_originale", a["titolo"])) for t in dati["temi"] for a in t["articoli"]}
     return visti
 
 
@@ -282,6 +388,8 @@ ul{list-style:none;margin:0;padding:0}
 li{padding:10px 0;border-bottom:1px solid var(--riga)}
 li a{color:var(--testo);text-decoration:none;font-weight:600}
 li a:hover{color:var(--accento)}
+.somm{display:block;margin-top:3px;font-size:.92rem}
+.orig{display:block;color:var(--tenue);font-size:.85rem;font-style:italic;margin-top:3px}
 .meta{display:block;color:var(--tenue);font-size:.85rem;margin-top:2px}
 .vuoto{color:var(--tenue);font-style:italic}
 footer{color:var(--tenue);font-size:.85rem;border-top:1px solid var(--riga);padding-top:14px}
@@ -510,8 +618,15 @@ def html_report(imp: dict, dati: dict, link_archivio: str, pulsante: bool = Fals
             def voce(a: dict) -> str:
                 q = datetime.fromisoformat(a["quando"])
                 quando = f"{q.day} {MESI[q.month - 1][:3]}, {q:%H:%M}"
+                somm = f'<span class="somm">{html.escape(a["sommario"])}</span>' if a.get("sommario") else ""
+                orig = ""
+                if a.get("titolo_originale"):
+                    lingua = LINGUE.get(a.get("lingua") or "", "")
+                    orig = (f'<span class="orig" lang="{html.escape(a.get("lingua", ""))}">'
+                            f'{html.escape(a["titolo_originale"])}</span>')
+                    quando += f" · tradotto {lingua}" if lingua else " · tradotto"
                 return (f'<li><a href="{html.escape(a["link"])}" target="_blank" rel="noopener">'
-                        f'{html.escape(a["titolo"])}</a>'
+                        f'{html.escape(a["titolo"])}</a>{somm}{orig}'
                         f'<span class="meta">{html.escape(a["fonte"])} · {quando}</span></li>')
             nomi = t.get("gruppi") or [""]
             blocchi = []
@@ -580,6 +695,10 @@ def main() -> int:
         try:
             articoli = cerca(tema, imp)
             voce["articoli"] = [a for a in articoli if normalizza(a["titolo"]) not in gia_usciti]
+            if tema.get("traduci"):
+                attese = {r["lingua"].split("-")[0] for r in ricerche_del_tema(tema, imp)}
+                attese.add(tema.get("lingua", imp["lingua"]).split("-")[0])
+                traduci_articoli(voce["articoli"], attese)
             print(f"  {len(articoli)} trovati, {len(voce['articoli'])} nuovi")
         except Exception as e:
             errori += 1
