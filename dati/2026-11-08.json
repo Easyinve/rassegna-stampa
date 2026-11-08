@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-08T13:56+01:00",
+ "generato": "2026-11-08T14:46+01:00",
  "temi": [
   {
    "nome": "Ponte sullo Stretto",
@@ -16,14 +16,6 @@
      "dominio": "ilsole24ore.com",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUXNrbzhUWHc1RjRfTkdtNGlsWFdXR0RrNHpRSEdESU5YWUFJU3k4TExGQjQ0dGtDWExpLW8zV2xTN3ZuT2J5TDNVSEhvQzh5dFh4SVpDaVZubzhyalYzd0xzTnRZaEJBd3RSdmdZcm43YkJfd0M1X1ZMSGJqR3dCSnlZVGVnNkNJbkFudUhmREFoUlN0bGFIRm40X05TTGJQcnJtMmVXUTkzdWFPZ1otTkExd1d0T3RzS0V1YmhHOG1ZcjRaTERlZ1d0bWU?oc=5",
      "quando": "2026-11-06T17:26:05+01:00",
-     "gruppo": "Giornali"
-    },
-    {
-     "titolo": "Critiche al codice appalti e Ponte sullo Stretto: la vendetta della Lega che mette le mani sull'Anac",
-     "fonte": "Il Fatto Quotidiano",
-     "dominio": "ilfattoquotidiano.it",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS1dCSjFyaHRJU0xIYjYxdU1salhrVmc5RWdMV0I5RDZOck9fRHVuNEsyX2g3NktLUEdfUGM1T01mcnBQV2xQcGF5eVlDNWdONUpuSll1SjdfSW5WZk1Pby1BMDBIc2FhbmpDRFFMT3lBZXZJckdsUzl5MmJ6Zm9MaXBiS295TElvSXcteE5B?oc=5",
-     "quando": "2026-11-06T14:02:28+01:00",
      "gruppo": "Giornali"
     },
     {
@@ -45,6 +37,14 @@
     "Stampa specializzata"
    ],
    "articoli": [
+    {
+     "titolo": "Terzo valico, cassa integrazione per altri 6 operai. In 50 ricollocati altrove",
+     "fonte": "RaiNews",
+     "dominio": "rainews.it",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTEdFWlpNX2hOUy1obG9KRDA2d2dzbjV3Q0xXZFZZdGg4cXNfYVNhTENLR0RwcjBhWlM3bUUtazRtNi1zSGF5Rldha25zUVhpdVpuNWF2YlZ0NUpaaWJHZEVKZi1LeGRwek1ONFJ3d2pKTm5KcmtpUHM0Nm9TVndTeV9DendkbUl2MWd1MXlrd0dYNUxycEZ1ZnBzOVJRbWpWWDQ1YXQ5QWN4T00wdS1xZkU5blZXc0FBbEVDRFVNNjdIZVlVM3U5dl8tQlNXc2NqYXhsT0VMVHFLbFBCNHfSAeMBQVVfeXFMTnNlbXJSQU1xUGd4OGhPN3ZnQ21HU3JDV2JKRUdac2RkdmxRM2Z6aFlFRlEza2t6TzdJd1hTc2F1cVRCNThxRG9qUk1jZXZ1bDhXNFZnZ01ScXNONlQwR19Danlja0k0NUNkS09iSGx1dzg5WGRObGw2eGRsdnNhUmx0YzVGaDNGSDRpQ1VOQ2ZnNGUxRzhtaFc3WFo4V2xUa09FbHFBNjRId3Z2RGxoLUxlZjM2ZGV1dUtjZXJKZ3FZN3F0QVlUb0E3Vk5vM1lQUk9hMHFBbWVWeGNIdW4xVTRxS0U?oc=5",
+     "quando": "2026-11-08T12:39:00+01:00",
+     "gruppo": "Giornali"
+    },
     {
      "titolo": "Guerra ibrida, cyberattacco al tunnel del Brennero, colpita società che gestisce il progetto: accesso ai dati, indagini in corso",
      "fonte": "Il Messaggero",
@@ -75,6 +75,14 @@
      "dominio": "ansa.it",
      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeUZ4aVBGaV93TFZYWXhjV2d0ZEs1LWM0WnB1S0JzMDdlRW0tVHVtOW9JcEM3YVgwVVA1VUJQN25oZEZNOU4zdllVQVo0VzhCQmQzV3FuSThSb1I3TG1Bc3NGamhpRzkwU0dfeXlzTkVXcV9mZkhnSUhtVDFXVmhsYkRRVDkzVXBySTg5cDhKVC12SjRrX0hyWlFUeVlMNDNIMkgwelV4WXVOdkZ6N01Zak50b09lNE50M0hfY3dUMWIySGl6V3hRa2pIZnh4RWV0eklaTHVOTUNwTF9GVGlDYUE2UWxUcUwxaVNfdHMtSkN2dFMw0gH0AUFVX3lxTE95RnhpUEZpX3dMVlhZeGNXZ3RkSzUtYzRacHVLQnMwN2VFbS1UdW05b0lwQzdhWDBVUDVVQlA3bmhkRk05TjN2WVVBWjRXOEJCZDNXcW5JOFJvUjdMbUFzc0ZqaGlHOTBTR195eXNORVdxX2ZmSGdJSG1UMVdWaGxiRFFUOTNVcHJJODlwOEpULXZKNGtfSHJaUVR5WUw0M0gySDB6VXhZdU52Rno3TVlqTnRvT2U0TnQzSF9jd1QxYjJIaXpXeFFrakhmeHhFZXR6SVpMdU5NQ3BMX0ZUaUNhQTZRbFRxTDFpU190cy1KQ3Z0UzA?oc=5",
      "quando": "2026-11-07T16:23:37+01:00",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Tunnel del Brennero sotto attacco hacker: cosa è successo, chi c'è dietro e quali sono i rischi",
+     "fonte": "Il Messaggero",
+     "dominio": "ilmessaggero.it",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV2dGaXVDaTJiNHVucEhKUjNlbTdtbFhRNnhtQ1VxWUxOSEEzNjNWdWJsM01yM0pMeGJCX05MWjFLaHN5eWx0NWlJeTBaMnZLSzlLWVJ0eEdvM2lFUjBFUVUwTXRYZXJfZHhWN1QtLTh5WGhVN2wyLXhFNDRKTWI0SVZLYzVMbEplQkJDSk1wZ3FfRDNaeFNQaGhhLTVmQ0U3Z0o1dEJJNHlwc013MTh30gGvAUFVX3lxTE9XZ0ZpdUNpMmI0dW5wSEpSM2VtN21sWFE2eG1DVXFZTE5IQTM2M1Z1YmwzTXIzSkx4YkJfTkxaMUtoc3l5bHQ1aUl5MFoydktLOUtZUnR4R28zaUVSMEVRVTBNdFhlcl9keFY3VC0tOHlYaFU3bDIteEU0NEpNYjRJVktjNUxsSmVCQkNKTXBncV9EM1p4U1BoaGEtNWZDRTdnSjV0Qkk0eXBzTXcxOHc?oc=5",
+     "quando": "2026-11-07T16:13:28+01:00",
      "gruppo": "Giornali"
     },
     {
@@ -225,6 +233,14 @@
      "gruppo": "Giornali locali"
     },
     {
+     "titolo": "Tg Università - 14/7/2026",
+     "fonte": "La Gazzetta del Mezzogiorno",
+     "dominio": "lagazzettadelmezzogiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObllKQkhNVTF1eUJHNjVEWjY5VUd6QXJUeGRodHVzSnNXS2ZtQ2lsYUFKNnRZNVBQbUZjekp5VHAzdGVkUEVZQ2hKTTJtZlhONDFnQzQ0aUNHNGFxcVJuQzBUSk96bWNQMjZJNWoxRVlRVzdaS1VFUlBSbklMbFZ0X3F6em5SNUJZMGcyaXBlOHkzY2twX0ZB?oc=5",
+     "quando": "2026-11-08T08:14:44+01:00",
+     "gruppo": "Giornali locali"
+    },
+    {
      "titolo": "Giostra, nuovi costumi. Via alla commissione e patto con l’università",
      "fonte": "La Nazione",
      "dominio": "lanazione.it",
@@ -247,6 +263,14 @@
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPT3VuN2M4cmR6ejRjRUNqZkJwU0V5bkxNbDI4RWhpS3pTdG1sS3dSU1VraFp3akZUYkI2MTh3aTBkckRXNmhnWThDZEMzaXA2X2FPbEljRi1DUUY1ZkFsSTNYT09jRFJUTFNTU24wVWVpZVVNMG9PNDFIbFBoWXJLbmk3TzU3MGlzWEttZVV1QVZhelJfOFpueGtWSWpuS3Q0OS1Pc2liQkNwaDBTcHpTdXV2UnY3aEJXR1d2ZWJicEJzQVNqWHlFR1dOQjdJdzF3ZDhPQUhwMm8yNE5IQ2twctIB2gFBVV95cUxQclluTlNxT182SXZPTnRrbHNKV2dYU2lnUWFnb18wRTN6dUxWUklrZllfUDQ0T1hUeW5yRXIyYW5yRkRnaGVEdnJHUDBpN0VlekxDMEVURmdJS1lRTWZnWUJQbVZRQnJrYlNpM2I1ejMzdnFGUjlSbWhBcU5XWXY5OFVYRjNUUXA0LUtYYU1VWkI4czAybGk0bGZseGJNQjNlQlc0ekNEZHNJUEZKWmJoVnVvR3pvdGhrQndrY1lhOEhBamVOZzkxVmpXNkVYVjVybzJqRHNQcTBidw?oc=5",
      "quando": "2026-11-07T23:55:01+01:00",
      "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Permessi diritto allo studio 2027, in Lombardia domanda con riserva per i percorsi abilitanti ancora non attivati",
+     "fonte": "Orizzonte Scuola Notizie",
+     "dominio": "orizzontescuola.it",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTVNiNS1zdDZ3dFFlSjhLRjQ0TnFZMk1NbkptakdFaTFRaFRfWUZIejF4U2o1RTVTU1Y2RWozOUhxdmFTUkhqU3ItZTAzby1jbUtuZmwzNW94ek9ManVTbm1BTktCUTRyTjdDR2dMSVFYal84Q2NyOWNWRjFpa01ZdUE3TWg5VVVsdFMyREZUVC1GR0RnZXhmcnZSS1owYnR5NjI3X01vVW5PWDAxV1FXaHdZdHNUOUp5M2Zpek9VSXRRdFYzRDEtMldpM0RGOWVuNk4wcndoQXFFNnQx?oc=5",
+     "quando": "2026-11-08T14:42:16+01:00",
+     "gruppo": "Stampa specializzata"
     },
     {
      "titolo": "Manovra 2027, tagli anche alle università? Piccolotti (Avs): \"Atenei più poveri, miliardi per il riarmo, non un ricercatore assunto\"",
@@ -275,6 +299,14 @@
     "Stampa specializzata"
    ],
    "articoli": [
+    {
+     "titolo": "Manovra, Schlein: \"Aumenta spesa militare ma taglia sanità\"",
+     "fonte": "Il Sole 24 ORE",
+     "dominio": "stream24.ilsole24ore.com",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY1ZOZVNmMXlyVUFCdEQ1TmFkWHpvLWNQMkVWYW5GTThlMzhYeV9vamVQTGhFSGdQNHFJVmhLY2kydFhKMDhxUE9PVE9xZWF3ZjU2clhnOE5ITmwxWDZ2VEhQSHd3ZkY3TTJnVXRuTVI3ajR2SVhmV21BdEZjUEpEVzlBOVRfMC1xc0Fra0I0MUk2aUJOcEVYRmhRbUk5dGh1Rk1iaDhMRElrcjhQd21z?oc=5",
+     "quando": "2026-11-08T14:24:24+01:00",
+     "gruppo": "Giornali"
+    },
     {
      "titolo": "Tasse ai ricchi, sanità per tutti, regole tech: Sanders ha vinto così",
      "fonte": "il manifesto",
@@ -308,36 +340,20 @@
      "gruppo": "Giornali"
     },
     {
-     "titolo": "Ddl bilancio: Schillaci, attenzione a sanita' ma legge migliorabile in Parlamento",
-     "fonte": "Il Sole 24 ORE",
-     "dominio": "en.ilsole24ore.com",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55VW5ja0JILVpyWVVvTTJRZ0R1Snl6V25UR1B6QTBQbExubGFrd2Jtb2lxRHQxcXRRQ3lNOTBTS0Etb2h0VzJjSUk0NktUTHNTUTVHWHRRYkpUQ0FJUnpSWDdIT25qa0xBcXlYYQ?oc=5",
-     "quando": "2026-11-07T14:46:58+01:00",
-     "gruppo": "Giornali"
+     "titolo": "Asl Medio Campidano, Andrea Concas è il nuovo direttore della struttura complessa “Sanità Animale”",
+     "fonte": "L'Unione Sarda.it",
+     "dominio": "unionesarda.it",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORXJIUXhoaVJwLW9lWWRRT1psVy1sMWZhYTFXdTZkQzVZazZyYzdJMUlLdEdnX09KTUtIcHVXTDB0aFJvZnBlRWxfc29YMGpGQjVHa1d1SHQxQ3hoZDVEYUlvb185bmxqQm1jd3A5LW5Sd1BlX0JkcldMY2JBZjdpWjlSNGNIYkE4WFJJY2tKN3locWxFaU9FNlZPNTVKVVB5Q3JNVTZfZHBtSkxHZVJZZjdzNmV5UUR4ZzhJZjNkcG8xcFhNcXpYZHVaSzh2X3VTNjJzU0Y5U21wVTBZWjNQdHZLOTlyQ3RTbWttZEYwNXZCeDjSAfsBQVVfeXFMUHRGTUkyLUFDa3JwSzlERHZmcEh0TUpEbEdjQVFDdE9UMjlCdnI4M1pSTmx6LVhjQ0ZyYVQtaTFDRlN6UF9iMXB5cTU1QWREVlQ4bGJ4anJ4U3dQTWFReEJVOVRwSHJORGxHYUpvVGVob3NKR2sxYk8yUFppbkNEc1lESXVQY3ViLTNrcjNNTHBKZkhsTVVTRjNIMVNodnJtYktjWU1fa1dGU2dOMXpidmp3a0pXR3VEeTBqaVo3WUF5cTJmV05fa2pGaVg1SnFzWFdVRmh2OHp0dUpNVW9JTzhMbDh2MmxWeEZFU1VYekN5U3RZYTRMaUxGeU0?oc=5",
+     "quando": "2026-11-08T14:14:00+01:00",
+     "gruppo": "Giornali locali"
     },
     {
-     "titolo": "Ddl bilancio: Schillaci, attenzione a sanita' ma legge migliorabile in Parlamento -2-",
-     "fonte": "Il Sole 24 ORE",
-     "dominio": "en.ilsole24ore.com",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pTDVGZkQ2aE1IVmtrNlhRbDV3akdWRW5VRm14UXBwTEV4dEpUZ1FmekI4X295NzMzQXdjbDhpMXg1MUJCbHdPaXgwX2xkOXEtcGlLM09GWnB2T3dob1VSZHhLRGplMXF0QnR3YQ?oc=5",
-     "quando": "2026-11-07T14:46:58+01:00",
-     "gruppo": "Giornali"
-    },
-    {
-     "titolo": "Sanità ed ex Ilva, scontro non stop sui fondi",
-     "fonte": "RaiNews",
-     "dominio": "rainews.it",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTFd4dlJXZVo0UDR0cmNYRnVKVmEyR0dBZ0lmc3BvNXNVR3lLYjlQVzkzYm1WZHdNM2toQTctZTU5LUFSemRBLUI4Z3FyUVRQamFkMnNBN3ZqVkx4THlUY25GUWFyV0M5VWtsek5VSjJtYXAxQ2JXRXhQWXhXcGlpNVV0MEI3QVBxWTI4RlU4dFZldlR1bkJaQkMxS3FHWloxQVJEcEJoWHpmamPSAbABQVVfeXFMTThvZW8xX0J3RmtYRVJ3MFpMTGxIMmk2dU1ldVNGTjFDZlVzUnFaMXJycVFpWkZoRGZNSVVTMlJGRVlENXhQSURrQ2VYOUFZRmN0UzRlTlRoMXBfRGdaMFZQcHNZYzFtaTNlNFYyX3R6RmQzRVk0M2JwcVpKSHJtSGxaZ0JLb0gydE42VnBLT0lZRTR2QmFxaUpLYVZiT0pyWGI3QUdTOFJWZVVPT1VFRU0?oc=5",
-     "quando": "2026-11-07T14:12:00+01:00",
-     "gruppo": "Giornali"
-    },
-    {
-     "titolo": "Arriva in ospedale in condizioni disperate, festa per le dimissioni dopo 4 mesi",
-     "fonte": "ANSA",
-     "dominio": "ansa.it",
-     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPS29sUjFQOVBJb2JkLUNvZHhRd00xNEpGS01MeThHZTZwRmRzOGhvRG9mMzEtb1lzTlVPR1JneVI3Tm1wMGNWNEdKOVJ4T0F5ZHFMVnJWRUQ2N1FneG0xcjNxSDJDZjJFVzNJVjF2TkZiVDh2UVFMOU9fSmIzbGdkaTd3Tnl2b1dsbC1pUjk4OXZ2NURSRXBIc3ZQUE1YbDBPUjNEZEt2VkVoOU0zM2cySHlJN3JRbkxLdUFxTnp0ZVY4dVRBMmhsUUtQeUFzSlhGa2trWnVVRU0tczNUOEVrSjNVbnhLQUdpWlBJRXkydVpEUzdxU09jOUQ1UGfSAYICQVVfeXFMTk5KeGhPNmFOcXR1STBIRnk5alkybWhjSEhqZEpwR1VhaEVmVE9SS1lNc2pWandfdnpjdnZhWUp4UUVoSGRrLVdOdV8zcGxva1YzdnQ1NTBmUkJwbi1DS1VzODJBcm9tdkRpUVlmTmNoLU5oQWtWNHVHY25JQlQxMUdMb1YyYmtlUWRuX3N2UXJSV0xaMVpvUmlES1JqbmJmdnZFYS0xa2hUbFdBMTZ5d2lnY3hfMGZpUTliU3M5NTYtTGVUWUVtcENOSnFzaG5YN2RMUUZjQVY3QnM5NVIyTXIxV0tadFQ5MF9QcnZ3Wkg1MzY4enNfMFY5djZ4RE1BajdR?oc=5",
-     "quando": "2026-11-07T14:04:00+01:00",
-     "gruppo": "Giornali"
+     "titolo": "Più risorse e “regia” sulle assunzioni delle Asp. Così Azienda Zero diventa il baricentro della sanità calabrese",
+     "fonte": "Corriere della Calabria",
+     "dominio": "corrieredellacalabria.it",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYVhaaEZqR1BuYzNwZGw4UlJlOG5hWVY2TmJUQzE2MmwwYWt3aEVUdTRMQXVxUVhSOEtUdGJEZW5KdlZCWllPQVh3QTMwd1NFWHI4UDBKTWdjUjU2ZUhzRWJpSnJ1bWo5LVY1ZUxMd19QQjZrUTZISlNBMGZPMUU4YWEwVm1qNlRqenZtV1ktUEROZC1YbXZnaHFKTURJM2hqb2lTQTEyM0NyOXVQa09BRDFhcXA1ajFCUkFtemlEb1hjMjRyRy1wYlVMbzdYdUlGRTRsQm9wWUc3aWlpMTFtNlRmRVlra0JqS1hMOV85cw?oc=5",
+     "quando": "2026-11-08T13:45:00+01:00",
+     "gruppo": "Giornali locali"
     },
     {
      "titolo": "Sanità, 20mila euro all’anno agli specializzandi: «Vogliamo che restino a lavorare in Sardegna»",
@@ -444,22 +460,6 @@
      "gruppo": "Giornali locali"
     },
     {
-     "titolo": "Mazzette e pressioni, le mani di Armao sulla sanità in Sicilia",
-     "fonte": "la Repubblica",
-     "dominio": "palermo.repubblica.it",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM0dHcEhFcGZXc0pyS1dISkV2VW9uelV4V2lKMzBVQlpPLURoSVpjeG44OENyWGtZcng3QlBUVWFKVlZnUkRfb1I0ckhJdnhjS1hRTGJtVUF2ZW95RkRDcXR5YU12UjJiS2c5U1UzLUxVRkFKb2xjWUw2UWJGWmh6Ums0bW50TUtXWTE1QVVLa0tUOTlnNFNuVFk1SVB3LW5kTl9ZZDVJazZkYllOTHVTSUY3ejgybVE0ZHfSAb8BQVVfeXFMUFJ3TkZsZXV2WHNGNjZFaWlpWWNmLTZRcXZIVWdHcTZzTF9EUWM5OEgxTHV2VW5rUzdIQ3IyRGFwM1hJLW94YnMwVWVqQ2xkUVVmY216eXV2alZ5bWY2cjFzZHktYTVfMVFfU1paWUZqXzVVZ3poQTVLT1FWc19QTlpqSnhhNDM1cVIwTkxiM3Jrc3R1MzNPbUpEcWRmOVZub1lSZnhzOWxFTGNFd3FnUngtaDZTVlpoR0pUN29NbFE?oc=5",
-     "quando": "2026-11-08T01:54:20+01:00",
-     "gruppo": "Giornali locali"
-    },
-    {
-     "titolo": "“Le ingerenze di Armao nella sanità come esperto di Schifani”. Quel colloquio riservato con Caruso",
-     "fonte": "la Repubblica",
-     "dominio": "palermo.repubblica.it",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb0V2UTg1aE4wRk1JNEFocVl6NkpjeVZsTWhCQUJVQTFQcGlRUExiSmppMnhUa0NTMlVKXzhUZGozVFBzbEc2dE02RXJINlUweUNib2d4NWFMbnN5c0hwbTBhVVZJekxiSWkyeUJBUjlITzFTUHpDQ3YwU2htV2xzNEtIdHhMcm9MQ3pXNk91amNBM3Z1S0duZFBkZ9IBoAFBVV95cUxPaEcyU0hTY1dYSUx1MDlJemw0RW1HOEdvYnVuNjZPQXVoT21MSFZoU19fS2o1U2VGY0ZsX1VzRHU5WFFtQzhjaENrSzFlY3l5NGlEWTRLUE1uNmhPcXQzNDZ5cUtZeE5RQU13THhOT0FzcWx5U0tFck5kWEZFblhPaE04MUJlVGs3SVMxd1dXQ18tbmhMLU1nYVlUelllMGRr?oc=5",
-     "quando": "2026-11-08T00:03:00+01:00",
-     "gruppo": "Giornali locali"
-    },
-    {
      "titolo": "Aggressione infermiere a Reggio Emilia: mandibola fratturata",
      "fonte": "Nurse24.it",
      "dominio": "nurse24.it",
@@ -476,14 +476,6 @@
      "gruppo": "Stampa specializzata"
     },
     {
-     "titolo": "Mecozzi (Sifo): “Il farmacista clinico sarà protagonista della sanità del futuro” VIDEO",
-     "fonte": "Quotidiano Sanità",
-     "dominio": "quotidianosanita.it",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdVUtSEgwQ2dPUTM3Tk5OdW96dG1Yejl1SE82djU0MjIwSWV6eGIzLW1yRWJGUm5zenBlMkVzN2k2Ulg4RElwNUg2LVdzVW1ZYTU0ZU1LM0I0ekJYVGMybUVKdVlPZTE2dVJzYXZwRnFSX09XaVYza1VwVnlvWTVpLXJadGFYTlRpLXlqWENNa3ZaVVNxRHdUaEEzZlJwS3VXaXp0YmIyZzdBdzBlUjNSYnN4T19VWDl6cDVlTDFiYw?oc=5",
-     "quando": "2026-11-08T07:59:49+01:00",
-     "gruppo": "Stampa specializzata"
-    },
-    {
      "titolo": "Neo-assunti in sanità, formazione e tutoraggio per un inserimento efficace: la nuova Intelligence Review di QS Pro Gold",
      "fonte": "Quotidiano Sanità",
      "dominio": "quotidianosanita.it",
@@ -497,6 +489,14 @@
      "dominio": "quotidianosanita.it",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSVQ5UjVHMUNkM2s2OE56NEx2RkZVZ1ZTOGdLZlhOLXJ2NUt2Ql9LQU5WNVhZMUlLbkhYSjBEMGV6TWxDc3hCNEhqaGl3T1FPUVFVQnpXblBHM1VVTW5rdm0wQU9fOE1ILVgxT1I0VkVsRUtDUWFqTzg2azVtZl9pM29aalBxUWxRdkw1NUNZNC1mNlY4a0ctM0tlVmxQcEdSSlZJb1lYWkcyNmNNTzFGbGlOSUZjaXI0ZVZOdTl3SXhMZ1VwMHc?oc=5",
      "quando": "2026-11-08T03:09:51+01:00",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Schillaci: “Bene decisione Svizzera. Non abbandoneremo i nostri ragazzi”",
+     "fonte": "Quotidiano Sanità",
+     "dominio": "quotidianosanita.it",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTE1YQlk5NkZabHBseld1WEZxTEpPaENCMnR3Q21xbThsMTBwWk9XWW1GZkxJNWw5NFBNSDJRcDUycTJzeXhaOXc0MzRTNUpMN2lOY3E0Z3JHYldZMVFSYzBkYWJBSTZVQjBfOW43NXdmZmZfdEs0M3NVMGFGWTNidVVVNUY3Vjk4UUo2MHpKQlZkWWNNYUhrZ1JyMkJIRE1uMnJUNU9OLTZRQTdCRmk4?oc=5",
+     "quando": "2026-11-07T22:16:56+01:00",
      "gruppo": "Stampa specializzata"
     }
    ]
@@ -524,22 +524,6 @@
      "dominio": "qualenergia.it",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVJ1OEphR0VvUXlVRlRSZ1hLUjMxOWdVOG5pUG5QbWlEWjJXenA4SEdSZkw3RVJ6RnYyTEJlYWdlb3NSbW9kT3daNHlhNm95S2M0N2VmbnkzQTBubE5GYnVtMkFkMkJYUWFuNElEOFdJanRxeXVfMzlzQXNINDNWMzRVb2tDS0FZQlpnakt2cGFYOWNLRFg2VG9mRHMtSnM?oc=5",
      "quando": "2026-11-06T09:50:38+01:00",
-     "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Idroelettrico, a Edison la gara per Codera Ratti-Dongo",
-     "fonte": "Staffetta Quotidiana",
-     "dominio": "staffettaonline.com",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JcTR5U05fcjJ0ZWR1b1lkTHl6QnhXMU12amtlNXFJT3pEME5ScEJXMG5wYTdWbUpVUW5tZlpuZEpfOFV3WW1rdVpTQ2NDcnQ5Q1Nqd2VpMmhuSnFLbXhIamMxRXpqdw?oc=5",
-     "quando": "2026-11-05T14:23:03+01:00",
-     "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Idroelettrico, Orsini: un problema c'è, reazioni scomposte dai produttori",
-     "fonte": "Staffetta Quotidiana",
-     "dominio": "staffettaonline.com",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LX0xvTWlNYzZjcDlOUjVKQUM3RDRBSGhlakFGSTJsbzRGZFc1VFRrQS01MWdEMlc3b1dud1ZmMmx3S2ljZjVzZW1CYUhIbzV2WTBhanFjMG83RXptNTE5VndwVzRvQQ?oc=5",
-     "quando": "2026-11-05T14:20:09+01:00",
      "gruppo": "Stampa specializzata"
     }
    ]
@@ -648,8 +632,8 @@
      "titolo": "Coldiretti Puglia, a Brindisi rubate 120 piante ulivo resistenti a Xylella",
      "fonte": "ANSA",
      "dominio": "ansa.it",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSmk0TlFCOGxZZFhEcHNxT1FEc3pLWmZKT0dOSTF1U0xzQVB1R0VPLVp6OUxyeUo1MVpMcWZtazgzSGMxQlM1eW5ZZWVfaUFYT29aMFlXWkdRc09qcFBfVmJoc0xxMVUtOVM5cVgyeU1vS0x5allZYjVBNk1Vb3BEdUVlOEg3OEk2RHg4SEpBUmgzaWxaOHpFcl9JdTY4UlZSSTMzYlBna2dYTWRGMmFXc1BBZmxhMjFHTjl6bDNqX1lYemdoRGZIRzZ3UEVoMnpOT0RDTlc5VzBjaVpxUXlobHkzeHNyTDRaZ1BqV1lRQS1IM0J4aWY2S9IB-AFBVV95cUxNSmk0TlFCOGxZZFhEcHNxT1FEc3pLWmZKT0dOSTF1U0xzQVB1R0VPLVp6OUxyeUo1MVpMcWZtazgzSGMxQlM1eW5ZZWVfaUFYT29aMFlXWkdRc09qcFBfVmJoc0xxMVUtOVM5cVgyeU1vS0x5allZYjVBNk1Vb3BEdUVlOEg3OEk2RHg4SEpBUmgzaWxaOHpFcl9JdTY4UlZSSTMzYlBna2dYTWRGMmFXc1BBZmxhMjFHTjl6bDNqX1lYemdoRGZIRzZ3UEVoMnpOT0RDTlc5VzBjaVpxUXlobHkzeHNyTDRaZ1BqV1lRQS1IM0J4aWY2Sw?oc=5",
-     "quando": "2026-11-08T11:09:05+01:00",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNOGFXRjhwUUE0WVJlRENuWExlXzVtOTdmX3NRWDFDWGZuZUJ0YTdpajNsZ250VUNNc0F3cmw4dGZEVlNNUXZ5UGp3dmJ2YVVIRGJPNTVCTW9EaXREazA3WTZqU3F4Y0pBMjlROG9Qa2k5VkZvT2Q4MDhOMEwwazZqMDktQWkzeTFhX210QmVmMEFnZmRoUUZYRjBXR1NJekVBQmtBN2RRZ09kbGN4V0xoM3AxaG5PVXR0ckJsUFBqVy1ZM01iV1g5U2h0OXlEZXhMVzJDRlRzRmhEdVhLa2JsQXpBNDhRdTExUEx6R2J4YXFjM2_SAfgBQVVfeXFMTUppNE5RQjhsWWRYRHBzcU9RRHN6S1pmSk9HTkkxdVNMc0FQdUdFTy1aejlMcnlKNTFaTHFmbWs4M0hjMUJTNXluWWVlX2lBWE9vWjBZV1pHUXNPanBQX1ZiaHNMcTFVLTlTOXFYMnlNb0tMeWpZWWI1QTZNVW9wRHVFZThINzhJNkR4OEhKQVJoM2lsWjh6RXJfSXU2OFJWUkkzM2JQZ2tnWE1kRjJhV3NQQWZsYTIxR045emwzal9ZWHpnaERmSEc2d1BFaDJ6Tk9EQ05XOVcwY2lacVF5aGx5M3hzckw0WmdQaldZUUEtSDNCeGlmNks?oc=5",
+     "quando": "2026-11-08T11:00:00+01:00",
      "gruppo": "Giornali"
     },
     {
@@ -797,22 +781,6 @@
      "gruppo": "Giornali locali"
     },
     {
-     "titolo": "Video: Fieracavalli2026-Valentina Galetto Coldiretti",
-     "fonte": "L'Arena",
-     "dominio": "larena.it",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZHpTdlN4LU5qbnNDbmZseWItX1ZLZkFwb0FHc1M4Y0lEV0phYWp5U1Nnc0Jmd3RFaDZlajh3ZVY1OU9xdExUMGo1Y3hseUtGU1VWLW5pS3ZRYjhNeVZYU28wZGl4M1dDWDJvT1hvQmVYRW96Y1QtdXJlTE5LZ1R1TUJHR1Bjb0JXeDUtZU40TTFDekVX?oc=5",
-     "quando": "2026-11-07T14:40:55+01:00",
-     "gruppo": "Giornali locali"
-    },
-    {
-     "titolo": "Trentino Alto Adige, dalla giunta regionale 7,5 milioni per salvare le pensioni di agricoltori e caregiver",
-     "fonte": "Corriere Alto Adige",
-     "dominio": "corrieredellaltoadige.corriere.it",
-     "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQNWdIeWVqVTBwRlUzMWxTbE1oVDdSZkdzbUZ5T0pwQlBZU2lsLXUtVFhOTjB4cnp5WVYwVXFuZXpXS0Nid1NWVElGQTlsLVlqWkNtZUdiYk1LNThmMy1JT1ViaGhvTW04bzh5R3NleUJJYVhGY21GeEFXTHZTWmE1Sm9yNWVCTVl5Q19RVDdsaXNSYWtiNFRNb2R3bmkxTmxZcE1vOXZCbEp3QV8waXp2bHVRdkQ0UnpBNlBGQWVlNjBUUDBteGhHY0xhMEtTOWViMllDdE5zVmxrVUh4RE5iOEloTzRFMHluM3dUOTdQX3RlZVdKZG1oU3RrcFhhXzFtMjlFRnBPNHA5V05nOFZreGh2d1MxQXY4M29XTmI3eUh1b3ZnaEY5aW8ySG9PbjlWNkZlZ0pIQm5MR0RPQ25wdGpaOWTSAcoCQVVfeXFMT3ZUNXZXdWVxYXBURnBLaWlQYnhrQ2ZFRTRoU2xONXZLWHgydUZMVU56REg0MTI1RHNtbXBHWHR0VXN4bDdPOHhSTFZtczRWMU9aUUdjVVQwWnlLeGNhZUgwX1VVUWNmajJYRlZLaDd6WGdQZHVvRHRHNmdSaGc1OTUtOGhWQVoxZ2ZOUFVUSVFFR2kwYmFLelEtVWdWS3JBY19rc3hVNF9UbV9fczZvNi1MbldsbUYzX25LTC1xcGFFNnp3VmY5WVA2allsSGNLY0dWSzd4eUJQVl94bFJvNlFHRThoYWdzQTh5X2FPMVd6c2NPSXZqcDExdUdpdHJMOHNJSTZkeG52ek1Odm9KQzVDQ3hSdFZvaFB3M0tNQW9wNTBjQU1MZURwdGYyclFtWGJpSmJnaW10aHczaXZ5VlVRWGhaSDVlNEV3?oc=5",
-     "quando": "2026-11-07T14:22:29+01:00",
-     "gruppo": "Giornali locali"
-    },
-    {
      "titolo": "La piaga dell'olio EVO non EVO: non solo repressione ma cultura dell'extravergine",
      "fonte": "TeatroNaturale.it",
      "dominio": "teatronaturale.it",
@@ -891,16 +859,253 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSFNsZjE5SHB2OXdkV25JUlBqSkFuSGJKRWMxNkUwYjRtUTduYTFXM0R2dkVQZFVJTTdsNlptaUptYjBwZV9wUHI4VlRBUGtmUkgwcEhqX2pOaTBNc19rTWhNYkJYTzBWQ0hOVFE5aEMybGFHb1B4OEtNT21yMlNMUXBPSGJna1RKc1JUdjFvamNKaGxydFhhWGYxZEg?oc=5",
      "quando": "2026-11-07T15:07:00+01:00",
      "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Fiocco Verde per Frantoio Speranza, l’identità dell’Umbria in un olio di famiglia",
-     "fonte": "TeatroNaturale.it",
-     "dominio": "teatronaturale.it",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcWV1Ui1odUxtOGFGWlhwRTZteGM0UGFCMm44MXBySlRaa0FvVmsxbEpFMUtRX1l0THZjQ2VWQUVXU041eFZ5WTFCTmdJN2Vrb0hrLU4ybmt3S2RXdVVlRWtWLXZVUFZuQVhzSkx3NDNQRkxZNTE3YzJjMnNkdkhMeDVjdXM0OF9RME5Pb1RCM0szaEY3aHVVRm9CSUc4S2pZMUpvaU9reEJzNl9tc3BkYlF0dFZNMDE3Q1VOT2J4U3ZiaWVxZWs5S1N6akROZw?oc=5",
-     "quando": "2026-11-07T15:01:19+01:00",
-     "gruppo": "Stampa specializzata"
     }
    ]
+  },
+  {
+   "nome": "Storie dal mondo",
+   "ore": 72,
+   "gruppi": [
+    "Europa",
+    "Resto del mondo",
+    "Stati Uniti"
+   ],
+   "articoli": [
+    {
+     "titolo": "Revealed: how a UK firm is spearheading growth in trade of US fracked ethane",
+     "fonte": "The Guardian",
+     "dominio": "theguardian.com",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tVXpuZjJfZFMwMFdQeHRFMXlZcjZ0YVY2UFlwTU40LW1sSUY3aU1QdEFZVGNXVlpBTlBwODVuWWFvaVFyXy1fZVMwcjZLR3RlXy1jTTBKV3pLV3dHeE85LUhPY0NXdHcwR3BqenQ4blRETTZRblZLdQ?oc=5",
+     "quando": "2026-11-08T14:02:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "'We were inseparable': How imaginary friends help us in real life",
+     "fonte": "BBC",
+     "dominio": "bbc.com",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSkVyUkI1NnZVS0NCTlk4TnlmNWdHMVhBZlhGZk10b1AxZzFWQVk5aS1lTHBLdlBUQkNKNV96eGthdTc1MzN1bWFibHdrb282ellrUnZUQkNvZ0Naek1Id0dyUkozX1JGVVc4QnRDZTVxMjEydURNQlRBMktoYjhUdl9JbFVkQjBmeW1hSzUyQQ?oc=5",
+     "quando": "2026-11-08T11:00:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "Reintroduction of white-tailed eagles puts seabird colonies at risk of wipeout, say experts",
+     "fonte": "The Guardian",
+     "dominio": "theguardian.com",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ2EydFBhTUhrc3p2V2NlQ0hObk1TajhGTG8tYk1LYnlfVk03cWNUNndFcGR3VHdHczRKLTMwd3BrcEFsNlFUVUZ5Z1hnWUFRWXhQRVNCWUtyVzcyUk9tczB3SmpOeE9sREc5TVh1LWw2ZWozOFdfUFE2RkR1SG1JVGNOT0RELUVwVk9Zajljb2hQN0twcXN5ak15VTgwbnlqbkdyRDJsdWI4OFQ0SkczRnE2Nm9nczFySm1IM2JhNA?oc=5",
+     "quando": "2026-11-08T10:20:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "Hall of Infamy: Sanae Takaichi",
+     "fonte": "New Internationalist",
+     "dominio": "newint.org",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUNU84S2MxUTNhNFVReHF0U2NmU19yZWVVYkdBa2JoMEo2dDdXU2UzTC11aTh2aTNnamREZm9CNXdtNG5sMF9NcGNEbDlWYzFyelB4NklNaDVBZDY1MGY4d3FKTFdrTFd2bVRn?oc=5",
+     "quando": "2026-11-07T12:56:39+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "The UK government is considering a smart glasses ban",
+     "fonte": "Huck Magazine",
+     "dominio": "huckmag.com",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS3gxR2RnR194VE5ieGhWaWdXdlZsM0VBRE0tNFFhYkRfR1dTTm91VFN0UjRwbTYtLXRJVHpJWS13WVF5SG14VzR0NjB5VksyY3c4bnJnb0JIeGZ4ZUFqbnBlUml6WnNvempnWjdwQXdfazAyRnhDaWpuOE1xamRWQQ?oc=5",
+     "quando": "2026-11-06T13:38:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "Saffron is the world's most expensive spice. Now this 'red gold' is in crisis in Kashmir",
+     "fonte": "BBC",
+     "dominio": "bbc.com",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHU2UU9iOG9vWE1WRHd0b3otQ3V1Y2xIUWVnQU16MkZvc3pRdWg2ZVVGWTUzZy1jQTMtWTJNcHlJa3JNT2VabTFOZ0s3Vm9PanZlZklTQTgxZmtZYjhPczFCZnZrTk5ILWExX3V2R3ZURFdLc2xwZ1MzaGRXUDFPRHExN1p3R002bVVEUEhZMkc0Y2xvandNTGxDN0FQT3Y0TXdpSmloWnM0UF9xX3ctbWhn?oc=5",
+     "quando": "2026-11-06T11:00:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "Fishing trawlers will hit rock bottom",
+     "fonte": "The Ecologist",
+     "dominio": "theecologist.org",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54ZFJZQ0hZZV9ybEFvY2JzTnI2NV9ZUFNWUjNFUVZjNjlvSHN5ZkJ3NHB0WUFQNU9Ta2k5aXdkR084bW5NSGVNYzZSQTRXbk9pMjRNYXk5b1hEdnJOdHI3b2xLUG9MRnpOaGMzaE0xRUQwSmkxUFRlM0ZUR0VzTlU?oc=5",
+     "quando": "2026-11-06T10:30:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "'And I would walk 8,000 miles'",
+     "fonte": "The Ecologist",
+     "dominio": "theecologist.org",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMjR2SklmRl83RVpzQkM3cFc4UHdDRXRHRVpxaHNOZVNCMDFaRUdVcnBrQ3V2ZzJnQXBCZUJtQmw4N1VrNmtsTjI4dXhRVEwydHV1TDUydEp5Z1RkMlFjVDc1OU1NMjlhWTU2cEJkWUNBZw?oc=5",
+     "quando": "2026-11-06T09:00:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "The butterfly effect: a brighter way to make paint?",
+     "fonte": "Positive News",
+     "dominio": "positive.news",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUk5oaFNEMmxPeVpXLW5ZS2w5TEJvUFRRUDdzSzEtY2drRVMtTFBoeWdMUzBITnpoTU9qeEZ3Qk9SelRpWENNdjVCbFRoc2luVVY5cnZ2MmtrSGZYV19NblJOd1B4VVlhRUR2MEplTkthOTRKUG16QWsxWVpUa3RxQUJzMzFLQlFMcndaQg?oc=5",
+     "quando": "2026-11-05T18:34:47+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "Analogue Appreciation: Bricknasty",
+     "fonte": "Huck Magazine",
+     "dominio": "huckmag.com",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ya24yekNva1JoZ21IRHBGZnBVY3ctQ1FaQWdaYlVuMWlHSC04Z0w3SEdRcUUtYV9MaGY3MzNmU2pYMEtEeUI2aUVzRjZ3dzl6Qy1lbFdDcldxblZ4bk9CT1dtMWpCN1NnYkZHQ2lfMl9ZdHJQRTRibnhkdGM?oc=5",
+     "quando": "2026-11-05T16:19:00+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "« Toute la terre est mon village » : en Seine-Saint-Denis, l’hindouisme veut sortir de l’ombre",
+     "fonte": "La Croix",
+     "dominio": "la-croix.com",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTF95Ty1qVzdScU5lMGZkdFRYSThPb1BpNDFrTHg2QnNGSW5MU2JMOThLSFh3UW1LX0xCMXVyOEM2TDVuRzhJNVItSjZWdHIxVG1KZ2VnNGZoUHJxd2dfUGpMb3hiN1VDSzBweVJaSUxXUVVlQm9wY0dHZEg1MHpEVHhOeFdiVmRGZnRvcmVkdE5QNWNnbksxeHp4a2tQU0c2RXRyYkpjTjlCX0tSTXYta2ZITUVKdkRGWnBwZWQwbmNRWUpDaVpoeA?oc=5",
+     "quando": "2026-11-08T14:20:02+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "Route du Rhum : Tom Laperche triomphe, record à la clé",
+     "fonte": "La Croix",
+     "dominio": "la-croix.com",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPREZnMlVfaXd6clVyRFZJa0ZlajZEVml6M2U2LXo3MTJNOWk5RmNTaU10MTFsX2FjMkFoMmE3czNUUzhhNVVKWmRsVnNRQ0Y3eWgyY1BWQjdVY2lDeG85cjc2OGxySW1MODQzLVdXeElxWXJFYWhsd2syTTNIcnh6QXcya3hiN2xhWXN6em1xdWZnZ3NDQlE?oc=5",
+     "quando": "2026-11-08T14:18:12+01:00",
+     "gruppo": "Europa"
+    },
+    {
+     "titolo": "Paying to work: bribery and the earnings of Kenya’s informal workers",
+     "fonte": "African Arguments",
+     "dominio": "africanarguments.org",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX3l5R0s1X3VNOWMtQVBXbEl0TEVicVlTZmVTdVl4WWpPMHVncWhSSUlFdXFjSHVYVGl4aTdrSTZFTEdCUmg4YXlGei1OMDBPV1VKNnY2UUJJY0luOG9FOVdKUDNsa0dYN0F6c3NOSHRWRXU1T1VhYVJLWnpZalJmaWcxVlJJRWc5QlZ2dHVHSHE3X1I4V3BNVTctU3hMNEphc0hYUkx5WQ?oc=5",
+     "quando": "2026-11-08T14:17:56+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "This riverside border town is fueling an illegal gold rush",
+     "fonte": "news - Mongabay",
+     "dominio": "news.mongabay.com",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXNkR0hsOEE1a0FwbVVxYmlTdXRMcmh3WXlVQ3NxNXNYbTR6M2ZpSUV6Qi1rSk1pT18zYnV2a2JteVpyRGRhVjUxRkJkbWV2Nng3R28tdVhzeVpDcGNKR0xsSXVYR19pbGUzWHFPMEQtbmhWWFlIdHVVMzRvS0kxZjRjZzJnZXJoMFo0ZkkzSWMxNlpDWm1ra0d4RC1YMVRqOGpzQVN4QU8wcEk?oc=5",
+     "quando": "2026-11-07T12:35:15+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "These divers are killing a beautiful coral to save Brazil’s marine life",
+     "fonte": "news - Mongabay",
+     "dominio": "news.mongabay.com",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaExWczJkYnBTMHEtWWRJeC1NX0ZlbEM5ZVFXZjlzanowYk9ycEY4YmF6cElkUEZSR1lCamhGdHAxbm1KbHdpVzJScWFGamxTc0RMZ2t2M1B4SWFuaGNzUUdwdjk3eklEVEpmUFA0NFVZSUhYejNYUFF1M2J5NUpVUHY1M3NlQWpYdGZKYl9lNHpURlVYQkRwR2JHdEFoYUVnbWVINXhR?oc=5",
+     "quando": "2026-11-07T12:20:35+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "How people in Montenegro are making their country cleaner",
+     "fonte": "Global Voices",
+     "dominio": "globalvoices.org",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZUhUTHlPVEVjNlhhTXZwR3F2Vnh4WGl2RVFOa2swUDJXUUU0azM2ajdjZGdSbUcwb1VYdHRCNDVVczFaSnZQbmFuQ1RzNnY0LXEtNl84VHo4QkEwaEwtandrRElEbnpnd2lqRkNkbXhSb2lwXzVmYWtoUmlBdm14RDYwS0dwZGVkTFZMZnF6eHNjek9laFB3ZTdB?oc=5",
+     "quando": "2026-11-07T09:13:08+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "Formalising the RSF: EU Policies and Sudan’s Search for Funds",
+     "fonte": "African Arguments",
+     "dominio": "africanarguments.org",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVk93U01aOEsxSFZSQkdxMXB4UmFZV3ozWFhGUTNnS0lwRkhlNmljekJFVVBnNkZScWVQbWNtbkJ5bU1UeVoyUlEyOXBzc0hVNjNndXRJWGhjVHktZ3dvdEZCZnN4RjNpTkplUTBsVUZDRGp4anBYbDFVRm13TW9mUkk0Qjc3Sm16SldsNXFlZGJnNEducDRtZDcxNTZvZw?oc=5",
+     "quando": "2026-11-06T22:09:04+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "Big Tech, AI, and the quiet expansion of digital surveillance in Nigeria",
+     "fonte": "Global Voices",
+     "dominio": "globalvoices.org",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ3VLalBpc0Nsd0pEOERSZ3B2alJRUmRmd3gwWE5HRks2MGtENXpnOHdieWFBampOalhXQ2VIOFZLczFrY2NyZVV3eDd3TnVDWkpTU00tcURIcE85U2pYY3Njd0dOX1gyTTRWMUwzNG9QQ0pZRU1qX2pxVFJ4M1VYUlFLVFRqX184M2JFQV9jX3N0X2djZkxNMFJoNVFjZTR6UnFONGdweWE4Mkk?oc=5",
+     "quando": "2026-11-06T21:02:13+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "Q&A: ‘Climate finance should not aggravate Pakistan’s debt burden’",
+     "fonte": "Dialogue Earth",
+     "dominio": "dialogue.earth",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMXBEZGNsMlVrdVhkX2lqQzVPQ0lUczdrelBhRUluQ2t5bnNvcjBybHRFZjdjWHNyaG50Ul91NG1XOTh1b202MG0xNXdUZURuUUh3M0ctTVZrTWpnODVrVE5nZDZNMHF4OGF2Nmo4Q1pYVHA3OXV0a1dtQlVXUjVRVUdHazl1cHphUjFqOTk4QzJsVmNWVzM4TEhjV1o?oc=5",
+     "quando": "2026-11-06T18:14:36+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "Writing on the Wall? How AI Is Reinventing Chinese Typography",
+     "fonte": "Sixth Tone",
+     "dominio": "sixthtone.com",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY3ZBbzhxTDU2NER6ZEloTjZ1NENOR05YUGpEZWs2Y201MHdIa3Z4c1pHQkdRN3lOZ0ZaRGFzenc1YW1fS3ZaMmtSMWxSLXZyTGs1b21SUFllZGxpYnVNNFZOem9jZEthTmxzVjRkX0N0UURTUENwdE9yMjgyTTNzSm13UWdKUEZyRXgyZkxVSlUxM1BEUko5b3BGek9PUktBaEtRMHFpS19oT1NVVUFOVldMSU5teDVMVFJBNzNwdw?oc=5",
+     "quando": "2026-11-06T09:50:55+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "‘We cannot hold peace talks at gunpoint’: Security build-up deepens distrust over dam",
+     "fonte": "Mongabay India",
+     "dominio": "india.mongabay.com",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSTB5U01maEZOZUxnckFVejNvakJsOTVwTmJ2b19Ud1RzOHJlNDJRRnRJZ0EwQ1FheTNiNTFGR0Zqc25BYkNieXJvNHV4WnRYR3IwN1MwdmY2MXRQSHdmRWxJYW1qekpfejc0N3pjc2FNNUZpaVdJVkhLM3NCdHgyX0k1YWJ4NTM2LXFVdVozcV9mb3lUUkQ0YVNxdENHN1AxZ1kyczFZdl9XWklfbm13VDZVYmFvbmlJbVE?oc=5",
+     "quando": "2026-11-06T08:49:12+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "Two losses this year, but authorities say great Indian bustard’s rewilding is on track",
+     "fonte": "Mongabay India",
+     "dominio": "india.mongabay.com",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeXRVTkMtZ0FjWldzaC1oeEVjbHFnaXgweUpkMERSM0NhZm11RWlUSUNYb01aWUFCSWhWLXo4THhEZ2ZxbkhKTU44RjhBanh1Zm9KT0J4cXJ6X3VYTUJqUlZwQnhzcE4wOERfd2RrRU5acWFFY0RTM3BkSGVVNTV1Rkpua0N1YWlyS1FCd0RtT24xanJmVVd4aEpBZ3hiTWNnX283QjktZ09ldS1zYkdZTlZtdEVyZlg1bUlvMQ?oc=5",
+     "quando": "2026-11-06T07:30:25+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "COP17: Global South struggles to protect ocean as money fails to flow",
+     "fonte": "Dialogue Earth",
+     "dominio": "dialogue.earth",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVHhvR05sQ3pib0hCaS1PWjNZMTlHbDNhVTNKYURRekhqbkR0LXNkUzIzUmNvTll1WFBKUzJHU0tlSmkxOFBEQk1oblBTTTJldTZpMl92blNwM2wyT2RhVndla08yXzc2Vjd5OWsyVEdteExQTUduOWVqc0l5dENPaDNlam1tdWFvWEx6akZCazdlbDNuYVJmcWVqdFZyT1dxN2ow?oc=5",
+     "quando": "2026-11-05T17:11:20+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "‘The Lights of Shantinagar’: A heartwarming novel about the things people do out of and for love",
+     "fonte": "Scroll.in",
+     "dominio": "scroll.in",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZTEzcEFPbTBZb2V1SVF2U0lPSWhGNHpsd1BDWWlUX2dXLUU4bFoxYXY2T0FWdGVXbUdtb2wxcXkxVmt3cTcyeF8zbVZQc2VPVDRHOG91XzRiWEZYSmN0X2JDWk8zUk8zNWdzWjU0ZDlLVXNDYUdsY25BTG04SzR5Q0tHeDFfdEZZYU9ZekVLUlVlZWVVLV92YlQ4c3lISGJkQlBzVVRYVDAyUE1fd29MTjBpSnpQaHNjTFg3RGZhbWQ5M1FRVlHSAcsBQVVfeXFMTkJpZFV3cHRCVzVLZVp0U0dqTExlS0gzQ193STg4WVc2Sktuc2NGazJ2MWZQRUxzdnhFU3lmc0lDMGdsOElnazRNZXhrOG5kQVRQTTRyUW1XRDFQcUM1NGJKWWhxZ2FZb1kxQ2NjZTNtblRiSE52U1lGd2FtcENReDRkN3NKMFc3ZDhBR0YxQTh2dUJDbUVoWHNwUnpsVDkwY0JJSGVNTE5xSTcybEk0cFlzVmZrbEx6MDZURFd0Q1Jja1p6bG5aajJENkk?oc=5",
+     "quando": "2026-11-08T13:00:00+01:00",
+     "gruppo": "Resto del mondo"
+    },
+    {
+     "titolo": "These cranberry bogs come with a side of solar",
+     "fonte": "Grist",
+     "dominio": "grist.org",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNjR5STliT2hzWkN1aUNTbGgxNVRFeWVOUllBN3dzbk9JVVdpSlhfX0ZPMmN0enl6akR3bjZvdEdhbXF1QTZ2dWxNem1uWGF5d0Ita0FMSnkyTl9HMjRHdjQ5T3FMdmkzREUtenZCWUp6eVZHb3dzRVp5ZFctVUVMUw?oc=5",
+     "quando": "2026-11-07T15:27:10+01:00",
+     "gruppo": "Stati Uniti"
+    },
+    {
+     "titolo": "Democrats take control of Georgia’s powerful utility regulator",
+     "fonte": "Grist",
+     "dominio": "grist.org",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV2hRT2YzbEhPYzlLX2pHZW5sNkl6dnlJNHZLSFQ1cWp4SlRONTZuUkZmVW1SVFJZcW1pMDE3STduNkNodDluQmFMbC11VkFJR1FJRC1xTkZhQ3N0Mkg3R3J6RmxMcnJRaVJaVk5XQWh5b3JCVEpQNy1RNlk5ZVpoaWRGT09mUEJSVEs0blFXSXFkRnEydXNr?oc=5",
+     "quando": "2026-11-06T19:57:12+01:00",
+     "gruppo": "Stati Uniti"
+    },
+    {
+     "titolo": "The Weekly Wrap: A Blue Wave*",
+     "fonte": "Next City",
+     "dominio": "nextcity.org",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0ySENOMnl6UVJJcENXd3h6SzlqaDlTTk1NWmpIX2dYTldpdHluTjBILUlGXzBBWGlkM01tWmxGZDh5UWZpZTRyaTdVYW13YWtmMC1wN0RQV0YwT0staWt1djRGSmFBMEhDNEYwSjljNA?oc=5",
+     "quando": "2026-11-06T17:39:00+01:00",
+     "gruppo": "Stati Uniti"
+    },
+    {
+     "titolo": "As the Japanese Countryside Empties Out, Wildlife Is Disappearing",
+     "fonte": "Yale E360",
+     "dominio": "e360.yale.edu",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YT3h4NU5fRVhoUWFoM21ZTWp6RXZWQWVMYlhESEFBVHZBVFBoRXVHdWtoZjJkRDlIYWI3dFd6VGxWd2c5dHdHZGlpMl94N093ckd3dVVUTjZTQVZSaTdKR1A3VjYycWtBckw3dA?oc=5",
+     "quando": "2026-11-06T17:29:38+01:00",
+     "gruppo": "Stati Uniti"
+    },
+    {
+     "titolo": "Cities Have a Talent Shortage. Apprenticeships Can Close It.",
+     "fonte": "Next City",
+     "dominio": "nextcity.org",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWHVDRUNQVmdrLUNmLXFFbnVHeUpWZGF5M09EekpXSV9EeWkwYWZYYVBxckcwcWNTNFU0bU1PRmxTUkgxbWJYZnBDMi1xV1RZMm9CTlpBdUJST0FvRUNJSGZxcnR6c2MyOTJ1bGlOWUJuTTJxaWozcGhVQm0wWmptMUZacm5na0lYbG93YnZidWRuVTdoS1ZFZQ?oc=5",
+     "quando": "2026-11-06T15:30:00+01:00",
+     "gruppo": "Stati Uniti"
+    }
+   ],
+   "a_parte": true,
+   "descrizione": "Reportage e approfondimenti internazionali su comunità, ambiente locale e città, con più spazio alle testate non americane."
   }
  ]
 }
