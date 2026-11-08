@@ -8,58 +8,110 @@
 #   parole  -> (facoltativo ma consigliato) almeno una di queste deve
 #              comparire nel TITOLO, altrimenti l'articolo viene scartato.
 #              Serve perché Google News trova anche pagine che citano il
-#              tema solo nella barra laterale. Va bene anche un pezzo di
-#              parola: "ateneo" trova anche "atenei"? No: "aten" sì.
+#              tema solo nella barra laterale. Basta un pezzo di parola:
+#              "aten" trova sia "ateneo" sia "atenei".
 #   escludi -> (facoltativo) parole che, se compaiono nel titolo,
 #              fanno scartare l'articolo
 #   ore     -> (facoltativo) quanto indietro cercare per questo tema;
 #              utile per i temi di nicchia con poche notizie al giorno
+#   fonti_specialistiche -> (facoltativo) domini della stampa di settore
+#              per questo tema: finiscono nel gruppo "Stampa specializzata"
 #
 # Maiuscole e minuscole non contano. Per aggiungere un tema basta copiare
-# un blocco [[tema]] e modificarlo.
+# uno dei blocchi qui sotto e modificarlo.
 
 [impostazioni]
 titolo = "Rassegna stampa"
 ore = 24                 # quanto indietro cercare (se il tema non dice altro)
-max_articoli = 25        # massimo per tema
+max_articoli = 15        # massimo per tema, in ciascun gruppo di fonti
+max_per_fonte = 4        # massimo di articoli della stessa testata per gruppo
 lingua = "it"
 paese = "IT"
-# Fonti da scartare sempre (basta un pezzo del nome)
-fonti_escluse = ["Vietnam.vn", "UniversiNet", "Notizie.it", "Kronic"]
+
+# Testate generaliste considerate autorevoli: valgono per tutti i temi e
+# finiscono nel gruppo "Giornali". Si indica il dominio del sito (senza
+# https:// e www.); i sottodomini sono compresi, quindi "corriere.it"
+# include anche corrieredelmezzogiorno.corriere.it.
+# Se si svuotano questo elenco e quelli specialistici, la rassegna torna
+# a prendere articoli da tutte le fonti.
+fonti_autorevoli = [
+  # agenzie
+  "ansa.it", "agi.it", "adnkronos.com",
+  # quotidiani e siti nazionali
+  "corriere.it", "repubblica.it", "lastampa.it", "ilsole24ore.com",
+  "ilpost.it", "avvenire.it", "ilmessaggero.it", "ilfattoquotidiano.it",
+  "ilfoglio.it", "editorialedomani.it", "ilgiornale.it", "ilmanifesto.it",
+  "open.online", "lespresso.it", "internazionale.it", "huffingtonpost.it",
+  "linkiesta.it", "lavoce.info", "pagellapolitica.it", "milanofinanza.it",
+  # tv e radio
+  "rainews.it", "tg24.sky.it", "tgcom24.mediaset.it", "la7.it",
+  # grandi quotidiani locali
+  "ilmattino.it", "ilgazzettino.it", "ilsecoloxix.it", "lanazione.it",
+  "ilrestodelcarlino.it", "ilgiorno.it", "gazzettadelsud.it",
+  "lagazzettadelmezzogiorno.it", "unionesarda.it", "lanuovasardegna.it",
+  "messaggeroveneto.it", "ildolomiti.it", "ladige.it",
+]
+
+# Fonti da scartare sempre (basta un pezzo del nome o del dominio)
+fonti_escluse = []
+
 
 [[tema]]
 nome = "Ponte sullo Stretto"
 query = '"ponte sullo Stretto" OR "ponte di Messina" OR "Stretto di Messina"'
-parole = ["ponte", "stretto di messina", "salvini"]
+parole = ["ponte sullo stretto", "ponte di messina", "stretto di messina", "ponte sul", "ciucci", "webuild"]
+ore = 48
+fonti_specialistiche = ["ingenio-web.it", "edilportale.com", "infobuildenergia.it",
+  "quotidianodelsud.it", "lasicilia.it", "lacnews24.it", "messinatoday.it",
+  "reggiotoday.it", "strettoweb.com", "webuildvalue.com"]
 
 [[tema]]
 nome = "Università"
 query = 'università OR atenei OR ateneo OR rettori OR "ministra Bernini" OR "semestre filtro" OR "diritto allo studio"'
 parole = ["universit", "aten", "rettor", "bernini", "semestre filtro", "diritto allo studio",
           "ricercator", "anvur", "crui", "test di medicina", "medicina", "borse di studio"]
-escludi = ["calcio", "basket", "volley"]
+escludi = ["calcio", "basket", "volley", "nuoto", "università popolare", "università della terza età"]
+fonti_specialistiche = ["roars.it", "corriereuniv.it", "orizzontescuola.it",
+  "tecnicadellascuola.it", "ilbolive.unipd.it", "flcgil.it", "scienzainrete.it",
+  "lescienze.it", "redattoresociale.it"]
 
 [[tema]]
 nome = "Sanità italiana"
-query = '"Servizio sanitario nazionale" OR "sanità pubblica" OR "Fondo sanitario" OR "liste d’attesa" OR "liste di attesa" OR Schillaci OR "medici di famiglia" OR "carenza di medici"'
+query = '"Servizio sanitario nazionale" OR sanità OR "Fondo sanitario" OR "liste d’attesa" OR "liste di attesa" OR Schillaci OR "medici di famiglia" OR "carenza di medici"'
 parole = ["sanit", "ssn", "liste d", "schillaci", "medici", "infermier", "ospedal",
           "pronto soccorso", "asl", "fondo sanitario", "case di comunità"]
-escludi = ["aggredit", "aggredisce", "travolt", "accoltellat", "schiaffo", "incidente"]
+escludi = ["aggredit", "aggredisce", "travolt", "accoltellat", "schiaffo", "incidente",
+           "rione sanità", "vicoli della sanità"]
+fonti_specialistiche = ["quotidianosanita.it", "panoramasanita.it", "gimbe.org",
+  "nurse24.it", "doctor33.it", "healthdesk.it", "aboutpharma.com",
+  "insalutenews.it", "fnomceo.it", "dottnet.it", "agenas.gov.it"]
 
 [[tema]]
 nome = "Concessioni idroelettriche"
 query = 'idroelettrico OR idroelettriche OR idroelettriche concessioni OR "grandi derivazioni"'
 parole = ["idroelettric", "grandi derivazioni", "dighe", "diga"]
 ore = 72
+fonti_specialistiche = ["qualenergia.it", "staffettaonline.com", "quotidianoenergia.it",
+  "rinnovabili.it", "energiaoltre.it", "canaleenergia.com", "greenreport.it",
+  "startmag.it", "nextville.it", "elettricitafutura.it", "salto.bz",
+  "altoadige.it", "laprovinciadisondrio.it", "valtellinanews.it", "montagna.tv"]
 
 [[tema]]
 nome = "Aree interne"
 query = '"aree interne" OR spopolamento OR "piccoli comuni" OR borghi spopolamento OR "Strategia nazionale aree interne"'
-parole = ["aree interne", "spopolament", "piccoli comuni", "borgh", "snai", "restanza", "montagna"]
+parole = ["aree interne", "spopolament", "piccoli comuni", "borgh", "snai", "restanza", "comuni montani", "uncem"]
 ore = 48
+fonti_specialistiche = ["vita.it", "uncem.it", "openpolis.it", "rivistailmulino.it",
+  "redattoresociale.it", "dislivelli.eu", "forumdisuguaglianze.org",
+  "fondazioneconilsud.it", "montagna.tv", "valori.it"]
 
 [[tema]]
 nome = "Filiera agroalimentare"
 query = 'agroalimentare OR "filiera agroalimentare" OR agricoltori OR Coldiretti OR Lollobrigida OR "prezzi agricoli" OR agroindustria'
 parole = ["agroaliment", "filiera", "agricolt", "agricol", "coldiretti", "confagricoltura",
-          "cia ", "lollobrigida", "agroindustr", "trattori", "allevator", "grano", "latte", "olio", "vino"]
+          "cia", "lollobrigida", "agroindustr", "trattori", "allevator", "grano", "latte", "olio", "vino"]
+fonti_specialistiche = ["agronotizie.imagelinenetwork.com", "terraevita.edagricole.it",
+  "informatoreagrario.it", "ilfattoalimentare.it", "teatronaturale.it",
+  "agricolae.eu", "agricultura.it", "italiafruit.net", "myfruit.it",
+  "corriereortofrutticolo.it", "alimentando.info", "efanews.eu",
+  "agrifoodtoday.it", "winenews.it", "foodweb.it"]

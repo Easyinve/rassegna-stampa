@@ -65,19 +65,24 @@ def normalizza(titolo: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
-def cerca(tema: dict, imp: dict) -> list[dict]:
-    ore = tema.get("ore", imp["ore"])
-    da = datetime.now(timezone.utc) - timedelta(hours=ore)
-    url = url_google_news(tema["query"], ore, imp["lingua"], imp["paese"])
+def dominio(url: str) -> str:
+    host = urllib.parse.urlparse(url).hostname or ""
+    return host.lower().removeprefix("www.")
+
+
+def appartiene(host: str, domini: list[str]) -> bool:
+    return any(host == d or host.endswith("." + d) for d in domini)
+
+
+def leggi_feed(query: str, ore: int, imp: dict) -> list[dict]:
+    url = url_google_news(query, ore, imp["lingua"], imp["paese"])
     radice = ET.fromstring(scarica(url))
-    escludi = [p.lower() for p in tema.get("escludi", [])]
-    parole = [p.lower() for p in tema.get("parole", [])]
-    fonti_escluse = [f.lower() for f in imp.get("fonti_escluse", [])]
-    articoli, visti = [], set()
+    voci = []
     for item in radice.iter("item"):
         titolo = (item.findtext("title") or "").strip()
         fonte_el = item.find("source")
         fonte = (fonte_el.text or "").strip() if fonte_el is not None else ""
+        host = dominio(fonte_el.get("url", "")) if fonte_el is not None else ""
         # Google News aggiunge " - Nome testata" alla fine del titolo
         if fonte and titolo.endswith(" - " + fonte):
             titolo = titolo[: -len(fonte) - 3].strip()
@@ -85,27 +90,78 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
             quando = parsedate_to_datetime(item.findtext("pubDate") or "")
         except (TypeError, ValueError):
             continue
-        if quando < da:
-            continue
-        t = titolo.lower()
-        if parole and not any(p in t for p in parole):
-            continue
-        if any(p in t for p in escludi):
-            continue
-        if any(f in fonte.lower() for f in fonti_escluse):
-            continue
-        chiave = normalizza(titolo)
-        if not chiave or chiave in visti:
-            continue
-        visti.add(chiave)
-        articoli.append({
-            "titolo": titolo,
-            "fonte": fonte,
-            "link": (item.findtext("link") or "").strip(),
-            "quando": quando.astimezone(ROMA).isoformat(),
-        })
-    articoli.sort(key=lambda a: a["quando"], reverse=True)
-    return articoli[: imp["max_articoli"]]
+        voci.append({"titolo": titolo, "fonte": fonte, "dominio": host,
+                     "link": (item.findtext("link") or "").strip(), "quando": quando})
+    time.sleep(1)  # gentilezza verso Google News
+    return voci
+
+
+def contiene(testo: str, parole: list[str]) -> bool:
+    """Vero se una delle parole compare nel testo come inizio di parola
+    ("aten" trova "atenei", ma "cia" non trova "denuncia")."""
+    return any(re.search(r"(?<!\w)" + re.escape(p), testo) for p in parole)
+
+
+def cerca(tema: dict, imp: dict) -> list[dict]:
+    """Articoli del tema, divisi in gruppi di fonti (giornali, stampa specializzata).
+
+    Google News ignora il limite di tempo quando una ricerca combina parole e
+    un elenco di siti, e restituisce al massimo 100 risultati ordinati per
+    pertinenza: così gli articoli del giorno restano fuori. Per questo:
+    - per i giornali si usa la ricerca del tema, filtrando poi per dominio,
+      più una ricerca del tema ristretta ai siti, per non perdere nulla;
+    - per la stampa specializzata si prende tutto quello che i siti hanno
+      pubblicato nelle ultime ore (pochi siti per volta) e si filtra per
+      parole nel titolo.
+    """
+    ore = tema.get("ore", imp["ore"])
+    da = datetime.now(timezone.utc) - timedelta(hours=ore)
+    escludi = [p.lower() for p in tema.get("escludi", [])]
+    parole = [p.lower() for p in tema.get("parole", [])]
+    fonti_escluse = [f.lower() for f in imp.get("fonti_escluse", [])]
+    autorevoli = imp.get("fonti_autorevoli", [])
+    specialistiche = tema.get("fonti_specialistiche", [])
+
+    generale = leggi_feed(tema["query"], ore, imp)
+    gruppi: list[tuple[str, list[dict]]] = []
+    if autorevoli:
+        cand = list(generale)
+        for i in range(0, len(autorevoli), 15):
+            siti = " OR ".join("site:" + d for d in autorevoli[i:i + 15])
+            cand += leggi_feed(f"({tema['query']}) ({siti})", ore, imp)
+        gruppi.append(("Giornali", [c for c in cand if appartiene(c["dominio"], autorevoli)]))
+    if specialistiche:
+        cand = list(generale)
+        for i in range(0, len(specialistiche), 5):
+            cand += leggi_feed(" OR ".join("site:" + d for d in specialistiche[i:i + 5]), ore, imp)
+        gruppi.append(("Stampa specializzata",
+                       [c for c in cand if appartiene(c["dominio"], specialistiche)]))
+    if not gruppi:  # nessun elenco di fonti: si prende tutto
+        gruppi = [("", generale)]
+
+    risultato, visti = [], set()
+    for gruppo, candidati in gruppi:
+        candidati.sort(key=lambda c: c["quando"], reverse=True)
+        per_fonte: dict[str, int] = {}
+        scelti = []
+        for c in candidati:
+            t = c["titolo"].lower()
+            chiave = normalizza(c["titolo"])
+            if (c["quando"] < da or len(chiave) < 20 or chiave in visti
+                    or chiave == normalizza(c["fonte"])
+                    or (parole and not contiene(t, parole))
+                    or contiene(t, escludi)
+                    or any(f in c["fonte"].lower() or f in c["dominio"] for f in fonti_escluse)):
+                continue
+            if per_fonte.get(c["fonte"], 0) >= imp["max_per_fonte"]:
+                continue
+            visti.add(chiave)
+            per_fonte[c["fonte"]] = per_fonte.get(c["fonte"], 0) + 1
+            scelti.append({**c, "quando": c["quando"].astimezone(ROMA).isoformat(), "gruppo": gruppo})
+            if len(scelti) >= imp["max_articoli"]:
+                break
+        risultato += scelti
+    return risultato
 
 
 def titoli_precedenti(oggi: str, giorni: int = 7) -> set[str]:
@@ -141,6 +197,7 @@ nav a span{color:var(--accento);font-weight:600;margin-left:4px}
 section{margin-bottom:36px}
 h2{font-family:Georgia,"Times New Roman",serif;font-size:1.45rem;margin:0 0 6px;scroll-margin-top:12px}
 h2 small{font-family:inherit;font-size:.85rem;color:var(--tenue);font-weight:normal;margin-left:6px}
+h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accento);margin:18px 0 0}
 ul{list-style:none;margin:0;padding:0}
 li{padding:10px 0;border-bottom:1px solid var(--riga)}
 li a{color:var(--testo);text-decoration:none;font-weight:600}
@@ -181,8 +238,11 @@ def html_report(imp: dict, dati: dict, link_archivio: str) -> str:
         elif not t["articoli"]:
             righe = '<p class="vuoto">Nessun articolo nuovo.</p>'
         else:
-            voci = []
+            voci, gruppo = [], None
             for a in t["articoli"]:
+                if a.get("gruppo") and a["gruppo"] != gruppo:
+                    gruppo = a["gruppo"]
+                    voci.append(f'</ul><h3>{html.escape(gruppo)}</h3><ul>')
                 q = datetime.fromisoformat(a["quando"])
                 quando = f"{q.day} {MESI[q.month - 1][:3]}, {q:%H:%M}"
                 voci.append(
@@ -190,7 +250,7 @@ def html_report(imp: dict, dati: dict, link_archivio: str) -> str:
                     f'{html.escape(a["titolo"])}</a>'
                     f'<span class="meta">{html.escape(a["fonte"])} · {quando}</span></li>'
                 )
-            righe = "<ul>" + "".join(voci) + "</ul>"
+            righe = ("<ul>" + "".join(voci) + "</ul>").replace("<ul></ul>", "")
         sezioni.append(
             f'<section><h2 id="{ancora(t["nome"])}">{html.escape(t["nome"])}'
             f'<small>{len(t["articoli"])} articoli · ultime {t["ore"]} ore</small></h2>{righe}</section>'
@@ -199,7 +259,7 @@ def html_report(imp: dict, dati: dict, link_archivio: str) -> str:
 <p class="data">{data_estesa(ora).capitalize()} · aggiornata alle {ora:%H:%M}</p></header>
 <nav>{nav}</nav>
 {''.join(sezioni)}
-<footer>Articoli da Google News, senza quelli già usciti nelle rassegne della settimana.
+<footer>Articoli da Google News, solo dalle testate scelte in temi.toml, senza quelli già usciti nelle rassegne della settimana.
 <a href="{link_archivio}">Archivio</a></footer>"""
     return pagina(f'{imp["titolo"]} – {data_estesa(ora)}', corpo)
 
@@ -224,7 +284,8 @@ def main() -> int:
     args = ap.parse_args()
 
     config = tomllib.loads(Path(args.temi).read_text(encoding="utf-8"))
-    imp = {"titolo": "Rassegna stampa", "ore": 24, "max_articoli": 25, "lingua": "it", "paese": "IT"}
+    imp = {"titolo": "Rassegna stampa", "ore": 24, "max_articoli": 15, "max_per_fonte": 4,
+           "lingua": "it", "paese": "IT"}
     imp.update(config.get("impostazioni", {}))
 
     adesso = datetime.now(ROMA)
@@ -244,7 +305,6 @@ def main() -> int:
             voce["errore"] = str(e)
             print(f"  ERRORE: {e}", file=sys.stderr)
         temi.append(voce)
-        time.sleep(1)  # gentilezza verso Google News
 
     if errori == len(temi):
         print("Tutte le ricerche sono fallite: non aggiorno il report.", file=sys.stderr)
