@@ -1,0 +1,65 @@
+# Temi della rassegna stampa.
+#
+# Ogni tema ha:
+#   nome    -> il titolo della sezione nel report
+#   query   -> la ricerca su Google News (stessa sintassi del sito:
+#              virgolette per le frasi esatte, OR per le alternative,
+#              -parola per escludere)
+#   parole  -> (facoltativo ma consigliato) almeno una di queste deve
+#              comparire nel TITOLO, altrimenti l'articolo viene scartato.
+#              Serve perché Google News trova anche pagine che citano il
+#              tema solo nella barra laterale. Va bene anche un pezzo di
+#              parola: "ateneo" trova anche "atenei"? No: "aten" sì.
+#   escludi -> (facoltativo) parole che, se compaiono nel titolo,
+#              fanno scartare l'articolo
+#   ore     -> (facoltativo) quanto indietro cercare per questo tema;
+#              utile per i temi di nicchia con poche notizie al giorno
+#
+# Maiuscole e minuscole non contano. Per aggiungere un tema basta copiare
+# un blocco [[tema]] e modificarlo.
+
+[impostazioni]
+titolo = "Rassegna stampa"
+ore = 24                 # quanto indietro cercare (se il tema non dice altro)
+max_articoli = 25        # massimo per tema
+lingua = "it"
+paese = "IT"
+# Fonti da scartare sempre (basta un pezzo del nome)
+fonti_escluse = ["Vietnam.vn", "UniversiNet", "Notizie.it", "Kronic"]
+
+[[tema]]
+nome = "Ponte sullo Stretto"
+query = '"ponte sullo Stretto" OR "ponte di Messina" OR "Stretto di Messina"'
+parole = ["ponte", "stretto di messina", "salvini"]
+
+[[tema]]
+nome = "Università"
+query = 'università OR atenei OR ateneo OR rettori OR "ministra Bernini" OR "semestre filtro" OR "diritto allo studio"'
+parole = ["universit", "aten", "rettor", "bernini", "semestre filtro", "diritto allo studio",
+          "ricercator", "anvur", "crui", "test di medicina", "medicina", "borse di studio"]
+escludi = ["calcio", "basket", "volley"]
+
+[[tema]]
+nome = "Sanità italiana"
+query = '"Servizio sanitario nazionale" OR "sanità pubblica" OR "Fondo sanitario" OR "liste d’attesa" OR "liste di attesa" OR Schillaci OR "medici di famiglia" OR "carenza di medici"'
+parole = ["sanit", "ssn", "liste d", "schillaci", "medici", "infermier", "ospedal",
+          "pronto soccorso", "asl", "fondo sanitario", "case di comunità"]
+escludi = ["aggredit", "aggredisce", "travolt", "accoltellat", "schiaffo", "incidente"]
+
+[[tema]]
+nome = "Concessioni idroelettriche"
+query = 'idroelettrico OR idroelettriche OR idroelettriche concessioni OR "grandi derivazioni"'
+parole = ["idroelettric", "grandi derivazioni", "dighe", "diga"]
+ore = 72
+
+[[tema]]
+nome = "Aree interne"
+query = '"aree interne" OR spopolamento OR "piccoli comuni" OR borghi spopolamento OR "Strategia nazionale aree interne"'
+parole = ["aree interne", "spopolament", "piccoli comuni", "borgh", "snai", "restanza", "montagna"]
+ore = 48
+
+[[tema]]
+nome = "Filiera agroalimentare"
+query = 'agroalimentare OR "filiera agroalimentare" OR agricoltori OR Coldiretti OR Lollobrigida OR "prezzi agricoli" OR agroindustria'
+parole = ["agroaliment", "filiera", "agricolt", "agricol", "coldiretti", "confagricoltura",
+          "cia ", "lollobrigida", "agroindustr", "trattori", "allevator", "grano", "latte", "olio", "vino"]
