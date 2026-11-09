@@ -18,7 +18,7 @@ In questa sezione titoli e sommari sono **tradotti in italiano**, con il titolo 
 
 - `rassegna.py` legge i temi, interroga il feed RSS di Google News e scrive `docs/index.html`, `docs/archivio/AAAA-MM-GG.html` e i dati grezzi in `dati/AAAA-MM-GG.json`. Usa solo la libreria standard di Python (3.11 o successivo), quindi non c'è niente da installare.
 - Gli articoli già usciti nelle rassegne dei sette giorni precedenti non vengono ripetuti.
-- `.github/workflows/rassegna.yml` lo esegue ogni giorno alle 6:30 italiane e salva i file nel repository. GitHub Pages pubblica la cartella `docs`. GitHub ragiona in ora UTC e non conosce l'ora legale, quindi il workflow ha due orari (4:30 e 5:30 UTC) e tiene solo quello che corrisponde alle 6:30 in Italia; l'altro si chiude subito senza fare nulla.
+- `.github/workflows/rassegna.yml` lo esegue ogni mattina dalle 6:30 italiane e salva i file nel repository. GitHub Pages pubblica la cartella `docs`. Gli avvii programmati di GitHub possono slittare anche di ore o saltare del tutto, quindi il workflow viene avviato ogni 20 minuti dalle 4:07 alle 9:47 UTC e parte davvero solo la prima volta dopo le 6:30 italiane (gli altri avvii si chiudono in pochi secondi). La data dell'ultima rassegna automatica è in `dati/ultima-automatica.txt`; quelle fatte a mano non contano, quindi non impediscono quella del mattino.
 
 ## Messa online (una volta sola)
 
@@ -89,4 +89,4 @@ SSL_CERT_FILE=/etc/ssl/cert.pem python3 rassegna.py
 - Le traduzioni sono automatiche: in genere comprensibili, a volte goffe (per esempio i nomi propri o i giochi di parole nei titoli).
 - Google News ignora il limite di tempo quando una ricerca combina parole e un elenco di siti, e restituisce al massimo 100 risultati per ricerca. Lo script per questo fa più ricerche per tema (circa 40 in tutto, un minuto di esecuzione) e filtra date e titoli per conto suo.
 - I siti che Google News non indicizza non compaiono, anche se sono nell'elenco.
-- Le Actions programmate possono partire con qualche minuto di ritardo e GitHub le sospende se il repository resta senza attività per 60 giorni (i commit quotidiani della rassegna dovrebbero bastare a tenerlo attivo).
+- Le Actions programmate possono partire in ritardo (per questo la rassegna parte tra le 6:30 e, nei giorni peggiori, la tarda mattinata) e GitHub le sospende se il repository resta senza attività per 60 giorni (i commit quotidiani della rassegna dovrebbero bastare a tenerlo attivo).

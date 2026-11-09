@@ -2,12 +2,15 @@ name: Rassegna stampa
 
 on:
   schedule:
-    # GitHub usa l'ora UTC e non conosce l'ora legale. Per partire sempre
-    # alle 6:30 italiane ci sono due orari, e il primo passo tiene solo quello
-    # giusto: 5:30 UTC in inverno (ora solare), 4:30 UTC d'estate (ora legale).
-    # GitHub può partire con qualche minuto di ritardo.
-    - cron: "30 4 * * *"
-    - cron: "30 5 * * *"
+    # Gli avvii programmati di GitHub non sono affidabili: possono slittare
+    # anche di ore o saltare del tutto, soprattutto allo scoccare dell'ora e
+    # della mezz'ora. Per questo il workflow viene "bussato" più volte ogni
+    # mattina, a minuti insoliti (ogni 20 minuti, dalle 4:07 alle 9:47 UTC),
+    # e il primo passo decide se partire davvero: solo dalle 6:30 italiane in
+    # poi (GitHub ragiona in UTC e non conosce l'ora legale, l'orario italiano
+    # lo calcola lo script) e solo se la rassegna automatica di oggi non è
+    # ancora stata fatta. Gli avvii in più si chiudono in pochi secondi.
+    - cron: "7,27,47 4-9 * * *"
   workflow_dispatch:   # avvio a mano: dalla scheda Actions o dal pulsante nella pagina
 
 permissions:
@@ -21,22 +24,24 @@ jobs:
   rassegna:
     runs-on: ubuntu-latest
     steps:
-      - name: Controlla l'orario
+      - uses: actions/checkout@v5
+
+      - name: Controlla se è il momento
         id: orario
         run: |
           if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "Avvio a mano"; echo "parti=si" >> "$GITHUB_OUTPUT"; exit 0
           fi
-          scarto=$(TZ=Europe/Rome date +%z)   # +0100 in inverno, +0200 d'estate
-          if { [ "$scarto" = "+0100" ] && [ "${{ github.event.schedule }}" = "30 5 * * *" ]; } ||
-             { [ "$scarto" = "+0200" ] && [ "${{ github.event.schedule }}" = "30 4 * * *" ]; }; then
-            echo "parti=si" >> "$GITHUB_OUTPUT"
+          ora=$(TZ=Europe/Rome date +%H%M)
+          oggi=$(TZ=Europe/Rome date +%F)
+          fatta=$(cat dati/ultima-automatica.txt 2>/dev/null || true)
+          if [ "$ora" -lt 0630 ]; then
+            echo "Sono le $ora in Italia: troppo presto"; echo "parti=no" >> "$GITHUB_OUTPUT"
+          elif [ "$fatta" = "$oggi" ]; then
+            echo "La rassegna automatica di oggi è già fatta"; echo "parti=no" >> "$GITHUB_OUTPUT"
           else
-            echo "Questo è l'orario dell'altra stagione: salto"; echo "parti=no" >> "$GITHUB_OUTPUT"
+            echo "parti=si" >> "$GITHUB_OUTPUT"
           fi
-
-      - uses: actions/checkout@v5
-        if: steps.orario.outputs.parti == 'si'
 
       - uses: actions/setup-python@v6
         if: steps.orario.outputs.parti == 'si'
@@ -50,6 +55,9 @@ jobs:
       - name: Salva il report nel repository
         if: steps.orario.outputs.parti == 'si'
         run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            TZ=Europe/Rome date +%F > dati/ultima-automatica.txt
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs dati
