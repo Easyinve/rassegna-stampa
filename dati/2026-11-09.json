@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-09T17:55+01:00",
+ "generato": "2026-11-09T18:42+01:00",
  "temi": [
   {
    "nome": "Ponte sullo Stretto",
@@ -195,6 +195,15 @@
      "gruppo": "Giornali"
     },
     {
+     "titolo": "Concorsopoli all'Università di Milano, assolto l'infettivologo Massimo Galli",
+     "fonte": "Giornale di Sicilia",
+     "dominio": "gds.it",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcXlWUGtTUTZCRUZBN0NnR0c5Tmh6MF92bU1xcFgyTFM5TC1HZV9WNjRUcHQ2YndxdklKTENBWFJtVkFoV0xOcTc4MmZHeEl5MVA4cGZPWVlvLTItT3c3MnVkT2tRMmNHWHZ0R0ZqWGtyeURuQnNqckZOOUtRMkxxcHlvbEJNMTNzNWVXWEFDTE5HVllWVnQwZTZRSXdrbHVJWldVR09DZWdhU25xVVdzS1R6U0NXM2xoS1lTWmxBX2RMU0ExZ0g2LWpPVTE0THExWDVRZncxQTJ1MFh1NHVmY0pSTWNtMDJpVFE?oc=5",
+     "quando": "2026-11-09T18:04:55+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
      "titolo": "Tensione davanti al Rettorato di UniTo, spintoni tra polizia e studenti che fanno saltare l'incontro in senato accademico",
      "fonte": "Corriere Torino",
      "dominio": "torino.corriere.it",
@@ -267,6 +276,15 @@
      "gruppo": "Giornali locali"
     },
     {
+     "titolo": "Manovra, Udu e Rete degli Studenti Medi: “Scuole e università non sono un bancomat con cui fare cassa”. Pronti emendamenti da 6 miliardi per i giovani",
+     "fonte": "Orizzonte Scuola Notizie",
+     "dominio": "orizzontescuola.it",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUFUtSE9ZdGwxcGVQdFdqRUhzeE5fOFlXU3FlcXgwMkJHY0lyZGdRODZUeFBDbmRFZHNrLVJDLVd1WFF2T0hjdTJVaF80TW9aNnJ3Z2pETlZUWXZlRVBtSHRwMXZFRHMtQUZ1NWNYTGg5ZW9kcXpfNUlFRXlFYjlBaWJxUEZleWRuZl9SSzVzWEhrYmFqM2JvVDFsZ3JnSHZwelUxMUhSWm1kUkUzci1IbDJNYTBPU25ZUjRVTWdRQjdzTFROem5uNG1wTFZNekZrYlo2SFhrTlBJc0VoUXlyU0VwRHlhR1M3aDZ1NENhSWM3cWc0UzRkTk9mMnVVMkNVMHBWd1ZiOEc?oc=5",
+     "quando": "2026-11-09T18:14:06+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
      "titolo": "Programma Itaca 2027/28, domande entro il 10 novembre. Borse di studio INPS fino a 15mila euro per studiare all'estero",
      "fonte": "Orizzonte Scuola Notizie",
      "dominio": "orizzontescuola.it",
@@ -312,11 +330,11 @@
      "gruppo": "Stampa specializzata"
     },
     {
-     "titolo": "Graduatoria Medicina 2026: cosa succede con un solo 18",
-     "fonte": "CorriereUniv",
-     "dominio": "corriereuniv.it",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmX2ZkVy1HMGVoVlJtRnNrXzkyMktkVzlQbndNa0U5N0xBNkNpS244eXhiRXpEdUdUUHlmTG9lX1gyTHpSRkdPVnJHSjV2UmNneVNDMEdVM1p0dU03Vi13TzlwNWNrQmFEZ2REb0Jya1NLSVUzcGZXTFBUZWhQdw?oc=5",
-     "quando": "2026-11-09T10:08:31+01:00",
+     "titolo": "Università e Afam Archivi",
+     "fonte": "Tecnica della Scuola",
+     "dominio": "tecnicadellascuola.it",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeXR1RlVXSUZCTEhvNnBpNnV1Nmo1d0FhZ3ZWRmVFajQxY0Y5S3RhQ3VFYWE0dG9EVzFZbHpLMU5ZQXVBWE85OUwtdHFQT1pqbW1oZkMwbDBYQXlKMGtzVW5VT2RPRllzMVR6cUdXR3hEdU1sV0pQcF9na0RsOHlrOGI1MF9kWTVndVE0UlZuV3VQWG1yVTRhSg?oc=5",
+     "quando": "2026-11-09T01:27:16+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Stampa specializzata"
     },
@@ -440,6 +458,24 @@
      "gruppo": "Giornali"
     },
     {
+     "titolo": "Asma e poliposi, Palcic (Sifo Fvg): \"Cure ultra long acting utili per pazienti e Ssn\"",
+     "fonte": "Il Tirreno",
+     "dominio": "iltirreno.it",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOFRzSzd6REFYWEUwc3dWbjdydTdnWXV6amdpUHdWQ3pCWklNTEl4TzJqc2lMT0w4WXdVdUFlV0JKalBKNXRoVFJ2U1lDcGlaSFJMRGJIU19Tb0RQWUJuWHhQVURzTml6UlBHUDNTbHN6TF9QdFRYQWRqT09PRHdHN1ZBUC13c3VGMkZ0M3BZcjFSa3N3ZllpbnZZNEc5V0hiRFFXalIxQUJydjRwc1h4RVlnaXpYSzNBUmU2azlVQ1ZrVmtFM0QtVHpCVTZvYWtmQ052WW4yNG1rYjEzVnMxYnBGbGFXQQ?oc=5",
+     "quando": "2026-11-09T18:36:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Sanità Liguria, Calamai “Ricerca e riforme per le sfide del futuro”",
+     "fonte": "La Gazzetta del Mezzogiorno",
+     "dominio": "lagazzettadelmezzogiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX3BNejhGdzBkTkE5emFSOGFyS3J0UnZkSWdzQ1VTWWpBVUJVOXlRRGpDSG95NElueUVFU3NJRjh2dWhTRjJIQndEVWRYRlhnRkQ5YlR4UnFnMklzeUJ2al9EOGtma0I3V280Z1lQa3laMW00bGZiSWl6VkNFUldkNkk5WGNzbEJvRGhXaW1BdExNMVNCcEhkSG5QQm5RSUlScVhrSEpwTnR4ZVNWdXZPQ3hvcmlPQVZIRTh4S0l0RWpmQjFLREd0cGpBTHZhUQ?oc=5",
+     "quando": "2026-11-09T18:15:52+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
      "titolo": "Regione, “stretta” sui controlli amministrativi. Più verifiche su appalti, sanità privata e personale",
      "fonte": "Corriere della Calabria",
      "dominio": "corrieredellacalabria.it",
@@ -548,6 +584,15 @@
      "gruppo": "Stampa specializzata"
     },
     {
+     "titolo": "Manovra. Corte dei conti: \"Su 2,4 miliardi di incremento del Fondo sanitario, solo 138 milioni senza vincoli per le Regioni. Nessuna norma per le assunzioni. Liste d'attesa, fondi giù del 29%\"",
+     "fonte": "Quotidiano Sanità",
+     "dominio": "quotidianosanita.it",
+     "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNYnM3NjhabG9mTS14VUFETnByTGsyQ2Rudms4LTZ6d2xtMGdRRThWLU9yTm1vbzBkcDA5WUxLcy1iV1h0RnE5V19qUUtfZUdEQVhmemVrM0pZYS1aMGVMZlRDM25VV3NBemh3UTREQ3VEcC1XWUJGVURXVklWSWZKRjdyVndQczBhdU9QTldrVTUzUDFXcTNDSGloajZMeVg2eEN1TXhMMmlzLWJiSGcxWHRoRXJrX0R5TFJ2S2oxUUMyWGluemUyUi1XRi1aVEl6VEdZcTI4UjJEV2tQYjBNNHhodERQcDBEbjZaZVdHa1YzamZIcDk2Zk9TU1cxODc5RlcwNG4xUnVLUkx1NllkMFNBZG9QUDlwS3c4NUpESjFnVmc5T3ZhUTNUc0xoR3liZlNPalhyY1NNekVCRzM1cWx3c21lMkpiejduQ1JxVWRmNGQtbkE?oc=5",
+     "quando": "2026-11-09T16:51:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
      "titolo": "Manovra, FNOMCeO chiede più risorse per i medici. Le proposte su personale e liste d’attesa",
      "fonte": "Doctor33",
      "dominio": "doctor33.it",
@@ -580,15 +625,6 @@
      "dominio": "quotidianosanita.it",
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYlFUa3ZCZ1A2Nk1JSnR3MjhGbUR5UlhzN1puS082QlpEQ1ZJLWRKaEJEVjg4VkZQWUxQRVJ3NWhxM2xTMGVlemxDM0JkTjdjYk93cHZqdHJWUFotRWdpUm1kR0xGU2kyWTVhMnJvQ19CcFhPRG5NRHh2RmlSVjNmQS1jZFVTblNNMTV0S0Vua0tEQ3BFT2VmbF9wVHRBZGdBTGIxRFkwa0JEdmxoNzZiQmZobVVWUTA1RHVCanFFbERGc3QtYWF3bWFLQVZOamFX?oc=5",
      "quando": "2026-11-09T12:44:33+01:00",
-     "lingua_ricerca": "it",
-     "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Direttiva sui CPR, medici del Ssn ridotti a ratificare decisioni già prese",
-     "fonte": "Quotidiano Sanità",
-     "dominio": "quotidianosanita.it",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORV9oMVFMdFJmWXkybUJ4bDYwNWs1NVNxR2gwc1k5eHVZeTJENVcyVThvbWo5VDVUTmZHTkRHUXgxT0RkM2ZwNXhpbUVtajlReHIxRTNWX1JSa1pMalp2Sld2YVVlU1lZdkVSZk5HYkE5RThraXNhUDVWYnVZenlCQThnMlVfU3ExMHNtS2pOMkYyVHBaZXJwVDZkVm41QVkydEpIcGs4Zll6d1loTy1KNFBNY0g1eXZhV1BqSjhIMVdtMmh2cXc?oc=5",
-     "quando": "2026-11-09T12:42:11+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Stampa specializzata"
     },
@@ -824,6 +860,24 @@
      "gruppo": "Giornali"
     },
     {
+     "titolo": "\"Sport Civiltà\", Francesca Lollobrigida riceve il premio Atleta dell'anno - Video",
+     "fonte": "Gazzetta di Parma",
+     "dominio": "gazzettadiparma.it",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObTRRbTdzb1VfQVJsR19HNWZEc0hSUndrYXhXdU1WenM5RU5CRi1qdksxdVVKaHY2LUNhUFpBVHM1UUZkbGtuR3hVdWlieFo1YW9OUDd1WGpHdlNvRG1qcVNzV0ltQVRSY2VXV3I3amRuVlB0Y0JzV0U3cTlaVUdJb0J6X3RtbFZENVF1STdEbU1Nbm9WY1poUFduNEp6Uk5IT1FnN1llZUtCQm5uS0Zvd2RCQlBBRlhNRmNPRjdYR05iZVdNa05PX0pBcVV0ZWdnWGZ1WG5DNA?oc=5",
+     "quando": "2026-11-09T18:39:20+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Fast food in alta quota, Lollobrigida: la concorrenza è legittima, ma la montagna è un'altra cosa",
+     "fonte": "Corriere Roma",
+     "dominio": "roma.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQSWxaSHRXbjhneGd0LUhqcWFKQTl0MEhjVVhhWUVING5ycWI4UW9mRUZZazlMZUlkQ0hidm1iVmxraEowVmpyZDNCc0VMc1V4MWxqRXlPeEZITlZTbm1TM0p2bXlIWjA1NTlBa0lxbDhFSFZ4QlFjOW1KSUgyQWhSMUlxM0NlRUwwcXZFR3Mta3ZZSm1wSTBDMjJzQmpWVlR6V0o0X3lmeXZoNFZPeTdlVWRQUlFPRDYxNS1QQmtPNUVIR29pQXlLRXhGWko1Nmo3NVY1TThoQXU2b2cwYkFjTHdaTVlhNFJWQXRaakpucGRjdjNZTDlFQnI5bUhNT29zT3R1MjlDUlVtWWNkeXNrRndvOUpXLUgzTlZ2Zl9MMNIBpAJBVV95cUxOdm0zelBwaWxDVGZneWxiODN0YkdlQzFyZkNjSHBBUnpCVWdxMFR5aWJEZDNvdXlXTjZXajlaaUpSSVhReXB2N1k0OEZZZ182a01XaW5rRXJ0aXdzcTJTTmp5V2pYTm5GUU51aTR3R0RWcEdHZjliLVFHTS1wZ2xOQlZzNk5IdFpwRTZqTV9WS3pzWl9xWVdWVElQbFZ3NzBaVDIzb0M4REI5amZSTU9uT3B2eUU3SnZCbWd3amxYaDcxRVZBMHh2YXJlSS1nTjVMRkUyaGJocWdkT0dCbk5UbV9IRlczWnBBNUg5SFljUi1JMjhkZklPSlNhSEFNM2o2UXdDekdKTlAzT2dnVGx1dkZlZm5QSUJNbm5kSFRtNEhYR1NR?oc=5",
+     "quando": "2026-11-09T18:28:10+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
      "titolo": "Agricoltura, Andriani annuncia acquisizione di PU-MA Conserve ed entra nel mercato sughi pronti e pesti",
      "fonte": "Il Tirreno",
      "dominio": "iltirreno.it",
@@ -894,6 +948,33 @@
      "quando": "2026-11-08T22:12:06+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Pac, Di Marzio (Coldiretti): la concorrenza va protetta, ma non a spese dignità umana. Questo è limite che distingue libertà d’impresa da libertà di sfruttare",
+     "fonte": "Agricolae",
+     "dominio": "agricolae.eu",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTW5mdm4wRnhvQkFJajhJZ3dUbmJSWEhvbjEzNUVLQmQyWkJhZk43Qno4SFJ5U3VDVXFQVXRjaXQ0czBCUU5lWW9YSVVwdEs3UDJSSFJGME04V2RnZDNUUHpYN3Nkcm5rMnp2VlVCUmFWODhCRlo0di1qTlh5T2xqNkJySkl5Nm1JQTVuWHJyS1ZFMG5OSlRCZVk1NW00QQ?oc=5",
+     "quando": "2026-11-09T18:36:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Macchine agricole in Italia: fatturato in calo del -4,3%, Il mercato interno e l'export rallentano la produzione",
+     "fonte": "Agricultura.it",
+     "dominio": "agricultura.it",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZ0UyU1hiZTRVVXB6bWN1T1RENWlKNUZKekJEZkszNVVIUi03bkRIUzRibV9BQ245ZEx6N1BWQWx3ZG1mTEc1YmwtbVNKNUM1YlV0ZUpVN1hRMndGUFNzMDlJZUxReUFYSHNneDBCSUNVNEU3RlJybXZGMHRKbWNoQnM1RnlkSTVkbGstb3J4eW53SUtjTHktWTVHNjVJQUo3Q2J1ODN0QzFJc0x0MFJ3LXVfdXlYaHJ2YTZESFdrUmxnQ2pjSzRJWjFhTWI5cjFjVmxsU0ZLU21BY2NiS3c?oc=5",
+     "quando": "2026-11-09T18:19:12+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Il vino come elemento di socializzazione: a Conegliano una riflessione sui riti sociali",
+     "fonte": "TeatroNaturale.it",
+     "dominio": "teatronaturale.it",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZ1FobFhyNDJBbzBxZ0VWVENRb0Nka09KV1J3RU43d3VGWG9UZFB2S3RvMVJxRUtlNk1GQXZTaHl2bjhMZHlVeGdYNl8tZmRQLW5IUy1VLTBfcS1hMi1NVDFMUWhsd0VieEdScU1nV1NPNmxqMDl6SkNyZVFnOTZEWWc1OU1wLVhuWVM0MXQzLXIxMjdNcWN0ZEJ4T1lnMjNFMUZqUVJTLXAwcFhaSy10VlJiSENqQnF1SE1aM1NNMnhDN0FScjBiUlI2RFE4U2tiaDMxSE9aZW9mR1Z1Z21SalBrRG84VFhNVHc?oc=5",
+     "quando": "2026-11-09T18:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
     },
     {
      "titolo": "Fast food sulle piste di Cortina d'Ampezzo. Lollobrigida: Sì a legittima concorrenza ma ambiente montano agli antipodi",
@@ -1002,33 +1083,6 @@
      "quando": "2026-11-09T13:59:19+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Hubfarm, droni e nuove tecnologie. Il calendario di Confagricoltura ad Eima",
-     "fonte": "Agricolae",
-     "dominio": "agricolae.eu",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbTFSbk13WDJIeTBUWVg0NU9acEZrNmFOVFBzU0JSSk5LRXdmbWd1R0JMcDhXaWFwbF9sdnk3OW84Nm1NRHNBZDFSUTZ5Q0lrOXg5YjlXRW9QY3NuaGFZUS12dzdRcTZoOGdVcS1JMU9WWGQ5WnN3NXRjM1VhVW9TY0hXWFdLVTA0cUs2TjlhTjA3ZU5BT3RkSVY3NA?oc=5",
-     "quando": "2026-11-09T13:35:00+01:00",
-     "lingua_ricerca": "it",
-     "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Troppe truffe sull’olio di oliva: bisogna accertare le corresponsabilità della Grande Distribuzione",
-     "fonte": "TeatroNaturale.it",
-     "dominio": "teatronaturale.it",
-     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSTVnemtIM0dLLWJzUjQycW5Ga2V3ZUpCTlRPOWJqUHZCc1ZpaVh1Y2ZwakhWZHdyVE9NNHNBRnJZVnRObzNFU2lFdFNVTklYNmw5d1ZZaTIwbTBvb2lZSmJFa0xwNW1ZendIRjJYLTZLY2swcEZPdDFkZkF6UElRLUtsd1dXWmtUN3EwaWdVaUdRX1Z6MmFYOW1EajdVUkhxYkRVRlpMcHNSZ3FyTDhfR2hTd1ZWVXZfZjVfYkh6SS1GSzkxNjdiM2p0bV9UTUs0STdBX1VmeEl2dU0tRWZCSkQ2Qm01ZnY1dk85aGY0ZGJNbzJkbUF6YVRWZDgxa2N1bk9z?oc=5",
-     "quando": "2026-11-09T13:00:00+01:00",
-     "lingua_ricerca": "it",
-     "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Milano, il 15 novembre il vino entra in metropolitana con ‘Degu-Stazioni’",
-     "fonte": "Alimentando",
-     "dominio": "alimentando.info",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMnNjQ1prd2ZWRlhsZkEteGF6Z09IaTRQeHptcTdZUWFJOFJ3VmN2ZmlFVFFBTXVZb2NXN0Jpb1k1bzh2RjdQV3NpTzc3LThieEZTM1hCRE9OT1ZMdXdlRGZpZElpUUI5RTZ6MmJSQWs2cE11OS1WM3p5d2lOVVZFRWxJUW5oUklHUGFrMm1wUjljUTU3WURsM0RRRXY0VTUtNHc?oc=5",
-     "quando": "2026-11-09T12:46:31+01:00",
-     "lingua_ricerca": "it",
-     "gruppo": "Stampa specializzata"
     }
    ]
   },
@@ -1046,7 +1100,7 @@
      "fonte": "The Guardian",
      "dominio": "theguardian.com",
      "link": "https://www.theguardian.com/politics/live/2026/nov/09/polanski-greens-labour-andy-burnham-climate-crisis-ev-targets-uk-politics-latest-news",
-     "quando": "2026-11-09T17:16:23+01:00",
+     "quando": "2026-11-09T18:19:46+01:00",
      "sommario": "I consulenti ospedalieri inizieranno uno sciopero di due giorni alla fine di ottobre. Downing Street ha insistito affinché il governo rimanga impegnato nel rispetto del principio del mandato dei veicoli a emissioni zero (ZEV), pur non negando il rapporto di oggi del Guardian secondo cui gli obiettivi provvisori per raggiungerlo saranno indeboliti. (Vedere…",
      "gruppo": "Europa",
      "tradotto": true,
@@ -1102,14 +1156,47 @@
      "lingua": "en"
     },
     {
-     "titolo": "Sudafrica: il partito di Nelson Mandela subisce il peggior punteggio della sua storia",
+     "titolo": "“La messa più grande del suo pontificato”: a Buenos Aires Leone XIV riunisce 2,5 milioni di fedeli",
      "fonte": "La Croix",
      "dominio": "la-croix.com",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNGNnbXprdHo2WjZ2Q19TcC1sUnZrTk5sWUVyNXFVS3VFTkFTdDVYVHl2bkRiVkFEUUFBZ2J6NVp2R3hhSkp2R2dIVC1kZGE3VjE0Z0xKbEtoYXhOZVN4MElsLUwzaWtRZ3FrcEYyNVdqcGV2V08yUzl1RFo0azN2S3Uxa3VRWlFyRjdxbU9sZlVCNUJYZkJoZUtkRGhCbkd3SmdWd0Q4TjZNbTBfRE56TURtaFExZUxIR2QyTkZGWEU3dUNmQ0t3?oc=5",
-     "quando": "2026-11-09T16:46:17+01:00",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdE1zTy1IQjQ0U3J0UXl1RWp2SHNESU9SSU50cF93a0JhbkJVQTU4ZlMycGJnTXBuY21yS0F2WThCODhJLURlT2h0Z2JRS0plUVNNX2dlTko5RnJWVTA2U2xTemNacF8yRVlFRDhoSy1wSUdBem96LXdSclRyWTVUcGhud1N4S0JyQUYwNVNsRG1SUGNVX05MU2tIeDR2NHpQakRKM19aSEJ0WnNkSDNSS2JYZ1hwdm90M2pxZWh6a1A0ekNmS2xCMjkwT2trMG9E?oc=5",
+     "quando": "2026-11-09T18:16:54+01:00",
      "gruppo": "Europa",
      "tradotto": true,
-     "titolo_originale": "Afrique du Sud : le parti de Nelson Mandela encaisse le pire score de son histoire",
+     "titolo_originale": "« La plus grande messe de son pontificat » : à Buenos Aires, Léon XIV réunit 2,5 millions de fidèles",
+     "lingua": "fr"
+    },
+    {
+     "titolo": "Il Papa incontra gli argentini, 2,5 milioni di fedeli nella sua messa a Buenos Aires",
+     "fonte": "Courrier international",
+     "dominio": "courrierinternational.com",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMDRDV0pkZHE0R0lZbWJDdFRnQWV0eWhFYjNWdllfcVlzWS1EMFhWZ2JXcjhVbTRIR0xsSEZHQmtUQVhRdmlLUFdQUG9MaXBvakdUcms2VFFNR2pJV2cyTTVBSy1FdXZ2LWozREdzZl9sTUQ1enRuMFV0MlZLcGxBblEySTh1eklaUnl0ZkFJemtZbXJvZHZVQ3FPRjltcldqOWZsYzJMSHAtV2x6VlpfYmRYYXJHa1BwYUhGWnI1andHWUF3RnIweWM0dmdyY0V2bEFYbUlvOXpocUcwelA4U0QtRFRhQ1FzRWRXdGlndmNibGZOdzhkZA?oc=5",
+     "quando": "2026-11-09T18:03:00+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Le pape à la rencontre des Argentins, 2,5 millions de fidèles à sa messe à Buenos Aires",
+     "lingua": "fr"
+    },
+    {
+     "titolo": "In Mali, cresce l’influenza dei cercatori d’oro cinesi: “Irrigano tutti, dal capo villaggio ai vertici dei ministeri”",
+     "fonte": "Le Monde.fr",
+     "dominio": "lemonde.fr",
+     "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNNUdMYV80UmpYNjZMQ0JKaFpQUjhzMURHeWN4cUxzLXRjczEzOWxYa3V2NDlRcG1WNWpFSXFNd0NWZmJtTTgtZXVzQnZDTEMzeWlhUGFleWlmdHR6WmhhalNxM1BicXB2SDdDeUxtaWRjakRBdEZxakNHcnFkeGZDWThyRmt3d3ZTcHlzdEpBSVRJb3poODB5OXBEdnZTZTlCM21fb2dvaWJoclA2ZkxvUWRMT2RLeVM0SmVPZ1NJMmRDT2UtZDZpdmVIWEdkay1kb05qcURkQ0Nadk1YSkJxMGRHU01tUUo0UmxWNXNsUXRKdEVLN19GMzRwRjdVRGRaaGpKSVJIVC1LQXI5Z2ItQVpITjNkSkVTQTZ3?oc=5",
+     "quando": "2026-11-09T18:00:10+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Au Mali, l’emprise croissante des orpailleurs chinois : « Ils arrosent tout le monde, du chef de village au sommet des ministères »",
+     "lingua": "fr"
+    },
+    {
+     "titolo": "Corea del Sud: i lavoratori stranieri nel mirino del governo",
+     "fonte": "La Croix",
+     "dominio": "la-croix.com",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnhKeGpJLVI3Sm13OFllZktXVXNXMGU1VWhyWlRweGFZc3BzYmN5OWctdDlVbFlYZTgxeW1rQUFFdmdqTnp2N3lyTVlERTVJb1VFXzU5ZDlma0xubU04M09acjJUbTBwUVJmS0lPNVF3Qk5wQUxxbEdtZU85MVJ6YUY4Vy1pakVoeGthZEhmZVZJZkp2R0p5SnlZYWgwemFvVjZNSmZhX2hJNFRFNHJPdFhDMkxoMU1UTW4wQmZEdmE?oc=5",
+     "quando": "2026-11-09T17:47:02+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Corée du Sud : les travailleurs étrangers dans le collimateur du gouvernement",
      "lingua": "fr"
     },
     {
@@ -1124,37 +1211,16 @@
      "lingua": "es"
     },
     {
-     "titolo": "Mons. Rafic Nahra: “La società israeliana ha bisogno di guarire al suo interno”",
-     "fonte": "La Croix",
-     "dominio": "la-croix.com",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX29fRkxFXy1LV0VCR2pFTE9WdkhWZ0ltV0VBTHZvOTNjdDZlQ0RHUWhkS3pHeDNOWDNNbW1Pems2Z1puT3J6c2FEQ2lBSE53MWVaaGpmRG1WNm5yWFVOaTBvMU1aUldpYlpjVzRiQTNvVGFwaDltaU9EdzQxWGhEZGpJeTBQajhISE52LWNYNUtRc3dvRDJtYmFPUk1fUzdtVVM5OEVNZEk1RFBoR2pkdGFzQWJfdTg5TzJhcw?oc=5",
-     "quando": "2026-11-09T14:58:22+01:00",
-     "gruppo": "Europa",
+     "titolo": "Uno spesso smog avvolge Nuova Delhi dopo che i petardi di Diwali si aggiungono all’inquinamento stagionale",
+     "fonte": "Mongabay",
+     "dominio": "news.mongabay.com",
+     "link": "https://news.mongabay.com/short-article/2026/11/thick-smog-shrouds-new-delhi-after-diwali-firecrackers-add-to-seasonal-pollution/",
+     "quando": "2026-11-09T18:02:47+01:00",
+     "sommario": "NUOVA DELHI (AP) – Una spessa coltre di smog ha avvolto la capitale dell’India lunedì dopo che petardi hanno illuminato i cieli di Nuova Delhi durante le celebrazioni di Diwali, aggravando livelli di inquinamento pericolosamente elevati e intensificando la crisi stagionale dell’inquinamento atmosferico che attanaglia la città ogni anno. Nonostante le restrizioni sui fuochi d'artificio...",
+     "gruppo": "Resto del mondo",
      "tradotto": true,
-     "titolo_originale": "Mgr Rafic Nahra : « La société israélienne a besoin de guérir intérieurement »",
-     "lingua": "fr"
-    },
-    {
-     "titolo": "Alice Huang, la spia cinese dal passato misterioso arrivata al CEO di Nvidia",
-     "fonte": "EL PAÍS",
-     "dominio": "elpais.com",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOFZyQ21jeDNRbkQ1WTlPU3BJOElxcGVNM2licTZfSVJVOTN1QV9wczRMaTVRUU1kR213eXNvaXZDTFdFTkJMX2FWTnhjeFlLMVFrT2FDRXk3Rm52OG5hbGR2VnlsVFRjckNYODMwWWdrVWlrdzhJVm1fZ1dFOXdXQzRzQVUwdWwxWm13dXpEU0xYc01jN3R2OThvT1hYM3lEVmMyQzE5NHZCb1d2LTlWQlEyRnNBV19odG5XRkVfSnFsRURaSEliYXQ4X0pTY1o5VjNVU0ZNSk1vNlNr0gHwAUFVX3lxTFBXOVVSeDdQajZjWlVmU1UzenNDUXlmdjdoRUE0TkRLNWZOOHU2Mnh0T3JpeHI5MGsxS3FSXzc0STdUZUZIZXVmR2FCeXlyd2J0MERVYUFGMExJS0R5X0NsSkdLdGsyOEIyekZKcG12cTB1ZjZDYllZOW5qVGp2enFCZ3B3QklUbFoxVnQ4RDhUY2RrcW5iMDBobnpBNVZMTnlianpEeWFZbTB3dWpoT0xwZWljOFNhWDllb1ZaWEt1RlR2SWJ1M1ZrTTBIT1VaSmlmMnVwdmZ2SXp3dVdfYS1jYmVaRnZQeFNmV0dfbTVOdA?oc=5",
-     "quando": "2026-11-09T14:38:13+01:00",
-     "gruppo": "Europa",
-     "tradotto": true,
-     "titolo_originale": "Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
-     "lingua": "es"
-    },
-    {
-     "titolo": "La Karma Eximius 1 è un'auto sportiva ibrida da 1.200 CV unica al mondo",
-     "fonte": "Motor EL PAÍS",
-     "dominio": "motor.elpais.com",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc3VpQnhxQzZpNVhQUzRtUGVoSlZYQ3NLNHMxOF9jS2ViR0ZVdV9NN2RYeXRRU2N1Vm5JemRhSkthWmpqdzVDd2JTelpkd2dkd0ZQdWlpWFBvTWcteFVfZVNvbTVsWHNRV0phT2d4OGx2MXpFN3BxOFl5cndaanRrajg3VE80ZDNZTEJaOFhmXzBOUkxxUWcwaVl2QUxrQkZpOWFQTHRlUldXbTJ2REZZ0gG0AUFVX3lxTFBmOUtDSWd2NFptanZaSmhmQUx1aGU2T3ExOXNPOG5JcEVERFBYYnp2aEN3c1hWdUQtdzBqWTB2MzRDVi1jNWdVZUI1VHdjQ1BUd1VCVGMxdTdub1FtTlpYYUJYVVZBM0pFZ2ZKeGxDM0tiUWFmY2NLTjNIOF9EcmFXWW9GRlIySzUtX0Y2Y0d2VlQ1cnI4R2oxX2FvemQ1WGlDVElxS3RrZlFZNk1KeTdJLXF4eA?oc=5",
-     "quando": "2026-11-09T14:04:34+01:00",
-     "gruppo": "Europa",
-     "tradotto": true,
-     "titolo_originale": "El Karma Eximius 1 es un deportivo híbrido de 1.200 CV único en el mundo",
-     "lingua": "es"
+     "titolo_originale": "Thick smog shrouds New Delhi after Diwali firecrackers add to seasonal pollution",
+     "lingua": "en"
     },
     {
      "titolo": "Il fotografo naturalista dello Sri Lanka Ravindralal Anthonis esorta al rispetto per gli elefanti rispetto alle buone foto",
@@ -1166,18 +1232,6 @@
      "gruppo": "Resto del mondo",
      "tradotto": true,
      "titolo_originale": "Sri Lankan wildlife photographer Ravindralal Anthonis urges respect for elephants over good shots",
-     "lingua": "en"
-    },
-    {
-     "titolo": "Le relazioni uomo-corvo mostrano tensione mentre Kathmandu osserva il giorno annuale del corvo",
-     "fonte": "Mongabay",
-     "dominio": "news.mongabay.com",
-     "link": "https://news.mongabay.com/2026/11/human-crow-relations-show-strain-as-kathmandu-observes-annual-day-of-the-crow/",
-     "quando": "2026-11-09T13:59:58+01:00",
-     "sommario": "KATHMANDU – Ramesh Dulal aveva 13 anni quando iniziò a “comunicare” con i corvi. Iniziò a emettere suoni simili a quelli dei corvi, che rispondevano radunandosi attorno a lui, ricorda. Popolarmente conosciuti come kagé, i corvi sono chiamati kaag in nepalese e il Nepal osserva un giorno annuale del corvo, chiamato Kaag Tihar, che...",
-     "gruppo": "Resto del mondo",
-     "tradotto": true,
-     "titolo_originale": "Human-crow relations show strain as Kathmandu observes annual day of the crow",
      "lingua": "en"
     },
     {
@@ -1228,8 +1282,8 @@
     {
      "titolo": "Inquinamento atmosferico di Delhi: diverse stazioni di monitoraggio non hanno riportato le letture dell'AQI nella notte di Diwali",
      "fonte": "Scroll.in",
-     "dominio": "scroll.in",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYjNCTVEyQ3NBYlpPRExFZ1g2QzU1RzYtcmx1b3JyMWliSTdQbGVTT25qUUpJQmdlaHFiVTdNcjBBamd6OTlWR280eUpDdkVBc3JWUndpbjUtUTJpaVBRc2hvMUNlVFpRSTZGTXRqNmpydDJMRkMyTmxfR056Qmo5UUVEUjIwZjJRT0twSzJVdWdJR0tQR3hJaXctWW9BVENyakNlWENpd0FfWTd1cHlZVFBZT1VOVDE4UmRvQ2sxUXFVUdIBxwFBVV95cUxNTnRCRmtPRDlIMndqU1VjMm5TUzVrUHppVnhQWGp0MTEteEwwclhwRnlXYVI2Mkg0enpSYkZYSE1XbUFiNXgtR1huQ1daOEVINERtMHJLUUJ6T3pQVjd3elVna1hSWl9OT2FqZlgyUXM5S1hLWHdvcnJPTTFUcWU0UXd0M3Rmd0lYWWFENnI0Um05U2ctcTMxSThKTUk5aGpJR1MxZUp0SmY3a3A5MEliY3VuVEUyMDNxOE11V2JMTU5wQVFpVkw0?oc=5",
+     "dominio": "amp.scroll.in",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTnRCRmtPRDlIMndqU1VjMm5TUzVrUHppVnhQWGp0MTEteEwwclhwRnlXYVI2Mkg0enpSYkZYSE1XbUFiNXgtR1huQ1daOEVINERtMHJLUUJ6T3pQVjd3elVna1hSWl9OT2FqZlgyUXM5S1hLWHdvcnJPTTFUcWU0UXd0M3Rmd0lYWWFENnI0Um05U2ctcTMxSThKTUk5aGpJR1MxZUp0SmY3a3A5MEliY3VuVEUyMDNxOE11V2JMTU5wQVFpVkw00gHHAUFVX3lxTE1OdEJGa09EOUgyd2pTVWMyblNTNWtQemlWeFBYanQxMS14TDByWHBGeVdhUjYySDR6elJiRlhITVdtQWI1eC1HWG5DV1o4RUg0RG0wcktRQnpPelBWN3d6VWdrWFJaX05PYWpmWDJRczlLWEtYd29yck9NMVRxZTRRd3QzdGZ3SVhZYUQ2cjRSbTlTZy1xMzFJOEpNSTloaklHUzFlSnRKZjdrcDkwSWJjdW5URTIwM3E4TXVXYkxNTnBBUWlWTDQ?oc=5",
      "quando": "2026-11-09T15:57:00+01:00",
      "gruppo": "Resto del mondo",
      "tradotto": true,
@@ -1257,6 +1311,17 @@
      "tradotto": true,
      "titolo_originale": "‘La tumba de las luciérnagas’: el realismo absoluto de Takahata Isao y su visión de la “realidad aumentada”",
      "lingua": "es"
+    },
+    {
+     "titolo": "Il popolo Ainu e le mostre: artigianato tradizionale in mostra al Museo Nazionale di Storia giapponese",
+     "fonte": "Nippon.com",
+     "dominio": "nippon.com",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LRGF1d1VBTkw3V0RVNm1GY3dLWlAxLVlQZWdyM0F0MHg0bmlDNXpvTm01NzFtaGduUkdNTjBjSW5IVUZCRlNHRUVIN0p5Sm9VcFVUZw?oc=5",
+     "quando": "2026-11-07T22:00:00+01:00",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "The Ainu People and Exhibitions: Traditional Crafts on Display at the National Museum of Japanese History",
+     "lingua": "en"
     },
     {
      "titolo": "Le università stanno diventando creative per aiutare gli studenti con i bambini",
