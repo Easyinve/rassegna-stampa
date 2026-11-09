@@ -1,5 +1,5 @@
 {
- "generato": "2026-11-09T08:25+01:00",
+ "generato": "2026-11-09T09:23+01:00",
  "temi": [
   {
    "nome": "Ponte sullo Stretto",
@@ -31,6 +31,15 @@
    ],
    "articoli": [
     {
+     "titolo": "Morto nell’esplosione al cantiere del Terzo valico, riparte l’udienza preliminare degli indagati",
+     "fonte": "La Stampa",
+     "dominio": "lastampa.it",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOemJiZ19iUTRtVHMyZEdYbngyMWw5RVc3d1RZbWdjSVhXdEpYMWpoY3RHZExSdHIweWhrS1ZwN0xyNHRwVk1jY0cxNWQ5eEFzcmxlTHNXcFI1M0NBUGtudUNLQ3RsN3R0OXk4ZjgxbE1mc0d4VUdSX1dhOHQtZjNoZVEtbDN1QjZaZDlfdTdxSzhOZUlpRXM1bnVELVFXMHpnRHBlQko0Nmh3Snp5Mi1oeFVhLUd5VVZBd2pTdmU0YnpXS1VDYW5GYkI4emJsNnlLWGfSAdIBQVVfeXFMTnpiYmdfYlE0bVRzMmRHWG54MjFsOUVXN3dUWW1nY0lYV3RKWDFqaGN0R2RMUnRyMHloa0tWcDdMcjR0cFZNY2NHMTVkOXhBc3JsZUxzV3BSNTNDQVBrbnVDS0N0bDd0dDl5OGY4MWxNZnNHeFVHUl9XYTh0LWYzaGVRLWwzdUI2WmQ5X3U3cUs4TmVJaUVzNW51RC1RVzB6Z0RwZUJKNDZod0p6eTItaHhVYS1HeVVWQXdqU3ZlNGJ6V0tVQ2FuRmJCOHpibDZ5S1hn?oc=5",
+     "quando": "2026-11-09T08:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
      "titolo": "La pista dei filorussi di Everest per l’attacco hacker al Brennero",
      "fonte": "Il Sole 24 ORE",
      "dominio": "ilsole24ore.com",
@@ -38,6 +47,15 @@
      "quando": "2026-11-08T10:41:25+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Bari, le indagini sugli appalti alla Asl: nel mirino anche i soldi in più per l'ospedale Monopoli-Fasano",
+     "fonte": "La Gazzetta del Mezzogiorno",
+     "dominio": "lagazzettadelmezzogiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNX1VmbTN2ZTlSb1NJdWdWWE5YZlRCZkZhSjhKZlh0VEFFVUIzUFo1TTY3enlPM3BqZmVNcmk5QzRWc0hzd213azN5S2swUUlHelJ4cEU3a1pXeEhsOEtlMThleDVOMThQVHNzTkh6b3VvLVJKZ1pyc2xiLXZzdldoajNoM0JIRm5qUndNWFJhbDAxZ1JYcFZvdjRQZUtvdUtfZ3B6ZWNSd1NxYWZqSEZ5WERkSEd0czZWOUxvSnktcXFld1Y1dC0zSDMyNkFMQzZUSXFkNkdFT08zMFY4MFRHdXdZVjh1eENicnZhZkdMa0hzMWxySGVz0gH3AUFVX3lxTE1fVWZtM3ZlOVJvU0l1Z1ZYTlhmVEJmRmFKOEpmWHRUQUVVQjNQWjVNNjd6eU8zcGpmZU1yaTlDNFZzSHN3bXdrM3lLazBRSUd6UnhwRTdrWld4SGw4S2UxOGV4NU4xOFBUc3NOSHpvdW8tUkpnWnJzbGItdnN2V2hqM2gzQkhGbmpSd01YUmFsMDFnUlhwVm92NFBlS291S19ncHplY1J3U3FhZmpIRnlYRGRIR3RzNlY5TG9KeS1xcWV3VjV0LTNIMzI2QUxDNlRJcWQ2R0VPTzMwVjgwVEd1d1lWOHV4Q2JydmFmR0xrSHMxbHJIZXM?oc=5",
+     "quando": "2026-11-09T07:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
     },
     {
      "titolo": "«Tribunale della Pedemontana, uno schiaffo all’Alto Vicentino»",
@@ -96,20 +114,20 @@
    ],
    "articoli": [
     {
-     "titolo": "Prof università di Torino, 'Linkedin chiude mio profilo dopo post su Gaza'",
-     "fonte": "RaiNews",
-     "dominio": "rainews.it",
-     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRnlJb3ItWTRwcnVPZ1RkNUF1Z1A5NHUzU1AwNWh2aGtINHN3UUpWeDBkY0pzSmpvanZQZFZXOHNqN09vX2xVX24zMlNfUEpMWGtqdTFtZVNfUmRoZkwwTFRHOGtKdUtUektxOElDVVJaREZJY25lWHp5b3ZSOG5TN0otamJsNXV3eUhzdTZIek51NEhhMW4ybE9yUFp5akVQWkVxQ2hBRWNTcTdPVThqUmJQUGE3R3BWVnhTMmNMVktZWGtVSFl0LWdwbE5Vb2ZLS2dvcmZqcS1lUG5jRnkwdlhyWmhtdi1ucGlOVldlSUw4Sk9iRnlVQnJJd0xyRjTSAf8BQVVfeXFMUEZ5SW9yLVk0cHJ1T2dUZDVBdWdQOTR1M1NQMDVodmhrSDRzd1FKVngwZGNKc0pqb2p2UGRWVzhzajdPb19sVV9uMzJTX1BKTFhranUxbWVTX1JkaGZMMExURzhrSnVLVHpLcThJQ1VSWkRGSWNuZVh6eW92UjhuUzdKLWpibDV1d3lIc3U2SHpOdTRIYTFuMmxPclBaeWpFUFpFcUNoQUVjU3E3T1U4alJiUFBhN0dwVlZ4UzJjTFZLWVhrVUhZdC1ncGxOVW9mS0tnb3JmanEtZVBuY0Z5MHZYclpobXYtbnBpTlZXZUlMOEpPYkZ5VUJySXdMckY0?oc=5",
-     "quando": "2026-11-09T07:24:00+01:00",
-     "lingua_ricerca": "it",
-     "gruppo": "Giornali"
-    },
-    {
      "titolo": "Università Torino, domani manifestazione di studenti al rettorato",
      "fonte": "ANSA",
      "dominio": "ansa.it",
      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTFd1eGVVNFB1Rm85RjBaWGNVUXVvUzNFd0FPbUEyNEliVGF4VzgtYXVhdGVtbkpfSFRNMXRGYl92Y3JYbTk2b2VmbktqQ0hXMXhqN0otTTFZaUxTanU0MWpCNE50V2t4b0lHLUl2OXNoN1VDYTJzelFOWVFuTjZZSDU0VGJDdGNvRFZ3bURHaTNoM3R0MmJGM3BVSlFmeDNuU25kaGJWUko2aGZqQ1Q5V09wWXpqZGZ3dDg2c1c2Ylc3MlBQWXBKN1FueGdMTWNZTkZhQ25yUFR5bWdxRHVKa1JvY2c2VWdpZ0gtT25TYUtiY25tQjdZdk14RmppQk5fX0lQMWpJYi1uekw2Y1lMLTNuWnpFWjDSAZcCQVVfeXFMTUxXdXhlVTRQdUZvOUYwWlhjVVF1b1MzRXdBT21BMjRJYlRheFc4LWF1YXRlbW5KX0hUTTF0RmJfdmNyWG05Nm9lZm5LakNIVzF4ajdKLU0xWWlMU2p1NDFqQjROdFdreG9JRy1JdjlzaDdVQ2Eyc3pRTllRbk42WUg1NFRiQ3Rjb0RWd21ER2kzaDN0dDJiRjNwVUpRZngzblNuZGhiVlJKNmhmakNUOVdPcFl6amRmd3Q4NnNXNmJXNzJQUFlwSjdRbnhnTE1jWU5GYUNuclBUeW1ncUR1SmtSb2NnNlVnaWdILU9uU2FLYmNubUI3WXZNeEZqaUJOX19JUDFqSWItbnpMNmNZTC0zblp6RVow?oc=5",
      "quando": "2026-11-08T21:10:01+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Prof università di Torino, 'Linkedin chiude mio profilo dopo post su Gaza'",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNdFJJWXVDdHpiY1gxSG9PbnQ5Ylk2Wjh4ZEpWczdwZVhHVkdwa1FEd0wyZUFlbnE5UEJ2aWR4NGJISjluNVlkaG9DTHlQeTBSY2xwblR2SGRQb01McGItOFM3VDRxYnFmRTV1TWlBOVVZWmdBR01mX0wtOXhzQzFWWEtMcmUxbWs0QjYwNnNOM0dSWV9QbWZhZ2Y1dlB5YWN1Y2FQR1V4OV9KUnh6WlFpLXRtc0hsTHlOUUhMOUNpdzBneXFNa2lwOEEyckRuTGQ0QlF6Q0VqampMSXZHT2dfem9Ka3YtcjBUNnZVUTFnaEN4R1hXdjhQTVFzVkFfZlVOa0FLeDdPNXhzTjB1SlB4WFNrTmZIM3E3b1VFcHNSeUzSAaACQVVfeXFMTXRSSVl1Q3R6YmNYMUhvT250OWJZNlo4eGRKVnM3cGVYR1ZHcGtRRHdMMmVBZW5xOVBCdmlkeDRiSEo5bjVZZGhvQ0x5UHkwUmNscG5UdkhkUG9NTHBiLThTN1Q0cWJxZkU1dU1pQTlVWVpnQUdNZl9MLTl4c0MxVlhLTHJlMW1rNEI2MDZzTjNHUllfUG1mYWdmNXZQeWFjdWNhUEdVeDlfSlJ4elpRaS10bXNIbEx5TlFITDlDaXcwZ3lxTWtpcDhBMnJEbkxkNEJRekNFampqTEl2R09nX3pvSmt2LXIwVDZ2VVExZ2hDeEdYV3Y4UE1Rc1ZBX2ZVTmtBS3g3TzV4c04wdUpQeFhTa05mSDNxN29VRXBzUnlM?oc=5",
+     "quando": "2026-11-08T20:11:41+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Giornali"
     },
@@ -251,6 +269,24 @@
      "gruppo": "Giornali"
     },
     {
+     "titolo": "Sanate le liste d’attesa nel Pordenonese, il 90% delle prestazioni nei tempi: «Frutto di azioni mirate",
+     "fonte": "Messaggero Veneto",
+     "dominio": "messaggeroveneto.it",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUp4U3Z6UjF4UmtDUUJIX2VHUkxHN09ETjk0V2FOdUpsWXVrb3FXUU1KOVhKWmV2aUxkSmZDVHl5UWkxRy1zcWRILTVhYWdhbGhZdEdvcGh2bDFKSDQxbXBrSFgzZkZacExsYXp0Z3VGRll2azdRa0tvZWVqZW9DRHlMNml2WmtZRmZLejdwczF0TVJpYkJid0d5WFlVVzA?oc=5",
+     "quando": "2026-11-09T09:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Capaci a lutto, Teresa Schillaci muore improvvisamente a 33 anni: lascia tre bambini",
+     "fonte": "LiveSicilia",
+     "dominio": "livesicilia.it",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDNGJpcm1GSG02b1MxRXVJRDhiaUg5TDg4ZHFqdFFrX2YtWm51aXM4QTMzTE9ERWNmQzRjSzE2UGVlX1NUN0VwakdtMW1CamhnekZNc255TE1ueWRYQzctWlRUUQ?oc=5",
+     "quando": "2026-11-09T08:53:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
      "titolo": "Milano, infermieri «a gettone», sempre più chiamate dagli ospedali privati e per tutti i reparti",
      "fonte": "Corriere Milano",
      "dominio": "milano.corriere.it",
@@ -323,15 +359,6 @@
      "gruppo": "Giornali locali"
     },
     {
-     "titolo": "Farmacia dei servizi al via nell'Agrigentino: holter, spirometrie e vaccini gratis col Servizio sanitario nazionale",
-     "fonte": "La Sicilia: Agrigento",
-     "dominio": "agrigento.lasicilia.it",
-     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQRWhaNjhHVjg4UDBsRXdlU1Ztcmd2c3pUWXVXT3ZlRHJQVzg0QjBfU0ljWks1bDJGRVFiajlOM0hHMzZRWFd1YUJxY01vZHJsamtxX1BLQV9CSEtkVHFsd3hJVnZNVDV6V0h1R2pLMmVaN2V2eEg4cGNXVVM0d0xiTjBOWUdJVXhxRjZwT3BWeWNxS3ZzSEN5NnJreEYybDQyVmNCMldrOTAzSFA2ajJ0VEVoUXVreTV1QXVJSEhpR2taaUU1YkFsR00zb3V3QTBFX0U2R0NQQWh6eVpPeENyZEp4anVWY0lrc0JaWTJfOGlfMk1tVVNOemdRcUR6R1EyU2c?oc=5",
-     "quando": "2026-11-08T14:30:17+01:00",
-     "lingua_ricerca": "it",
-     "gruppo": "Giornali locali"
-    },
-    {
      "titolo": "Conflavoro PMI Sanità: “Ora legge bilancio metta al sicuro le imprese”",
      "fonte": "Quotidiano Sanità",
      "dominio": "quotidianosanita.it",
@@ -346,6 +373,15 @@
      "dominio": "quotidianosanita.it",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81T2NwQzFqT1gwUG1iM1ljdnFDLUFac2dJek1RS2gzU2s5YXpPMmFBSGFlUFZqOFJKUlFQOTBneUo4ekFrbXBiejQtMC15NjFvZVlFdFBSMC1uY2NjNjV4MjJGMFBDZGo4cVkw?oc=5",
      "quando": "2026-11-08T23:34:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Mecozzi (Sifo): “Il farmacista clinico sarà protagonista della sanità del futuro” VIDEO",
+     "fonte": "Quotidiano Sanità",
+     "dominio": "quotidianosanita.it",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdVUtSEgwQ2dPUTM3Tk5OdW96dG1Yejl1SE82djU0MjIwSWV6eGIzLW1yRWJGUm5zenBlMkVzN2k2Ulg4RElwNUg2LVdzVW1ZYTU0ZU1LM0I0ekJYVGMybUVKdVlPZTE2dVJzYXZwRnFSX09XaVYza1VwVnlvWTVpLXJadGFYTlRpLXlqWENNa3ZaVVNxRHdUaEEzZlJwS3VXaXp0YmIyZzdBdzBlUjNSYnN4T19VWDl6cDVlTDFiYw?oc=5",
+     "quando": "2026-11-09T09:17:50+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Stampa specializzata"
     },
@@ -370,6 +406,15 @@
    ],
    "articoli": [
     {
+     "titolo": "Concessioni dalle uova d’oro, si riapre il fronte caldo delle dighe",
+     "fonte": "la Repubblica",
+     "dominio": "repubblica.it",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEdNRVFkZ3ZXcnRzNGtZanNIdmMtOTgzbGx6ZXJvdDRkanRrbWNUT0w5ODNITHQwTi0wMktGTGhVTmtvTDhWd2ZucF9ob0lCME9uTzMzQ0hNLUV5alNTYWpDczV2dDdxdWxGYXZLT3pJM0ZJUWRlT2NRa1lPY3VYMG9lTmNjR3A4M19mX1ZEcDNVUWh3X3F6b3RUcktYZnQ1dVh5Q1J2VzB2WW1ZSGdOSXRKZw?oc=5",
+     "quando": "2026-11-09T09:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
      "titolo": "Manovra, i costi dell’idroelettrico e i Cfd della discordia",
      "fonte": "Quotidiano Energia",
      "dominio": "quotidianoenergia.it",
@@ -390,11 +435,20 @@
    ],
    "articoli": [
     {
+     "titolo": "Ripopolare i borghi, la Calabria mette a disposizione 50 case gratis (e ristrutturate) per dieci anni. Ecco dove",
+     "fonte": "Corriere della Sera",
+     "dominio": "corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxONzQxQmZQRkl6cWZ5OWhVa2FsckJXRmQ4Y2dBeUtnZmxUTmY4VFg5Y3MzdjNlTmV1UjRrNDBzczVRa2UwTEdwcWw5bUxjTEFFQng1Rm15THBwbzVUR3dyMGtzV3FtSTJYVDN6aVpTLXpJRnZ4ZXlJaHhyaUUxY2czNktEb0Z3Mi11NHNZUHJLeVBtNHRJZjR1WVc0WWlUTzdtTDlnWnRpRkMtUEl2RVFjSzNzVmxfdm40aVVYalVNcnpMSDY1ODJReWJtNDlDbDh3Q0N2cDZMZ2FiMlRsNUluRTNTajVnTmxEVFlyQjU3V3J1NHVkSDdhYzVoTDNnRXpPMU9jd29FZWVCekQzeEVNcTJoclhUalowVGctUUZhUmE5QnhGRDMzMFNlNnXSAbICQVVfeXFMT21jc1JOX1otWmVLTndsdG9Bd2R2TFZ5T0dIQWRtWURreVFTVEphc05US2JFQlFmNGRuUWZNOTBnd3R2LVhIWHU3NGgzRUlZeHY4QmRMTVFEV2dWa3VzU2RSU0Y4WWFlZEpLN3RpZUJXYXB0bjVKSlAwTWoxYmtZdGFPX3lYSVVXTEV1VzJveFlRTlBMTHpUemREcWZ3aXBHSThodXNpSmQyY1NLMjZndDNsR2dENnZoQmlkWGhCVFVIcWhIbTl0cEpXSWoxNl9hSUNXbXlCRGJHVDRmRXZ5bWdvbGs5LWI3c2lGVEl3NUlxeG44TDFnU2NQcmxwYlZYRWltSUJvUHRteVVPOUxsS3RaUHJvREIwWnpQZ2RDLXV4QzMyUjRUamxEamxwUThWQW1n?oc=5",
+     "quando": "2026-11-09T09:06:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
      "titolo": "«Sui borghi serve una strategia: il turismo da solo non frena lo spopolamento»",
      "fonte": "Il Sole 24 ORE",
      "dominio": "ilsole24ore.com",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORUN3V21lZVM2cGlyUV92V1NPb2pjM041eVJkMDEyLUhVOFVYZThCTG52Y0VmWndnYVY2WlhNSjJlNzA2cTBsRl9yVWVkbFRmOUU4d3BjTVFEcWNRRlRRcmdRbGNOcXdRVW5rWFgyc19XS29jb0xMd1duVWFGdFc0MkVPQkUxWS1HSWkySmhsd0ZIaldnRDNwU0RyQ0ZvdjE3VWM3OUNB?oc=5",
-     "quando": "2026-11-09T08:09:02+01:00",
+     "quando": "2026-11-09T08:10:31+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Giornali"
     }
@@ -410,6 +464,15 @@
    ],
    "articoli": [
     {
+     "titolo": "Banco Bpm, da Credit Agricole arriva la proposta di fusione",
+     "fonte": "Adnkronos",
+     "dominio": "adnkronos.com",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMjVwMWYtNnNIeVNDWmhlS2tQVzdTbHp6QWtySDVzMV9SLVJjdkpuZjluVXRpQXhESHJLSU9hUFYxaDFoZUl3TFVUNml2bVNUZE5KT2dScEJIVnZnS2dsS1V6MVk4VjRpX1RpNlpZQ0JHclNCcXpSRGJLelBvTXZqRU44Z1ljRjBwVjRDRmxTMG1vWTNmSDV6X0E2V2VvOGQxdjd2cUd3?oc=5",
+     "quando": "2026-11-09T08:12:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
      "titolo": "Vino: la Valpolicella nel bicchiere con Vigna800 nel Comune di Negrar",
      "fonte": "ANSA",
      "dominio": "ansa.it",
@@ -422,8 +485,8 @@
      "titolo": "Ilenia Greco, nutrizionista di celebrità: legare aspetto nutrizionale, agroalimentare e ristorazione",
      "fonte": "RaiNews",
      "dominio": "rainews.it",
-     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQRktrUWNBR0gxSVVZZEJCRTVCMkZhV3ZrWTdsS2xpMXl2bU54QjRrakJnVG1oNGloUlYtR0FSaGlnNGtYOVMwXzN5eHRtU0ZKT3JUX2xuV3hNOHhRYXNWVWVxUW84aGJRTmhfR0tRSzBvcy1WdzdpVGUxYkVmbkdiZTJmUlNvMmxpeUVnY3hBamdjSXlsdGRuMjd5cnh5WG80SVd2aVdhYTNURW0xOEQzWmhWVTRDekI5X3htRUdCbjdSVTYxMjB1T1kxWFVGaW5VRUZubjUtT2doelpOWTFtSXNWS09fX2NERG4yWmgtMTdnQXFUbXNJVm4wTTQxdGQyUmhMOHJoc3hBazdt0gGMAkFVX3lxTFBGS2tRY0FHSDFJVVlkQkJFNUIyRmFXdmtZN2xLbGkxeXZtTnhCNGtqQmdUbWg0aWhSVi1HQVJoaWc0a1g5UzBfM3l4dG1TRkpPclRfbG5XeE04eFFhc1ZVZXFRbzhoYlFOaF9HS1FLMG9zLVZ3N2lUZTFiRWZuR2JlMmZSU28ybGl5RWdjeEFqZ2NJeWx0ZG4yN3lyeHlYbzRJV3ZpV2FhM1RFbTE4RDNaaFZVNEN6QjlfeG1FR0JuN1JVNjEyMHVPWTFYVUZpblVFRm5uNS1PZ2h6Wk5ZMW1Jc1ZLT19fY0REbjJaaC0xN2dBcVRtc0lWbjBNNDF0ZDJSaEw4cmhzeEFrN20?oc=5",
-     "quando": "2026-11-08T15:57:16+01:00",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNLXBpN1lEZnNpcXZwWjhIWjFsaUdsa1JyYmVGYUdGM1NEek9xNzhKWkdvVVR4Y1hERVdGemg1T2hrX1RIak92X0ZwSVRMYVpzZ0x3LVdvVzdZUGxweXp2LWJUM0pmcFVzVENnZVFldGY3MldnN3Fidy1HRWx4dFZOekhBWUIwaUlZY2NmbVd0WUZ0Qi12cF9GSjQyNzBmanE0NDRRazJPQ2dhdlo4UHd4cldBSlFrcTdhZDNnYlluWUhtWTkwR3NpR01QZHV3NkxJNjhsRVRBMkRRbVJpME00MUpNOXFrZEhFQ2VhOXpvdW50cmRvNWpYREJmUlhacFJuTlQ5M29rRdIBjAJBVV95cUxQRktrUWNBR0gxSVVZZEJCRTVCMkZhV3ZrWTdsS2xpMXl2bU54QjRrakJnVG1oNGloUlYtR0FSaGlnNGtYOVMwXzN5eHRtU0ZKT3JUX2xuV3hNOHhRYXNWVWVxUW84aGJRTmhfR0tRSzBvcy1WdzdpVGUxYkVmbkdiZTJmUlNvMmxpeUVnY3hBamdjSXlsdGRuMjd5cnh5WG80SVd2aVdhYTNURW0xOEQzWmhWVTRDekI5X3htRUdCbjdSVTYxMjB1T1kxWFVGaW5VRUZubjUtT2doelpOWTFtSXNWS09fX2NERG4yWmgtMTdnQXFUbXNJVm4wTTQxdGQyUmhMOHJoc3hBazdt?oc=5",
+     "quando": "2026-11-08T15:54:00+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Giornali"
     },
@@ -473,6 +536,60 @@
      "gruppo": "Giornali locali"
     },
     {
+     "titolo": "Agricoltura, Lollobrigida “con ColtivaItalia obiettivo diventare meno dipendenti dall’estero”",
+     "fonte": "Agricolae",
+     "dominio": "agricolae.eu",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU3hKT1hjdTVUVjQzeHFRTDZYTlozZTVzRmgwajFwYmozYUZVUHpmMHpPdGZCMS1iMWYxVFdLMmNUeFBLUk5wbUllSjlGaGlUTmw4RTh5cDJ1ajhFa2lySFN3UWhWeTREZnlVNi1RaXhvRVA5WnBKcUMyN2o2bXplRWxWSmRSQjVEU0ZfQ080Q1ZzVkZBNUgyN2tYVEQxRzFsODE5eDh3QkFiUFRFaUdlcA?oc=5",
+     "quando": "2026-11-09T09:18:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Steyr HYTrac: il futuro dell'agricoltura passa per l'idrogeno",
+     "fonte": "AgroNotizie",
+     "dominio": "agronotizie.imagelinenetwork.com",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT0xxTDVSdTdFeHF6Y3JuazBZaG1DbVVSNlY2cUFvMzVtM1djU2w2YlAxczQ1emRYcy04MzZfckhOQ0RhckhadndxbmFpMGQyb3YtMjg1bkJOWU1PMC1EU1BkOTNPd1hjX1pHNlFuaHdwOFp1aHZiXzJVUklZM2xRblNuM09lbDhlVDdNTUo4ZzlBUVBiWjdjS1pfek9tR3BJN2VPbmdQTmtFNTRybGVmc05jUmZacDhDTHJfc0pseXFrRTVyNXBkaXNDSnc?oc=5",
+     "quando": "2026-11-09T09:08:03+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Olio extravergine di oliva e steroli per la Coratina, la Commissione europea attui la deroga decisa dal COI",
+     "fonte": "TeatroNaturale.it",
+     "dominio": "teatronaturale.it",
+     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdHpXZWozaml6aUxwVlpIZFhRdDBuYjJxams5ZlZQMTZwejkxQnJTZjNtVUxvMkNmbGtMa08zU1ViNGZ3WTdYOUNxSmc4Q2h4M25OdHpvUncwQXdJVEtxSEt6UXRtdm5rZ0RjTzZLSDhpZW03YmsxU3hDR1I2OThjY05LdlBqQnJ0dWFaMDBxbVlQbDMwZDhzaHNfNElzZVdfSWZVTzF3ZWdnMUxUUThmT01DQ3hUc0I0aGJGR2dQMDZDM1NxeWxtNXF0cV9WYkkwWEgydl9oY2dpOUYzclVZTVhGYzc3d0g2M2E5cWtYeTlQVWdxd0JEYjNjanltUmVIWVlUanM0Vkk5UktoaFB2LWlMdw?oc=5",
+     "quando": "2026-11-09T09:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Credito d'imposta carburanti agricoli: pronto il codice tributo \"7081\" per la compensazione tramite F24",
+     "fonte": "Agricultura.it",
+     "dominio": "agricultura.it",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZVhreEFCTlJWSDhSaEdKMzBkWXJsbVRQMDhSTlhPM2hPOHRPa0FhbmdWYWMxOHExSmF6blBZN0xuN08yVFpaelVYNkp2dmtuYmVpTnZ4UDQyY3NnTUttR1ZOdk5vUXVzUHh5NXRTemJIRk5TZ0FyUHhGU3ZHczkyQjBJMllMbWZsYnBNTENQTEhFVnNPOU9oVklDRlBETXoyX1c3UFQ2ejNPZy12Y0pUSDBRSVNhd3RBV3ZIU01EZGZUa3RoRUZJLWhPZFZranF1WmtJQw?oc=5",
+     "quando": "2026-11-09T08:52:42+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "I sette giorni ‘agricoli’ della Camera. Tutti gli appuntamenti",
+     "fonte": "Agricolae",
+     "dominio": "agricolae.eu",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZDFSWW9zeVUwMUdJNmlBQi1VbHQyNTRiVU5Oa093SzdMb29pSFp5bDJ6QnVTYkg1Rm1LUWdyY1RyU0dDTWQ3VWNPYzVjRGRRQnJLbFhSVlptbmlTTVMtbF9lRUpiNlFUTFVoV1ZfN0k4TFlNaFhhUGxxSFUxNXlubG5XUGkzWUNDWXZqOGpR?oc=5",
+     "quando": "2026-11-09T08:36:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "I sette giorni ‘agricoli’ del Senato. Tutti gli appuntamenti",
+     "fonte": "Agricolae",
+     "dominio": "agricolae.eu",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdE5kaGw0OUh5UDk1RDM2cVh6V0tfdUNET0hjcG9xWWFwdHNuVi1TU29kdTNVdlViY3BDQ1VpN3Z0MTE2ckJzbUthbHpta0FzQXpvSTRudzZ3d2NNeFlsSThXUlpNNllOTDJHc25BcklGVElxNHBNZGJDN2w5S0hVb0hTbjd0NU95dWxr?oc=5",
+     "quando": "2026-11-09T08:36:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
      "titolo": "Made in Italy, Gesmundo (Coldiretti): Trump e Ursula giù le mani dal nostro cibo. L’Europa difenda gli agricoltori, non le multinazionali",
      "fonte": "Agricultura.it",
      "dominio": "agricultura.it",
@@ -516,15 +633,6 @@
      "quando": "2026-11-08T16:00:00+01:00",
      "lingua_ricerca": "it",
      "gruppo": "Stampa specializzata"
-    },
-    {
-     "titolo": "Confagricoltura: basta sciocchezze sul nostro conto. In periodo critico per imprese, noi non ci facciamo distrarre e continuiamo a difendere campi e allevamenti",
-     "fonte": "Agricolae",
-     "dominio": "agricolae.eu",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNakNtQk5aR3YwdE13cDlPYlRQd0c0N0dfRlduR1c4TmVrd3ZqUmgzaHhBbV9YbXFiR3hsUXY2QUVfelhibzB1eUFydDY0WWtKZ1AxaWhuNVg2YVZGOXF3QkNBOXpBbWtqZFVaVkd4VUNwUHRDVEFhZ2lHT0E0dkpiQm05V05KcUR5ZUlCcjRmYjBXVnpyNVBOX1QyYlRCUmp4RFJmdjVLYnUzdjFPUU1aSnNzSm1Sb0pJLXpQOU5maFM2US1VRjI3ZFpLWkpidFN5bHFvTmFGQy1qUUFwVFMxZw?oc=5",
-     "quando": "2026-11-08T15:53:00+01:00",
-     "lingua_ricerca": "it",
-     "gruppo": "Stampa specializzata"
     }
    ]
   },
@@ -537,6 +645,18 @@
     "Stati Uniti"
    ],
    "articoli": [
+    {
+     "titolo": "“Una nuova era di estremi climatici”: la Terra accumula calore a un ritmo crescente",
+     "fonte": "The Guardian",
+     "dominio": "theguardian.com",
+     "link": "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-extremes-earth-global-heating",
+     "quando": "2026-11-09T08:30:02+01:00",
+     "sommario": "L'aumento del caldo aumenterà gli eventi meteorologici estremi, avverte l'agenzia delle Nazioni Unite all'inizio del vertice sul clima Cop31 Il calore si sta accumulando nei sistemi della Terra a un ritmo accelerato, ha riferito l'agenzia meteorologica delle Nazioni Unite mentre il vertice sul cambiamento climatico Cop31 inizia in Turchia, con il 2026 sulla buona strada per essere uno dei quattro anni più caldi mai visti...",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "‘A new age of climate extremes’: Earth accumulating heat at accelerating rate",
+     "lingua": "en"
+    },
     {
      "titolo": "Sconfitta tremenda per il greenwashing",
      "fonte": "The Ecologist",
@@ -562,16 +682,15 @@
      "lingua": "en"
     },
     {
-     "titolo": "Dalle strade di Lagos alla passerella di Chanel: come lo stile da negozio dell'usato di una creativa l'ha portata a Parigi",
-     "fonte": "The Guardian",
-     "dominio": "theguardian.com",
-     "link": "https://www.theguardian.com/global-development/2026/nov/09/fashion-lagos-chanel-model-rachel-ojuromi-nigeria-thrift-style",
-     "quando": "2026-11-09T06:01:00+01:00",
-     "sommario": "Rachel Ojuromi e la sua amica stilista Debby Fasingha hanno ricreato modelli di fascia alta in video fantastici girati in giro per la città. Poi arrivò la casa di moda. Prima di Parigi, c'era Lagos, con i suoi mercati affollati, le bancarelle lungo la strada e il labirinto di strade disordinate. E poi c'era Rachel Ojuromi, che scherzava...",
+     "titolo": "India: a Loni, la città più inquinata del mondo, la polvere è ovunque",
+     "fonte": "Courrier international",
+     "dominio": "courrierinternational.com",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZmtXOHdVVTNDRF9fYnluYnUyUjZGY1pBMlQySjlmbW01SDhaM1phZUtwYTQ4aDlGTTJDMDdQdVU0UXdJbWUzdUVuYnlIRU9MMTVxU2FPSXAxS082V09aTGhKbFJBOGFCcWVCaGdJaGR5bUdZZ1djWHBobUx0VHZ5TWpSbkRCNDhydmFxVmhhSk9XaFdkRmo4djVRZnN5YjhyQmlUUzBZb0stbXJuNTg5Z01KVmJaNVFyNjI1ZzEzbmZoZFBpYUlzdjRYUlNXcEZrcS1jWTRUNGZlcjg0VDlpR1hOVQ?oc=5",
+     "quando": "2026-11-09T08:32:00+01:00",
      "gruppo": "Europa",
      "tradotto": true,
-     "titolo_originale": "From the streets of Lagos to the Chanel catwalk: how a creative’s thrift-shop style took her to Paris",
-     "lingua": "en"
+     "titolo_originale": "Inde : à Loni, la ville la plus polluée du monde, la poussière est partout",
+     "lingua": "fr"
     },
     {
      "titolo": "Un'indagine spagnola rileva 1.184 video di abusi sessuali espliciti su minori su TikTok",
@@ -585,14 +704,14 @@
      "lingua": "es"
     },
     {
-     "titolo": "Il Barcellona rimonta contro l'Atlético con la doppietta di Fermín",
+     "titolo": "Alcaraz vince il Masters 1000 di Parigi per la prima volta dopo aver sconfitto Shelton",
      "fonte": "EL PAÍS",
      "dominio": "elpais.com",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlZ5M0IydGpZNzJuZ051SG1oY3ZIRXpycmdZdjluX0Z0aU9qSng0SzFXOENlMV9xeXlhbzl5RkxtV0xYNlkzWlNSVVRTcWxEVzNlaFFSOHB5cVQyTG1lU3FuZXpYOHJGNnFlTk1uYjdfQk4wRi1lMUpBNDFnN3o3Yzc2V1NQd3RhZTU4bXZQNXN5NEYxdWhhVEtTQUlxTk55?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc25DR216SEhLaHpFUEpaSWNkclFVajNJSDNQN1ZxWTJzTFpwcF9nQlEzYm5kcmFEV1d2Q25lOHpHNHBkSkJpYnhWTkk5OElwcmNYUWNJQUFSNmw4MnNCOFNGU1laTnI4T0dBWjctMGIxdVhaektoY1RqN1A1TDljUVRSWXFYNV9yTTJGU0JuOGNVZkxJdlAxaVVRZFNEdTZmTWpRMUlwX2IyY011eGtnWHhLNjBRWXpsdHUxcExxcGNaX0g5?oc=5",
      "quando": "2026-11-09T06:55:00+01:00",
      "gruppo": "Europa",
      "tradotto": true,
-     "titolo_originale": "El Barcelona remonta al Atlético con un doblete de Fermín",
+     "titolo_originale": "Alcaraz se hace por primera vez con el Masters 1000 de París tras derrotar a Shelton",
      "lingua": "es"
     },
     {
@@ -605,17 +724,6 @@
      "tradotto": true,
      "titolo_originale": "Rencontres de Cluny : « L’écologie ne doit plus ignorer le quotidien des ruraux »",
      "lingua": "fr"
-    },
-    {
-     "titolo": "Chi dovrebbe pulire un garage? La legge risponde al conflitto di quartiere che provoca più discussioni",
-     "fonte": "Motor EL PAÍS",
-     "dominio": "motor.elpais.com",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWFBsSEw5MUo5dXU1NWYxb2I3a2ZNcGJaYjNoVlpZb3U0aFRLMFYzN2toRW5nMElYS18xWGpwS2VFNzlIQmtZMkFOOXZTT1lmMm41NXhZQm5rTXZnU3V3Rk84R3prRVNsLWl1XzBzU0FseEtnM25LV3hTaXVFaFo5ZDJqeE1ZZ1N4TlFGLXg5SF9NbTJMWGYza0MtUk5vdE51TmhGWFlubk9wT0RxbV9aQjB6X1JWNjBwSUV6NnpwV3k3em1tc1gxQkw1VlBKemhCOGpaQtIB2gFBVV95cUxPM2FzM1hkN2FRdnBCSW5TWm12U1VRalJIMkUtMkpQVFNNaC1ReTZ1QVM2YW5OOE5GTXhNZS1Dd0JlaWI3Z2JJbFBubGI2dXVvT0JFTHNjd2NVWndQVWJ0VG1PYS1jcjZ4Mm9uWE5lc2t1V3ZWTjBjTUZiYzEtdGc2T0k5Qy1OcG5DdWxUU3oyd2Zfei16dmhLaVAzbUJMMGozVEZDbHVmWk1ReXhIa2hTZHZ1R0V5REZ6NXk1MEVHYnhoeW12Ty1oVGlGY3ZsVndmV3ZFUG1QX0VNUQ?oc=5",
-     "quando": "2026-11-09T05:39:06+01:00",
-     "gruppo": "Europa",
-     "tradotto": true,
-     "titolo_originale": "¿Quién debe limpiar una plaza de garaje? La ley responde al conflicto vecinal que más discusiones provoca",
-     "lingua": "es"
     },
     {
      "titolo": "Il sognatore che vuole che il mondo legga la letteratura nepalese",
@@ -639,18 +747,6 @@
      "gruppo": "Resto del mondo",
      "tradotto": true,
      "titolo_originale": "Killing a dangerous coral",
-     "lingua": "en"
-    },
-    {
-     "titolo": "Oltre le spiagge: la Repubblica Dominicana e il dibattito globale sull’estrazione mineraria in acque profonde",
-     "fonte": "Global Voices",
-     "dominio": "globalvoices.org",
-     "link": "https://globalvoices.org/2026/11/08/beyond-the-beaches-the-dominican-republic-and-the-global-debate-over-deep-sea-mining/",
-     "quando": "2026-11-08T15:12:02+01:00",
-     "sommario": "La DR voleva che la scienza continuasse a progredire e che l’Autorità internazionale dei fondi marini finisse di costruire il quadro normativo che la Convenzione delle Nazioni Unite le aveva affidato il compito di sviluppare.",
-     "gruppo": "Resto del mondo",
-     "tradotto": true,
-     "titolo_originale": "Beyond the beaches: The Dominican Republic and the global debate over deep-sea mining",
      "lingua": "en"
     },
     {
@@ -680,7 +776,7 @@
      "fonte": "Al Jazeera",
      "dominio": "aljazeera.com",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjBGc19lbURRNW1XWWg5Z1JOOU9aQXB5UktkeGgweUF4WXJpV2MyUklGdHdwWm1lcmJONFhqUURIenFFSGZLbHlnNV9UNkt4aUZsaGs4cVJWQzdRRUFfMzJsRzhVVzdxdXc0aHVab01EcENaODNCZ2VSaUg4Yk5feVdzb0k5WTU2TzVpSnpibktMVU9mbHRCOEtyZ2dTd2h4U2dBTUhIU3hod9IBrwFBVV95cUxQbDN2T3czQnNQVFN2ZjdaZV8zc09qT0pkblhhV0k0OU9ySlUwZlZnRFp3Y01URGd2YXRPU3I4eU1PZmpBN3gwbE5rV1dCcDZUMS05eERBc3dqUkdxX0lUR2IyY0pMc2p4REotX0hrSVNuWHpTVTllck5fQ0lBc0dVN2hDM2RNN3VVdlYteVlyTElmdzVjUDU1ZmFzZGx1NkxWMTZtMGgyb3VsYWg1czdB?oc=5",
-     "quando": "2026-11-09T06:21:31+01:00",
+     "quando": "2026-11-09T06:42:53+01:00",
      "gruppo": "Resto del mondo",
      "tradotto": true,
      "titolo_originale": "Smog blankets New Delhi as Diwali firecrackers worsen air quality",
