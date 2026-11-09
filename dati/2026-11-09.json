@@ -455,134 +455,180 @@
    ],
    "articoli": [
     {
-     "titolo": "Tree-mendous defeat for greenwashing",
+     "titolo": "Sconfitta tremenda per il greenwashing",
      "fonte": "The Ecologist",
      "dominio": "theecologist.org",
      "link": "https://theecologist.org/2026/nov/09/tree-mendous-defeat-greenwashing",
      "quando": "2026-11-09T08:00:00+01:00",
      "sommario": "",
-     "gruppo": "Europa"
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Tree-mendous defeat for greenwashing",
+     "lingua": "en"
     },
     {
-     "titolo": "Stop undermining Jim Chalmers, environment minister urges Labor colleagues",
+     "titolo": "Smettetela di indebolire Jim Chalmers, esorta il ministro dell'Ambiente ai colleghi laburisti",
      "fonte": "The Guardian",
      "dominio": "theguardian.com",
      "link": "https://www.theguardian.com/uk-news/2026/nov/09/stop-undermining-treasurer-jim-chalmers-environment-minister-urges-colleagues",
      "quando": "2026-11-09T06:47:49+01:00",
-     "sommario": "‘It’s pretty obvious that there are all sorts of people making all sorts of comments,’ Murray Watt says after budget savings meeting Get our breaking news email , free app or daily news podcast The environment minister, Murray Watt , has urged ministers to stop undermining the treasurer, Jim Chalmers, as Labor…",
-     "gruppo": "Europa"
+     "sommario": "\"È abbastanza ovvio che ci sono tutti i tipi di persone che fanno tutti i tipi di commenti\", dice Murray Watt dopo la riunione sul risparmio di budget. Ricevi la nostra e-mail delle ultime notizie, l'app gratuita o il podcast delle notizie quotidiane Il ministro dell'ambiente, Murray Watt, ha esortato i ministri a smettere di indebolire il tesoriere, Jim Chalmers, mentre i laburisti...",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Stop undermining Jim Chalmers, environment minister urges Labor colleagues",
+     "lingua": "en"
     },
     {
-     "titolo": "From the streets of Lagos to the Chanel catwalk: how a creative’s thrift-shop style took her to Paris",
+     "titolo": "Dalle strade di Lagos alla passerella di Chanel: come lo stile da negozio dell'usato di una creativa l'ha portata a Parigi",
      "fonte": "The Guardian",
      "dominio": "theguardian.com",
      "link": "https://www.theguardian.com/global-development/2026/nov/09/fashion-lagos-chanel-model-rachel-ojuromi-nigeria-thrift-style",
      "quando": "2026-11-09T06:01:00+01:00",
-     "sommario": "Rachel Ojuromi and her stylist friend Debby Fasingha recreated high-end designs in effortlessly cool videos shot around the city. Then the fashion house came calling Before Paris, there was Lagos, with its busy markets, roadside stalls and maze of disorderly streets. And then there was Rachel Ojuromi, sashaying…",
-     "gruppo": "Europa"
+     "sommario": "Rachel Ojuromi e la sua amica stilista Debby Fasingha hanno ricreato modelli di fascia alta in video fantastici girati in giro per la città. Poi arrivò la casa di moda. Prima di Parigi, c'era Lagos, con i suoi mercati affollati, le bancarelle lungo la strada e il labirinto di strade disordinate. E poi c'era Rachel Ojuromi, che scherzava...",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "From the streets of Lagos to the Chanel catwalk: how a creative’s thrift-shop style took her to Paris",
+     "lingua": "en"
     },
     {
-     "titolo": "Una investigación española detecta 1.184 vídeos de abuso sexual infantil explícito en TikTok",
+     "titolo": "Un'indagine spagnola rileva 1.184 video di abusi sessuali espliciti su minori su TikTok",
      "fonte": "EL PAÍS",
      "dominio": "elpais.com",
      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWVEwNWNDdHB4aXFHaWprOVUtSEZQYU1tb0wxYnlYXzlQeUo2X0NTSkN5anZnWW9saU02TTh1MDNRSktaNXJaNzlqekpnU2tjbks4cUpMVVhJOGNEczBjVzRMY3J4T0lwYkJSZ1YydkREWG1LZEhIeTFaWk9MY185amZFMkZJLW5NbHFKcWpWbDJsUXRPX1prNjhtMG9oUVdaSG5GZ1FHbG5EQVg2TlJHeUgwVTg5NUhjSlR2MnhlY2k3cmxQb2hRTG1pX0Nsdw?oc=5",
      "quando": "2026-11-09T07:03:38+01:00",
-     "gruppo": "Europa"
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Una investigación española detecta 1.184 vídeos de abuso sexual infantil explícito en TikTok",
+     "lingua": "es"
     },
     {
-     "titolo": "Blakelaw residents 'scared to leave homes', council hears",
+     "titolo": "I residenti di Blakelaw \"hanno paura di lasciare le case\", ha riferito il comune",
      "fonte": "BBC",
      "dominio": "bbc.com",
      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDN1huLUlaeG9xWXBvWEd4YldLd1JPVG1XSlRmUlVMUmZaMVRIbkxyY05HUnJrLTZuUmFQcTF4YVVqWF93dHNxbVlCY0kwcDBEYVY4NXk0d083TW8?oc=5",
      "quando": "2026-11-09T07:02:13+01:00",
-     "gruppo": "Europa"
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Blakelaw residents 'scared to leave homes', council hears",
+     "lingua": "en"
     },
     {
-     "titolo": "El Barcelona remonta al Atlético con un doblete de Fermín",
+     "titolo": "Il Barcellona rimonta contro l'Atlético con la doppietta di Fermín",
      "fonte": "EL PAÍS",
      "dominio": "elpais.com",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlZ5M0IydGpZNzJuZ051SG1oY3ZIRXpycmdZdjluX0Z0aU9qSng0SzFXOENlMV9xeXlhbzl5RkxtV0xYNlkzWlNSVVRTcWxEVzNlaFFSOHB5cVQyTG1lU3FuZXpYOHJGNnFlTk1uYjdfQk4wRi1lMUpBNDFnN3o3Yzc2V1NQd3RhZTU4bXZQNXN5NEYxdWhhVEtTQUlxTk55?oc=5",
      "quando": "2026-11-09T06:55:00+01:00",
-     "gruppo": "Europa"
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "El Barcelona remonta al Atlético con un doblete de Fermín",
+     "lingua": "es"
     },
     {
-     "titolo": "Rencontres de Cluny : « L’écologie ne doit plus ignorer le quotidien des ruraux »",
+     "titolo": "Incontri di Cluny: “L’ecologia non deve più ignorare la vita quotidiana delle popolazioni rurali”",
      "fonte": "La Croix",
      "dominio": "la-croix.com",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT2RrV1h3RUg0VGk4d0E3VFRjdmM5YVdCdWVBeEgtQ1FFcVJ0c053V1JscWdlcm40akpleS1UQk1ldXZaWTZaOWtCUXJvRDViT2dtVHBHTWJLdDJYZjlPM3dzaUFQa2lNMnE3ejhSeloyQ0pVOW5kbnIwdzAycHVIb0VWSHJmV2pKYlB4TFE2akJIVDg5WmhGZy1KSS05YzA3Tmk5cFJWQUdIa2M5NGk1WVJmN3NaQQ?oc=5",
      "quando": "2026-11-09T06:42:15+01:00",
-     "gruppo": "Europa"
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Rencontres de Cluny : « L’écologie ne doit plus ignorer le quotidien des ruraux »",
+     "lingua": "fr"
     },
     {
-     "titolo": "The dreamer who wants the world to read Nepali literature",
+     "titolo": "Il sognatore che vuole che il mondo legga la letteratura nepalese",
      "fonte": "Global Voices",
      "dominio": "globalvoices.org",
      "link": "https://globalvoices.org/2026/11/09/the-dreamer-who-wants-the-world-to-read-nepali-literature/",
      "quando": "2026-11-09T06:00:27+01:00",
-     "sommario": "Rishi Ram Adhikari, founder of Kitab Yatra and Kitab Jatra Festival, discusses his mission to promote Nepali literature globally, build libraries and connect readers across borders through cultural exchange.",
-     "gruppo": "Resto del mondo"
+     "sommario": "Rishi Ram Adhikari, fondatore di Kitab Yatra e Kitab Jatra Festival, parla della sua missione di promuovere la letteratura nepalese a livello globale, costruire biblioteche e connettere i lettori oltre confine attraverso lo scambio culturale.",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "The dreamer who wants the world to read Nepali literature",
+     "lingua": "en"
     },
     {
-     "titolo": "Killing a dangerous coral",
+     "titolo": "Uccidere un corallo pericoloso",
      "fonte": "Mongabay",
      "dominio": "news.mongabay.com",
      "link": "https://news.mongabay.com/short-article/2026/11/killing-a-dangerous-coral/",
      "quando": "2026-11-08T16:40:02+01:00",
-     "sommario": "A Brazilian biologist and a team of volunteer divers are killing coral to save a marine protected area just off the famous Ipanema beach. They’re manually removing sun coral, an invasive species first seen in Brazil more than 40 years ago, from an offshore oil platform. The coral has no natural predators in the region",
-     "gruppo": "Resto del mondo"
+     "sommario": "Un biologo brasiliano e una squadra di subacquei volontari stanno uccidendo i coralli per salvare un'area marina protetta appena fuori dalla famosa spiaggia di Ipanema. Stanno rimuovendo manualmente il corallo solare, una specie invasiva avvistata per la prima volta in Brasile più di 40 anni fa, da una piattaforma petrolifera offshore. Il corallo non ha predatori naturali nella regione",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Killing a dangerous coral",
+     "lingua": "en"
     },
     {
-     "titolo": "Beyond the beaches: The Dominican Republic and the global debate over deep-sea mining",
+     "titolo": "Oltre le spiagge: la Repubblica Dominicana e il dibattito globale sull’estrazione mineraria in acque profonde",
      "fonte": "Global Voices",
      "dominio": "globalvoices.org",
      "link": "https://globalvoices.org/2026/11/08/beyond-the-beaches-the-dominican-republic-and-the-global-debate-over-deep-sea-mining/",
      "quando": "2026-11-08T15:12:02+01:00",
-     "sommario": "The DR wanted science to keep advancing and the International Seabed Authority to finish building the regulatory framework that the UN Convention had mandated it to develop.",
-     "gruppo": "Resto del mondo"
+     "sommario": "La DR voleva che la scienza continuasse a progredire e che l’Autorità internazionale dei fondi marini finisse di costruire il quadro normativo che la Convenzione delle Nazioni Unite le aveva incaricato di sviluppare.",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Beyond the beaches: The Dominican Republic and the global debate over deep-sea mining",
+     "lingua": "en"
     },
     {
-     "titolo": "Why we disrupted Annalena Baerbock’s award speech",
+     "titolo": "Perché abbiamo interrotto il discorso di premiazione di Annalena Baerbock",
      "fonte": "Al Jazeera",
      "dominio": "aljazeera.com",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVTFkTEtUVXRTM0dTQVNHSkRhaVN5Z1BlRTdjNXlnNE5USjBRdU1GTFNncHU0RzloNlB0TkhzR3pEckVSOVVaRmZUVzY0ZUs1cGNmYUltSUtaakRlbzhVUG4yZEl5U29YOV9DVkp1UFNnZ2YtUHluRGQwenZnaVlyTWpYbkd1b2xGZzBLdHFjQldwYXdnNGJFctIBngFBVV95cUxQdFd3RUJ4Q2tTZXdVWDk1RGNiSTRLSE82N0RkR2wyWmI4bUE3eGdwWGlYLXBRX1JGdk51M2VQU3Z5SVI0V1hkd0RkY3BOMEN1aVRYM1YzR0JhS2p5NWU5cDJ3dllFczlXel9yMENWTVJ6eHpucnAzdWVhR3RjbFNPSEI1QTU3SGV5YTBmanNzOTJ1WkpSblZhZEthdjcxdw?oc=5",
      "quando": "2026-11-09T07:52:53+01:00",
-     "gruppo": "Resto del mondo"
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Why we disrupted Annalena Baerbock’s award speech",
+     "lingua": "en"
     },
     {
-     "titolo": "¿Quién puede hablar en nombre del pueblo? Nuevas fronteras de protesta en el Sahel",
+     "titolo": "Chi può parlare a nome del popolo? Nuovi confini della protesta nel Sahel",
      "fonte": "Global Voices en Español",
      "dominio": "es.globalvoices.org",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZUpybGdvaFVnOWZ4N3hPc2pkbWdKZ241WS1DY0tfV1dxQmRCU3VkcDRRaEVIaC1yay05RDRYdVVnRzdzUjZCUi11cDlNMmljNkZjVzE5RFBJNmhMMmxRclo1N2pseUlwNnRhMEVVUDQ3dlQwc2ZnVC1jdWV5V3I2bHZFQk9NWDJjcXFKdlp0QXFaVzZxYTlxSk04bGhaQ2dxVHgzaWF3d1Y1bGxSM3hYdk9Ccw?oc=5",
      "quando": "2026-11-09T07:06:11+01:00",
-     "gruppo": "Resto del mondo"
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "¿Quién puede hablar en nombre del pueblo? Nuevas fronteras de protesta en el Sahel",
+     "lingua": "es"
     },
     {
-     "titolo": "Smog blankets New Delhi as Diwali firecrackers worsen air quality",
+     "titolo": "Lo smog ricopre Nuova Delhi mentre i petardi di Diwali peggiorano la qualità dell’aria",
      "fonte": "Al Jazeera",
      "dominio": "aljazeera.com",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjBGc19lbURRNW1XWWg5Z1JOOU9aQXB5UktkeGgweUF4WXJpV2MyUklGdHdwWm1lcmJONFhqUURIenFFSGZLbHlnNV9UNkt4aUZsaGs4cVJWQzdRRUFfMzJsRzhVVzdxdXc0aHVab01EcENaODNCZ2VSaUg4Yk5feVdzb0k5WTU2TzVpSnpibktMVU9mbHRCOEtyZ2dTd2h4U2dBTUhIU3hod9IBrwFBVV95cUxQbDN2T3czQnNQVFN2ZjdaZV8zc09qT0pkblhhV0k0OU9ySlUwZlZnRFp3Y01URGd2YXRPU3I4eU1PZmpBN3gwbE5rV1dCcDZUMS05eERBc3dqUkdxX0lUR2IyY0pMc2p4REotX0hrSVNuWHpTVTllck5fQ0lBc0dVN2hDM2RNN3VVdlYteVlyTElmdzVjUDU1ZmFzZGx1NkxWMTZtMGgyb3VsYWg1czdB?oc=5",
      "quando": "2026-11-09T06:21:31+01:00",
-     "gruppo": "Resto del mondo"
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Smog blankets New Delhi as Diwali firecrackers worsen air quality",
+     "lingua": "en"
     },
     {
-     "titolo": "‘Severe’ air quality recorded in several parts of Delhi amid Diwali festivities",
+     "titolo": "Qualità dell’aria “grave” registrata in diverse parti di Delhi durante le festività del Diwali",
      "fonte": "Scroll.in",
      "dominio": "scroll.in",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTk81dFlLeW9WemgyQzJob3JoRmpNYzJUb1RuYlViNmtxSl9nVkRyVF90clU2MmU0YU9xVlZTOHhZdXk3cHVpZTR1LU5haW5TQlVnU295YWZDMWxtS0tLVFdtOVd1QkZoV3JvSmE3ZDJOdHU1eXVab29Ody12VEpheHpDTGFpSld2TFJRU3pYak9NcnA4TDdxdHRBUmpuc0JoQWJfdDZUVlhOcmxuS0pv?oc=5",
      "quando": "2026-11-09T04:39:13+01:00",
-     "gruppo": "Resto del mondo"
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "‘Severe’ air quality recorded in several parts of Delhi amid Diwali festivities",
+     "lingua": "en"
     },
     {
-     "titolo": "Why the decline of traditional midwifery is a blow to rural women’s health",
+     "titolo": "Perché il declino dell’ostetricia tradizionale è un duro colpo per la salute delle donne rurali",
      "fonte": "Scroll.in",
      "dominio": "scroll.in",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU3diMHhwNVVLS0c0b2RpLXFtQXdmZUk0d2VYXzhMT2Y0R1l0d0cxbzNadHFOemlMdTE4OXNwRHJwc1ZiaXdndDNRWnpOTnh5ZWp4ek9ZbXY5c1gyLU9CSExKMUFPWHVPbExsOW5DcDJ3aGNKMW56R1NCRjNMQ1N5TENmTlZ2eTlBU0xVeGlYcTRmcXZFYnNOMUdaZVBjYnRxNVZpdC16a2RTVXfSAbABQVVfeXFMT3F4YzkwODRVNnNTNUtnd3ZiVWpJSGFUb0I3bGtxR194cjl1UUEyRlF0cTJrN1VRODRtSVVQTERlOHdWN09pVWNQUzVhZUJKZnJYek14UmdzR2dja2Y5ejRHdDhBYW96U2ViLXVCV2lsTXpsVXF3cU0xYUc1NDloMnNkTVlNNGVVeVc0LXRXY0p4TERXcVIwVWxMd1hKanlsWnVwU1hOTml4U0RNb2FKcGs?oc=5",
      "quando": "2026-11-09T02:00:00+01:00",
-     "gruppo": "Resto del mondo"
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Why the decline of traditional midwifery is a blow to rural women’s health",
+     "lingua": "en"
     }
    ],
    "a_parte": true,
-   "descrizione": "Reportage e approfondimenti internazionali su comunità, ambiente locale e città, con più spazio alle testate non americane."
+   "descrizione": "Reportage e approfondimenti internazionali su comunità, ambiente locale e città, con più spazio alle testate non americane.",
+   "traduci": true
   }
  ]
 }

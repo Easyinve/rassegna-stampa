@@ -9,7 +9,8 @@ on:
     # e il primo passo decide se partire davvero: solo dalle 6:30 italiane in
     # poi (GitHub ragiona in UTC e non conosce l'ora legale, l'orario italiano
     # lo calcola lo script) e solo se la rassegna automatica di oggi non è
-    # ancora stata fatta. Gli avvii in più si chiudono in pochi secondi.
+    # ancora stata fatta. Se è già fatta ma qualche traduzione non è riuscita,
+    # riprova solo quelle. Gli avvii in più si chiudono in pochi secondi.
     - cron: "7,27,47 4-9 * * *"
   workflow_dispatch:   # avvio a mano: dalla scheda Actions o dal pulsante nella pagina
 
@@ -38,24 +39,37 @@ jobs:
           if [ "$ora" -lt 0630 ]; then
             echo "Sono le $ora in Italia: troppo presto"; echo "parti=no" >> "$GITHUB_OUTPUT"
           elif [ "$fatta" = "$oggi" ]; then
-            echo "La rassegna automatica di oggi è già fatta"; echo "parti=no" >> "$GITHUB_OUTPUT"
+            mancanti=$(python3 -c "import json;d=json.load(open('dati/$oggi.json'));print(sum(1 for t in d['temi'] if t.get('traduci') for a in t['articoli'] if not a.get('tradotto')))" 2>/dev/null || echo 0)
+            if [ "$mancanti" -gt 0 ]; then
+              echo "Rassegna già fatta, ma $mancanti traduzioni da rifare"; echo "parti=ritraduci" >> "$GITHUB_OUTPUT"
+            else
+              echo "La rassegna automatica di oggi è già fatta"; echo "parti=no" >> "$GITHUB_OUTPUT"
+            fi
           else
             echo "parti=si" >> "$GITHUB_OUTPUT"
           fi
 
       - uses: actions/setup-python@v6
-        if: steps.orario.outputs.parti == 'si'
+        if: steps.orario.outputs.parti != 'no'
         with:
           python-version: "3.12"
 
       - name: Prepara il report
         if: steps.orario.outputs.parti == 'si'
         run: python rassegna.py
+        env:
+          DEEPL_KEY: ${{ secrets.DEEPL_KEY }}   # facoltativo
+
+      - name: Riprova le traduzioni non riuscite
+        if: steps.orario.outputs.parti == 'ritraduci'
+        run: python rassegna.py --ritraduci
+        env:
+          DEEPL_KEY: ${{ secrets.DEEPL_KEY }}
 
       - name: Salva il report nel repository
-        if: steps.orario.outputs.parti == 'si'
+        if: steps.orario.outputs.parti != 'no'
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ steps.orario.outputs.parti }}" = "si" ] && [ "${{ github.event_name }}" = "schedule" ]; then
             TZ=Europe/Rome date +%F > dati/ultima-automatica.txt
           fi
           git config user.name "github-actions[bot]"

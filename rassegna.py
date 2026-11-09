@@ -91,7 +91,8 @@ def leggi_feed(query: str, ore: int, imp: dict) -> list[dict]:
         except (TypeError, ValueError):
             continue
         voci.append({"titolo": titolo, "fonte": fonte, "dominio": host,
-                     "link": (item.findtext("link") or "").strip(), "quando": quando})
+                     "link": (item.findtext("link") or "").strip(), "quando": quando,
+                     "lingua_ricerca": imp["lingua"]})
     time.sleep(1)  # gentilezza verso Google News
     return voci
 
@@ -155,14 +156,73 @@ LINGUE = {"en": "dall’inglese", "fr": "dal francese", "es": "dallo spagnolo", 
           "pl": "dal polacco", "sv": "dallo svedese", "da": "dal danese"}
 
 
-def traduci(testo: str) -> tuple[str, str]:
-    """Traduce in italiano con il servizio gratuito di Google Translate (lo
-    stesso del sito, senza chiave). Restituisce (traduzione, lingua d'origine)."""
-    url = ("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=it&dt=t&q="
-           + urllib.parse.quote(testo))
-    dati = json.loads(scarica(url))
-    time.sleep(0.3)
-    return "".join(pezzo[0] for pezzo in dati[0] if pezzo[0]).strip(), dati[2] or ""
+# Servizi di traduzione gratuiti, senza chiave, provati in quest'ordine. Dai
+# server di GitHub (condivisi con molti altri) Google a volte risponde «troppe
+# richieste»: in quel caso il servizio viene saltato per il resto del giro.
+# Con la variabile d'ambiente DEEPL_KEY (un segreto del repository) si usa
+# prima DeepL, che ha un piano gratuito con chiave.
+bloccati: set[str] = set()
+
+
+def _google(testo: str, client: str, host: str) -> tuple[str, str]:
+    if client == "gtx":
+        url = (f"https://{host}/translate_a/single?client=gtx&sl=auto&tl=it&dt=t&q="
+               + urllib.parse.quote(testo))
+        dati = json.loads(scarica(url, tentativi=1))
+        return "".join(pezzo[0] for pezzo in dati[0] if pezzo[0]).strip(), dati[2] or ""
+    url = (f"https://{host}/translate_a/t?client={client}&sl=auto&tl=it&q=" + urllib.parse.quote(testo))
+    dati = json.loads(scarica(url, tentativi=1))
+    tradotto, lingua = dati[0] if isinstance(dati[0], list) else (dati[0], "")
+    return tradotto.strip(), lingua
+
+
+def _mymemory(testo: str, lingua: str) -> tuple[str, str]:
+    sorgente = (lingua or "en").split("-")[0]
+    url = ("https://api.mymemory.translated.net/get?langpair=" + urllib.parse.quote(f"{sorgente}|it")
+           + "&q=" + urllib.parse.quote(testo[:500]))
+    dati = json.loads(scarica(url, tentativi=1))
+    if dati.get("quotaFinished") or str(dati.get("responseStatus")) != "200":
+        raise RuntimeError("HTTP Error 429: quota MyMemory finita")
+    return html.unescape(dati["responseData"]["translatedText"]).strip(), sorgente
+
+
+def _deepl(testo: str, chiave: str) -> tuple[str, str]:
+    host = "api-free.deepl.com" if chiave.endswith(":fx") else "api.deepl.com"
+    req = urllib.request.Request(
+        f"https://{host}/v2/translate", method="POST",
+        data=json.dumps({"text": [testo], "target_lang": "IT"}).encode(),
+        headers={"Authorization": f"DeepL-Auth-Key {chiave}", "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        t = json.loads(r.read())["translations"][0]
+    return t["text"].strip(), t["detected_source_language"].lower()
+
+
+def traduci(testo: str, lingua_probabile: str = "") -> tuple[str, str]:
+    """Traduce in italiano. Restituisce (traduzione, lingua d'origine)."""
+    import os
+    servizi = []
+    if os.environ.get("DEEPL_KEY"):
+        servizi.append(("deepl", lambda: _deepl(testo, os.environ["DEEPL_KEY"])))
+    servizi += [
+        ("google", lambda: _google(testo, "gtx", "translate.googleapis.com")),
+        ("google-2", lambda: _google(testo, "dict-chrome-ex", "clients5.google.com")),
+        ("mymemory", lambda: _mymemory(testo, lingua_probabile)),
+    ]
+    errori = []
+    for nome, fai in servizi:
+        if nome in bloccati:
+            continue
+        try:
+            risultato = fai()
+            time.sleep(0.3)
+            if risultato[0]:
+                return risultato
+        except Exception as e:
+            errori.append(f"{nome}: {e}")
+            if "429" in str(e) or "403" in str(e) or "456" in str(e):
+                print(f"  {nome} non accetta altre richieste: passo al servizio successivo", file=sys.stderr)
+                bloccati.add(nome)
+    raise RuntimeError("; ".join(errori) or "nessun servizio di traduzione disponibile")
 
 
 def traduci_articoli(articoli: list[dict], lingue_attese: set[str]) -> None:
@@ -174,8 +234,12 @@ def traduci_articoli(articoli: list[dict], lingue_attese: set[str]) -> None:
     for a in articoli:
         try:
             testo = a["titolo"] + ("\n" + a["sommario"] if a.get("sommario") else "")
-            tradotto, lingua = traduci(testo)
-            if lingua == "it" or not tradotto:
+            tradotto, lingua = traduci(testo, a.get("lingua_ricerca", ""))
+            if not tradotto:
+                continue
+            a["tradotto"] = True
+            a.pop("lingua_ricerca", None)
+            if lingua == "it":
                 continue
             titolo, _, sommario = tradotto.partition("\n")
             if lingua.split("-")[0] not in lingue_attese:
@@ -183,6 +247,7 @@ def traduci_articoli(articoli: list[dict], lingue_attese: set[str]) -> None:
             a["titolo_originale"], a["lingua"], a["titolo"] = a["titolo"], lingua, titolo.strip()
             if a.get("sommario"):
                 a["sommario"] = sommario.strip() or a["sommario"]
+            a.pop("lingua_ricerca", None)
         except Exception as e:
             print(f"  traduzione non riuscita ({e})", file=sys.stderr)
 
@@ -339,6 +404,11 @@ def cerca(tema: dict, imp: dict) -> list[dict]:
         c.pop("gruppo_fisso", None)
         scelti[gruppo].append({**c, "quando": c["quando"].astimezone(ROMA).isoformat(), "gruppo": gruppo})
     return [a for g in gruppi for a in scelti[g["nome"]]]
+
+
+def da_tradurre(dati: dict) -> list[dict]:
+    """Articoli delle sezioni da tradurre la cui traduzione non è riuscita."""
+    return [a for t in dati["temi"] if t.get("traduci") for a in t["articoli"] if not a.get("tradotto")]
 
 
 def titoli_precedenti(oggi: str, giorni: int = 7) -> set[str]:
@@ -672,6 +742,8 @@ def html_archivio(imp: dict) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--temi", default=str(QUI / "temi.toml"))
+    ap.add_argument("--ritraduci", action="store_true",
+                    help="riprova solo le traduzioni non riuscite nella rassegna di oggi")
     args = ap.parse_args()
 
     config = tomllib.loads(Path(args.temi).read_text(encoding="utf-8"))
@@ -681,6 +753,30 @@ def main() -> int:
 
     adesso = datetime.now(ROMA)
     oggi = adesso.date().isoformat()
+
+    if args.ritraduci:
+        file = DATI / f"{oggi}.json"
+        if not file.exists():
+            print("Nessuna rassegna di oggi da ritradurre.")
+            return 0
+        dati = json.loads(file.read_text(encoding="utf-8"))
+        da_config = {t["nome"] for t in config["tema"] if t.get("traduci")}
+        for t in dati["temi"]:
+            if t["nome"] in da_config:
+                t["traduci"] = True
+        mancanti = da_tradurre(dati)
+        print(f"Da tradurre: {len(mancanti)} articoli")
+        if not mancanti:
+            return 0
+        attese = {"en", "fr", "es", "de", "pt"}
+        for t in config["tema"]:
+            for r in ricerche_del_tema(t, imp):
+                attese.add(r["lingua"].split("-")[0])
+        traduci_articoli(mancanti, attese)
+        print(f"Ancora da tradurre: {len(da_tradurre(dati))}")
+        scrivi(imp, dati, oggi)
+        return 0
+
     gia_usciti = titoli_precedenti(oggi)
 
     temi, errori = [], 0
@@ -692,6 +788,8 @@ def main() -> int:
             voce["a_parte"] = True  # gruppi suoi: i pulsanti del filtro non la riguardano
         if tema.get("descrizione"):
             voce["descrizione"] = tema["descrizione"]
+        if tema.get("traduci"):
+            voce["traduci"] = True
         try:
             articoli = cerca(tema, imp)
             voce["articoli"] = [a for a in articoli if normalizza(a["titolo"]) not in gia_usciti]
@@ -711,6 +809,12 @@ def main() -> int:
         return 1
 
     dati = {"generato": adesso.isoformat(timespec="minutes"), "temi": temi}
+    scrivi(imp, dati, oggi)
+    return 0
+
+
+def scrivi(imp: dict, dati: dict, oggi: str) -> None:
+    """Salva i dati del giorno e rigenera le pagine."""
     DATI.mkdir(exist_ok=True)
     (DATI / f"{oggi}.json").write_text(json.dumps(dati, ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -720,7 +824,6 @@ def main() -> int:
     (DOCS / "archivio" / "index.html").write_text(html_archivio(imp), encoding="utf-8")
     (DOCS / ".nojekyll").touch()
     print(f"Report scritto in {DOCS / 'index.html'}")
-    return 0
 
 
 if __name__ == "__main__":
