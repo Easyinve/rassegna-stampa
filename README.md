@@ -28,6 +28,21 @@ In questa sezione titoli e sommari sono **tradotti in italiano**, con il titolo 
 
 La pagina sarà su `https://<utente>.github.io/<nome-repository>/`.
 
+## L'avvio del mattino (cron-job.org)
+
+Gli orari programmati di GitHub non sono affidabili: nei primi giorni la rassegna «delle 6:30» è partita alle 18:42 e alle 13:31, e la maggior parte dei tentativi è stata saltata. Per questo l'avvio del mattino arriva da [cron-job.org](https://cron-job.org), un servizio gratuito che alle 6:30 chiama GitHub. Gli orari di GitHub restano come riserva: se cron-job.org ha già fatto la rassegna, quelli si chiudono senza fare nulla.
+
+Da configurare una volta sola:
+
+1. Crea un token come quello del pulsante (vedi sotto: *Only select repositories* → questo repository, *Actions: Read and write*), con la scadenza più lunga possibile. Si può usare lo stesso del pulsante.
+2. Su cron-job.org crea un account e poi **Create cronjob**:
+   - *URL*: `https://api.github.com/repos/Easyinve/rassegna-stampa/actions/workflows/rassegna.yml/dispatches`
+   - *Execution schedule*: ogni giorno alle 6:30, con fuso orario *Europe/Rome* (cron-job.org gestisce da solo l'ora legale);
+   - scheda *Advanced*: *Request method* **POST**; *Headers*: `Accept: application/vnd.github+json`, `Authorization: Bearer <il token>`, `X-GitHub-Api-Version: 2022-11-28`; *Request body*: `{"ref":"main","inputs":{"automatica":"true"}}`.
+3. Con **Test run** si può provare subito: GitHub risponde 204 e nella scheda Actions compare un nuovo giro.
+
+Alla scadenza del token si crea un nuovo token e lo si sostituisce nell'header su cron-job.org.
+
 ## Il pulsante «Aggiorna ora»
 
 In cima alla pagina c'è un pulsante che prepara subito una nuova rassegna, senza aspettare la mattina dopo. Dopo un paio di minuti la pagina si ricarica da sola con gli articoli aggiornati.

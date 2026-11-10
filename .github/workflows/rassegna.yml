@@ -2,6 +2,10 @@ name: Rassegna stampa
 
 on:
   schedule:
+    # L'avvio del mattino arriva da un servizio esterno (cron-job.org, vedi
+    # README), che alle 6:30 chiama GitHub con automatica=true. Gli orari qui
+    # sotto restano come riserva.
+    #
     # Gli avvii programmati di GitHub non sono affidabili: possono slittare
     # anche di ore o saltare del tutto, soprattutto allo scoccare dell'ora e
     # della mezz'ora. Per questo il workflow viene "bussato" più volte ogni
@@ -12,7 +16,12 @@ on:
     # ancora stata fatta. Se è già fatta ma qualche traduzione non è riuscita,
     # riprova solo quelle. Gli avvii in più si chiudono in pochi secondi.
     - cron: "7,27,47 4-9 * * *"
-  workflow_dispatch:   # avvio a mano: dalla scheda Actions o dal pulsante nella pagina
+  workflow_dispatch:   # avvio a mano (scheda Actions, pulsante nella pagina) o da cron-job.org
+    inputs:
+      automatica:
+        description: "Conta come rassegna del mattino (per gli avvii da cron-job.org)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,7 +39,7 @@ jobs:
       - name: Controlla se è il momento
         id: orario
         run: |
-          if [ "${{ github.event_name }}" != "schedule" ]; then
+          if [ "${{ github.event_name }}" != "schedule" ] && [ "${{ inputs.automatica }}" != "true" ]; then
             echo "Avvio a mano"; echo "parti=si" >> "$GITHUB_OUTPUT"; exit 0
           fi
           ora=$(TZ=Europe/Rome date +%H%M)
@@ -69,7 +78,7 @@ jobs:
       - name: Salva il report nel repository
         if: steps.orario.outputs.parti != 'no'
         run: |
-          if [ "${{ steps.orario.outputs.parti }}" = "si" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ steps.orario.outputs.parti }}" = "si" ] && { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.automatica }}" = "true" ]; }; then
             TZ=Europe/Rome date +%F > dati/ultima-automatica.txt
           fi
           git config user.name "github-actions[bot]"
