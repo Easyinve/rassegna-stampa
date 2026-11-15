@@ -1,0 +1,950 @@
+{
+ "generato": "2026-11-15T12:53+01:00",
+ "temi": [
+  {
+   "nome": "Ponte sullo Stretto",
+   "ore": 48,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Schlein: No ai 13 mld del ponte sullo Stretto, opera inutile e dannosa",
+     "fonte": "Sky TG24",
+     "dominio": "tg24.sky.it",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUGZKdlVfWTZCV1BpZU1CWEltMFFlZ0w4Nll1T0ZyeUs2Sy02eDBoRkIxYnBRWml1UGFzLXhyOExMdzh2Zk44UWVBd19nZ3hpSm5zSTdENjZKVmhudDA3X1dmY1FyUlQzM1Z1aEtOWWR3WWx3LThtTHZoblg1QTZUTnMyczlxTXctNFF6bm5VbFB1cEpWdnp0Zk9NbFVjWG5JNXB4VEVvMjFLMFM5SGxZazdwbG5NRXBKanV4X2NLaw?oc=5",
+     "quando": "2026-11-14T13:17:43+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Ponte sullo Stretto, Landini spara a zero contro il governo: “invece di spendere 13 miliardi, investiamoli nella scuola e nel diritto alla casa”",
+     "fonte": "StrettoWeb",
+     "dominio": "strettoweb.com",
+     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQa014WVhjc0lPb3EzNjdNOFRmeUp4NnJBX1FaQlpZTGZfMGtvcXo3VVVITFM3THRWODFzSV9wNDFiRVpGT190aDU4dkhtM3hVMHJObUdkVURwcm1YR1V6UktucW9FUWpYMERvVkFrWnBwX1NyNHVfclpHanVlRTdpQnNjS3dIU3ZtM3pTWnNuMHh2b0FZQXlobTJ4dGhKcjZua3JTUTJEd19zbDA4VzlhSnJkeWI1a2NXQ1h1VjY0T2NtYlhkRlQyXzZHUlFyUDdFaURmWm9hMHFDR3pyZ0Q3SmxmbG5yUUtNNkV4NXE5QV9KQWQ2WktRT2VIZnFCSW02YUQ2dEZDYlZ1UXM2WnZ4TdIBlgJBVV95cUxQLWttbFFTcjhIdHk1TUxXTkF5ZU04cDN5NlNQU0xHNnFQZi01NGtoMUNTTjVYYkFkUWktQ0lDQnZUNWlGUG9vNGZzSUliaEMyZkxWM3g2VVM2dVV5TnBGZ2FrekxNdFdTdlROQkhWV0pRQ1hSaVlkSmRveTNLMFZIS2o2bVpoTnhncW9mQmJkQnVMbkNFMDZsQ2pLSHMzQU5GVUhTOGNCNzNzT1dYU2t0ZVV2a1pyYnA3b3pzTDB0Y184dlFuUVdjTlEtVTU3cWduTkRDQWFmTlhYX2JGY1M4ZUxMUUdfTGZEU0pXb3gyRVFibS1XSS0tSmpuNUl3VWlYOVRvWnMtRFk2Q2tNVDc5c0FWOXhzQQ?oc=5",
+     "quando": "2026-11-15T10:37:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Ponte sullo Stretto, il rebus dei controlli e la scelta del capo dell'Anac: spunta Marcello Viola",
+     "fonte": "MessinaToday",
+     "dominio": "messinatoday.it",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWm5PMGw3bXg3RGVnVUVLNDhMWFBvSEJsLUtXWXE0ZG5aVlNCLTkxcWM2Yk04bHE4LTRnSnpscy1hWXVqTlZkSmRqbS1QNUYwc2RUa2htdUJpbXJBOWlnMmtjYzUyZ211WmVZdmhrQ3BvOUZjc3hUdnFZbmYwUjBUNVM2OUdIeW5EOW5rampn?oc=5",
+     "quando": "2026-11-15T07:43:10+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Notizie su POnte sullo Stretto",
+     "fonte": "MessinaToday",
+     "dominio": "messinatoday.it",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sb2RtcjVNRWVXUDNVTE5NdFAza21oZmZvRFFrSlpxbmI1cU5lSHh5SFhiSUxmU194dy1QLXFORjByVmlpU3Z6T3JmYVlmQmV1a2taUW84V05YRzdzSG1ZNnVORFRLbU5BNHpv?oc=5",
+     "quando": "2026-11-15T07:08:17+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Schlein: «Quando saremo al governo cancelleremo il Ponte sullo Stretto»",
+     "fonte": "Gazzetta del Sud",
+     "dominio": "gazzettadelsud.it",
+     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxON1hqUkNFUE1CVnUtSWxXNC1vcEs3UTlKYTQzelVyWGQ4cEtnOE5XWi1uVkZFMF9DeFM3VHBPNkpXRGxRM1plRjR3TlQzQ0xzX0V0eWJTNkx1MGhVN2FFZ09ZanJFWDJIcmNIbUJ6V2hwTURHZlF5WllpVzFJUDN6MWxKdTlGV29CWW1wM01QZVhrYXY1M3RtVE1ZWWxzR2RyaThpaU4yS2FLOC1QNFR2Nk1jekRlQ01vZ3V1TU5UaDRqWFFZZVc4WTNxSEJpR2FadXdPZTZ0VGZYRmxDTk5xaDc3ODY5NGtHTzlTbHlnMS1uU3FCU1c2b0V0Y3oxN0s1R2c?oc=5",
+     "quando": "2026-11-15T03:35:33+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "“Ponti: Infrastrutture, culture, comunità”, a Messina il Ponte sullo Stretto tra agrumi, cultura e un progetto da colossal | INTERVISTE",
+     "fonte": "StrettoWeb",
+     "dominio": "strettoweb.com",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUjRud2M0SDQ2dzREWS1IUkNFUnh5LVd2LWlTOWxFbzh6eGxlVlRVUFdub2g3Qi1xTE1pbE9yTEZYTEdBV2dEd3dKa3Y5a3JSbnAycWVvREs0UlFtWV9uSWp6R0tneXRYcTIwdy1mWENGbktVd3BaLU1yckM1WmRHdzJwWldoT1pXajNCUWlIbFRCak1KeHQzbTlscmtZZUJxRUZqS0JkMkZ3RHgzZXgzLUN4cXRvbGxoSlRjLWRNNDh5SHc4NEdYSEl3SDgwWmpfbnFXU29YWGhYOUhrenBmOUZGTWx0S1BZY3NxaFRJWUp3N3hLOGRZOTNnaDhIa2_SAYQCQVVfeXFMT0pLSmNSdGZkcXpGNUxXWlFIWTdocTZDZ21iSEktN3N0VVg3bG5mZXUtWUgtNVVvWkJqX0dZR1ZXMmh5RmlJTzlycHRqRV9ES3dxcHNYeUdCcTVxRnE3ZXRLbzd4TV9FTFRtSWNhSTJqZG5tWmNjREhNYnZVQ25DSE1UVHM3aUtxck5uZHVCVFRYdE1UUm1Ka3VBRWM2TjVKZW9zOUs1VUlXOElNZTdpbXFpSlVlN0N0WllnRUdoN3VEMDRiQVlJczBjRElBbVlCTTVLTzA3cndDQmd6UjFhbGZabVY2MUh0VHhHOWlwTXNiWGVHWGRmSGdlNDdtbUxoa0NuZGo?oc=5",
+     "quando": "2026-11-14T14:14:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Ponte sullo Stretto, proposto referendum abrogativo · Video LaC News24",
+     "fonte": "LaC News24",
+     "dominio": "amp.lacnews24.it",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVEZydVQxQ2x5SmkzZmxDb09WMm5nZHdjYjN5c2NMZ3hnSGw5dWh1WkdoVlVfVVBUemtkUHkwTEJWXzZZdGx3eXhpdUxFTXEyOVBZY0drU2VjMFFfREhXR1ZxT19QUjF6YXZScm1KM3pWT2xEaXphSHRHenNMemI5dzNHRHYwMEljTXcwXzg1Qm1jd2xQUlh3TkVTZEtRLTBSNUVFeWF5U090dnJmOERncURB0gGyAUFVX3lxTE1URnJ1VDFDbHlKaTNmbENvT1Yybmdkd2NiM3lzY0xneGdIbDl1aHVaR2hWVV9VUFR6a2RQeTBMQlZfNll0bHd5eGl1TEVNcTI5UFljR2tTZWMwUV9ESFdHVnFPX1BSMXphdlJybUozelZPbERpemFIdEd6c0x6Yjl3M0dEdjAwSWNNdzBfODVCbWN3bFBSWHdORVNkS1EtMFI1RUV5YXlTT3R2cmY4RGdxREE?oc=5",
+     "quando": "2026-11-14T13:15:37+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Ponte sullo Stretto, Basile: “a Reggio in 5 minuti, agevolerà l’utilizzo dell’aeroporto”. E lancia il servizio navetta da dicembre | INTERVISTA",
+     "fonte": "StrettoWeb",
+     "dominio": "strettoweb.com",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOOHlibTR1TW0wZWdhcEpwbWp4U1p6Qlo4ZWxyVXBONk9qdlJIeHZOSkdCOGxWRXAxMUZMYlJ0TzhvVUV0TmJfNGdOMDNBQW5qTUhhRzVncHZQN2hGeHQ1YU5kQ2dBZGlYNmhaUVZicVQyeDUwYnQ4R1Z0SHpyRzF3YU1yOVhIak95b0Z3UjRobTNCcUFsVUtxMkpJRXYzLTlnSUktVkNEd1otV2JWZVJsY0M0a0VjZkYwMmxWSGhTZm5uMEstWXZCdms1dHU5RDh5RU1wOTVMTG91UWhqRHUxMVljZWtzakl2WEpxdzBZVVRrWlZCMmF2cVg1VnN6ajEwdWxSSzdiOELSAY4CQVVfeXFMTTBMdXdIbDl5N0F5Wk81YXdjaVdjdFBYWEY0UlhIVTRHajY0Zk05cmxLT3o3bGppZUdYS05RM1UzcUVqcE9CWVhrUEZrYTdaUnIwaU4zMlZ5U3ZGRFN6eWdFQXMzN1lqVjJjT0tTQ1FlTzFTQmlmempMcGt6a1ZIbFdMNnEyOW5rbnh1MTZsUTFDbDNaNEVnYWRGTXl1V3pYUGNFOGxTcUlIUTd1aUc5dWljaFU4WEVIbTVkSTBIZlJoVzAyNGljX3ozd0FJeUlWb0ZXbWNvclhiMkdEcG5sZTVWUTlydWdQRkJpNkNaY2F0amxtd2s2V3dUVi11WXNCQXU1ZmZCWmJEME9QN09R?oc=5",
+     "quando": "2026-11-14T12:16:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Ponte sullo Stretto, spuntano dettagli riservati sulle indagini antimafia: il caso De Gennaro-Prestipino",
+     "fonte": "StrettoWeb",
+     "dominio": "strettoweb.com",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQajhIOW50T3RfRGhtdThDMldHN2R2dXdBd3A5RVdpQTBYeG4wUlpnRTRxakhvVVlaVWJXR2g3VWxuMHNGbWlLd2dqcl9NaVJteS1DYzF2bWpCOHpuSl9udDNoRjh3YWtaSUMxNkhKMU1faVpYcllZZFhVbzlSM1ZGcFp6RURmM2wwQ18tT1poM3ByMG1WbjdRSUxILTNNT0RnZzNUYXlHT1MydGxPLU5SVHB4Q1VTVWlqRTRFeVZpR09Bd01nUjZVUUs5OXdBcEw4R1lscnpocHFVT2lzS3Uw0gHkAUFVX3lxTE9DcGw1UnRURFpqWE1KTDljMHl1a1U3SjFkXzFIMUJ5eWtGUS1OSEZWN0lTVEdTNnZ4blR3dVU2RVJrSlFxalhoOVoyR2h4eDFFLTZFVDVPa1RlRllzVTFDY0NvekNHVGM2cXkyMlYyYWdXc2E1NThwZjMwS0steVZ6bXM5MW1pM2pOUjY5T0c5SUk2WFpzMWVoR2Y2LV9iMldoTDF2aVI3a0pyX0FEaUFpT3RHSTJtbFBMUGc2TU5XZmY4bVZMUllzR1pYTFF6MWdVZFlXTXVJN2tkYU1GTVlrVHJQcw?oc=5",
+     "quando": "2026-11-14T11:53:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    }
+   ]
+  },
+  {
+   "nome": "Grandi opere",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Appalto, corruzione archiviata. Ma gli atti finiscono al ministero",
+     "fonte": "La Provincia di Como",
+     "dominio": "laprovinciadicomo.it",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHlybm9FNFJWbm9nd1NjSGVwZUpYTUgwX2Ezdno0dmxqMjFNQ0RORDQ2SXJ1X0VzNUhDaG9oQnRRZW5tTnhQU281bVk2X3YyMHQzTDRoOUVVWm02Q21mZFpEQjBDRmZnTEJFcTg4WDJER2IwNTBOTjRxbW4yZnNjYUVBdVM3clI0ZFhzOEpyN1VSTHJvaW5fcUE3dXRpUTV4UF9kOWZFbzBhNGJkMV9mU2FEUy1kTjlqWEM1TEg4eV93ZDA0R1E?oc=5",
+     "quando": "2026-11-14T15:25:07+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Nuovi treni, collegamenti e infrastrutture, le notizie ferroviarie della settimana",
+     "fonte": "Ferrovie.Info",
+     "dominio": "ferrovie.info",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcnQzT25Xelp4MmxyZnRXbF84LWZTNWNUWGhQUG5keDBqSlhwbmt3R0psOG5iT09hSW9mdlVlbjNrQTBMOVA2RTlTelhkQWxEVmxxZjRmODlYNEJ1b2JEUzhOb0QwUnZzczFfbTJKVnViZTVYOE1YMkhFU3RVS2lYSGp1VnAtY3Q0OTAxR1N1YWpIRWtaUzVuSTdxbVNFMm1ubkxUd1lJaHdQYTBHU040al9mbkxSWGx0blo0LWRPQ2Y?oc=5",
+     "quando": "2026-11-15T12:30:39+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Caro materiali appalti pubblici: 371 milioni e 13mila cantieri a rischio",
+     "fonte": "Ingenio",
+     "dominio": "ingenio-web.it",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdWZ0aHRWcTBsS2ZpeW5WRU10am90VFdjWFVPeVB3ek9lSldqOFVHaTZtY1FUUTBDWm5GWDlwTnljWGJhWmJ1OE9qaWRHWWxLRzRPaF9oVzV1M0dHZWVYdVZDU1c0aEUxbUVnRWJKOVNFMnYtREtfWGVSeXYtc0MzRVBmUFlzMTlwak1NdjFhVjZYUWlR?oc=5",
+     "quando": "2026-11-14T21:17:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Infrastrutture e Mobilità: opere, tecnologie, sostenibilità",
+     "fonte": "Ingenio",
+     "dominio": "ingenio-web.it",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdVhFZjRpNDIybFphTkVMRVFnd1RWTlM4cWwwalg2NzBPemtkekhEbVdpUzJBWHBybEhBemJXanY5RFBwenNIekdmaGdxanY0Tkp4cXBmUnhGR0htMHVNUjljRkdodmdFZ0hibkpRYWtXOEYyckFUVUhzQ0NBWDlMRmZn?oc=5",
+     "quando": "2026-11-14T21:03:56+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    }
+   ]
+  },
+  {
+   "nome": "Università",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Università di Salerno, crolla il controsoffitto nell'Edificio F: paura al campus di Fisciano",
+     "fonte": "Corriere Salerno",
+     "dominio": "salerno.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQbzVjaGdIaFZsN2lkV3lUbjVNaFNIcTIyZG1XY2o3ZVVvc05zcldESjdQc1B2VjdiN1ZaZ3luYXB3VnlHNkNON1dCYjhrMEkwTUlDdVBrQlN4VE0wT2ZOYS1NSHVRNzFvUGk4WTlZQUdMemhJeVg5cGk1U1ZrSkw0aFpON0N6bFNOVWI1Z25qbE1qYUdaVDB3bWkyVUNrcHFtdnZlMDN2QjRJMGMwamZMd3BXYjZIYW1GN3RVcTZYbWUtQWY5N2JkV3R5cjlLcVlBODVDYTJidWVHbWpMNFBWOWZJY0g4ZnlPTHEzMDFjajlRQ2g5TjVuUmVDSU4yMk5KajVuRWY3YXZZRHpORWZGQzI3RExzVmZMeF9JT9IBogJBVV95cUxQYXFoVm5WZEZrcmkwWEFzNzF1U20xa09QNERzSlBQZGdTZ29GUUF6aEtmUXgycTBodzdva2ZrRzhNd0pGeVJENnZtamtzTUgtY2JaZFk4cl92Mm50Y2hCbk5kUnpCYkUxb1NwTk1hT2NUVGh3T29iZl9tVUJzanhzdUlnQ01acjVLUDhjTkh2VVhXeWI3TDRkak5WbGhhT2pwZTZqYlZsQmluUFFqNFZod201Q3VkbERDWE1oRVdFZ2UtMmFSQTRDWWhOOWxxWno3TG52YnBJRlNFNE5WZmdwaWlDc05RWERtcktSbHQ2cXdvT0dreHBLSWxfaGRXelgyNUxfYmlDS243dGtoUmowdzAxclJPRFBjUnlwTi00b3RUUQ?oc=5",
+     "quando": "2026-11-14T17:16:23+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "L'Università Statale di Brescia compie 45 anni",
+     "fonte": "RaiNews",
+     "dominio": "rainews.it",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUEdnWGlWTDdPWkw2QTdYLV9JOWJGNmZWMUFaeEtUcWw0R21DZVhfRzVmT3Rkd3R2SlZWR1FGcE90NGJfTHg2QVphV3FGTkEwVHhsR2tOLUk0Ql9yYVV2ZTJqeU52aUJSNG5yblNXenZIZ0NISGFCM2lPaE03dFlNY0lKdnVmNG1OR1NDZDdTMlpuWVpzRGZiZG44N21fZ2hXRjU1cmZvQ21sRHFPenhZVnJSSk9ob21CckctNGdHdjNWa1FVTGVacWFwU1h2WXd2aFRjNTVkeHhBVzjSAdsBQVVfeXFMUFBHZ1hpVkw3T1pMNkE3WC1fSTliRjZmVjFBWnhLVHFsNEdtQ2VYX0c1Zk90ZHd0dkpWVkdRRnBPdDRiX0x4NkFaYVdxRk5BMFR4bEdrTi1JNEJfcmFVdmUyanlOdmlCUjRucm5TV3p2SGdDSEhhQjNpT2hNN3RZTWNJSnZ1ZjRtTkdTQ2Q3UzJabllac0RmYmRuODdtX2doV0Y1NXJmb0NtbERxT3p4WVZyUkpPaG9tQnJHLTRnR3YzVmtRVUxlWnFhcFNYdll3dmhUYzU1ZHh4QVc4?oc=5",
+     "quando": "2026-11-14T13:02:50+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "UniCamillus, a Venezia primi studenti Medicina verso la pratica clinica",
+     "fonte": "Il Tirreno",
+     "dominio": "iltirreno.it",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV2hzTG4tNE9YYlF4djFlWUVoWXhEV1FqV0RuckVFUEs4d3JVdVdSWGpFVEtPODZDQXlxVG1ZWE9YMFJYYXUySkNVWEhPNktma1NHMjlLNlhad011dTd5ektrU0l5Q3pDNEl5c05sX1Z5UE56SERHckpNN1hjOExvdlEzamJWc0FfQldrSXRXZl9aSVdTaXJKbzg0c2kyd00tWl9DMVozRTdlSUF6ZVdFVEZjdnl2WTM3bzlQTTFZa0s3YkxlMXFHVUxiQ3B2T2lzSGFmOW4zTk9rQQ?oc=5",
+     "quando": "2026-11-15T12:26:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Tg Università - 10/3/2026",
+     "fonte": "La Gazzetta del Mezzogiorno",
+     "dominio": "lagazzettadelmezzogiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMnZNR1hxeFM3NmxEbUtWWEFzakNFOWNlRld5U040anhRMEl2aTh5VGpSUFlRZDRPZWhXSmtjYWs5YmdWNGFVR1JyRVVFQ1pFcllaWmpnbjRHNGlzSDM0aktCTjdsS2lNd3o1NDh5U1J0NkMyblZsTGFVSEh1SzhDeEQ0bUxUaEhoRGxoenk2VVdVT19ueVFN?oc=5",
+     "quando": "2026-11-15T08:14:43+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "A Lettere scatta l’autogestione. Mobilitazione degli universitari dopo la chiusura della biblioteca",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMDBuUEZPaXFJS2tvWlJQNVBvZjZrVkh1aU9vVlQwZnhPeHBLMzVlWEV6cjBIZGhDakp0azNldDVjVUZrSFFjQklQTHpIQnktTzBmUnpFSjl3bnFKS3JMVW56T2kzWHpXVTNVa1d2eUtzSUppN0JLejVyQTMwcnFSMHdNeDIwbXNVRkU0OHNMSDZ1QzBHcVpvbw?oc=5",
+     "quando": "2026-11-15T06:53:01+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Barani si candida a sindaco di Aulla: \"Porterò l’università, altro che Cpr\"",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOejNxWnVEb2pWcjliUUMzd3ZWWFZ3alk4ZEcydWxrRnFyWjRuMmd0NktDZlptT3JIS3N2d0cxSlExc3VIcFpYaWJjdVZYZnY5MWM3czFOem9ibUZVaGdaUk1WSzNkOVduOGk2RHN3a0FFY3RsX3N0WG9qR2E1T0ZLLVRQaFVfdGcxU0t3?oc=5",
+     "quando": "2026-11-15T06:11:02+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Ricerca, contributi e nuovi spazi. Così l’Ateneo punta a trattenere i talenti",
+     "fonte": "L'Arena",
+     "dominio": "larena.it",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcDNsVV9HYWt5OXJ1ajZkYjE4QXN1VTBLRTZXR3NHMXhDeXVOUEpuUE54ZFZXVU9TVk1tQ0ZWaDhIaDlfbjlzZ2VBU2pPcHRCYkJCVlJHRDFBaFB2ME1jN29HWWVTM1I4RjRWNDVlR092OXVwT1g5eGRMWEMwTk85Z2tZSEpJSzRmTlh2d2o4cWVaWjc0bjZTYVdVa1YyV1dZVVJ4VXZ5RFV6NXJVamVYdEtRZVdNdWdCdHhDRTRPM2NfVi1WS3dPNWRhZU44aDTSAdQBQVVfeXFMTW1tb0NkemE1dUM3ZG5WMlFjSk5HM3dqVTdDc0otMTIwZXJBU0hUWUVkVUFiU19JbDBqaU90LWVvcVdKZjRPWXJkMnZiOHZRUjloRloxWFZ5VVBIYnVfRS14a1pJZlhZQ1J4STl1WEdhVnBsRV9nZ2JoVFJZMDkxc09mX3VySG1oTlRhZjlONnd2R29yN1ZtSU11VmkwQ1djSWdlQ2s2S0tBZURneXBkU3lHVE9RdnF5cE9MLTVrTWhBZlhRUVJ6bG0ya3MwYi0yRmNKSFo?oc=5",
+     "quando": "2026-11-15T05:07:34+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Atenei, da governo e Regione 119 milioni in borse di studio. Ma rimane il caro alloggi",
+     "fonte": "la Repubblica",
+     "dominio": "bologna.repubblica.it",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc3hNRUl6Q1MtX0RkSDhsZ3Zmb1dtX3I4V3BqX3FRWWxYTUNjLUVrWUN5U19RR1RZM1JnQjdqYk1xWWpYLVdqcmNpVFRhQ1V6TVpYaC1yaktxY3U1WjFjREN1QlRfNHRQaVR4MnhzZmlrX1hCRkRVWi14Z1JURmlGN0FhZ1c0ZGQwZTlUMzBLUXhBVi04ZTczVFh4MC1Eb05xWkFpMlllWmotR2MxYXZjM1VzYlAtV2MzUmI00gG7AUFVX3lxTE5zeE1FSXpDUy1fRGRIOGxndmZvV21fcjhXcGpfcVFZbFhNQ2MtRWtZQ3lTX1FHVFkzUmdCN2piTXFZalgtV2pyY2lUVGFDVXpNWlhoLXJqS3FjdTVaMWNEQ3VCVF80dFBpVHgyeHNmaWtfWEJGRFVaLXhnUlRGaUY3QWFnVzRkZDBlOVQzMEtReEFWLThlNzNUWHgwLURvTnFaQWkyWWVaai1HYzFhdmMzVXNiUC1XYzNSYjQ?oc=5",
+     "quando": "2026-11-15T05:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "“Bocciato dall’Università il candidato migliore”. Il Tar annulla il concorso",
+     "fonte": "Il Resto del Carlino",
+     "dominio": "ilrestodelcarlino.it",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRU9PTGROc3pKVTdSaHBSdDU1V1A1V19pbkpTbTZnWHh1SjI5RGE1WWFJTlpEa1BOTk5ROUZZUFh2S1BWNjEza0pLUUQ0Y3BZdEZ1U2VmMjNYUEtSdFN6a1hqclZHU0EySkcwZXA3TlQ3b1VtMXNXZmR4MzdsOGp5QlNnbGJ3Z2h5enRVYVpRREhybk1aYVBlV1RXUGF5WEZNYTRIcmlndmo4ZVZT?oc=5",
+     "quando": "2026-11-15T02:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Volontariato e giustizia in Sardegna: incontro all'Università di Sassari",
+     "fonte": "L'Unione Sarda",
+     "dominio": "unionesarda.it",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPN3o0ekx0SHpXTlFmd282UnVWM2QtSTBIN3U0SXVoc2N0eXI0Q0U1RG9FQ1loMW9pcWo3bXhRbVdiZklKMkR0U3J0OTZrVUFLalRiX2x4S2FQSEhCS3VuOXBZWVhkbjZyMVpBaXZWRzZjOHdhUXpzS29ZTG9vZHlMd1pSRnFvY1VKTDdfT1NmbFBTSThES0JMbkJUSWMtczA3cmc1VWpzVEJ3NnVBU1A1Y29ObTdaZ0tpR2xpbFNNTUJBNWpmTUE3dXpxbEROTkJsUUtRVdIB3AFBVV95cUxNS01jdlgwVjVKMGpOWjdfaEU2NHA4Yl9jeTRoV1NFMndMV1h1N09xYWRCb3liNUdNWG9USXFMZXNFaUpOSWxPNGZCTFdRWWN2YVRMTU9NWmNDMzNKZ0JzRXkxbXd6WXR0OUlnN2lhSHZsX0tucC1yajhJMjRHTTZkT21JaXBoTlBwTHRBaEgzcERoS2tabXBIMEljdWRfTlJGU1hVakVzRG1PeFZReVY2cUVhVWpGNjF4UHFUazNtbnRjOE02eVltdEZHWmdCOTB4bTNCSXNNeEJGR2dw?oc=5",
+     "quando": "2026-11-14T20:47:15+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Esposto tra università telematiche sugli esami: «Non tutti li fanno in presenza». E scattano i controlli del ministero",
+     "fonte": "La Sicilia",
+     "dominio": "lasicilia.it",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQVF9uZ282WDdyVlFxTkJmTldscllqUXZvUktJWE8taExLbG5wUktPUjN6XzdPZVpZWlpNSXRsYjBvaHNZOVAtLXdscXE4all5VzJscFB3MFM5UFhaUVhPTjFDaWdTU21mVUZUZHUzLUtWZWtSOFJvUVRzakRrZ1N4NEVDVVpweFpzQm9rTXQ5YUcwZVM2SkRNMEhWckF1TGRSNnAyNGtVUHZPNV9GV1RVVk5qUWpOLTBwZ05JY25fMl80eUlYN2l3ejJVUzB5MjZCdmhqNEdic0NTbC1LX3AydW5scVF4djRzNWU2ZERKT3NRTWJOMGZYVWxWdF9sOG8?oc=5",
+     "quando": "2026-11-14T14:37:48+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Video: Perù, il Papa nell'Università di cui fu gran cancelliere a Chiclayo",
+     "fonte": "Bresciaoggi",
+     "dominio": "bresciaoggi.it",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc3huWGN0YkZCUTNWN0kzMzlOVXA3MExtVWFqVk54N2o3d004Si0xanphWi1QMFpLNXltSVBSLUROQnk3RTExWk4zaDVzdkhlaG9rdmhBZG5WZ3RZOXp2M1h0Q3lzOW5ZM2F5TjhjaDVmR2pSeFJwSS1vWmxTZjMyb0ZJcWx1TW9MY2J0MWNsVU1PT0dkMXZFWi1lclk3V3hoaFhCaHRJbXlzemhlR3VwWmNNN3gtOUprbDdwWkx2QUQtUlE?oc=5",
+     "quando": "2026-11-14T14:37:20+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Perù, il Papa nell'Università di cui fu gran cancelliere a Chiclayo",
+     "fonte": "Alto Adige",
+     "dominio": "altoadige.it",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQkdISjlsd3ZEdHVxQmgzdWZmS3ZsT1RLdlJaRHRlVWs4a3JCY0FkVU95dUdmcVNyTmZRcGVTQzRBV1I2MEJHaDNtbHdUcUNaSWNOajBhaVhjMFVYcXplU3A0cXMwakRaeHpjVmMweHRULU5XbUktX3lFY1EtYmFyRnU2YjVfa05iT01UOWJpdlg3TEpGU2ZnN3B0bWVMTFozWTVXeV9IZ2I?oc=5",
+     "quando": "2026-11-14T13:50:42+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Come si progettano le attrezzature da montagna? Quando università e territori diventano laboratori di sperimentazione e design",
+     "fonte": "il Dolomiti",
+     "dominio": "ildolomiti.it",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQNmMtVUxWLXhtWURBZFIwZFBGX2JReVVXQmRVRVRDT3R5TVIxUEhiRktIdm1CUTRNUmlqdHZVR0xOdjNUeW1OMGNZUzJEX0ZtbXZsX09RNmstM21oU1BsSGdtaUVnTUp3VVJhaVNZMlFEdTJrZnFLTVdGTF93N2FfLUdPVVB2bGdLcENsQi1DWm5Xc2NjWlR1WnNIVENIdzdlQnJFSXJXeFpDZkNYYmpGdVdvVHo1ckRUSUlhX2dLVVJ0dTRoSWJ5R2xhVnBJWkYxZzFNQkFjQXVZTkVyM3gxWnRZcWRIbnZkSk5Ud19fZnFmT000OEdCWHRLQWowTngzZWdpM2FjZ2c?oc=5",
+     "quando": "2026-11-14T13:00:01+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Università Archivi - Pagina 43 di 43",
+     "fonte": "CorriereUniv",
+     "dominio": "corriereuniv.it",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IQko3ei1lMHdiSVAwS3BPSjY3MWFiUjR4YlI2SVd6THhpeXlqaGhCaWdBQWZwcGJzcHJvUk1oV1BXbVliZG85NG9Oei1VTUhhTkxPaWxmdi1ISGt5eGNYbkFjUzVZYktiVGNKRHVB?oc=5",
+     "quando": "2026-11-14T17:14:03+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Università telematiche, il Ministero chiede verifiche sulle modalità di svolgimento degli esami: controlli in tutti gli atenei",
+     "fonte": "Orizzonte Scuola Notizie",
+     "dominio": "orizzontescuola.it",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSVJQajFHV3M0NHd4djJsUnVIVEJ4SmZjQmp1V2ZRNVVLcXlRVGtRaTROS3BEM0FaWEY3Ym9la1dIOVM3TWR0VWxTQi13eE1HS3Z5d29MdmpRd2V0SHR5bXc2UnM3Rm9HMEZIZTVnT1U5Z25tZldheTZNZU1tT1hvVXNlQ09DZUxNUlIwNmVSaFZDSUVaeFNnMmNQM3JjRmJqWGtTeDA3eGRjV3oyWmlFYjhjLXY1UnhRallVMXJpVHgxS2hPLUNhVkxlRUU4dm91a0Z4Vld5cXpSNDB4ZkpTQ3BzV3liNmNfNUhPYg?oc=5",
+     "quando": "2026-11-14T14:54:08+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    }
+   ]
+  },
+  {
+   "nome": "Sanità italiana",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Manovra 2027, dal Superbonus alla sanità: i possibili emendamenti alla Legge di Bilancio",
+     "fonte": "Sky TG24",
+     "dominio": "tg24.sky.it",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNVRDNXBUN3ZjOHNQMFdKR3BMVk0wdU15V3h4d1Z0NVFBQVRiNm1zcnh1c1ZYcHRyYVpjclhBSzhickpWbjJrbXdneGlGQmJpTkFBckZmNWMxVE1PVXV1akYzS3hjWnI2RFNkVjU4NU43OTQ4cWg4V3gyQzNJcHdNOUY0VlA0SGhwbGR0RmY5X1BUZW8?oc=5",
+     "quando": "2026-11-15T09:54:43+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Manovra, sul Superbonus cambia lo spalma-crediti. Più risorse alla Sanità, ipotesi 500 milioni extra",
+     "fonte": "Il Messaggero",
+     "dominio": "ilmessaggero.it",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc2JtYXJrQWtYTjc2WmZWSnY1ZFNTUVdGa1JvWUxzQ28xbDlkMWpLSDFwM3g1TFA5WC1UT1NlRjJtTk4wT3JwVjFTd1FxOXhDUXpDOTRHR0tKYlhiOUFGOU9SU2dKTjVreTM4c1Q4TDlhanJRTlpYb3BQTEU3dV9XNmxOTDE3R3NndVhabVBBNG5vR1dkZmU4UGlWbUdnWjVXMlZObdIBqgFBVV95cUxOancwQWJQZU9NMS1IYllIbEpOUGdyTlBQS25FMm9fZERhSEVaczd0N2ZnNjBkeDdzTHQtV0YxWTNKV2ZPQ2NsSG1SRUtEV0I2ajJ6ZnY3Xzl4RnBoYU14SXczYm9RYnZLa1dmT3k0RTVLdDdQTTQwVXJHZzR5ZUJxMElkOXBXUHctOG9sd1EyQWEzX2x6RnplS0toRGNHQ1hZOGhLanU3dWFJdw?oc=5",
+     "quando": "2026-11-15T09:45:52+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Così cambia la Manovra: sanità, scuola e imprese. La partita su Exit tax e pensioni",
+     "fonte": "Corriere della Sera",
+     "dominio": "corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZlNvamxLYmFpLWUzbXBfMF85cWFaeVU3WXl4ZFl6TG9lcW1KTWhrbUNfdnpCQ0hsM20xRDFuNVRIc2dzcm1aMk55YnlOaEtxUHJENDQyNEwyRmhVQzdrb2VUeURUM2tfR05tNzRFTjZibnhWQkFBY0sxNVhHb3Nfa2hwOUhEQnV1VXNzXzN4ancxckE0b0NsbkFNb3F6dzRGaFZPZXo5S2lLOEZOYlVSalBuRE5OMl9FVHdKeHpuQ00xTFNMZFpyLThjeEtMcHBvcEdETlpLZWxOTTJXWXFEY1c4cUdMYmhHMkZ5bWVMU0gwSWhHV0FxVEJTckJ5NTR2TENlM3QxdFprNUnSAZACQVVfeXFMTTV4Nl93QlI0YXdsYXZ3d2ZsSGdVekdmMmNlZ2RqTENmdDVkTHhiUW9OR0FPRnJMMEpSTTVtZThmVHlCTHNoX2hwaUxNNkVxTXNkUFBHYVlsM2VMb3Y5LVJ4bDNEZEF0X2VEOEhFdlhGcC1GOUx6bnp1SVNYWWs0WVUyUmFCTFd5Z0NqTnpLU2hZdHNNUGZBM0pURXZPWUZyQTItbVpldnRKZThKUFJyZENjbUdDaktlaEFwRWdqTS03dVZzdEZoUUh6REJXZ0JROHNEVERVejJ3Y3Nnd2Jhd1dNdUhraW5PcHRKU01rYzJrT19nVUFrSU9YU2FqOXllSlp6eXVlTmlXUkR4TkUtaWg?oc=5",
+     "quando": "2026-11-15T07:13:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "La sanità pubblica universale, tesoro da custodire. Ma i giovani lo sanno?",
+     "fonte": "Avvenire",
+     "dominio": "avvenire.it",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFN3LTFQWUtyQXNKbVpQWHZ3bEVQeERUcm1rTlNZOVYzczExa0xMVEJxaElZZUlBWjM1aTBFVXhTaE1xVEc1Ym0wbUxvTHVDY3E1bzNDenE3WXJKV0JxcXpROS1Vbkk5ZkNiS3BXWHk1b0NyNk92M1RMUTd1QmVQaTZyU0xDN1cxUHY3YVF1RU1aM3p5TTQtNmdLaVhfUmpyZ1VnU2NxeHdjaVRNTXBPYTJSaGU?oc=5",
+     "quando": "2026-11-15T06:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Sanità, la retromarcia del governo: ecco gli aumenti di stipendio per medici e infermieri",
+     "fonte": "La Stampa",
+     "dominio": "lastampa.it",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdk96Z20zNExUUVA0ZkpQcGdFWTdmUnFaNTEzaDRaNWdONkI1V05nSWFCVmEybmhtYnFrQzVFbkpnNGFBbF9IRmRkQnNZT2JyZ3JIQy0xUzZsaDVwbFgtbUNraXhfYUV6S3M3czVIbmVqb0VYTk5DUC0yLUYzNFk2YU5vQTRZU2E5UEU3cUh5cExvTnYxbXpZMzVmd3JyTGhvRU1UbHJBY0tkN0JEc3JhNFk5eWN4eUhjcE0yRk8xTFN1ODR2V1JfanFB?oc=5",
+     "quando": "2026-11-15T05:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Dal superbonus alla sanità, la carica degli emendamenti alla manovra",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRHEyQ2VGbzAtc05fNUV6a0NxenJLSmRHM1k5X0QwNWZzWlk3OWxHOEhqQzVOM2hYd3dnNXBmSlBmMV9kSllMdEgzelZVN3ZxTWJUSktUNnNkbEZNQjNrVThobDQ4T2JvS1dnczJEMVJjNjdDZDRXbkFEbkdzYTd2UHR2T0NGX3NBUzJXZ0tSSkkzYnJnQTFVOExwR2RBaWg1bGFyM0lnYUlVNE5wa05MNktZLUFTaDN6MFBvZ1VjRlFrQmxSTzFEaEk1UG8xV0JqaWZZdmU5a19pRC1BWTBlVDIzUVA5Ni1xWEQ3S1FtSjJfWnZ50gH6AUFVX3lxTFBqeWsxanRUMXU3WGtuMlZkd1pVVm9QSE5PTDZ3S2hPVF81bjNwTDJ3czR4SW9uWFpMaWE5WnBwLWtyWFhWXzJuVGZYcXhIYmRuNmp4YjQ1ei02TERzSHhOTk5WSWlFUUhGMEtrb09uTTRxODA5ejNTSVcyaHJNRkl3ZzIxajdteFREQkc0c1c5ckl2a0s0LUJmWGowWnhGMW94N2ppNlp3YjR3b1ZVaEtpMnNoM0o0MFdzZEpiWWllUmF5clE0Qk5YMGhPNFU0MFZCN2d5YTI4N1VGVmtPaWpkcHQtUTJqQ29iNmMxR2RnVmhuZjVPSlBOTUE?oc=5",
+     "quando": "2026-11-14T20:39:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Fisco, pensioni, sanità: ecco tutte le trappole da evitare negli emendamenti alla manovra",
+     "fonte": "Il Sole 24 ORE",
+     "dominio": "ilsole24ore.com",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNENsQkVMS1J4REJrd2VNR1lHOWxnSnBZSmVNQmdMUl8zcjZOTGE5SjVOTExvdC0zN3ZqaF9YNlJHWXZQUUlvS2VCYzlmQVpVby1aRm85RDdjUTR6REZxd3FiYTMyaFpUc1l0QzJZRTAxSmJnQloxdngzQUVhT2hHM3ZiVkM5VHhyZHRpcW42WE9GNktOanl6YU5fNmFfTWFPdjREQkM4SlBfTkdvYmRn?oc=5",
+     "quando": "2026-11-14T19:01:56+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Manovra, Tajani: Lavoriamo su pensioni, scuola e sanità",
+     "fonte": "Il Sole 24 ORE",
+     "dominio": "stream24.ilsole24ore.com",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeUptcC0zZ0JhQTBRMGZMTkctbk1DOEJHa0M0ZDRHdVp1ZmhJOEFUNzFrYmRHeVZkX0s3SWFhNm5EVXhIdmF4RVVpc2ZCZENhbUNOY01YU1psU3VxWGlHRzh6QVdJVV8xSmtSZFVLeklLbGNUWnJGM0NLNERFcHZuSnFjQVNnYXItekZ4X3Z4ckdrRUVBbkJTVTk5V3pKR2ZJMjhDMlkwVkVoRUtlaXY2Z1RGelo5dw?oc=5",
+     "quando": "2026-11-14T17:25:25+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "La Regione, 'il dibattito pubblico sul nuovo ospedale di Terni è già avviato'",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQRHN1WGhJSjV6aUVZU1prMUs0WkVnN1lIT0xmX1hua21RVElFUkVPTEQwV0RwUk5RaFZrTU5YTzBOTVdUQ0dWTXA0MmtfZkx6TllpUWhMa3dQeGxOa1Bsbk1SM0NmRWJYSXZkWE02Nlh2emNrSE45d29BOEVoTGwyNm5kTDVERWxtZ0NtRmJROWtLdGh2a3p3WkxybTNtdDVLS1VrNFdFRDZMQm1VNHlLS1M5c3k1Uk9oY1VjYUZUaGY5c2o0ZlY0SkU4Z1NxeS13bVlqZnhnV00wMVRBY1lFRmxCeEltT09XcVBPWEkxUmRwN2tHVFVfWHhmUTJWeFp6VVY5cjhuSm1OblNjVTdvVVBrWVN5OFXSAZwCQVVfeXFMUEdGQUN3RW9oenRURzdtNjJpOFRfYXFfVXlyTXBSVzhaTXZiZUxlY3ZNM1NhWDh3d0l6T29xWGVTeGg3SUVBSlNJZlF3T0JPUGpUS0huLVp1b21FWFJFTGtDTXhHSXNzdEJaUWxrRmw0WkZ0UjRPNHAyNG1PYi1JRm1qUjU4eG1PSjNoc3RXVjgzZFJJNjdIUmw2R3RRczkzczVfSi1UZGlrci1ZQVV3ZWloMWtCczR2eFZMV2lRQVBKejVxR09HbC1QQnNNQXFtN0owYTBxcVg1cklWcWROOUJpaHVnWXk2NnlrMHRZRkpKU3I1alh3WGlDR0I5eHFMZ2VuUG1VRktzZl9JZ3Zia0NKeHFBN2hQMDJZZDA?oc=5",
+     "quando": "2026-11-14T17:17:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Ospedali e territorio, senza infermieri la sanità rischia di fermarsi, l’Ordine di Trento: \"Serve un piano organico di contrasto alla carenza di professionisti\"",
+     "fonte": "il Dolomiti",
+     "dominio": "ildolomiti.it",
+     "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQUGhzeXhVQmhBRDE1NzJ4NkpTQy1sNmVhWWxSUXpnUWRXVHlfOEkyQ2JMeFUyVVhBelZ1MldRejJOQWdROEowXzFobVJpSElqMWx3YWVTR05TUGtERHVfU3hQb1NsTDF4R2p4WkVIOS0xd2tNTU56RDJuOHdha3Mxc2VKOWRtR2JvZVgwR3R0N3JHUHRzUHlZSFE2VG9FYlJ4ZXdtN1Q1cjJVNlY4OEZERVdxTGNnb1l0S3VGa2piX1BkZ2NkNERITzZGQno3VERiNk5tX241WTBhTlBYVzZ1aFJvbTdyYkZheVk0bEhlbU8waXJESk03blhEbzNPVWg4eWJKU1VpMXRjVVhhaEI4bUN1SnZ1MllNR0RsQ2ln?oc=5",
+     "quando": "2026-11-15T12:30:06+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Manovra 2027, cosa cambia (in extremis): novità su Superbonus, sanità, scuola e pensioni. E spunta l'ipotesi exit tax",
+     "fonte": "Il Mattino",
+     "dominio": "ilmattino.it",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUE83MXd6QjBHZXRYRmJjVk1lT0hhWk8tTHFqSmJNTHowMHlLU2VMOXBCNWhoMzluckVFbzM4TDk1RXlieGI4OWt0TzJtNzdac0J6QUN2QUhpN2Z1WWFrTkVITU90MzNMZG5rRXFod1lQQVc5dXFIWWluM29NaW1VRmZQa1Z2R1lLNDNYVUYtYko0SVNuZjlycXJyakxaeFdCRjFRUEJFbW9JOU9BdTNEU01aZWhVd9IBtAFBVV95cUxOYzBYbDJQRWR3MGd3X0lEQXdNODFJVS0wQzFYSWE0WkgwNHI0UkFRRS1MV2RrVzF4WXlBaVNfdWJSbmx0U3UxQW9DVndoNkJrY1lyTWp5VlcwUFZkQjR4OUpYNnV2d3MwTHdxQTdBTlNXZlhfZjJWemhjbG8xSk1ZTTRaUDRUQXU3aE5UaE0ydjRBdGtBMXFaSlJWQlo0VlJzOXFXZk1tYmU1cUFsU01uV3c0ZEw?oc=5",
+     "quando": "2026-11-15T12:14:21+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Crisi della sanità pubblica: cause, problemi e soluzioni nel libro di Pier Luigi Lopalco",
+     "fonte": "Quotidiano Di Puglia",
+     "dominio": "quotidianodipuglia.it",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVjkxY2RTWHBRRkw3dW12cG9CeFFzODhteG9lLW9NYVFCcExXUHlHdTdxMWs2V3ZIR1ltamNKLTAyMXhwdGtSN25yeXJOOE4zdE03WlJuaW10NFZTeWdmcWR2ZkRsN2dtWkRWWHdYYWdTbGdiS0tfd0dUZXpkbW9hb1RhaEstaklGT3NIMFUydnFFTzlla1dWaWtSZUxQamtrS1M1OVduVzBuZ2fSAbABQVVfeXFMTmpEVzJJWkFwMUs3dHVoeEd6OGJwVF8tU21nYU92TlFlOXVEUEtPUmdSZjdHNGJBVmtxVGx1cjJJbERQbk91QTRnZXBOMDFyb19KdTlKRWttRGNlTmJQMDhkQVRISzMwdHY0YkNNc0Qza0xjaDBSS3l0UU4yZzlFS3MyLTlXRjhRekkzRVA4emJyMUNaU2c3aFl3dW9kQkdYZUpuZHl3ZzU1a2lVTTNURjQ?oc=5",
+     "quando": "2026-11-15T12:05:46+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Sanità, i pazienti che si spostano tra Friuli e Veneto: dove vanno e perché",
+     "fonte": "Il Gazzettino",
+     "dominio": "ilgazzettino.it",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmluVUF2WTR2Y3I4QWJWSWgwbXVvc2VYNGVyRGlRWGZzeWh1YWRUMDRxNUluNXhpUERxMGZLN3dqWDFmdTI1UXpRMTVjeGVHak9ySUIwVjdMY1IyTDNRSjQxMEd3emJIQm11R3UtZ0tqLXhKYm5Vd1F1TGtFSUpwRHlUcUNNYzZOR01KVUhsd0haT1VKTGxmWmtCVdIBlgFBVV95cUxQTE5qV2oxX3p3bE5QUXJUa2h2aUw1dUlvUGp4SlBoTnJsX1gzamNVcHhMUFJyaUZtVFNGYzRBeXdRaXUzelRUM0tnc2Utb2w2ajR1ZG9BTWdnYlZQMW9INEVZeDlwSFkzbXZOckxXNGoydzcwMFNWOHctNkxLSXZ1YV9jaHpUNzQyZjE5dXJPN0FBeGRUUUE?oc=5",
+     "quando": "2026-11-15T11:38:04+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Pensioni a 64 anni, sanità e Superbonus: le modifiche allo studio per la manovra",
+     "fonte": "La Nuova Sardegna",
+     "dominio": "lanuovasardegna.it",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdlVwVC11bld3Um5aN1J0ZWdfc05EbWdES2NLT2xNZTdiSEQ5bnR1NHFiTE5BRVdveWpRZ25CRWxKNDlOZk5WdVhvSmM4V1NBSC1HaTZJRE9Jb21WcHJFRUhYSWlTRDZHZTRCOG5rbDFnQUZLa0FPNU4xdWVYMl9XdWdETGlUc0Y0RGxkSEo1NVF2YzZoNnlBNWFRU3JkVU0tNS1ybm9Jdlo1RkIxZ2dhR2NjeU9LMkVGLUx1bk83N2NzMDBaeHhFaGlJMEl2dmNQbGVmVjY3Qk9xcjBqMHc?oc=5",
+     "quando": "2026-11-15T11:32:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Manovra 2027, carta da 300 euro o più fondi per la sanità? La scelta che deciderà anche pensioni e uscite anticipate",
+     "fonte": "La Sicilia",
+     "dominio": "lasicilia.it",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeElBUDVzMnJTeHp0WnFkUmdmSjAtTkxyUnFGNXNKYkhRemJoN01UWVdsQzNDUkZKem42NmV0N3ktZmhsaDA0YkhLY05IaGptOTFhMEZnMDRYWi1sRTlkSHpvblNPa19qcExJaTZ3MG9jNFNtWlV0VTFUZkxlWENmRG5nQ0ljcS1yQTctQlVNTmthcVVPNzY0WWhNM19sZ1VhR0ZteE0xdGFpUWFoZGk4di1sMzJFeGFRSG9veGJTcXdpSko0VXJ0QXNDWjk2R3E4MTdmbFIxRkRKdjdwc1NGVi1kWDh4T3FXRWVRSXFZVTNSanpjVlJObzNn?oc=5",
+     "quando": "2026-11-15T09:32:12+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "«Il piano dei piani»: ecco lo «scudo» per proteggere l'Italia da una crisi sistemica, dalla Sanità ai trasporti",
+     "fonte": "Corriere Roma",
+     "dominio": "roma.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRVh3M0RHeFVqYWdQcU4zRXpjTFRpdWhRS2NNaElUalZtQUFvMTdBZmc3bzNOWURhNDBicE53X05vWjUwZjZKeUJzQUs5WmhpaDFXUEZXT00zdk9DRnFKRE05cWJCNl8yTTRubkFDcUNfNEJSU3VjX3ZtU3lEWGJCU3lFRFZfZG5NSElCVFRmcjVVdnV4NklhNjBSYTU0VmNFcEUwbWF4VzhPMjIzNVpwR3RNTzZQWHJLclBERE1JZi1ic0FtcTFEN0x4TUtEbDdUalljR1Z30gHbAUFVX3lxTE52MlhieHdRWHlycUxtQWhVcHpxTXVRWldOeUFZdGlEYVk0c3M4V2tSVEdjdGRnWm44ckRKZzREOUVrOTNJbzZsMlQtdXZoLXNTSzMzMndIYVZ5Wi1Jb0lFREtKb08wbEVYc0lzQ0U3Y1kyVlgxam1UUjhBaGxvaXR1d0hWU0NLeUx6ZHdmUTJ2QjB3ZG1sTzI3VDhQZFB2ZUNLLUdZTDdvc016bXFQcF85cHNzbHdiNE5teWRNSzhjS0VsQjlXYmZqcjVackZEN3FLTjREVms5S3FYMA?oc=5",
+     "quando": "2026-11-15T08:44:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Sanità, la sfida del futuro: \"Non solo meno spese. Serve anche riorganizzare\"",
+     "fonte": "Il Resto del Carlino",
+     "dominio": "ilrestodelcarlino.it",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONl9PRjVQYmdpYjNURzN5U1dnT0taYUhUSTlCell0NzFQMzdibF9LRFN0aWt1UzdxcjdyMnNSLW9mNXVfTENZd2Q5YVdELWoyakJPNTNubmhBS0x5bWkzc1hYMmEyeE5pdE53b0JLTFhBSXBVdkQ0clhudDdnQVp6dFRLd1R1bkNXQ3Q4?oc=5",
+     "quando": "2026-11-15T06:55:31+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Lutto nella sanità. Si è spento il prof Mario Longo",
+     "fonte": "Il Resto del Carlino",
+     "dominio": "ilrestodelcarlino.it",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTlNhMkRSMzdnNV9kN25CWnc0VndtUTBzVHBmN24xWDRaa2V1MTByd0E5UGpvTmk4c2hHTnZueTI4U2dtNzN4d3NUV3B4S2hfc25iVXI2Ym1uMVlRTGtGNl91eGF0ZE1mZDFnMUNMancwZVBlTGZTQkw3bVNwT1BJbXhWdXFoV2s?oc=5",
+     "quando": "2026-11-15T06:55:11+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Investimenti per la sanità. L’Asl migliora la sicurezza e l’accessibilità delle strutture",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdGN6V1QzVE00RWhDdFpzdzVFRTM2TG1uTV9nZjk5S1NNV05SMVd4UHJQR2NQUFZXb3lLalhrRFVoakR3d0FuOVVzZDRQTUk5YWhVdEs5WVhVMWcxN2NsRXh2V3ExNE5rRDJGMl9PSEFORlptZVVSeXNuR01QZjkyTl85bmt3ay1pSkl2MnNiVEM?oc=5",
+     "quando": "2026-11-15T05:55:29+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Sanità, il sindacato Nursind indica i problemi: \"Personale che manca e stanze vuote a Sondalo\"",
+     "fonte": "Il Giorno",
+     "dominio": "ilgiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckN2QUpVd0VDVkJMT2NOdW1fZ0VfSC12d3lwWkdwRmZzbTktekFRODg0VVVramVod1BPYm43MnpnRzdIRWswV2ppNWJDdXEtQktVS1piLTVNblRlZ0hEaFNLa3JXUFlPbDNXZTh1SXBqMm1vYVI0djU3OU9CYU0xMENqR2RUUW9aY0JMcDNB?oc=5",
+     "quando": "2026-11-15T05:55:19+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Inclusione, innovazione nella sanità ed ecologia. CiniFabrique premia le eccellenze del Nord Milano",
+     "fonte": "Il Giorno",
+     "dominio": "ilgiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObDE1aFhPNVA4ZkJ4MkctWjBFaGo3WFFrR2NBTDVtWThobWhZRzBBMHQ0dEdZdHFfTkxoZnB3MDlDNDlEQ0dVMGZyLU5uanZZSllpTkxSTWs2ekpoQzFzTHA1ZHNLQlNsSi00Zi11QTUtbHdZU2ZXaUp1OHB0aGRhaWpyQld3amd1dWtEQnRTbw?oc=5",
+     "quando": "2026-11-15T05:46:59+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "A Borgo San Lorenzo senza medici di famiglia: \"Sistema in cortocircuito\"",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZDJ2N0ljZm9JSmFaUzVia3I1TllFVjF4M2FKa0VmUzF6ZlhhbU8wXzRYYXdoTTMwVURsdXk0RTF1WnA0QVRndUJuMzlXQ2RuRnY3dlIxc3pyOW9sNnd5NkdnMGFfdUpsZ2ExcUNSNWlFc2IzWnVZWmRVZmd4UXFrbg?oc=5",
+     "quando": "2026-11-15T05:46:40+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Caristo (Siemens Healthineers) “L’industria può fare molto per supportare tutto il sistema sanitario”",
+     "fonte": "Quotidiano Sanità",
+     "dominio": "quotidianosanita.it",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVGVnbXh0LTBtejN6OUdMaDNRUXJVdUZiOUdNVUZGWGFBTi1Cd0QtakdoMGhaSnYtM0tXV25FVEx6N1FrSTdUd0UzcS02Y3RlQ05rQmFaeGpmWkZDclFZY0ZvcGlKenVqQXdWQVdTLTFwdm9acTVTOFU3M0JOWFkwc2hEd0NYQllqUTFVbWpELVZvT1NWbm92RnVEVFhPLWJscUlscFZjbG5CZjlkM3JKZFd3MmQ0QTljSTlZYm0yQ1VGU1VNWGZlMDlfWnk4TUhFS3NKUw?oc=5",
+     "quando": "2026-11-14T18:40:22+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Aumenta la povertà sanitaria, 5,6 milioni di persone rinunciano alle cure. In dieci anni fragilità sanitarie aumentate del 69%. Il rapporto Caritas",
+     "fonte": "Quotidiano Sanità",
+     "dominio": "quotidianosanita.it",
+     "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQVWhTMERWWkpNQ2N5Q09nX3ljT0N4QjJGSFVHYWNBSFFuMnJFZ0x3OEEwNlAyei1MME9CN21mLWc0N18xZlhLMFFlV2ItVndITFFfeEI3T1pRbFhMUWVUZ2U5NkV4aUc1SnBMeUQ3eURaLTlVMmtHbm1ZVW1jZVFpX251UkdWUGVtaUN1WTdfbkFjc01QSWhCenFPcFR3bFhJcDRSLXdPQU5kNmJXUVRrWWhnSTBDUjFfR1liSXdBSWQ5Z1lDN0ZuNWRRSWVpbW8xbnNTSkx0QzRfNUJjVDRyMkZYbm8wbkZmaGpPTGs1WERmYUVGNEVtYXB4SmtKbTMzMjBKZWltakhEQ09pdGJNb3RPbHR1X3py?oc=5",
+     "quando": "2026-11-14T17:04:59+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Anelli a Savona per un confronto sul futuro della professione medica e sulla sicurezza dei sanitari",
+     "fonte": "FNOMCeO",
+     "dominio": "portale.fnomceo.it",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR25YV25kWWI3RS1CblF6bnE1TklLYkVYeGtYZjZmSmlhclBTSHpPaTFYQ3JQZ3lyOEwxYlhOanJwN2JTcG9LeUZFYTZWb3hpQkUtM1BLTzNVOTNEYklFWks4LUZLOGdBLXh1WVlUdExrV0lhYjN0aC1POXpQYU5zQm9HblFwRndydDA0d3VRQU5XaHRnVS1iaEpoZkZBQlY1TlUyd0xHWWNrUFpndXMtM1M2SjY2ZEc1ZlVnSjdVQzJMRG5hdFE?oc=5",
+     "quando": "2026-11-14T12:57:35+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    }
+   ]
+  },
+  {
+   "nome": "Concessioni idroelettriche",
+   "ore": 72,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": []
+  },
+  {
+   "nome": "Aree interne",
+   "ore": 48,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "La Sicilia a rischio spopolamento: 79mila studenti in meno in 7 anni",
+     "fonte": "RaiNews",
+     "dominio": "rainews.it",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWjRDM1FaZENjcVVHODVjMmxSTkl5UEQ5eEJzSGpUOExDUjI5Y1d5MU1GRWRCa2ozZXBxWE9iczRIaHRvYlhiR29lb0NORTBkbEprbGg1c3dTYkR5SThpN1Z2UzlidW81aFVUd0tHMnl1ZHQ3a0NoZFJHMXVPby14VFBNZmQ4cWtKM2l0VUhncVo3N0hzcHU0ZThyOFFTNzZZaWRtWFJ2Q1pBUS1YWFlkMzRfVklRZ0U5NkthTGpZVzVoWVZoZElPNC1WWkFDZy1DV1gycGlTbU1GUjVMTGx5U3QyRGdlaWpBbjRlONIB8gFBVV95cUxNdl9WajRxZnAwREs2SHhQci1iU0p5QXhtSDFoRXd3R3VXUlowMEdCYVVzMHJGNUJkNjloUVJIS3JXR0V4S3JMcy1mRTF3V1BkdWdwSjJwcHpOTFJSVVRhN1hjbjA5YlEtdm9KTFpKbWgxc2p1OVBZa3ppREpib3k0NjdKYTEyZ0xQYy1KT29qRU5yc1VWVUN2X0d0QmVhTGJWTDZZcThoMU5tZmFRVGFmMWhLN2pxMEJaUk5vYmFPYTRqMkhTdncxZmczY2V0aTI3VlNFRFFGano4akpxcWFSczVJNUNIc0NFMlBOU0V1N0RMZw?oc=5",
+     "quando": "2026-11-14T13:09:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Rapporto Svimez: aree interne, Calabria tra spopolamento e resistenza",
+     "fonte": "Il Quotidiano del Sud",
+     "dominio": "quotidianodelsud.it",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb18yMm80RzVSQU5yLVltYU84TkpFWVp3dl9rWlI5Mk9BNjBhNHhXeENuNWhCODVwdklkejU4YVRPTG90UHdWY0lRUzlhN1U3YmVsS2JMa1BhRFBUX3hGdG9sd2pBaktqMEVKTmRTcTBQRnVCamdVWDNKX2s2UnRMNWk5TW1mNVczOW5SUkVZNkZ6V3I4b0VBbl9vVkFtVGt6cU0yanZFUm04NmQwSmlnY0R0ZFZsR3NpMUxlNlo2SUI3RWhMYnNUblhERXE0OXNURFFRdS1Bdw?oc=5",
+     "quando": "2026-11-15T11:07:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    }
+   ]
+  },
+  {
+   "nome": "Filiera agroalimentare",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "La festa del ringraziamento Coldiretti tra tante incognite",
+     "fonte": "RaiNews",
+     "dominio": "rainews.it",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQS19mQWdpR1kwWnl6R0w4ZXk1MkhqajMzT0hFcy1waV9yb2k0MkpJMUtoOUN0dlhBeG96VV9HSzIxd2ZVMksxeGFTS01uazcwTEg0YmxkdUlUeWR2VTBBSzk5dFg2NnpTLTZiMHZfM2cyUDZtZVJrdk9mbmlpckN6YzhQUXJiREZiNjEtSm9qOWFxXzZ3SHNCRlZpaVN4VGJYUk45aFAwZFd4dVhsbWRVNXlZM3puVnBLOWJaNUhRci1zQzNaY0RWSzh2Rk1yVFFrOFhmLVhaRGFVbko1dEV2UXlTajhud9IB6wFBVV95cUxQUmUyQVZXVnJCaDFVN0wwb3hjS1N0di1mc1o3SlZsbE8wbll4ajNKc2tLOEh5bUJMRkkxQmQ0SElnSklrd2dpclREcXQ3U3RZNEdQQmRuSXc5NkRZM05BRnNJZkFsalYyRTFfcDVoYTA4cldtR1E3YXJGTDdhTVlHcmNBajBqOUwyQmo0VlVRdFhTcGVyajFkSzJKQzlxRXpXQmxTNkhBaDRWeDBBdDJaRUJiRlB3WkJORzV3S0hKZVRRSlNObWRZbGxWd05ZZWtJUGpScXFyaWh1NVZDaXVVNTZiODRXRm95RVpB?oc=5",
+     "quando": "2026-11-15T11:55:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Lollobrigida all'Eurochocolate si cimenta con i maestri cioccolatieri",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRWROWmVJdllfYmdmWHpjUDZpWFlVU3RyazRTV1YtTlRhM2l1QzNmQVI0clJ4X0dITjcwbXNodm44c3p4bnUxUWRWbEtHR3RXcHJxdUpfREpDWXZEUkRKYVU4a2tJaFVPTEZDdkR6aml2ZTBsLTNrc1VnNHZuamZtZDhydFoyYzJIdGt0cGVpd25RWEhPWXZndm40ZkZUU3VuTVBSemc4UF81YTFaUXdTa3gwZnVJRU9BZVFxN0I5WEc2Mm5yUXhNVnNSamhjaGk3Y0Y4cHRId1lBb3RMbXp1aW9wUVc0T1RJdngza2wzSHVFVkZnNGJPU1hB?oc=5",
+     "quando": "2026-11-15T11:43:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Il ministro Lollobrigida a Perugia",
+     "fonte": "RaiNews",
+     "dominio": "rainews.it",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWWhmenNlWDgwZDNjbjB4UHNVVGlkNkNsdWwwVGFsbkxvWnhOeHBUWUNEMk53WFc1N0lYbmNfY3pGVHdKUnMtS3Y3RmV5VzFFemszZW13RVZKZVFPa1B2YXBjcXNpbVNmYVRUTVpFMklhR3d4UG4tRjhOTllvY05iTkhJdHlDOHVjcHNRNE9uVS1qMFNySnFHdmczRjdrRGFQR1lkU24yclBwN3A2YWpkczUxMnd1RW9sQVJfZEMzSkZRaG02bVBLRG50cTJsQ3JfLW1ia2EwUm1pN3ZCNzlkNU9yV3pVNmlH0gHuAUFVX3lxTE1XUXNuMUZ5N2s3NVJZTTJ3S2VjMjRpYVBGUzAtU2ZYYnFkMGdoRW5SdlhsWmRvSk1xd01MRVljb1UyeVpsVFlpYUN3U3pIYWN0YzVwcGZ3MFk3MDU4emVNeDFKUHpKLTg2c2JsaUJtVU1MVENEOFVRVkFYLXdCa0U4d042eThteUdJNGMzOUh3cmdqVDViNUxRSHZjMWxObGFQWlZHYVhwWnZSamVRZGZpclhZVzZhVjBOZzgyZk1MR01IaDl3Q09LSk5kZVBaRWlEdDhSRTJKaGctM1B3V0lDVzRIbVRlUzZzbXpudkE?oc=5",
+     "quando": "2026-11-14T21:25:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Lollobrigida, la sinistra che c'è oggi è forse la peggiore della storia",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWFBZ3BDaFhZeXU5OW9lTXlqV3pUUWs1RWVLTTd0YS0xMUsyb2FCRzlsaV9RN2xXZ2F2NlM0aG4xQm82d0lFMXBLV3BwSDZEaFpkblJxVy1MT1hoWk85R1NFRE9QVlZtR0hWZ0w2X1hHd0RabzhHTjJOcnB6dEx6NmZXei1Va29oZVhVVjhxaWpjaGxIdG5LTVlibGNFWmtYRmg4MmZvMDFJRlRMckJXdFllaGJFVXhWTmFxcjVaQ2NvbUJ0Y0pWSk1jLUtRbWFpMWNLTG83c1ZpQ2JtWVJad3ZSbmR4OGlVSG9aVFN2RTBfSFHSAfMBQVVfeXFMTlVhQWdwQ2hYWXl1OTlvZU15ald6VFFrNUVlS003dGEtMTFLMm9hQkc5bGlfUTdsV2dhdjZTNGhuMUJvNndJRTFwS1dwcEg2RGhaZG5ScVctTE9YaFpPOUdTRURPUFZWbUdIVmdMNl9YR3dEWm84R04yTnJwenRMejZmV3otVWtvaGVYVVY4cWlqY2hsSHRuS01ZYmxjRVprWEZoODJmbzAxSUZUTHJCV3RZZWhiRVV4Vk5hcXI1WkNjb21CdGNKVkpNYy1LUW1haTFjS0xvN3NWaUNibVlSWnd2Um5keDhpVUhvWlRTdkUwX0hR?oc=5",
+     "quando": "2026-11-14T19:55:43+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Piccoli produttori di olio si ingegnano, la storia di Michele Monopoli",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQjh1ZGdTaUNyclliTlpKMEdoVGZTQjhWWnU2aWQzMmdyeDNGSWxDX0k3OVQzMGhucHJWWVJkczcwMlA0QkF0Q3E4ZnkyNHU3UjhaX1hyUDNWYzFRQ0JQUGhzRWRoUEYzU2h1NGFMSHV4bF9lanZmc2lLakNfZy1wMl9jbE41bGF6cGZtNUVCcTFiX0FmaXU0TDlORUVQcjlTaHBaZHloaENtNjB4dkZxbTU1Ym5YcUlaM01fbUdaOVJKdDlZME5NOThEdkxlaWk0elNlQXgtcUYtWVRyVF9aTjdTNWc0TW5LbjdRSlFRTGNnaEXSAfMBQVVfeXFMTUI4dWRnU2lDcnJZYk5aSjBHaFRmU0I4Vlp1NmlkMzJncngzRklsQ19JNzlUMzBobnByVllSZHM3MDJQNEJBdENxOGZ5MjR1N1I4Wl9YclAzVmMxUUNCUFBoc0VkaFBGM1NodTRhTEh1eGxfZWp2ZnNpS2pDX2ctcDJfY2xONWxhenBmbTVFQnExYl9BZml1NEw5TkVFUHI5U2hwWmR5aGhDbTYweHZGcW01NWJuWHFJWjNNX21HWjlSSnQ5WTBOTTk4RHZMZWlpNHpTZUF4LXFGLVlUclRfWk43UzVnNE1uS243UUpRUUxjZ2hF?oc=5",
+     "quando": "2026-11-14T18:02:05+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Lollobrigida visita il Banco Alimentare dell'Umbria, 'è una giornata straordinaria'",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYW42c0poYnlTODNqcks1Wm1sdkdRMVV2c19NX1NnTkx6bnVmekJUSmswRE5uT2NPQlUtZHdqWHJEamswdU5KTE05NGMxMW8yaV9ON3NBR1lWTnlQbkllbGYtYllPbmVuYm5yLUlTMUIxU2I3dlR1LTdxYkZqTGx0NmN2UEstWlVfYnhaNDJXYWVuY28zUEpvZDZIRHk3amFQWEppWkdLMGl2cHBGMENreEtSUjdlaTdSYmZFQjZBQ3I0c0ozNWN1dzljbVdsdzd6UHBJa2RpQVo4MWlXc0NfTmNSYlZza01sVC1VOXJwWnVyNjcxY3dDLWFaeE1zUmVz0gGAAkFVX3lxTE1hbjZzSmhieVM4M2pySzVabWx2R1ExVXZzX01fU2dOTHpudWZ6QlRKazBETm5PY09CVS1kd2pYckRqazB1TkpMTTk0YzExbzJpX043c0FHWVZOeVBuSWVsZi1iWU9uZW5ibnItSVMxQjFTYjd2VHUtN3FiRmpMbHQ2Y3ZQSy1aVV9ieFo0MldhZW5jbzNQSm9kNkhEeTdqYVBYSmlaR0swaXZwcEYwQ2t4S1JSN2VpN1JiZkVCNkFDcjRzSjM1Y3V3OWNtV2x3N3pQcElrZGlBWjgxaVdzQ19OY1JiVnNrTWxULVU5cnBadXI2NzFjd0MtYVp4TXNSZXM?oc=5",
+     "quando": "2026-11-14T17:57:59+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Pronta la condotta idrica che servirà gli agricoltori della valle del Cixerri",
+     "fonte": "RaiNews",
+     "dominio": "rainews.it",
+     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPcFhvRVNlN3VPZTN1TTlRMy1kdVRZdmlyMGIyZzFvbjY3MG1WVnJTYjFTNG1Ybml5R0I0SUkydFlNS0F3OXl4Vzd6cEhCa28wV3dfZFlnVFllSnhUbVNaVENzb1B6Z0lQdUhHdDlSNTY1bUlXaDAzbVhzUmlDYmU5Y2VxVXVhbThETjFsQmJQU3Yyc3JHRGNCNk03TndBZVVrdXo3MDhUZ2JUNUx1U1R5R21OTGlYQjl5cmxJVUt6ZWU3QWdIU1BCcGc4NzY1Mjc1WjJJRVBaZXdKY1FZYTI5WGw4OUVZeWFzOHJIb21sdlAwUGZBSUJnS2dOanFmYWpSb0s00gGDAkFVX3lxTE9wWG9FU2U3dU9lM3VNOVEzLWR1VFl2aXIwYjJnMW9uNjcwbVZWclNiMVM0bVhuaXlHQjRJSTJ0WU1LQXc5eXhXN3pwSEJrbzBXd19kWWdUWWVKeFRtU1pUQ3NvUHpnSVB1SEd0OVI1NjVtSVdoMDNtWHNSaUNiZTljZXFVdWFtOEROMWxCYlBTdjJzckdEY0I2TTdOd0FlVWt1ejcwOFRnYlQ1THVTVHlHbU5MaVhCOXlybElVS3plZTdBZ0hTUEJwZzg3NjUyNzVaMklFUFpld0pjUVlhMjlYbDg5RVl5YXM4ckhvbWx2UDBQZkFJQmdLZ05qcWZhalJvSzQ?oc=5",
+     "quando": "2026-11-14T13:53:06+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Il ministro. Lollobrigida premia Pizzoli, il colosso della patata",
+     "fonte": "Il Resto del Carlino",
+     "dominio": "ilrestodelcarlino.it",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSnNfdGtHaFZrdEtxOFNjbHZaWUI2cVAzeURtcTVjRWxSMGZpNjdwaUlKeldBQjBxWk95RG93VkVibHE2c1JKTTM5bDl2MW9YeXYtT29FaF9jWVNpeDl2U0lPa2M2R2NWWUlLbHY4dTVUNC14S0YxMnM3VmVBdzRlNXhOTFpldVczdkZhcl93Q2FjbGpFYjIyNF9sQ2xXUQ?oc=5",
+     "quando": "2026-11-15T05:37:10+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Sfilata di trattori per la Giornata del ringraziamento. Grande festa a Romagnano con la benedizione",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUXdNVzR6dFkxNmxQM0FMNk5xMDc3TjBEekZzUFcxLU5xTVZmZXZxeUNKMEV4dGw4Sk05UERlY0RibDItY194dHZtN2ctLUFUS2d6QU1vUXUtamVPUXNMNXQwZDFJMzdBZDZUTldENzZEa0JzZjU4UndRUnpneGM1aE8yd0xqVUI3WXc?oc=5",
+     "quando": "2026-11-15T05:22:38+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Il tesoro dei terreni agricoli: 183mila ettari valgono 11 miliardi",
+     "fonte": "Giornale di Brescia",
+     "dominio": "giornaledibrescia.it",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLXJiRHBUZHVzQ1VDaXVVNnQ4UUt2MlVuNkZXdWgyV3lWdUphUFY1NFEybHI5QmtkdTZZYXJ1c3FLc3kzazVGRm4yeXJ0QWRlZFdCT3dQQ0tOX20yVV84am1lcDgxRDVQdkZTSGJrbjNSaVJjeWN1VVFwdGJJMnFFWTZiajJ2TVFaaXUwZy0tV2RYSDVWak5uU2V0SWU2VFdLNzE2Zkk1SHRPVGVu?oc=5",
+     "quando": "2026-11-15T04:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Doppia tappa del ministro Lollobrigida a Perugia: dal Banco Alimentare a Eurochocolate",
+     "fonte": "Corriere dell’Umbria",
+     "dominio": "corrieredellumbria.it",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNX1JfRzMyQmd2VDRjNkhDSlJvNmh1N3JaSk9qV1l0TmdTX1cwYzJJMmVVWVAySVhVMG03T25OUlhDSFFjNWlTcFlfWFpteHVFd1Q1elNIUUc0QTFvbDN0d2xZamNRVUVWS3UtbldDV0ZBd1pkM2lYN0huUFpyVm5QQWl3Nkc3UGF2RGdnUFpMT1NZQml5djcwemxCckRacFpKRDRyMkxGQmV2UjZoNGw2OU9HZ0xGdEhXaGo3Sm84YzFJdHhRb00yTFJidjlTajlEZTBYdW1Oa1RMNVlnOEs0?oc=5",
+     "quando": "2026-11-14T19:13:52+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Olio extravergine 100% italiano 3,79 euro! Impossibile, ma si vende",
+     "fonte": "Il Fatto Alimentare",
+     "dominio": "ilfattoalimentare.it",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeWV0N1JneUg2eG8wYUowd0lESjg0a2QzMDQtU2F2dG51cTk2NXdlU3B4ZGRhRWxyQUpWbUZfM1lCeWR2WlE2RWpEek9rUy1SMVNvYTh2RkRtblVuN1lTaE5Yd3NtaFEzOXAyODFhY1FwcnpyTU83VkVkYUtzMG85d3JuYjRBV2x2RGU4eDh6eElmUndBSEE4UGJLNG4?oc=5",
+     "quando": "2026-11-15T10:27:07+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Droni in agricoltura, il punto a Eima tra norme e sperimentazioni",
+     "fonte": "Terra e Vita",
+     "dominio": "terraevita.edagricole.it",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVm1LMjlEdThkb1lKWWxGZDFVZmdCM0ZtODktZnczb3JIUm43UzkxZ1BKdWJqbkxOREkwYjI4a0FnLWItckNFb2pxOUFWS0s2eGR2MzMxYVlzT2FPMy0yVFVvR24tRlBtQl9PNG4xeTNmSEswVnhnelhTdFpmWVp4MjgtMUtScTZtZV9OZnpzemNKQ2RvVTJQM2VPQ0NJbTI5bGJnTnJmM0gtWllqdkRfbC1Kb1FBaTNh?oc=5",
+     "quando": "2026-11-15T09:28:21+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Identikit chimico dell'olio toscano: l'intelligenza artificiale smaschera i falsi d'origine",
+     "fonte": "TeatroNaturale.it",
+     "dominio": "teatronaturale.it",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOcmk0NVJremtzMzB0LXNXY2xQamFQLXhzM3hNTE1XSWc1UGZONURRQnFJaVdNbEhvVmRtVHltbW0wWWR6OTJNOFFYOHRvbFEyZjZDbUZVRG9KdzY4NzdoajdYX3lEcjFCRmF2SVlNaEQ3RnlfTHc4VDB2d1ZJRkZ5X2lvMjhhRVh3cE5EcjlPS2VsT0FrS0hBVF9xVzJlUTd5WUxUTHlZSlBSRjg0NmwxSzFCcHpSQmVaTGhud1ZZbHlOWU1RbHJublhkcUFyd3NqX1czQ1NSVXBQY0x6eUFCWFY3Q1dhYy11VTBlM2RFelVNclMxbXZBU1V3?oc=5",
+     "quando": "2026-11-15T09:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Al vino dobbiamo avvicinarci non solo come prodotto, ma per il suo ruolo di aggregatore sociale",
+     "fonte": "WineNews",
+     "dominio": "winenews.it",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRXU5RWpZcEpnWXQ4enVVZkhwUmdDUUkxY2NxUE5UU1dpUG45Z3lBcXdnRi0wWExhcU1wdGlGeGx1LURoZDlwbU11M2stRmJCQ09majN6UHlhS0lwX1VkcVRBeXlXUXdkX0ljeEVKOVIwQV95SkhUUms0MEo0TFJBSDFfMkMtSzVlZV9RTnlRYTduSnhJTy1ZdDdHR1NDcVY1OHNHTmRfdVhKS0VpREgwdmNjUS1kZF85SFRmOXoxb1pNY1k?oc=5",
+     "quando": "2026-11-15T09:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "A Dublino agricoltori protestano contro i tagli alla Pac. Così l'Europa non difende il suo futuro",
+     "fonte": "Agricultura.it",
+     "dominio": "agricultura.it",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZDk1THU4LUNxaEVCX3pLRm5GcjAwWTFzd3l6VFZhQktHR1pqNFNQaFlueENZTVZHMzcwcGU4N09zQ09WRkoxaVVMS0lGY21kMy1vUUE1WDhrN3JNLWJnV1JkRWZVeU01Y0NIQ3hBSHIyUUVlVnZSTEF4a2ZuWVRPZjU0aFdoQXFiM0l2eE85RGp2TFJWajFWY1QzU3dITnVXV1hyWVFpQ1d1UHp3MDhxWTNtdkVqekpob2ZWdXdHUHVhWFJ0M2hWMHFLUE50ZW8?oc=5",
+     "quando": "2026-11-14T20:20:03+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Grande manifestazione degli agricoltori a difesa della Pac e contro la riduzione delle risorse. Il 26 novembre a Bruxelles",
+     "fonte": "Agricultura.it",
+     "dominio": "agricultura.it",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWlBWTjRXdWtzRTd5NkNGWGNGbzlybHp2aFBLWUg0dW81VTVIcGZGcGhYOEtOZzFDeTJvc1QydE5qYkJ4LXFSVUxmMi1PQlRnZTdQQmxaOHo0Y2x4Wkpaa0NtRmJJUUIxVFdaQlBVMThGaTB0SUV5LVV6Yko1bWdSWS11alRPa2oyZ2lFOTZXd3ZFZzNRQ19mdUd1b0FKcVZqckpQRDVScmFfaGJNMXJVOFRJVnhVcE81QVdqVTRTZmo0dzA0MHNHQXU0bnh6WWZWTzdlNkhLTDVNUnFTM29Ra0xxdXBrekFMVGVJbURhTHZHZw?oc=5",
+     "quando": "2026-11-14T20:02:43+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Agricoltori europei in marcia su Bruxelles a difesa della Pac e contro la riduzione delle risorse. Il 26 novembre",
+     "fonte": "Agricultura.it",
+     "dominio": "agricultura.it",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT3lvSUk0NnVtWEdzY09rcm9WalhfRGJYczZFQ2ZBV1ZaRlRWOVFQcDZkUkl0UHZwd3pRbEg0alRndjYwN2FNcUF2X2JqSjlPTXU0R2xTZUI3Zi1HdjhkT1JUSHZYOEtvcHVmNHdxRThJcWNMNU92SW1odUhjckFqVDFkWHhJZTctbTZmQlhVWjNNNFRYSGgxRTByT3c4bURMOUxUNHIxcDZJRWtIRWF5eVpMY2ZubkpkU3NUT2VaLS1ETkpLUVNjcFVRYmx3SDc2N1FNd19mamFuVm1hc1VUcTFHWDBxdw?oc=5",
+     "quando": "2026-11-14T20:02:43+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Confagricoltura: bene l’ammasso, però…",
+     "fonte": "L'Informatore Agrario",
+     "dominio": "informatoreagrario.it",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMHQxbjl0c2hNSHRWSU0tRU52YTZmajMyc3MzTGctdlZtNU4tellZRTNwMVFOT3ZpQ1JzWGhOa00xa1E1cm1iWUpWdmVTczN4NE5RUkZLOUV5WjNHYk1FdnJVcFpzQkZyaldZOHZ3YjlZM3E4ZTA3Nl9wMEs2RFUxYQ?oc=5",
+     "quando": "2026-11-14T17:37:55+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "Il Messico tra i Paesi obiettivo del vino italiano, dove il consumo cresce, grazie ai giovani",
+     "fonte": "WineNews",
+     "dominio": "winenews.it",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTdyWnE0VG1BNTFqZkJtc0tybVpKejZoVUxjcjlMNnNaejNiSEd0RXhKRTUzREFGRlYwbUZSNUNfaDA0aV9pOVdyU3JWQlQ1UWZBSEg2dzEyRlpFX1ZaeHNnZV9HUzh6eXJfcnRpX0hPRW5NQkdIZjhsWHVNWF9XRHhaRHUxSnBxdzFTQ2RKSlYzSmlQY251eTh5bkNYU19vVlhhcjJJVkhZWHNTWkVRalRYLXg4MXRkUkEySktkdw?oc=5",
+     "quando": "2026-11-14T16:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    }
+   ]
+  },
+  {
+   "nome": "Storie dal mondo",
+   "ore": 72,
+   "gruppi": [
+    "Europa",
+    "Resto del mondo",
+    "Stati Uniti"
+   ],
+   "articoli": [
+    {
+     "titolo": "Cerchi un albero secolare che valga una deviazione? C'è un'app per questo",
+     "fonte": "The Guardian",
+     "dominio": "theguardian.com",
+     "link": "https://www.theguardian.com/environment/2026/nov/15/ancient-tree-worth-a-detour-digital-app-",
+     "quando": "2026-11-15T09:00:07+01:00",
+     "sommario": "Un designer olandese crea un'app per aiutare gli altri appassionati a trovare i più grandi alberi del mondo Mentre la maggior parte delle persone trascorre le vacanze visitando la città o oziando in piscina, Hidde Burgmans preferisce cercare alberi speciali. Pur non essendo un esperto in materia, il 37enne di Baarn, nei Paesi Bassi, ha sviluppato quello che...",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Looking for an ancient tree worth a detour? There’s an app for that",
+     "lingua": "en"
+    },
+    {
+     "titolo": "Studenti indigeni ripercorrono il viaggio storico di Lewis e Clark: “Non possiamo proteggere ciò che non possiamo vedere”",
+     "fonte": "The Guardian",
+     "dominio": "theguardian.com",
+     "link": "https://www.theguardian.com/us-news/2026/nov/14/lewis-clark-indigenous-students",
+     "quando": "2026-11-14T15:00:46+01:00",
+     "sommario": "Due secoli dopo la spedizione, gli studenti indigeni stanno conducendo una nuova indagine sulla fauna selvatica lungo il percorso Nel 1804, quando Thomas Jefferson inviò Meriwether Lewis e William Clark e il loro Corpo di Scoperta a esplorare la terra appena acquisita a ovest del Mississippi, l'obiettivo principale del presidente era politico...",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Indigenous students retrace Lewis and Clark’s historic journey: ‘We can’t protect what we cannot see’",
+     "lingua": "en"
+    },
+    {
+     "titolo": "Ad Haiti l'importazione del metodo Bukele contro le bande solleva interrogativi",
+     "fonte": "La Croix",
+     "dominio": "la-croix.com",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUx2TlhtT3JBUDZ4LTIzZWxQSDd4N2pYcnQxampPMEoxVUJEeWFBN3hteTl4TXlNVEo3d3BsWF9vRFNKdXVHUmo3cGNHX1M3dU1fRmxPanJ5SlFFbTVPMGU2SDVzdThkU2Y5aHZUcnZLcnltdkJFdXpFY1lYME93N1JOZ05fcWZkWXhkTmN4VHJNR3FUak5veTE3S0xJUHNwd19WVERVdml4QUsyS3NCQ3M0THpjVkRZLVB1aVNUQQ?oc=5",
+     "quando": "2026-11-15T12:12:14+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "En Haïti, l’importation de la méthode Bukele contre les gangs pose question",
+     "lingua": "fr"
+    },
+    {
+     "titolo": "Giordania: tre uomini condannati a morte per attentato ad una chiesa",
+     "fonte": "La Croix",
+     "dominio": "la-croix.com",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmpkbDBPeE1VQU9PSzdINXNyWjQyejd5TVFmQ1U5cEtFV203NnlYc0hnY1BsYUlYcmxpSHZpSFJDWlRGQk9ELW5mQVpGX1g5bVlaR3NoWU4wX05wUnNzc1EwZGEwRG45VXRqWG5XUlpWWTNfM2NtcU8wTXB5aEpYTmtPRmlrVV9PbXBUc1ZvdldIMTNsN0w4LUFCY1pvVlpqelBYa29IRkdTbGxEM2VvWVNnX04?oc=5",
+     "quando": "2026-11-15T11:46:36+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Jordanie : trois hommes condamnés à mort pour l’attaque contre une église",
+     "lingua": "fr"
+    },
+    {
+     "titolo": "In Senegal si lavora sotto i 38°C tutto l'anno",
+     "fonte": "Le Monde.fr",
+     "dominio": "lemonde.fr",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY2pQZl9QdGMwM0xBOXlEbUVoekpkM1J6Ti1zT2ZmYkhvTnBoR3ZZUFdISVRpWVRkTUlFSTBtbUl2MlJKNVVUQUpZM3FsRFJ0ekVZZktBS0RZbDRyUlZHQ1FTWldmQzZKMmNTX0dXRmRWMndJYXRPMWtpUV9Zck5fZFdjRTd1REF4LWVtN0dCcmRJNnlOTlRBM1ltTWZsNmJYUDh3d1c5NDB1aVg2UDFHZlNDWQ?oc=5",
+     "quando": "2026-11-15T11:06:01+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Au Sénégal, travailler sous 38 °C toute l’année",
+     "lingua": "fr"
+    },
+    {
+     "titolo": "La ricerca dimenticata del contadino Domingo Atanacio",
+     "fonte": "EL PAÍS",
+     "dominio": "elpais.com",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNkNoT3NoN3BZQTllTGVaU2h1bzN2cnBuTG0yb3FBOTgtNzhUVHlGOHlfMkNOVV8wZXZDaVlWNlFKZV9ScTUtdFBuYW01eWtyRDJlTm5PVktmenl1ajBic3lCUzJQWFdrYnR1d3p1ZjRQWmh2ZjZFWFdSckZqT1RydHNMamlqSUE2cUM2bzBhX3d0aGc5eGE3WTdTYUJTNkVqVnNFR3VJRnVXYk030gGsAUFVX3lxTFA2Q2hPc2g3cFlBOWVMZVpTaHVvM3ZycG5MbTJvcUE5OC03OFRUeUY4eV8yQ05VXzBldkNpWVY2UUplX1JxNS10UG5hbTV5a3JEMmVObk9WS2Z6eXVqMGJzeUJTMlBYV2tidHV3enVmNFBaaHZmNkVYV1JyRmpPVHJ0c0xqaWpJQTZxQzZvMGFfd3RoZzl4YTdZN1NhQlM2RWpWc0VHdUlGdVdiTTc?oc=5",
+     "quando": "2026-11-15T10:30:00+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "La búsqueda olvidada del campesino Domingo Atanacio",
+     "lingua": "es"
+    },
+    {
+     "titolo": "Analisi video | Il Miracolo che non è ancora arrivato",
+     "fonte": "EL PAÍS",
+     "dominio": "elpais.com",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWhsRDRUY21HRnpHZmd2U1NCenlhZnZva0pERmt2bFBqaGYwa29QUEg2Tm9MN0MzUTA5eUpKTU5laEhJVWtPakVSMmFtX0lDanhKRmluU0gyUG94aFI1SExuNjJkTnJoVkEyN3phbzg3NWE0TVA5SXJkcGktRTI4MkljZ2NGYnhPQmRnUXV6dEtTXzA0ekVMU9IBrAFBVV95cUxPZEdNTkowVkwwVHFDMVkzSnphTDM0aHYteXhsc0dWTXdsOGs2S0NpNnliSlBvUjdybmRsS2xYdWJXbllUMVlsTUZOSVlQSi16VGdlNFM5VFo2aUVYM2VnNWloZV90YTZ3UnZpaEw2bl9jQmEyTHJkNVAzY1Bscl8wOHZ1Q0JRTjBDcVlST1ZZcHM4UHg5cmpjNGE3MkpxNTZOOThXcV9YbkJ5X1BQ?oc=5",
+     "quando": "2026-11-15T10:30:00+01:00",
+     "gruppo": "Europa",
+     "tradotto": true,
+     "titolo_originale": "Videoanálisis | El Milagro que aún no llega",
+     "lingua": "es"
+    },
+    {
+     "titolo": "Il Madagascar mira a sostenere la biodiversità proteggendo le aree marine",
+     "fonte": "Global Voices",
+     "dominio": "globalvoices.org",
+     "link": "https://globalvoices.org/2026/11/15/madagascar-aims-to-support-biodiversity-by-protecting-marine-areas/",
+     "quando": "2026-11-15T09:11:47+01:00",
+     "sommario": "All’annuale COP17 sulla biodiversità, il Madagascar ha confermato il suo impegno verso l’obiettivo globale 30x30 e la conservazione del suo patrimonio naturale.",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Madagascar aims to support biodiversity by protecting marine areas",
+     "lingua": "en"
+    },
+    {
+     "titolo": "Nel mirino di al-Shabaab per aver difeso gli ecosistemi del Kenya: premiato il fondatore della Fondazione",
+     "fonte": "Mongabay",
+     "dominio": "news.mongabay.com",
+     "link": "https://news.mongabay.com/2026/11/targeted-by-al-shabaab-for-defending-kenyas-ecosystems-foundation-founder-gets-award/",
+     "quando": "2026-11-15T03:07:52+01:00",
+     "sommario": "La conservazione è raramente esente da conflitti. Sulla costa settentrionale del Kenya, nelle contee dei fiumi Lamu e Tana – un hotspot di biodiversità dove il fiume più lungo della nazione incontra l’Oceano Indiano – il lavoro di protezione degli habitat marini e terrestri spesso richiede la volontà di sfidare la pesca industriale e le attività estrattive…",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Targeted by al-Shabaab for defending Kenya’s ecosystems: Foundation founder gets award",
+     "lingua": "en"
+    },
+    {
+     "titolo": "Imparare sotto gli alberi nell’era dell’intelligenza artificiale: il paradosso dell’istruzione in Mozambico",
+     "fonte": "Global Voices",
+     "dominio": "globalvoices.org",
+     "link": "https://globalvoices.org/2026/11/14/learning-under-trees-in-the-era-of-ai-the-paradox-of-education-in-mozambique/",
+     "quando": "2026-11-14T19:39:17+01:00",
+     "sommario": "Il Mozambico si trova ad affrontare un paradosso educativo: mentre si discute sull’uso dell’intelligenza artificiale, migliaia di studenti imparano ancora all’aperto, senza infrastrutture di base o accesso a Internet.",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Learning under trees in the era of AI: The paradox of education in Mozambique",
+     "lingua": "en"
+    },
+    {
+     "titolo": "Gli attacchi dei droni alle centrali elettriche gettano nell’oscurità le città del Sudan",
+     "fonte": "Al Jazeera",
+     "dominio": "aljazeera.com",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMUsxTnY5M0RPdm9GX1dNTm92cmR3T3lSNzNNZlhLSzlxak9JbEtEN3JBVEFmQ3hwZTkxYlFtc2trbzh6R3JRUmNkWXp4eUJTUWp4NmxhelduMlpoOTVXRHl6eXZFLWhwcm5GbldCckQzc1pZTXFnNkFWMVN1UzhDaUdZQzRRRmFCZ1dGdXhZUmlOVVhndVQzaEVSdjRmYWxsUGR5c3o4elF3U0VqamhmakRYY9IBuAFBVV95cUxQZk1EYUloTU9WRnVjMGd5MVVGN3h6djU3NW1kWjJKX0NXdjh3LTNIZlZ5STNQc09mTTFlaUoxSmhnbEtIRnZ2R25mczJ6ZmlBVVBiNHlENFJUeUVUaVJLWGFtLUdKVnJIQmhuUUJlQXAzOVBKb2h3RTluZzN0REthblJhRDdHRHo3dUllS3YtQ3hYcUE2RlM5R2dyVDAtNjhjTXRmaGNVQTQ5VUpkVUZLamxVOHZUZHpN?oc=5",
+     "quando": "2026-11-15T11:07:30+01:00",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Drone attacks on power stations plunge Sudan’s cities into darkness",
+     "lingua": "en"
+    },
+    {
+     "titolo": "L'Iran afferma di aver preso di mira i radar statunitensi in Bahrein. Cosa sappiamo?",
+     "fonte": "Al Jazeera",
+     "dominio": "aljazeera.com",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObWFKWVZvcERnSnp2TzhOUm9QdjdkR3NmUjNoWnBlTGNIUHlZeDRGOURlNmtSSlY0SmhLU0VGSDdVcjN4X0xFa05kd21mNXRmSXBNbUY5eGZrUXlUVVhXc3U3V29haHFCY29HX1N3Q3pxaW02RnM5QzdxejBzal9Sb09Tc3ZOZ3FCYkQ5dmZIQlowZENaT1BLcmFFYjc5d2vSAaQBQVVfeXFMT1NTRm83ZVNzd1h0RWhmaE02WTRmZ29sSXdTSkZTZGVSUGJkdkdiaGZqb1JDZk1uSXRpVzFfQ3NqR1duRWdjQVRISWVlazBqeF92VFZjMGc3YW4taXhLUnhwaWhlMDlTa2hJZWRDMHVSaVgxOGVmOXRzc0dVUkwzY25sbzluYmhiT2JnNW5EVHktZmk5aEwtaXRxeTltRUl3N0ZUWkc?oc=5",
+     "quando": "2026-11-15T10:49:22+01:00",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Iran says it targets US radar in Bahrain. What do we know?",
+     "lingua": "en"
+    },
+    {
+     "titolo": "Il Bangladesh afferma che tutte le formalità legali per il ritorno di Sheikh Hasina sono state completate, attende la decisione dell’India",
+     "fonte": "Scroll.in",
+     "dominio": "amp.scroll.in",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQckQ4a3ZvbDNKRjdqSWE2R1dJRFp5cE1XTlBLTmZtU0RHSEVVT0NJdWlac3NXRk1mc3lvdEYwVVVneDMyMndHaFFxQjdvVnNMMUFid25fQ2tuRDlPa0pKT3B6X2llcXNMdFZucU5rNUx2bEFaQkpNTGROWWJkNmxEdGx1RDdfd1ladnBvNzJKUDI4SUZxeEo1OFBJMEFYa2s0TW1iT245VEtEU3RjR05TOThZNzZqR0dNX21iRDdOQ1BFby03UmRuRXBTWjHSAcwBQVVfeXFMUHJEOGt2b2wzSkY3aklhNkdXSURaeXBNV05QS05mbVNER0hFVU9DSXVpWnNzV0ZNZnN5b3RGMFVVZ3gzMjJ3R2hRcUI3b1ZzTDFBYnduX0NrbkQ5T2tKSk9wel9pZXFzTHRWbnFOazVMdmxBWkJKTUxkTlliZDZsRHRsdUQ3X3dZWnZwbzcySlAyOElGcXhKNThQSTBBWGtrNE1tYk9uOVRLRFN0Y0dOUzk4WTc2akdHTV9tYkQ3TkNQRW8tN1JkbkVwU1ox?oc=5",
+     "quando": "2026-11-15T08:18:00+01:00",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "Bangladesh says all legal formalities complete for Sheikh Hasina’s return, awaits India’s decision",
+     "lingua": "en"
+    },
+    {
+     "titolo": "L’arte dell’animazione secondo MAPPA: una mostra al centro dei grandi successi dello studio per il suo quindicesimo anniversario",
+     "fonte": "Nippon.com",
+     "dominio": "nippon.com",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MSEtxN0h4VnBYQzdoQ2kwRFk0aUREOERsWFBYdmRHb0tLZl83V1Etd1ZnSVJ6bVFWYzlfT1Y3Z3FrSFgydTJWM3pqa1BMbHRiNlRiWg?oc=5",
+     "quando": "2026-11-14T21:00:00+01:00",
+     "gruppo": "Resto del mondo",
+     "tradotto": true,
+     "titolo_originale": "L’art de l’animation selon MAPPA : une exposition au cœur des grands succès du studio pour son quinzième anniversaire",
+     "lingua": "fr"
+    },
+    {
+     "titolo": "Gli scienziati che lottano per aiutare i sopravvissuti agli incendi di Maui a guarire",
+     "fonte": "Grist",
+     "dominio": "grist.org",
+     "link": "https://grist.org/wildfires/the-scientists-fighting-to-help-maui-wildfire-survivors-heal/",
+     "quando": "2026-11-14T15:00:00+01:00",
+     "sommario": "Uno studio sull’esposizione agli incendi alle Hawaii ha creato un nuovo progetto per la ricerca sulla salute pubblica e il sostegno dopo i disastri, ma i fondi si stavano esaurendo. Gli organizzatori riusciranno a tenerlo a galla?",
+     "gruppo": "Stati Uniti",
+     "tradotto": true,
+     "titolo_originale": "The scientists fighting to help Maui wildfire survivors heal",
+     "lingua": "en"
+    }
+   ],
+   "a_parte": true,
+   "descrizione": "Reportage e approfondimenti internazionali su comunità, ambiente locale e città, con più spazio alle testate non americane.",
+   "traduci": true
+  }
+ ]
+}
