@@ -1,0 +1,419 @@
+{
+ "generato": "2026-11-17T08:28+01:00",
+ "temi": [
+  {
+   "nome": "Ponte sullo Stretto",
+   "ore": 48,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Terremoto oggi, scossa di magnitudo 3.1 nell Stretto di Messina: avvertita anche a Reggio Calabria",
+     "fonte": "Adnkronos",
+     "dominio": "adnkronos.com",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWjh1LTZSWW8yRTV3bXU1VGtHZnNmZWxRMDA5ZzVHc3k2Zll1V0dsYmJEOE1uUVZwNkRrM2k4ci1JUEVEUkdEY3NZd3lyUnBDVnoyX1RabDVoT01qbFB1bkwyZXBXSmx1NU1hOHlweFdBSHFTQ2Z4Z0Vtc1M1YkpIdWx4dm41Zzd5U3haYURLcmI2VTNMTndUUHJjYXBaaUlPX0g5b0VNQ3lZcmdKS05BdXdvQXZxZw?oc=5",
+     "quando": "2026-11-16T18:29:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Dall’antimafia alla Diaz, da Leonardo al Ponte sullo Stretto: chi è Gianni De Gennaro",
+     "fonte": "La Stampa",
+     "dominio": "lastampa.it",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTTlhN2dIelNVX1pQSjFyUFBkX1FiTEI3NkZsVkJMU0RfYk1kVGd3Wl9QVF9KWVJ4Q1M1ZlNUNmlGZm1vSVVaZ1VXVHVWTmVoZFRjSnBoX3IxVDAtM2tfNHpxXy1ta3ZlaFVUS3pjME90NE0ySy1iZFFMM3dfYkVDbGtIdHlUMWtkeWd0eUU4T05mSm5NWmg0clJqQjc3aWsxUEJpRDMwaUpvQjkxQ3hfZlktTEZ2OTBzV2xyVElwRm5EcnBfTnVEY0p5VlJoWnhTelVCanZ0Qmd1djJ2b2fSAd4BQVVfeXFMUE05YTdnSHpTVV9aUEoxclBQZF9RYkxCNzZGbFZCTFNEX2JNZFRnd1pfUFRfSllSeENTNWZTVDZpRmZtb0lVWmdVV1R1Vk5laGRUY0pwaF9yMVQwLTNrXzR6cV8tbWt2ZWhVVEt6YzBPdDRNMkstYmRRTDN3X2JFQ2xrSHR5VDFrZHlndHlFOE9OZkpuTVpoNHJSakI3N2lrMVBCaUQzMGlKb0I5MUN4X2ZZLUxGdjkwc1dsclRJcEZuRHJwX051RGNKeVZSaFp4U3pVQmp2dEJndXYydm9n?oc=5",
+     "quando": "2026-11-16T15:23:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Da Falcone al Ponte sullo Stretto: l’ultimo inciampo dello «squalo», ora indagato per i depistaggi su Borsellino",
+     "fonte": "La Sicilia",
+     "dominio": "lasicilia.it",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX3ZfQ0pQM085dUtMNDRsd2xkQ212THQ1ZnB3V0UtNWV1d2ZydVA5ckJkMUFZaDRLT3ZTT1dROWwyalhaM253czNOUjJPMmlPQmhKQm0wNWpqM3NXMUtKWlE5VzZpTjVCYWVsbVBGcFZ1cGZKYVRBeTM3V1Vac2tJZG5iNHgxYVZ6RzVrSGVpaTBHMi1YT3pVQ1p6bEJkQkZDak4yak5mT0QzZW9pVWhwNHlzUVhOdFZ0M1NpbExndDBHU1U1R1gyUVZwaU1XVG9NNlpJN1d5YlVuTjlWeVVINDJmTTFTN3IyOEM0WDY4VQ?oc=5",
+     "quando": "2026-11-17T08:14:06+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Terremoto nello Stretto di Messina. Ma con magnitudo 3.1 e profondità 50 km non viene avvertito dalla popolazione",
+     "fonte": "Tempostretto",
+     "dominio": "tempostretto.it",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdVNXeDV3dUIyNG8tSEZwLWI1dnZabTFuVkFXNWItdWcyQ0l4UXVwNmc4d3BVZlcwRFR0TUd6SlJCM2hFSzVldDhibVRobXdkelA2Y3gtMXRhd0prVkxUM084dGt3WGViN3p2anplN3VielVyODY5c3lyVUdjeHBEYWc2TnpZMHJ0SVRVa0g4ZG1Ja25jclhBR2twTHhRa1pXaDh5bm55TVM1UHdSXzlRbkN0bHhnVEFjZER2aUVnZnZZZw?oc=5",
+     "quando": "2026-11-17T07:30:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Terremoto nello Stretto di Messina avvertito anche a Reggio Calabria",
+     "fonte": "Il Quotidiano del Sud",
+     "dominio": "quotidianodelsud.it",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSnY2NTdraXdyM2Q4REp0VjFrT1hUWGF0OFFaN1JJM3RENWRUeGQ2WTA2azE3Tm9TbVVWWWFqZndTQ2dGMF9aMWFocHhHM2JhcVU3OGJ0TU14QXkwdXZvOWhZcnRQcWVuOXYzSVhlYm94TGo5bzhwcVNvY0R0R0RpSHBvQS1VZExoZ05NWmI3TXlKbHdycDhCdlFuRjJNbWJuYTk1NWFaUkhSQWduYlNIYlIwOFoydWhNNThxY2J1TUJCLXZteTVOanQtTXczSEdxVmhTSzZSQ2IxMG13dzN1NjM3VEZFQTZYVUV5U1BidnpIaXlzby1WcWZiQQ?oc=5",
+     "quando": "2026-11-16T20:01:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Terremoto nello Stretto di Messina, scossa di magnitudo 3.1: continua anche lo sciame nel Tirreno meridionale",
+     "fonte": "MessinaToday",
+     "dominio": "messinatoday.it",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2RmaURPQnJ3eVZMcFhvLUZ5X2JhMl9YV25GVFh1NTN3cUFKSGctRE40b3EtQTNyNi13cDhZVDUxblJWVjN2VWNLNUg2YUFzU2NBc1NyeXBBMjJaWUE0UXRSWndoWDAtNW1WNmxZajdJeUJfX2NGM016akhTcUlRS0FQUzVoN3FybXIzU0FTM1pCeXZIc2YzdGhVZEN2WXo1YWVOem13?oc=5",
+     "quando": "2026-11-16T19:29:18+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Terremoto nello Stretto di Messina: scossa di magnitudo 3.1 nel mare di Reggio Calabria Sud",
+     "fonte": "Gazzetta del Sud",
+     "dominio": "reggio.gazzettadelsud.it",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRGVRbW9LcHlOYjJXR0pEMnkzcVZmcHNFUnhncWt6TUdVcmxxYk1lSXpBYlZRTGJ3dk9JcTlPOFZFLVVRSVkxR2NVcG9jNUNKcURHUVZ5NlQxSkFDYzB2TGdpMm9sQWo4SE1qdnR1YzFIV2lnY2pMckQwV3Q0eVBzdHptdTdRUnktb0d3WnNSQVNabGlYR1IxYzZaaDlkTk9YWTZGQ21Wd0VlYmVFSTd2c0xQM2tPS2NKcV9mcnJ6V1NDb2hPWlVLRE9hRGN4N0NZbFFUOUtDdENnNjZyS3pTYy00TF9JUXdyX2ktN3FR?oc=5",
+     "quando": "2026-11-16T18:48:05+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Mentre il Ponte sullo Stretto è in stand by, l’Australia sceglie Webuild: il progetto faraonico della Gabba West Arena per le Olimpiadi",
+     "fonte": "StrettoWeb",
+     "dominio": "strettoweb.com",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNYUt6cFhnc29wQTdUYVNfc1czZnYxZWNrSDNuQ0FzTjBZUnIyYnZpZ2toRC15a01XY3lzUEF6aXMxNV9nendxWGpzWUwxU1JwdXlJYkw5QkMwWlRHcmFkN3E3TEktemlhdVE3OWp2amFRQ05sOGtEQ01KZ0RCOHZka19Lang0UDhxLUUwVHpWczJyUkZBT2NZZVd5Zm9CejR3VXlDeFlmYzBpNWhJUmphX0ZsU1ZzWDdRUndjVFpjWVNwb3IzRzF2aUI3NGdVckpaaFdERVZ1Nktpek5zVngwazBkVlJnci1peXN6NDdEdllJUkJMcHdSWFEybV9id3F1dGdJcFF2QdIBjAJBVV95cUxPbXE1cHkyQkVFRGpPbVNWSlhaaEFSelU2d2dYUWRZTmVySUE3aXRPN0F5Skp2UWpUSV90UDNwTVFVSTZTWURnQzZqeVhMaUZoemdVQlU5YXR0V1EtNkxheWp4TzVUVUR4QUlMVm5sdFFia2I0VE43MC1lVUZub21rR3JxMTVRc1ViTVRISUE2aXpYLWRjVkZrS3hSVEpJYzdEMEpONGhFc3k2Z0tlaU9NdDJ1elRzREticWU2Y2FBdkdIdkFOclFOSU9VanVXdE1RdjgzWjh5NWV1c3BIUWpSbUtFakQ1ZEhnOWRDSTRGNndoMHBwcHpQMEVYUG1zRHlqNzZQNTl4ZEhQXzJf?oc=5",
+     "quando": "2026-11-16T18:28:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Il Ponte sullo Stretto e l’affascinante belvedere: osservatorio panoramico, bar e spazi commerciali, la nuova presentazione del progetto",
+     "fonte": "StrettoWeb",
+     "dominio": "strettoweb.com",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPSEI2QTN5eUF1N0ZHX2hIbUNBQ3FNci1rSTZnaGNaTlI3b1M0ajlBR3RpamJ2Yng1c0ZBdllaRk5ub3ZhVW1hTTdULV9SSnVWXzY1MTN4eWFvOWlzTnQ1TTR3dTk0TkNpQ1BERm5Wd0lVeXIxTEJqYjltS2JBMnlyWmdBNVUxNUNwUUJoYzFOVmgzYmt2ZnNSVEV5YWZ4d2pfU0dtZ2xnRlVGVW9kMkotSDFnMTVULXJqc01HRm9OMnFjOFFlWGFYUTVsOWtNbE43ZGR2bFRUMDMzUHptLVlBUHI4RXBJZkpvSVFuT3RpLXBEV3oyeER5R1pEdlYwSmd1LXBKQlR5d9IBjAJBVV95cUxPcXZhT0RDaGFobzNwc2MzUUpVeGJFa2xsejB1SGYxSGZENHJ0QTBiMHBuZzNzTnpyMXU0ODM1dHZoM1RFV3JZdkphUVBROXNWX1VnWkYtZVpLVldNeUZ6bE0za01vNU9KbldTLXJZX2w2WHJ0bUczakpLMC1fTzRjd3lRaWhNSWZvSTRJeWlxNHNKUTRadXIzSTZuZ0dmYjlKeF9LM2pkR1dUMnhncS1kN0QtVGpzTE5JUmhVREhKcHdBZ1gxYXVnRTVnMFdhckc2YTB0LWpLSUNWRmFkbE1rTzZwdTJmdlhyWTV3aXFWTkEzRFlPd1Azcm15UzVLT2pXdTJKS3BZck5ZS1dH?oc=5",
+     "quando": "2026-11-16T18:14:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    }
+   ]
+  },
+  {
+   "nome": "Grandi opere",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [],
+   "errore": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "nome": "Università",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Il writer caduto dal tetto dell’università di Torino è GECO",
+     "fonte": "Open",
+     "dominio": "open.online",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qUlh3R1ZrTnlnbWVaeU1HWFBjRUI2T0FhQ21hR3oybU9EdjR3T1lOTldNT214YWZST3Bwekp3NHdjUE5URFRORVFWSDlwaVR4dTMxaFI4YzZiSnNGWmtCRVhyQTNYdVVFMTZ5N0NWbWFlcTQ?oc=5",
+     "quando": "2026-11-17T07:59:26+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Università e un supermercato all’ex Caffè Rossa: ecco i progetti per la rinascita del rione Isola",
+     "fonte": "La Stampa",
+     "dominio": "lastampa.it",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUW83a3FPblU3bkgwM3lIZ0paN0VXTkJTUGNuTXY1RUZDeHVRbWo1RFc2bzhfaU1IRmxTRjBZX3Ffbm1xN2U1bXRJS2VYa2d3TDRIMnllaGJ2SGpTdHc2TndCWEZGamRnM0hXenZrU1dxWHlTaDV3QnBmSzA5bXZEc1hDZW9Sek1Ebk8xSjVlZmZqU1V2VXZRSzEyZGxMWHg1WXBROU1FOEFoV0NERWpnSVZENmdmTHpseWZzQmUwRm9SMW9xdE85ZWtIcUNqcm1oQlhhdW5qc0xmeGxrWmo5cGdtYnNjVE9hT2lv?oc=5",
+     "quando": "2026-11-17T05:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Università Firenze, al via bando per Erasmus italiano",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNV3FIQkxQeEFSS2pzOFNJTjJEdGNYM0xvcUM4dV9ZbW5wek5sbTFpMHp1b3dhVnpSZkMyU0Uxd2dOQUxVeHJfVl9CdWtfWmluZG1nNTF0UWxzczRSSE9lZTdfeWVDQW9ubjRIMWcwMVVFdkJ6STRnTU5uVkVaakRRSHZQNXYwVW9nNU8zYkhERGhaV1VXQUo5NnFhTjVBSzR4Ykdja3hWNjF0c3lUdGxxZUNMeFZ5WGhzYXBIR0xlQVRDbVFkSXFhTTk3aXFGM1VvUkplTkxJSWtfU1dKcGx6SEFBMFBKN0ItUTNtN1cteVdfRG1XdWJReU9yOGRZU01oMzA0X1IzRVpoVGpaWEdSNUttUjVVdGZiZlHSAZ8CQVVfeXFMT1ZqalV4RG1uQTI3WW9IMGJ1RTFWYWRjN0VpU0pmWHcwMGZHSUc0NE1DREcyWHcwUHZkVWNleFJNTm9xb2ozVUZOZXhpOVgxUVNZREhqSVdKbFBOUFFOODh4eVYzMXZaaDFtQmZPMGRIRFE5bGJoUUdERm9YM0JvMmhiWUpTMFJKUVR4aUNpRXVQMm1HT3dEaWdVNTZiNjJfWC1JOXI1NXBPaldfYXBWSDg5ZG8wYzlZRTd6WFg5Ri16elNuTUNHZl9iRTN5c0FTbVRvNEV6Sk9CZjd5dFdxLTQ5TFE2b3dHV1ZCb3lzZlNHamxfTXIxYXNJSHdDTVMxREhVMlh0ZjJNX3cwZVotVDhtTTZwazVlU05YN1cxdDg?oc=5",
+     "quando": "2026-11-16T19:05:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "A parlare del fine vita si impara anche all'università: 7 tesi di laurea in Scienze Infermieristiche",
+     "fonte": "La Stampa",
+     "dominio": "lastampa.it",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeDNEaVpyVjhCMzhBVk5ULWpkaHJXQW5PVWxHSUF1N0dIbEY3aFppcURKQ1Nta09sSzFzX2dQdTc4OC1aV1pMYmRXQ2Q5RzI2SHFrWl9JMUtMajBINTFmNUxTRUV6c0tQZDI5cnl5REhzZTkxT3dUVzkxOXNUZDJFWmlLd0xqZ1VjSENMZG9VUFVCSDBzTjdNcjZpckRCdFItdHJGMmYyVTltcDl4dFp3amJHaGI2NVV1dnczNkI2QUg2M2dhYjkzTnI3cl9JX3ZrOWRFYV90YTQ3ZGIzZjlCR1VBZm1iYmU1dGliUg?oc=5",
+     "quando": "2026-11-16T18:58:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Università di Torino, la frase choc della prof sui writer caduti da Palazzo Nuovo: «Dove non arriva la governance dell’ateneo arriva la mano de Dios",
+     "fonte": "Open",
+     "dominio": "open.online",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT0tPU3p1X1Z1d0RZcXlZN3dGRDdtRlg0VVBJUjBPQXFybXAtcVlFYU5mTDBoM1lGN1lWUUNjWml1SkFodDljSm5pdFN0dXlvcjNvSXdDa3pMeW9rSDZ1YlZuTWxLRU1WOGZVdnJUMDNOcmxTZ3FVTldoSTBxQUpvVURfczFhVHhia1lrdi1lQWdPeTNtVUFOYVFMVFByNVNMa0RlNHRVUnNFR0s2Mm1fMEx1TDlkUkk?oc=5",
+     "quando": "2026-11-16T18:34:36+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Università, giovedì 19 novembre a Teramo 'Unite Talent Day'",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYVFpU2k4cmlteDhmOUdMNHRhbG0zRC1US2VvX0FOWjQ2SzgzMnlUZVNrTm1PZjN6NHR0cmNDbk1nbURhcVV0TUp6NWdKb01SOFZINjFXc2JEdlFueXFyT015THZVY3NBbnM4MWRiYV9RLXcyN1NaWEdPLUFLSXc0ZTBLR3ZXcGZEV3B2S3A0T2NjNkVUdVdFTDdTaXJWZUc3Xy1iMEN2d3VqbHp0SVc5SGtvWFNyUnd6cHM1M2d4WVNiMXk1YUtkRG1aVDQzTGFYNDlDYWgxREVObWMtVWcxYTdPRzhjNVFqdmQ0WmZHbHY4WkJKVVZmOEQtYXkxcjQwMkhPQndMNNIBjAJBVV95cUxPdDdXbEY4MUNZRnlRbWUwdlRsY0xiMjJtZWcyX3JxOGw4OE11ZC01NUptU2tvZXB3UGJTTkdaVmRiMUw1VVFOSDhUQllvM1Nfb0w3WUtsM2ZVcFhTQ3BFOExlUmdINWJtdERodDdaUGVjVHBJUUk3cjJYT0RaV25kT01lcllkWUhqbHBNZi1qemZadjdGQVJEV2FsTGQ1YzdXVEdEQ01VUHNoRDBoMmwxTzBndl9JWUR1bnV5MVczQVJ5MmU5QUxFYUNkNUIyb0hsWmpSUVF2LUx1VDIxWm1JcElCNG5pelEya1EwLWFxbUZlbjRPN1REWnJmRThTSlFoUVJad0htYVVWWEI1?oc=5",
+     "quando": "2026-11-16T18:32:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Terremoto, Ateneo Camerino ricorda i dieci anni e guarda alla prevenzione",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaGhCZmpfcmd1a3dzYnUzbVI1Yzc3R0EtMGF2dzdONm82T1UyZ0pYWlphZnprT0FNclA5OUZ2Y0VxT1ZpSjNtTWtwdGwxcG5yUmNoTU9vTVV3eGlQUVBMaVFZX0VlQ1I3OW9xYzU0QXFOTDFpOHBFRGdQNHY1Q2Zmel9pR0JBaTZLQTgxYVFsTnFBQVFGbG1pQmtxNl9TOFYtaVNrNWg4aFljRkhnZkx1U3hlOVBydUg0SFo3b3BrZkhfVVNycWZZUm9JWGRfdnl5TTdveUU3WHlOT05ua2QzamVvYmROc25xQXdvcGNWNjk3UdIB9wFBVV95cUxOSXZROUdydzBBV04wQ19rdDBteDN2UEJYZmJGUkhuV08tc3lZSFB5bmFkTE0yd3RHUG5nNllrS2ZEZE9XZ0xuLTY2azY3UnVuX0kyY0d5TU5Ib2J2WXBYZXdxOHVISGZRNDNnV2V3WkkzVkpnbmJyWWF1T2dRY043SGpkc2tPZlpfRW95WTFyc2lIVEo4RThJR1hiN2RsOFVFUjNNSWNhaHE1cXpGM0RIZnh3VjY4dWJRcFdoTEZOSWdqMWdSbmd4bWNNM1VVOXFpcDJVaF80aW9BYXRybkp2LXdNU1J1MXp5X2I0RzNqcmJ0TVo5blZZ?oc=5",
+     "quando": "2026-11-16T17:36:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "In Corea del Sud saranno controllati gli occhiali dei candidati all'esame di ammissione all'università per evitare imbrogli",
+     "fonte": "Il Post",
+     "dominio": "ilpost.it",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdUNjS19UNEtSMWNjejlHQmZEYnVlU1J4TDJHcW82aWY1V25SNUJXOHVCOU53OEdTdzhkUmdJYW40WGZIbUo0MS1ST1lkdG12WXNyM2VBTjZFcmZVeFkwNk83c0phUzJzVFZJbjNQUkRJTFl1ZDNFZTlCNVJCUzNjaFE2OWRJOFZreU1MN1hCTVJuZU5rVVl2bmJ6c2k3Z0lPVFE?oc=5",
+     "quando": "2026-11-16T15:11:28+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Università Bicocca, Rettore Orlandi \"+8% iscritti, numerosi arrivano dall'estero\"",
+     "fonte": "Il Sole 24 ORE",
+     "dominio": "stream24.ilsole24ore.com",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObDF5MHQxeU5SVDkzTGJvckc0Z1hFSWVtTlVWNWJtV2RxaXI1a0ZaLVdYYlpsNjdwN2FzT0E5Y3E5c19wX2VpMTlzSzFNNU9IOHNjTXlPaTJfWUhFUmNQZXNDMnFnSTJCVF95aTNiZDZ3akFpRWQ3MDJKM19pTDZuT2hxTDlWOWpVVDZyak4zTWpsNkZSZHNIdkVpWUtaRExmZXZJYUpoYUNXQmY1NWEwbFhodFVYMzdMeGM1RkZBU1hXbXRsWWYzQ3A1R0E0dw?oc=5",
+     "quando": "2026-11-16T14:47:08+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Cirio, soddisfatti per aver garantito il diritto allo studio",
+     "fonte": "ANSA",
+     "dominio": "ansa.it",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOV1F3Y1VjaU1oNlQ1RGtYVVpLR0pZaU53T1MtY2ljMVpzWkxKMTZnLV8ySi0tSkJKRzBldVM0RjNwLVZzRHFSdEs4dkZlcXN4WTNheW53ejBZX3VlZF91dHlubVBTUUZIbGlQQTV1VS1QT1JnSW5ycXRrMy1oMTRmc2U0aUxEbUNDb1g4UU5UQXY5ZXRfSUc3clgtcnhFM2dYU0dreHhEMFdYWG8zR1AxRkl5R2hxaUdBZWw2Y3VhUGZ4SHF0T3BLNmNCQUh4WUp5WGFtdUFYa196QVQ2RTZJTWM3c9IB6AFBVV95cUxOZ1NHSFNfcG5RblVoUFJRaHhIdnRackpwTlZ4YWxGcDY5ZXRZMWR0UnFSRERyc0VkSGR5b1FOMmsxVHBQb1dESThteVFGYUY4TFE2TVRYZ21XckdDS0VEMlpLQnMtckpQN1JqbFJsY0U1VkRVUXZ1UlF5cjh6aWtXV3JIS0VBSFBGV1psVzBVWWVsZkx2MkROZXNPX1AyRl9na1JMS013d0JXSzV3Tl96RXpjdktCV1pVdjVtSVEzR2hkUG1sbzgtQ2JVa2Z0TExhc1FLZ3hGc09hS1JMeDZtS1VxYXA3Mnlu?oc=5",
+     "quando": "2026-11-16T14:25:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali"
+    },
+    {
+     "titolo": "Studentato Calamandrei a Firenze, gli universitari contro la rettrice: «Sui lavori inaccettabile disinteresse»",
+     "fonte": "Corriere Fiorentino",
+     "dominio": "corrierefiorentino.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPX0RhS3dCa25kWnBtQjZ0NmdOTHhkanN6bm5wcGF1UU1rRFFiTHBVdzdsSl9ITXZ5aDZ0bUVUSVdtdlA2SGluNXU5aWhqOEU2UjNoQXBZaWNjUnBkMWt3N3o1ZHlKMFp4TEZfLXJaQkg5YTlKOEpqYXNHeFN4clhvUE5xQXloUm5RSmRtM3NxdUR6ZmFaMy1wN2hNX2prdGxJeDhSOE14R0lfa1BkYmphME1PTmg5TTVCZnFYdTBsTnhJeUR4d2tVOHBBNTZyektSRTYxczhWbFkxc1RIMWtsaVNqcnB4LXczOXJkdndtWDhYb2Nka05haS1Xd1R0R0tXZmZ1cjBZUzd4cWZNMUg4SFphSlhUWFp2RUpRUjNJRXZ5X3I0THZHZ3NXUC1ORW5jRGJSdk1PQ1l6YnZ5WFlERNIBxgJBVV95cUxOVmdwWDNVZk1OMkl2MGV1QnhKU3VCUUswYWtqMzd2SWpPZUpBSVNJdnBsZEhPbmlCQl9JVkJUWDB4VEV3TGNqLWdsWXBvMXU2dElxYWhQM2ZLT0JHR3p2cmVJY0Myb1phY1otTzFsVUtYSDJKMlU1WkU0c3ZVMkgyZ2JsMlNfS2g3Vjg3VjRfalRrdlp4eWlCdTlQM0N6Y1hYSWxOSWxsaFlOaGM3QUpIN0pGeGdpSlNwekVVMVh2czVYUTlkYkJGR1VhMkM2MExwaVBxMGxSWFFWclNNYno0WUxCUEdfRGFSa3lweWtrMDc0dVNiRWlnaDg0QlF5V1FOVDZRS3JKbk04SzZURmMyVWVOR3RRSmU3Q3AzbWNKY1d4Z1ljMVowWFA1SHhhYnotYVpuSlBCS0VzR29wbkVWcmkxWXZvUQ?oc=5",
+     "quando": "2026-11-17T07:25:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Montanari: : \"Siamo diversi dalle università a distanza\"",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeHZEU3liRE1kX25CRVFZSkswWVdheVE1aE9Md2I0SmdZZ1k5al9ZNDV4ZzVSOTdGVTNCZHozVF9ZYV9FTEpMeEdZNWhfOEUwTGFEQUVvdmo4bVdzSkRaQTBoUmZwWFExSjJFRzRXeXV6SzJCbzBZeHFuOG1VbUlDMVA0TQ?oc=5",
+     "quando": "2026-11-17T06:43:54+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Tg Università - 6/10/2026",
+     "fonte": "La Gazzetta del Mezzogiorno",
+     "dominio": "lagazzettadelmezzogiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORmtqZGN2WjBJcTg0SGp4NW5RTVZKVk9GWUNnT0hZRnRCbHd1ZE5ZUXpDMmdSMTYxS2dfdGUxakR1ckxZY0NoWjlDeXZzVnpHRjdKMGE4SW1JaUJCaE44YUlzUkxNUzhKWW5tWTlPZlFkOEtoaUZfWHYwU01sZ1M3bVVLSzVvWXAtRXI2WHNlanVydkJkMWw0?oc=5",
+     "quando": "2026-11-17T06:15:18+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Tg Università - 8/9/2026",
+     "fonte": "La Gazzetta del Mezzogiorno",
+     "dominio": "lagazzettadelmezzogiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV2ZXNnpLamgzN0hEaTNQdlBXM2Z6dXVkc3pJSVBVZ25zbGxJMVgyRjJXMnA4N3lvMjVfZVFNOFE2MllUVU9VVlFCNnBOTHVTZDh4TlNaT3pna2ZwREwxWWR5Vy1PTXNkOGR6UUJMdUFUZXU1TWNHTE1Fb0pXeUNqbVluZjJjbkk0ZlZ3UUxsLUdsejRPV2c?oc=5",
+     "quando": "2026-11-17T06:15:15+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Tg Università - 28/7/2026",
+     "fonte": "La Gazzetta del Mezzogiorno",
+     "dominio": "lagazzettadelmezzogiorno.it",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYUJBZ3BNQV84YXpJMVRVLWoyQ2hQVFV0bVY4SmFiUk1MVHJVWUh5NlRramk1aUtPQmwyQ080YjRhNDJEYm5lM0JLMEJfRktPQkFndXNubGRWb3NVQlQwc3NOUkJQM1hYbFJDQlZ4WHBlS19sR3BxSmU0WjVybk1FaERhUUFtbHJEandRdGhmS2hSLUlMbzFN?oc=5",
+     "quando": "2026-11-17T06:15:13+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Connessioni, dai banchi dell’Università di Pisa laureate e laureati si ritrovano al Pala Todisco",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSTN2aXlzMnFSM1J3cDBGQ2s3UU0wQjJmRlkxbVh5Skc1RXpQMVJKakJLZ1NGaFhHWWhXV2NaaGtOWV9KNHk5SllqZ0ZLVnRfeXRLbURrTUFtSjMzak5XSWlRaWZNVlN6cmRmb19uNVJNQ25YTkVaZGlSd1hlZUg2dVA3S05zMFE4VndJaw?oc=5",
+     "quando": "2026-11-17T05:29:24+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Università per stranieri, compensi indebiti ai docenti e esami “illegali”. La vicenda del videocorso di Siena arriva in tribunale. Montanari: “Atti illegittimi”",
+     "fonte": "La Nazione",
+     "dominio": "lanazione.it",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYW5yY0RUUkNZaTZNS1Uwdks0cS1mM2djTVBSbXBUa29waTAxV1cwRGpJVEtNUlZxZDZVSGZEcUhVTlNNdmQ5cW5KNGJ1ZTJ1Zk5DZndsUlY5ZE93WXlkLUZoREdBZG82Tmg1NU1hMkdtR3BlLWlhOUc0OEpVVlBwaE1CNW1JT2pralY4MUw0V2pQR0JOQk0tMkFmNjg4OWhEVFlj?oc=5",
+     "quando": "2026-11-17T02:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Palazzo Nuovo liberato, l’Università conta i danni. Ma la protesta va avanti",
+     "fonte": "la Repubblica",
+     "dominio": "torino.repubblica.it",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHQxT2puTWJaajFyeGJ3dDNPUUV6djJwUzlQSHdfRzhOMHE4bEx0VFdnQUVlSXcyb0lld3p3Y0lneFQxT3V2aUhtLTJMRnlCblFaWHBFTk54MFVrUTB2TlYxb0FYUzBPMVRRQ2o1MXpzYzB6RnZIZV80ZzFfWWRzVHg5VGZtdEhlLV9hTmMyQVp1dHdwSDI4ZFU4YVkxd28tbVFjQzFEdG16RTRlWmJ0QXF30gG3AUFVX3lxTE1IZTB1OS1qWXZ0SUhXQ1lRRkZPOEVWajFmUTY2SWQ1R1JJOGtPSTlQZEZZZTdxNFlUUUo3clRZakZISWRiaTEzNmpScGhwb1FrdTVsUE0yMjNYMlNkUXJYY0UzNGpXYmZnOHFwRmlWVzRMelhYVkhOeTBvczUza0hpYVdKV1JtRzFHczZOdzVUdUYyWFRZWjkzYmlHRG85QWE3RzNxZzFEWXJzUnY5bzYyMVFhZ1gxaw?oc=5",
+     "quando": "2026-11-17T00:00:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Università di Bergamo, occupata l’aula 2 della sede di Sant’Agostino",
+     "fonte": "L'Eco di Bergamo",
+     "dominio": "ecodibergamo.it",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRnJHZGo4NVRWbkV3am16UWFjaXBzMlVtYWdseUhiMVZmUGNBS2dYdXNPbVk1RElsUDJHYXdSYjFrSlNNTjE0Q1RwUE9Ya0xlSlBORXFIQ1hRdFVmZWFfVm4zSGNzNGV6S25qUFdMVU5vbmtUN0dLMl9VcERVTDE1NG43MlByU3dWR3RYNEJXVmFXbE1QcmpiZjN5QnNMS1U1QTNNdDBXVWk0LWF5WWFGMUU5LTJnaWlIOGZ6d1Zzc0R3UE9GcUNRSkxQSS1GTERpUkp3?oc=5",
+     "quando": "2026-11-16T22:07:46+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Bergamo, occupata un'aula dell'Università per la notte. Gli studenti: «Il governo distrugge l'istruzione pubblica",
+     "fonte": "Corriere Bergamo",
+     "dominio": "bergamo.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOTzZvZHlEWEc4UGl2bTdMY3ZSOXF6Tkxya0tiWGJzT2RXajh6YVdHRUs4WExLemdXNFZUbEwtZ21SbXdKZS1SR3RodTJUbllCUV9JazdFVlNrR2dibEp6ZUJxTVRJWVF0S1pldGdEMEczUmgtZGE4ZlJxUkNjRVE3OGdQNV9xTVdtMF9Pb21sTnBoTzFLUk1KeWNTUk5kcmwxdlNydjNuVzdSY2wxVS1ucC1WZUctZXJtMzF6YVNjcERzVmdrUFBRUmpGcVZEaTF0VDhHam5laWo2anFlZllFdVc2aUNUV0w1TEtENmkzRGR1YlUtS1R2eFN4MFV4alVhdS00M2dhSlVoTGtENTZrVVA0UkxURVVxWm82dS1ubWt2cFQ4NmJROG51Mm5XMVFYZXZQYUJn?oc=5",
+     "quando": "2026-11-16T21:25:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Torino, la prof universitaria: «Writer finiti in ospedale? È stata la Mano de Dios». L'Ateneo si dissocia: «Parole inaccettabili»",
+     "fonte": "Corriere Torino",
+     "dominio": "torino.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPaVpscXJ6blZqd3FocXRyQTU0ejcweTBrTVRudm5oOV9GY0VOYjNybDdYandRZERRb0ZnQW0tUUZKZV9mVEZ0YXhHdWpfOG43VnRQYVBXLTFmR3hWaFVVRzYyUURzbU1NRjUxb0hvNVNJajBrOVowS25vdjgxYlVuYVgwZWRoeDBWMkNHU3E2Y3plWWpnYjI1SmpVNVpPS2RPYXZTRnFTRTlrUHF6X2NXekdaX1M0dXNhd3FyNkxXWDZDY1VEdnN1ejBwbllwdlc1R2E3THpEQTF5N3R2NDBGQ3NGeDB6VlMtLURraGluZ1FSUDRGTXJodW9OcHRURWpjVkUwYVp0b2FLZUdtUHRRMnlRejRHS2dZcG9oZDBhQVdHWTV4c1BXZ3N5VG53V0tqTjUwaGRpZDJySzdoTGU4NHRTRGxuMDDSAcwCQVVfeXFMTlA2OVIta0ZISlB6YllRS1JkLWZza1hjUExwMGpmLUhvdVFjNkhQMm8zbzhuNVQ0WjduLTZiTnFyZ2xLS1ZGMlJSNmx3eTBsNmJBZmZqQ2xFcExhVkJURmpYYnI0aGVuUS1kUnhaSWhOSFU2aW5xLVpmaE9vZERWUzVROVVYZ2hDNkFDeTU5TVNWRkRad0dkb1RzSW5TTnBsNlBnQ2NtY2V2MWljYVI5VUpJdVpYLUZJMW5RUWtiTjRRY3R4b1ZkaGJpaVZZcEFaOWo1OUJTa1J5Z1hPQmlCX0haNzVFS201ZXRxWkhZNjRMZUtfRzRDcmhkNWxNdlpYTlBIajM1MFVjTGlxNkdobnVyeU5IaGdaUkk0UC1hOFZRS0hLREd2MlNkcG5CQXBPUFRiY05VSzdGclNDcWh5QTBkNGVCVWZFSFVrTF8?oc=5",
+     "quando": "2026-11-16T21:00:29+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Il caso del corso di lingua all'Università stranieri di Siena: «Vicenda grave. Chiediamo scusa agli studenti». Ma prof e universitari insorgono contro Montanari",
+     "fonte": "Corriere Fiorentino",
+     "dominio": "corrierefiorentino.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPaTJBaUp6b2hIeHJhbXNlUjlLRWZ4OFNZVHNSQVlHTkdMb2wyRDRFb3VWaFN5aXdYOHBndTlUNTkxOUFhT0NPQU50SGNuN0RsVDAySFdMM2I4RXNxaDNiSFZnTldxbzkxM3BULWZPMkdaS2laQTNobEs5aDd6YUFFV1VCZV80T054X0M1QXlnTEV1Tjh2MXJQTGVKYi1wTGxFcFF0b0VnV1ZPZ1pVclJZd2prNTlNRVpJTllGVmZwN05FSm1KWk9JbmJNS3hjU3E1dXVhbEZTd2E5dGlYc1ZjNFFQZm8yQk84a19MelduVGF4RTJRbnVINlctelZhOVU3T3UzYXRscHZIbjNVZ21IZ2I3d2k1Z0xkb2t5S3ZPQ25ja3o3NzJNUlpVOU1ZNUo4VHJtdV9kMlFKMjJzSHVubmZMYy1OdUx4cGhVSdIB0gJBVV95cUxNbkVJeE14U0tmU2J5UXV0Q1d6UDhURWRuVnZZWXRHWnZTWmZmWGFMQVpwaHlwdWF3Zmd0TDFQVHZYLTVfR2kxRHBMc0x4N2lwS3VfWFhJQ3JuUW14dWdfTDc2bzBBak1FZy1nVURzZEpITHJ6OUI0aFgwLTdOSkRsTWkyTXFuMHRjWG1DaTRLWGJvRGVsYlE4U1daS2xZT3lzM0hEdFU1cGIzc09jLTNsaUh3Uy1VUXYwOTF4Vm5zNkV2Z2V5aVdpM0JITmJiaVRFbmJJTl9vR0E3SlhVYUJlVGFKX0lYTks1ZjZtNHJxb3hsbzhJNVU2V1JuTzFmakQ0RmZQc1NZVXM0Y1lPem95azlrV0hfYXBZeWc4NDhIaUtFZW5wZ3BuamhpdGdDdHVVRkpad2E0bjdWVllZUDVhS3hQd3Rqcl81NW9rNkJnNk1PQQ?oc=5",
+     "quando": "2026-11-16T20:04:20+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Addio a Rina Pesaresi De Angelis: la fondatrice dell'Università per la terza età dell'Umbria aveva 92 anni",
+     "fonte": "Corriere dell’Umbria",
+     "dominio": "corrieredellumbria.it",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZ1Z0RHZSSm5WdzVSakJEZnQ5LS1qZnlrUlROU1huYUFtQXlwTlpNRVFjdTRZd0FDVGdaUDJsY1VNOEY5Z1FlOVBHSU5ZMDNqWnJ1cDYtS2tlMGRfaTM2TGZWTWVjcHJYWEZwZjdMMGhoekNFUUdHTHRDSVBKaXBlYm93QnlCU2k1TWNfRUhjMDZ5Rnp4WkRlcm5EM3I1TUp6eXQydGlCNm1VQzR3d1hhTnpBaUtQWXJsaWtuRF9QdlZZaXI2NjZwd0FjaTlHdnE5eFZtUFpWbGkyYW9ZS25rcENvMWN5ZlM0X3Y1bDlvdWNucGNQTHd3?oc=5",
+     "quando": "2026-11-16T16:52:00+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "Torino, fine dell'occupazione dell'Università (Palazzo Nuovo), gli studenti lasciano l'edificio con quattro giorni di anticipo. Parte la conta dei danni",
+     "fonte": "Corriere Torino",
+     "dominio": "torino.corriere.it",
+     "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOYmxFbUNOOXlhVF9tdEJQeTBSNk90Z1k4a0hObEpjYjFnLVhINkJKSGRqWE9sdFZYd2NXTW5uUkYwdmZleDBFU2NIel9kdkNjUFo4SUdnMDhvZlBoMFhVc3VtREdIY3VpaVJOV0VCUm5NSjRoYkRtSHpkbDlnMzJLQ2h5eTFKazhpaXM2NFJzTGd6a2FBSFJVcFd6YjlXMlVabnRIUWRQSGsxNUVSMkZWTTAyemhCZ2VlSVVIdDNTdVUyUEloUkVPQ21Sa2psd0NMTGhTUEROWVhZeUs0NENyR01NXzVROUdHZnNxMlF4UHAxUXpLaVVmbmFxR1JHZDhxaXUzeFE3ckZJSHptTFBTYWFLRGFpMHh4WUdNcXo5YmYwYUEtenRtRFhXQkh4QmszN0Z2WWpJR0tCdHRLbFJ5QWQtR0JhNjl4QVp4adIB0gJBVV95cUxQMlpDejV6TkI0Wll4S0MxMVJsVWE0YTlKcTdiem5nbXhrMTlTZ0tMMHV5eDA1aUlYZTN2ZDJ2aHFzQXVTcWtiVXM1VkdPRk95MGhHdU0tSWFuaVBaa1U3UVVBMTFVN2hWekg0aFFmY3h4UVBENnh4M09qVE8xaU9XeTg1NXZuNF9xZFJueEhjeFJZTnZoZFRvUVQ2cUVtanUzTUR3LXZScTd1YnRCNU1KbEVXWXcwN2VKTmJTX2xBdWJFa2dqdUllUzZWc0QtOGlyTkw3SnR3VzZrS2V3UHhWM3JnaGdSaGw5RktQY3ZSc3FudDJ1QnV4ajY3QzVRT2lXMkdselpsMkNuY09aXzc2T1ZuSnBaOFBXNGtES0RiUG9fMWVjUzlqc29KZTJSbkw1cTNnUGpoRk9sd2dPOUIwc3VmT0U1bEpIeHcxb3NOUXpNdw?oc=5",
+     "quando": "2026-11-16T13:12:44+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    }
+   ]
+  },
+  {
+   "nome": "Sanità italiana",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [],
+   "errore": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "nome": "Concessioni idroelettriche",
+   "ore": 72,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": []
+  },
+  {
+   "nome": "Aree interne",
+   "ore": 48,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [
+    {
+     "titolo": "Fitto all’Unical: «Diritto a restare per i giovani, a gennaio la strategia Ue contro lo spopolamento delle aree interne",
+     "fonte": "Gazzetta del Sud",
+     "dominio": "cosenza.gazzettadelsud.it",
+     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQNFN3dVB6Tm5HSnU5Y1poMDVpZS15MEh6cHNMSEpwZUFkYWhXZzFDQnY2QWM4al9Hb01pSjhDMEFqQmF0VEVNZUpuQTNMeXB5WHpvenRoUUJjMXBmcVZKTENSQ0NoYXI0S3NKeVFrdTZSbmgzYTROeVZTX252VjA5REs3TkMzM3FTM25kOUM2SERLWXlXNUtWdXFKRHYwaVZzRDZBdENiMU9WeXc3dHhXSEIwbVY3Vk11c0lBT09uOTNZN3IyNU1jZXdTdGZudXAwMkViUnNVX29hSWlOS2RiZFoyckVrUmVFSnNOYzB0OHdMLUZsMUYzcnhlM2hrUWFUbXYyaHVXNzB4bHFGT1BJalhUN3F3Yk5xRVdjY3Z4MFVGQlByODV4TWJXU2ZVV0dmSVh1ak5zRkVtcUFu?oc=5",
+     "quando": "2026-11-16T17:22:21+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Giornali locali"
+    },
+    {
+     "titolo": "ASSEMBLEA UNCEM FRIULI VENEZIA GIULIA LUNEDI 16 NOVEMBRE A GEMONA",
+     "fonte": "Uncem | Unione Nazionale Comuni Comunità Enti Montani",
+     "dominio": "uncem.it",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORnlyNldIMDJWLXIyRVREbTJoWkRPU1ZLWDc4Y1F0R1RmOXhFU2JkbXdObld1U2cxVnp0WmwzQy00TllWREJCWFpDT2w3ODB1blVOdnIxa0w4RTZ4UFBLRUhjRk1LQzJoU0x2c1pWV2lleVczSU5PeXhfd1RfeC1tSTRJN2V2NU1DVmpB?oc=5",
+     "quando": "2026-11-16T14:47:13+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    },
+    {
+     "titolo": "RAPPORTO MONTAGNE ITALIA 2026, UNCEM: 174.274 NUOVI ABITANTI NETTI IN SETTE ANNI. LA MONTAGNA ATTRAE, ACCOGLIE, GENERA ECONOMIA. I NUMERI CAMBIANO LA NARRAZIONE DEL PAESE",
+     "fonte": "Uncem | Unione Nazionale Comuni Comunità Enti Montani",
+     "dominio": "uncem.it",
+     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQUUNYTUFDX0xNdnpLRzEzRnVZME5qV1Ftc1ItUUs5VGdfREhIUzJCd05FMzB1TDRxeHFTdmR6WmtZV3BZdVpfT3JubXZFeksxX1FJdWR3R1B1R1dNdVJwRDlpYTl4MUc5al9udXl4Nzk5bVUyTEJSVDBBSUg0dXh6eUd3TTMxU0NVNkotRFh6S2g5eTNJVUtWZG42czlLLUw4enhCZV8yVXhYcm5nZ1NHTE9RWmVET0EyMUk2d3BidThvb0RzU0VoWHhVaDFWU0plT01uQUZqSkFUNnFZN0tHT2xuUVpQSTRReDFzLW5EZGNLSzMxUXJYOFpoNGxacXp6RVVVeEJhZzhxR0NYdVNj?oc=5",
+     "quando": "2026-11-16T14:46:25+01:00",
+     "lingua_ricerca": "it",
+     "gruppo": "Stampa specializzata"
+    }
+   ]
+  },
+  {
+   "nome": "Filiera agroalimentare",
+   "ore": 24,
+   "gruppi": [
+    "Giornali",
+    "Giornali locali",
+    "Stampa specializzata"
+   ],
+   "articoli": [],
+   "errore": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "nome": "Storie dal mondo",
+   "ore": 72,
+   "gruppi": [
+    "Europa",
+    "Resto del mondo",
+    "Stati Uniti"
+   ],
+   "articoli": [],
+   "a_parte": true,
+   "descrizione": "Reportage e approfondimenti internazionali su comunità, ambiente locale e città, con più spazio alle testate non americane.",
+   "traduci": true,
+   "errore": "HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
